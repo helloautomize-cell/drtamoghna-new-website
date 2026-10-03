@@ -1,5 +1,6 @@
-import { CircleAlert, Info, TriangleAlert, User } from "lucide-react";
+import { CircleAlert, Info, TriangleAlert } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
+import { images } from "@/lib/images";
 import ConfirmChip from "./ConfirmChip";
 
 export function EmergencyCallout() {
@@ -19,9 +20,8 @@ export function EmergencyCallout() {
 export function ReviewerCallout() {
   return (
     <div className="callout info">
-      <span className="co-avatar portrait-ph" aria-hidden>
-        <User size={22} strokeWidth={1.75} />
-      </span>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img className="co-avatar" src={images.avatar.src} alt="" width={48} height={48} loading="lazy" />
       <p>
         <b>Medically reviewed by</b> {siteConfig.doctor.name}, {siteConfig.doctor.qualifications} ·{" "}
         {siteConfig.doctor.registration} · Last reviewed <ConfirmChip>sign-off date</ConfirmChip>

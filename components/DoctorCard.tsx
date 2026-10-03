@@ -1,18 +1,25 @@
-import { User } from "lucide-react";
 import BookButton from "./BookButton";
 import { siteConfig } from "@/lib/site-config";
+import { images } from "@/lib/images";
 
 /**
  * Doctor feature card (one doctor): image left 38%, details right,
  * chips, BookButton "Book with Dr. Das" and "View profile".
- * No star ratings. Photo slot is a placeholder until Phase 1b.
+ * No star ratings.
  */
 export default function DoctorCard() {
   const d = siteConfig.doctor;
   return (
     <article className="doc">
-      <div className="doc-img portrait-ph" aria-hidden>
-        <User size={72} strokeWidth={1.25} />
+      <div className="doc-img">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={images.portrait.src}
+          alt={images.portrait.alt}
+          width={images.portrait.width}
+          height={images.portrait.height}
+          loading="lazy"
+        />
       </div>
       <div className="b">
         <h3>{d.name}</h3>

@@ -1,19 +1,21 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { ImageIcon } from "lucide-react";
 import { visitSteps } from "@/lib/services";
+import { images, type ImageKey } from "@/lib/images";
 import { BookingFormMock, WhatsAppMock } from "./PhoneMocks";
 
-function StepMedia({ mock, name }: { mock: string | null; name: string }) {
+function StepMedia({ mock, img }: { mock: string | null; img?: ImageKey }) {
   if (mock === "booking") return <BookingFormMock />;
   if (mock === "whatsapp") return <WhatsAppMock />;
-  return (
-    <div className="step-ph">
-      <ImageIcon size={20} strokeWidth={1.75} aria-hidden />
-      <span style={{ marginLeft: 8 }}>Photo: {name} (Phase 1b)</span>
-    </div>
-  );
+  if (img) {
+    const im = images[img];
+    return (
+      /* eslint-disable-next-line @next/next/no-img-element */
+      <img src={im.src} alt={im.alt} width={im.width} height={im.height} loading="lazy" />
+    );
+  }
+  return null;
 }
 
 /**
@@ -91,7 +93,7 @@ export default function StepTracker() {
               <h3>{s.name}</h3>
               <p>{s.text}</p>
               <div className="step-media">
-                <StepMedia mock={s.mock} name={s.name} />
+                <StepMedia mock={s.mock} img={s.img} />
               </div>
             </div>
           ))}
@@ -103,7 +105,7 @@ export default function StepTracker() {
           {visitSteps.map((s, i) => (
             <div className="trk-slide" key={s.name}>
               <div className="step-media">
-                <StepMedia mock={s.mock} name={s.name} />
+                <StepMedia mock={s.mock} img={s.img} />
               </div>
               <small>{String(i + 1).padStart(2, "0")}</small>
               <h3>{s.name}</h3>

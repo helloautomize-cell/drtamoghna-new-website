@@ -1,7 +1,8 @@
-import { Clock, User } from "lucide-react";
+import { Clock } from "lucide-react";
 import BookButton from "./BookButton";
 import DoctorChip from "./DoctorChip";
 import { siteConfig } from "@/lib/site-config";
+import { images } from "@/lib/images";
 
 const chips = [
   "Diabetes",
@@ -18,10 +19,10 @@ const chips = [
  * One-doctor hero: ONE large portrait card (2:3 desktop, 4:5 below 900px),
  * frosted name caption, one glass "Open 7 days" label off the face,
  * peach glow top right, faint teal ring bottom left.
- * The portrait slot takes a ReactNode: in Phase 1b it becomes
- * <Image priority fetchPriority="high"> (LCP, never animated in).
+ * Real photo wired in Phase 1b: 2:3 desktop / 4:5 mobile art direction,
+ * LCP image loads eagerly with high priority.
  */
-export default function Hero({ portrait }: { portrait?: React.ReactNode }) {
+export default function Hero() {
   return (
     <div className="hero">
       <div>
@@ -53,11 +54,18 @@ export default function Hero({ portrait }: { portrait?: React.ReactNode }) {
           {siteConfig.hours.openDaysLabel}
         </span>
         <figure>
-          {portrait ?? (
-            <span className="portrait-ph" aria-hidden>
-              <User size={72} strokeWidth={1.25} />
-            </span>
-          )}
+          <picture>
+            <source media="(max-width: 900px)" srcSet={images.heroMobile.src} />
+            <img
+              src={images.heroDesktop.src}
+              alt={images.heroDesktop.alt}
+              width={images.heroDesktop.width}
+              height={images.heroDesktop.height}
+              fetchPriority="high"
+              loading="eager"
+              decoding="async"
+            />
+          </picture>
           <figcaption>
             {siteConfig.doctor.name}
             <small>{siteConfig.doctor.qualifications}</small>

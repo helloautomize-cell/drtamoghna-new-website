@@ -1,24 +1,21 @@
-import { User } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
+import { images } from "@/lib/images";
 
 /**
  * Hero doctor chip: one avatar (Dr. Das is the only doctor) + name line.
- * Avatar is a placeholder until Phase 1b wires the real photo.
  */
 export default function DoctorChip() {
   return (
     <span className="chip-doc">
-      <span
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
         className="avatar"
-        style={{
-          display: "grid",
-          placeItems: "center",
-          background: "linear-gradient(135deg, var(--primary-50), var(--primary-100))",
-          color: "var(--primary-500)",
-        }}
-      >
-        <User size={22} strokeWidth={1.75} aria-hidden />
-      </span>
+        src={images.avatar.src}
+        alt=""
+        width={42}
+        height={42}
+        loading="lazy"
+      />
       <span>
         Physician-led care
         <small>

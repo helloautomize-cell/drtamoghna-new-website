@@ -10,7 +10,9 @@
     "typecheck": "tsc --noEmit",
     "format": "prettier --write .",
     "test": "playwright test",
-    "check:dashes": "node scripts/check-dashes.mjs"
+    "check:dashes": "node scripts/check-dashes.mjs",
+    "images": "node scripts/process-images.mjs",
+    "check:images": "node scripts/check-images.mjs"
   },
   "dependencies": {
     "embla-carousel-react": "8.6.0",

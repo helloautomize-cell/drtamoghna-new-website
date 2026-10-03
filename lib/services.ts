@@ -194,21 +194,25 @@ export const visitSteps = [
     name: "Arrive and register",
     text: "Bring your old prescriptions, reports and the medicines you take. If you have diabetes, bring your sugar diary or meter.",
     mock: null,
+    img: "reception" as const,
   },
   {
     name: "Consultation",
     text: "Dr. Das listens to your concerns, asks about your history and examines you. There is time for your questions.",
     mock: null,
+    img: "consultation" as const,
   },
   {
     name: "Tests if needed",
     text: "Many tests, such as ECG, echo and HbA1c, can be done the same day. Blood tests can be done at a lab of your choice.",
     mock: null,
+    img: "echoScreen" as const,
   },
   {
     name: "Your plan",
     text: "Dr. Das explains the results in plain words and writes a plan you can follow at home: medicines, food, activity and when to come back.",
     mock: null,
+    img: "writingPlan" as const,
   },
   {
     name: "Follow-up",

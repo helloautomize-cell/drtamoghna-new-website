@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import { ArrowRight } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
+import { images } from "@/lib/images";
 import BookButton from "@/components/BookButton";
 import UtilityBar from "@/components/UtilityBar";
 import HeaderSpecimen from "@/components/HeaderSpecimen";
@@ -27,6 +28,8 @@ export const metadata: Metadata = {
   title: "Styleguide",
   robots: { index: false, follow: false },
 };
+
+const photoRows = Object.entries(images).filter(([k]) => k !== "echoLoop");
 
 const swatches: [string, string, string, string][] = [
   ["#00838F", "Primary · Medcare teal", "#00838F · 4.52:1 on white", "--primary"],
@@ -411,6 +414,25 @@ export default function StyleguidePage() {
           For small UI use only (32px and under); never inside the service badges.
         </SectionHeading>
         <IconGrid />
+      </section>
+
+      {/* PHOTO SET */}
+      <section className="section-mc" data-reveal>
+        <SectionHeading eyebrow="Photo set" title="Every published image, with key and" accent="alt">
+          All website photos are built from the manifest into public/images: JPEG q85, sRGB, no
+          metadata, never upscaled.
+        </SectionHeading>
+        <div className="psheet">
+          {photoRows.map(([key, im]) => (
+            <figure key={key}>
+              <img src={im.src} alt={im.alt} loading="lazy" />
+              <figcaption>
+                <b>{key}</b> {im.width}×{im.height}
+                <span>{im.alt || "(decorative)"}</span>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
       </section>
 
       <MobileActionBar pageTitle="Styleguide" />

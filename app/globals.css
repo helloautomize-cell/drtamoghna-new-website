@@ -540,6 +540,12 @@ html[data-text="large"] body {
   inset: 0;
   width: 100%;
   height: 100%;
+}
+.portrait figure img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: 50% 0;
 }
@@ -550,9 +556,12 @@ html[data-text="large"] body {
 }
 .portrait figcaption {
   position: absolute;
+  top: auto;
   left: 12px;
   right: 12px;
   bottom: 12px;
+  width: auto;
+  height: auto;
   padding: 10px 14px;
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.74);
@@ -1241,6 +1250,39 @@ table.ct {
   white-space: pre-wrap;
 }
 
+/* Photo-set contact sheet */
+.psheet {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 18px;
+}
+.psheet figure {
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+}
+.psheet img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  display: block;
+}
+.psheet figcaption {
+  padding: 10px 12px;
+  font-size: 13px;
+  color: var(--ink-2);
+  display: grid;
+  gap: 2px;
+}
+.psheet figcaption b {
+  color: var(--ink);
+}
+.psheet figcaption span {
+  font-size: 12px;
+}
+
 /* Step tracker */
 .tracker {
   display: grid;
@@ -1330,6 +1372,14 @@ table.ct {
   overflow: hidden;
   border: 1px solid var(--line);
   max-width: 340px;
+}
+.step-media > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.callout .co-avatar {
+  object-fit: cover;
 }
 .trk-mobile {
   display: none;
