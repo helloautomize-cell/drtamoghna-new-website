@@ -1,10 +1,13 @@
 {
-  "name": "drtamoghna-new-website",
+  "name": "medcare-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/export-seo-meta.mjs",
     "build": "next build",
+    "postbuild": "node scripts/indexnow.mjs",
+    "indexnow": "node scripts/indexnow.mjs --force",
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",

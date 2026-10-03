@@ -42,10 +42,9 @@ const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "";
 
 export const metadata: Metadata = {
   metadataBase: siteConfig.siteUrl ? new URL(siteConfig.siteUrl) : undefined,
-  title: {
-    default: `${siteConfig.name}, Bongaigaon`,
-    template: `%s | ${siteConfig.shortName}`,
-  },
+  // Authored page titles render exactly (each is checked for the
+  // 60-character limit in scripts/export-seo-meta.mjs).
+  title: `${siteConfig.name}, Bongaigaon`,
   description: siteConfig.tagline,
   robots: indexable
     ? { index: true, follow: true }

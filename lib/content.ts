@@ -124,7 +124,7 @@ export function mdToHtml(md: string): string {
 }
 
 /** Strip build-only lines that must never render. */
-function dropBuildLines(lines: string[]): string[] {
+export function dropBuildLines(lines: string[]): string[] {
   return lines.filter(
     (l) =>
       !/^(Note for build|Reviewer note|Note under table|Photo labels|Tabs and cards|Groups \(|Mobile:|Table:$|Map:|Chips:|Category chips:|Line:|Variant `)/.test(
