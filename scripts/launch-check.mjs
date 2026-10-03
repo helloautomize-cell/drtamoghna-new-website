@@ -44,11 +44,11 @@ if (todo) {
 console.log("\n== googleRating freshness ==");
 const ratingMatch = cfg.match(/googleRating:\s*{[\s\S]*?checkedOn:\s*([^,\n]+)/);
 const checkedOn = ratingMatch ? ratingMatch[1].trim() : null;
-if (!checkedOn || checkedOn === "null") {
-  console.log("  googleRating.checkedOn is not set");
+const date = checkedOn ? new Date(checkedOn.replace(/"/g, "")) : null;
+if (!date || Number.isNaN(date.getTime())) {
+  console.log(`  googleRating.checkedOn is not set`);
   open++;
 } else {
-  const date = new Date(checkedOn.replace(/"/g, ""));
   const ageDays = Math.floor((Date.now() - date.getTime()) / 86400000);
   if (ageDays > 30) {
     console.log(`  googleRating last checked ${checkedOn} (${ageDays} days ago, limit 30)`);

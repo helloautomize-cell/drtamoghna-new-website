@@ -330,7 +330,7 @@ function classify(heading: string): SectionKind {
 
 function parseSources(raw: string): string[] {
   const out: string[] = [];
-  for (const l of raw.split("\n")) {
+  for (const l of dropBuildLines(raw.split("\n"))) {
     const t = l.trim();
     if (/^-\s+/.test(t)) out.push(t.replace(/^-\s+/, ""));
     else if (/^Sources?:\s*/.test(t)) {
