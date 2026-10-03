@@ -8,6 +8,7 @@ out/
 # environment variables
 .env
 .env*
+!.env.example
 
 # Vercel
 .vercel/
@@ -17,3 +18,10 @@ out/
 
 # kit source archives (kept locally, not committed)
 _kit-archive/
+
+# test + report artifacts
+tsconfig.tsbuildinfo
+_screenshots/
+
+# review artifacts (screenshots, reports)
+_review/

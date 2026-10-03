@@ -1,0 +1,16 @@
+.next/
+out/
+build/
+node_modules/
+resources/
+_kit-archive/
+playwright-report/
+test-results/
+package-lock.json
+
+# kit docs and generated artifacts
+AGENTS.md
+START-HERE.md
+README.md
+_screenshots/
+tsconfig.tsbuildinfo

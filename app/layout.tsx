@@ -1,0 +1,53 @@
+import type { Metadata } from "next";
+import { Figtree, Instrument_Serif, Noto_Sans_Devanagari } from "next/font/google";
+import { siteConfig } from "@/lib/site-config";
+import "./globals.css";
+
+const figtree = Figtree({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-figtree",
+  display: "swap",
+});
+
+const instrumentSerif = Instrument_Serif({
+  subsets: ["latin"],
+  weight: "400",
+  style: "italic",
+  variable: "--font-serif",
+  display: "swap",
+  preload: false,
+});
+
+const notoSansDevanagari = Noto_Sans_Devanagari({
+  subsets: ["devanagari"],
+  weight: ["500", "600"],
+  variable: "--font-deva",
+  display: "swap",
+  preload: false,
+});
+
+const indexable = process.env.SITE_INDEXABLE === "true";
+
+export const metadata: Metadata = {
+  metadataBase: siteConfig.siteUrl ? new URL(siteConfig.siteUrl) : undefined,
+  title: {
+    default: `${siteConfig.name}, Bongaigaon`,
+    template: `%s | ${siteConfig.shortName}`,
+  },
+  description: siteConfig.tagline,
+  robots: indexable
+    ? { index: true, follow: true }
+    : { index: false, follow: false, nocache: true },
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html
+      lang="en-IN"
+      className={`${figtree.variable} ${instrumentSerif.variable} ${notoSansDevanagari.variable}`}
+    >
+      <body>{children}</body>
+    </html>
+  );
+}
