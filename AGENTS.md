@@ -30,7 +30,7 @@ A Next.js website for Medcare Diabetes & Obesity Clinic, Bongaigaon, Assam, owne
 - Until launch: `SITE_INDEXABLE=false` (noindex everywhere).
 
 ## How we work
-- One phase per prompt, on its own branch, with a preview deploy. Never merge to `main` without approval.
+- One phase per prompt, on its own branch. When the phase passes its checks, merge it into `main` with `--no-ff` and push, so `drtamoghna-new-website.vercel.app` always shows the latest work. Report the main URL. If asked for changes, fix them on `main`.
 - At the end of every phase: report what was built, deviations, screenshots asked for, tests run. Then STOP.
 - If a file a prompt mentions is missing, STOP and say so. Do not substitute.
 - Stack: Next.js App Router (latest stable), TypeScript strict, Tailwind v4 (tokens as CSS variables), Radix primitives, Embla, sharp, Zod. Vercel, region `bom1`.
