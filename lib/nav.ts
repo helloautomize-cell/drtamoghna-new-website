@@ -330,7 +330,49 @@ export const footerTagline =
  * unbuilt pages do not log 404s for their RSC prefetch requests. Add each
  * route here as its phase ships.
  */
-export const builtRoutes = new Set(["/", "/styleguide/"]);
+export const builtRoutes = new Set([
+  "/",
+  "/styleguide/",
+  "/about/",
+  "/dr-tamoghna-das/",
+  "/services/",
+  "/plan-your-visit/",
+  "/coming-from-outside-bongaigaon/",
+  "/contact/",
+  "/faqs/",
+  "/health-library/",
+  "/health-library/hba1c-explained/",
+  "/health-library/echo-for-people-with-diabetes/",
+  "/health-library/snoring-and-sleep-apnea/",
+  "/diabetes-care/",
+  "/diabetes-care/diabetes-in-pregnancy/",
+  "/diabetes-care/diabetic-foot-care/",
+  "/diabetes-care/continuous-glucose-monitoring/",
+  "/weight-management/",
+  "/weight-management/glp-1-medicines/",
+  "/heart-health/",
+  "/heart-health/high-blood-pressure/",
+  "/heart-health/heart-failure/",
+  "/heart-health/echocardiography/",
+  "/heart-health/holter-monitoring/",
+  "/thyroid-disorders/",
+  "/sleep-apnea/",
+  "/asthma-copd/",
+  "/internal-medicine/",
+  "/internal-medicine/fever-and-infections/",
+  "/internal-medicine/fatty-liver/",
+  "/internal-medicine/joint-pain-arthritis/",
+  "/internal-medicine/migraine-headache/",
+  "/internal-medicine/anaemia/",
+  "/health-check-ups/",
+  "/privacy-policy/",
+  "/terms-of-use/",
+  "/medical-disclaimer/",
+  "/editorial-policy/",
+  "/patient-rights/",
+  "/appointments-cancellation-refund/",
+  "/accessibility/",
+]);
 
 export function routeExists(href: string): boolean {
   return builtRoutes.has(href.split("#")[0]);

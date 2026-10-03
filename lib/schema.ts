@@ -125,6 +125,9 @@ export const clinicNode = {
   url: `${base}/`,
   image: `${base}/images/clinic/clinic-exterior.jpg`,
   logo: `${base}/brand/medcare-logo.svg`,
+  // Maps pin resolved via g.page -> place id 0x3758ffe383475f4b, CID below.
+  // geo + GeoCircle stay omitted: exact lat/long still TODO_CONFIRM.
+  hasMap: "https://www.google.com/maps?cid=18284086181285239697",
   address: {
     "@type": "PostalAddress",
     streetAddress: siteConfig.address.streetAddress,

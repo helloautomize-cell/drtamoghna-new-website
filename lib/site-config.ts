@@ -105,6 +105,13 @@ export const siteConfig = {
  * [CONFIRM] items from client-answers.md that the UI touches.
  * Rendered as yellow chips in development, hidden in production.
  */
+/**
+ * Standard legal identity block, used where content marks {IDENTITY}.
+ * Verbatim from new-website-content.md Part 6.
+ */
+export const IDENTITY =
+  'This website is run by Medcare Diabetes & Obesity Clinic ("Medcare", "we", "us"), Chapaguri Road, opposite Domino\'s, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380, owned by Dr. Tamoghna Das. Phone: +91 60031 21297. Email: medcarebongaigaon@gmail.com.';
+
 export const TODO_CONFIRM = [
   "Exact lat/long from the Maps pin (Q21)",
   "Floor or building name for the address (Q21)",
