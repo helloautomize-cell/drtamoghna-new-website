@@ -1,0 +1,366 @@
+{
+ "version": 1,
+ "date": "2026-10-03",
+ "note": "Source files in resources/images/_source/. Coordinates are pixels on the source file: [left, top, right, bottom]. Never upscale. Output to public/images/ as JPEG q85 (+ next/image serves AVIF/WebP).",
+ "images": [
+  {
+   "src": "doctors/dr-das-hero.png",
+   "outputs": [
+    {
+     "out": "doctors/dr-das-hero.jpg",
+     "crop": [
+      0,
+      230,
+      793,
+      1420
+     ],
+     "aspect": "2:3",
+     "widths": [
+      380,
+      600,
+      793
+     ],
+     "use": "Home hero desktop (LCP, preload, priority) · Dr. Tamoghna Das profile hero"
+    },
+    {
+     "out": "doctors/dr-das-hero-mobile.jpg",
+     "crop": [
+      0,
+      230,
+      793,
+      1221
+     ],
+     "aspect": "4:5",
+     "widths": [
+      390,
+      640,
+      793
+     ],
+     "use": "Home hero mobile (about 300px tall)"
+    },
+    {
+     "out": "doctors/dr-das-portrait.jpg",
+     "crop": [
+      0,
+      230,
+      793,
+      1221
+     ],
+     "aspect": "4:5",
+     "widths": [
+      400,
+      793
+     ],
+     "use": "Home 05 Meet your doctor card · OG image base"
+    }
+   ],
+   "treatment": "contrast +3%, no skin smoothing",
+   "alt": "Dr. Tamoghna Das, physician at Medcare Diabetes & Obesity Clinic, Bongaigaon, in a white coat with a stethoscope"
+  },
+  {
+   "src": "doctors/dr-das-avatar.png",
+   "outputs": [
+    {
+     "out": "doctors/dr-das-avatar.jpg",
+     "crop": "full",
+     "aspect": "1:1",
+     "widths": [
+      96,
+      256,
+      512
+     ],
+     "use": "Hero doctor chip · mega menu doctor card · reviewer box · article author chip · mobile menu"
+    }
+   ],
+   "alt": "Dr. Tamoghna Das"
+  },
+  {
+   "src": "doctors/dr-das-consultation.png",
+   "outputs": [
+    {
+     "out": "doctors/dr-das-consultation.jpg",
+     "crop": [
+      0,
+      0,
+      1536,
+      960
+     ],
+     "aspect": "16:10",
+     "widths": [
+      640,
+      1024,
+      1536
+     ],
+     "use": "Home 04 step 3 Consultation · About How we work"
+    },
+    {
+     "out": "doctors/dr-das-consultation-3x2.jpg",
+     "crop": "full",
+     "aspect": "3:2",
+     "widths": [
+      768,
+      1536
+     ],
+     "use": "Dr. Tamoghna Das profile, How Dr. Das works"
+    }
+   ],
+   "treatment": "blur any legible brand on the echo monitor bezel (radius 6)",
+   "alt": "Dr. Tamoghna Das explaining a report to a patient during a consultation at Medcare"
+  },
+  {
+   "src": "doctors/dr-das-writing-plan.png",
+   "outputs": [
+    {
+     "out": "doctors/dr-das-writing-plan.jpg",
+     "crop": [
+      0,
+      330,
+      910,
+      899
+     ],
+     "aspect": "16:10",
+     "widths": [
+      640,
+      910
+     ],
+     "use": "Home 04 step 5 Your plan"
+    }
+   ],
+   "note": "already cleaned by Claude (branding blurred, cropped)",
+   "alt": "Dr. Tamoghna Das writing a treatment plan at his desk"
+  },
+  {
+   "src": "doctors/dr-das-api-cme-talk.jpg",
+   "outputs": [
+    {
+     "out": "doctors/dr-das-api-cme-talk.jpg",
+     "crop": "full",
+     "aspect": "3:2",
+     "widths": [
+      640,
+      1280
+     ],
+     "use": "Dr. Tamoghna Das profile, Talks and teaching · About, Why Medcare was started"
+    }
+   ],
+   "treatment": "exposure +8%, slightly cooler white balance",
+   "alt": "Dr. Tamoghna Das speaking at the Association of Physicians of India Mid Term CME, Assam State Chapter"
+  },
+  {
+   "src": "doctors/dr-das-plaques-rssdi-hepatocon.png",
+   "outputs": [
+    {
+     "out": "doctors/dr-das-plaques.jpg",
+     "crop": "full",
+     "aspect": "3:2",
+     "widths": [
+      640,
+      1536
+     ],
+     "use": "Dr. Tamoghna Das profile, Certifications and roles"
+    }
+   ],
+   "alt": "Plaques from the RSSDI Assam Chapter Mid-Term CME 2022 and HEPATOCON 2024"
+  },
+  {
+   "src": "clinic/dr-das-awards-shelf.png",
+   "outputs": [
+    {
+     "out": "clinic/dr-das-awards-shelf.jpg",
+     "crop": [
+      300,
+      240,
+      1215,
+      885
+     ],
+     "aspect": "free",
+     "widths": [
+      915
+     ],
+     "use": "Dr. Tamoghna Das profile, Certifications and roles banner behind a white 88% overlay"
+    }
+   ],
+   "alt": ""
+  },
+  {
+   "src": "clinic/clinic-consultation-room.png",
+   "outputs": [
+    {
+     "out": "clinic/clinic-consultation-room.jpg",
+     "crop": [
+      0,
+      0,
+      1246,
+      934
+     ],
+     "aspect": "4:3",
+     "widths": [
+      640,
+      1246
+     ],
+     "use": "Home 02 About Medcare · About page header · Plan your visit, Your consultation"
+    }
+   ],
+   "note": "already cleaned by Claude",
+   "alt": "Dr. Tamoghna Das at his desk in the consultation room at Medcare, Bongaigaon"
+  },
+  {
+   "src": "clinic/echo-screen.png",
+   "outputs": [
+    {
+     "out": "clinic/echo-screen.jpg",
+     "crop": "full",
+     "aspect": "3:2",
+     "widths": [
+      640,
+      1024,
+      1536
+     ],
+     "use": "Home 04 step 4 Tests if needed · Echocardiography, What echo can show · Heart health hub · Health Library post on echo"
+    }
+   ],
+   "note": "REDACTED by Claude. The unredacted original contains a real patient's name and must never enter the project.",
+   "alt": "Echocardiography images with Doppler measurements on the screen of the echo system at Medcare"
+  },
+  {
+   "src": "clinic/clinic-exterior.png",
+   "outputs": [
+    {
+     "out": "clinic/clinic-exterior-wide.jpg",
+     "crop": [
+      0,
+      100,
+      1320,
+      842
+     ],
+     "aspect": "16:9",
+     "widths": [
+      1320
+     ],
+     "use": "Home Visit band (desktop only, sticky photo)"
+    },
+    {
+     "out": "clinic/clinic-exterior.jpg",
+     "crop": [
+      0,
+      90,
+      1320,
+      970
+     ],
+     "aspect": "3:2",
+     "widths": [
+      640,
+      1320
+     ],
+     "use": "Plan your visit hero · Contact photo card · Coming from outside Bongaigaon header"
+    }
+   ],
+   "alt": "Front of Medcare Diabetes & Obesity Clinic on Chapaguri Road, North Bongaigaon, at dusk",
+   "note": "Signboard shows older contact details; confirmed by Dr. Das (3 Oct 2026): use as is, no blur. Replace this image if the board is redone."
+  },
+  {
+   "src": "clinic/clinic-reception.png",
+   "outputs": [
+    {
+     "out": "clinic/clinic-reception.jpg",
+     "crop": [
+      0,
+      0,
+      1536,
+      960
+     ],
+     "aspect": "16:10",
+     "widths": [
+      640,
+      1024,
+      1536
+     ],
+     "use": "Home 04 step 2 Arrive and register · Plan your visit, Booking"
+    }
+   ],
+   "alt": "Reception desk at Medcare, where patients register on arrival"
+  },
+  {
+   "src": "clinic/clinic-exam-room.png",
+   "outputs": [
+    {
+     "out": "clinic/clinic-exam-room.jpg",
+     "crop": "full",
+     "aspect": "3:2",
+     "widths": [
+      640,
+      1536
+     ],
+     "use": "Echocardiography, What happens during the test · Holter monitoring · Patient Rights, Privacy"
+    }
+   ],
+   "alt": "Examination couch behind privacy curtains at Medcare"
+  },
+  {
+   "src": "clinic/clinic-door-sign.png",
+   "outputs": [
+    {
+     "out": "clinic/clinic-door-sign.jpg",
+     "crop": [
+      0,
+      60,
+      1312,
+      935
+     ],
+     "aspect": "3:2",
+     "widths": [
+      640,
+      1312
+     ],
+     "use": "Plan your visit, Your consultation · Dr. Tamoghna Das profile, Education and training side image"
+    }
+   ],
+   "alt": "Consultation room door sign for Dr. Tamoghna Das, MBBS, MD Internal Medicine, Gauhati Medical College"
+  },
+  {
+   "src": "clinic/clinic-opening-day.png",
+   "outputs": [
+    {
+     "out": "clinic/clinic-opening-day.jpg",
+     "crop": "full",
+     "aspect": "3:2",
+     "widths": [
+      640,
+      1536
+     ],
+     "use": "About, timeline card September 2023 Medcare opens"
+    }
+   ],
+   "alt": "Medcare decorated with marigold garlands on its opening day in September 2023",
+   "note": "Written consent covers everyone shown (confirmed 3 Oct 2026). No face blur."
+  },
+  {
+   "src": "video/echo-room-loop.mp4",
+   "outputs": [
+    {
+     "out": "video/echo-room-loop.mp4",
+     "use": "Echocardiography page, silent loop Inside our echo room (muted, playsinline, autoplay only when in view, paused under reduced motion, poster first)"
+    },
+    {
+     "out": "video/echo-room-poster.jpg",
+     "use": "poster"
+    }
+   ],
+   "alt": "Dr. Tamoghna Das performing an echocardiogram at Medcare"
+  },
+  {
+   "src": "brand/medcare-logo.png",
+   "outputs": [
+    {
+     "out": "brand/medcare-logo.png",
+     "use": "Reference for the SVG redraw and PNG fallback; trim transparent padding"
+    }
+   ]
+  }
+ ],
+ "not_published": {
+  "_backup/dr-das-portrait-original.jpg": "backup",
+  "evidence/*": "AI-upscaled certificates, used only to verify facts, never copied to public/",
+  "_backup/clinic-entrance-lobby.png": "not used: shows the tie-up pharmacy counter, which the site does not mention"
+ }
+}

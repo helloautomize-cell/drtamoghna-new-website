@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# environment variables
+.env
+.env*
+
+# Vercel
+.vercel/
+
+# macOS
+.DS_Store
+
+# kit source archives (kept locally, not committed)
+_kit-archive/
