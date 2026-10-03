@@ -1,4 +1,4 @@
-import Link from "next/link";
+import RouteLink from "@/components/RouteLink";
 import { CalendarDays } from "lucide-react";
 
 /**
@@ -14,11 +14,11 @@ export default function BookButton({
   ariaLabel?: string;
 }) {
   return (
-    <Link className="book" href={href} aria-label={ariaLabel ?? label}>
+    <RouteLink className="book" href={href} aria-label={ariaLabel ?? label}>
       <span className="ic">
         <CalendarDays size={22} strokeWidth={1.8} aria-hidden />
       </span>
       <span className="lb">{label}</span>
-    </Link>
+    </RouteLink>
   );
 }

@@ -1,7 +1,7 @@
 "use client";
 
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
+import RouteLink from "@/components/RouteLink";
 import { useEffect, useState } from "react";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import { ChevronDown, Menu } from "lucide-react";
@@ -32,9 +32,9 @@ function MenuDoctorCard() {
       <div>
         <p className="mm-doc-name">{siteConfig.doctor.name}</p>
         <p className="mm-doc-line">MD Medicine</p>
-        <Link className="mm-doc-link" href="/dr-tamoghna-das/">
+        <RouteLink className="mm-doc-link" href="/dr-tamoghna-das/">
           View profile
-        </Link>
+        </RouteLink>
       </div>
     </div>
   );
@@ -54,9 +54,9 @@ export default function SiteHeader() {
   return (
     <header className={`sitehdr${scrolled ? " is-scrolled" : ""}`}>
       <div className="sitehdr-in container-mc">
-        <Link className="sitehdr-logo" href="/" aria-label={`${siteConfig.name}, home`}>
+        <RouteLink className="sitehdr-logo" href="/" aria-label={`${siteConfig.name}, home`}>
           <img src="/brand/medcare-logo.svg" alt={siteConfig.name} />
-        </Link>
+        </RouteLink>
 
         <NavigationMenu.Root className="sitehdr-nav" delayDuration={120}>
           <NavigationMenu.List className="sitehdr-list">
@@ -87,12 +87,12 @@ export default function SiteHeader() {
                           {col.links.map((link) => (
                             <li key={link.href + link.label}>
                               <NavigationMenu.Link asChild>
-                                <Link href={link.href} className="mmlink">
+                                <RouteLink href={link.href} className="mmlink">
                                   {link.icon ? (
                                     <link.icon size={18} strokeWidth={1.75} aria-hidden />
                                   ) : null}
                                   <span>{link.label}</span>
-                                </Link>
+                                </RouteLink>
                               </NavigationMenu.Link>
                             </li>
                           ))}
@@ -107,9 +107,9 @@ export default function SiteHeader() {
             {headerLinks.map((link) => (
               <NavigationMenu.Item key={link.href}>
                 <NavigationMenu.Link asChild>
-                  <Link className="sitehdr-link" href={link.href}>
+                  <RouteLink className="sitehdr-link" href={link.href}>
                     {link.label}
-                  </Link>
+                  </RouteLink>
                 </NavigationMenu.Link>
               </NavigationMenu.Item>
             ))}

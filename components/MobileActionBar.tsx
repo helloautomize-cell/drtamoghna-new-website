@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import RouteLink from "@/components/RouteLink";
 import { usePathname } from "next/navigation";
 import * as Dialog from "@radix-ui/react-dialog";
 import { CalendarDays, MessageCircle, Phone } from "lucide-react";
@@ -45,10 +45,10 @@ export default function MobileActionBar() {
   return (
     <>
       <nav className="mbar" aria-label="Quick actions" hidden={typing}>
-        <Link href="/contact/#book">
+        <RouteLink href="/contact/#book">
           <CalendarDays size={20} strokeWidth={1.8} aria-hidden />
           Book Now
-        </Link>
+        </RouteLink>
         <button type="button" onClick={() => setCallOpen(true)}>
           <Phone size={20} strokeWidth={1.8} aria-hidden />
           Call Now

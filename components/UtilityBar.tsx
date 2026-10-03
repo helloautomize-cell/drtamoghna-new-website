@@ -1,4 +1,4 @@
-import Link from "next/link";
+import RouteLink from "@/components/RouteLink";
 import { Clock } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 import TextSizeSwitch from "./TextSizeSwitch";
@@ -13,8 +13,8 @@ export default function UtilityBar() {
     <div className="ubar-wrap">
       <div className="ubar container-mc">
         <span>
-          <Link href="/plan-your-visit/">Plan your visit</Link> ·{" "}
-          <Link href="/health-library/">Health Library</Link>
+          <RouteLink href="/plan-your-visit/">Plan your visit</RouteLink> ·{" "}
+          <RouteLink href="/health-library/">Health Library</RouteLink>
         </span>
         <span>
           <Clock size={16} strokeWidth={2} aria-hidden />

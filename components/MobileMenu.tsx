@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import RouteLink from "@/components/RouteLink";
 import * as Dialog from "@radix-ui/react-dialog";
 import * as Accordion from "@radix-ui/react-accordion";
 import { ChevronDown, Phone, X } from "lucide-react";
@@ -71,23 +71,23 @@ export default function MobileMenu({
                       <ul>
                         {item.links.map((link) => (
                           <li key={link.href + link.label}>
-                            <Link href={link.href} onClick={() => onOpenChange(false)}>
+                            <RouteLink href={link.href} onClick={() => onOpenChange(false)}>
                               {link.label}
-                            </Link>
+                            </RouteLink>
                           </li>
                         ))}
                       </ul>
                     </Accordion.Content>
                   </Accordion.Item>
                 ) : (
-                  <Link
+                  <RouteLink
                     key={item.href}
                     className="mmenu-row"
                     href={item.href}
                     onClick={() => onOpenChange(false)}
                   >
                     {item.label}
-                  </Link>
+                  </RouteLink>
                 ),
               )}
             </Accordion.Root>

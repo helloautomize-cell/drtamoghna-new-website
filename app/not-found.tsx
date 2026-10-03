@@ -1,4 +1,4 @@
-import Link from "next/link";
+import RouteLink from "@/components/RouteLink";
 
 /**
  * Branded 404 (content file, Page 11). Links to pages not yet built are
@@ -23,13 +23,13 @@ export default function NotFound() {
       <ul className="nf-links">
         {suggestions.map((s) => (
           <li key={s.href}>
-            <Link href={s.href}>{s.label}</Link>
+            <RouteLink href={s.href}>{s.label}</RouteLink>
           </li>
         ))}
       </ul>
-      <Link className="book nf-home" href="/">
+      <RouteLink className="book nf-home" href="/">
         <span className="lb">Back to home</span>
-      </Link>
+      </RouteLink>
     </div>
   );
 }

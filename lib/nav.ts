@@ -324,3 +324,14 @@ export const catchmentLine =
 
 export const footerTagline =
   "Physician-led care for diabetes, weight, heart health and more, in North Bongaigaon since 2023.";
+
+/**
+ * Routes that exist so far. Link prefetch is disabled for the rest so
+ * unbuilt pages do not log 404s for their RSC prefetch requests. Add each
+ * route here as its phase ships.
+ */
+export const builtRoutes = new Set(["/", "/styleguide/"]);
+
+export function routeExists(href: string): boolean {
+  return builtRoutes.has(href.split("#")[0]);
+}

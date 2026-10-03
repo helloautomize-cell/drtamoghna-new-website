@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import RouteLink from "@/components/RouteLink";
 import { ChevronDown, Clock, MapPin, MessageCircle, Phone } from "lucide-react";
 import { footerColumns, catchmentLine, footerTagline } from "@/lib/nav";
 import { siteConfig } from "@/lib/site-config";
@@ -53,7 +53,7 @@ function ColumnLinks({ heading, links }: { heading: string; links: { label: stri
     <ul>
       {links.map((l) => (
         <li key={l.href + l.label}>
-          <Link href={l.href}>{l.label}</Link>
+          <RouteLink href={l.href}>{l.label}</RouteLink>
         </li>
       ))}
       {heading === "Legal" ? (
