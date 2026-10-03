@@ -22,3 +22,6 @@ _kit-archive/
 # test + report artifacts
 tsconfig.tsbuildinfo
 _screenshots/
+
+# review artifacts (screenshots, reports)
+_review/
