@@ -4,6 +4,7 @@
 title: "Diabetic Foot Care in Bongaigaon | Medcare"
 description: "Foot nerve and blood-flow checks, wound advice and prevention for people with diabetes, by a physician trained in diabetic foot management."
 url: /diabetes-care/diabetic-foot-care/
+lastReviewed: "2026-10-03"
 h1: "Diabetic foot *care*"
 badge: diabetic-foot
 about: { type: MedicalCondition, name: "Diabetic foot" }

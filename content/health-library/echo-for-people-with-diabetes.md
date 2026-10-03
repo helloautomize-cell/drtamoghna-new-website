@@ -7,8 +7,9 @@ url: /health-library/echo-for-people-with-diabetes/
 category: Heart
 author: dr-tamoghna-das
 reviewer: dr-tamoghna-das
-datePublished: "[CONFIRM: launch date]"
-dateModified: "[CONFIRM: launch date]"
+lastReviewed: "2026-10-03"
+datePublished: "2026-10-03"
+dateModified: "2026-10-03"
 badge: echo
 readingTime: 6
 related: [/heart-health/echocardiography/, /heart-health/heart-failure/, /diabetes-care/]

@@ -7,7 +7,7 @@ url: /diabetes-care/
 h1: "Diabetes care in *Bongaigaon*"
 badge: diabetes
 reviewer: dr-tamoghna-das
-lastReviewed: "[CONFIRM: sign-off date]"
+lastReviewed: "2026-10-03"
 about: { type: MedicalCondition, name: "Diabetes mellitus", alternateName: ["Sugar", "Madhumeh"] }
 related: [/diabetes-care/continuous-glucose-monitoring/, /heart-health/, /weight-management/]
 posts: [/health-library/hba1c-explained/, /health-library/echo-for-people-with-diabetes/]

@@ -1,9 +1,8 @@
 /**
- * [CONFIRM] chip: visible on the review site while SITE_INDEXABLE is not
- * "true", renders nothing once indexing is switched on at launch.
- * npm run launch-check fails while any remain in rendered output.
+ * [CONFIRM] chip: visible only in review mode (SITE_NOINDEX="true"),
+ * renders nothing on the live site.
  */
 export default function ConfirmChip({ children }: { children: React.ReactNode }) {
-  if (process.env.SITE_INDEXABLE === "true") return null;
+  if (process.env.SITE_NOINDEX !== "true") return null;
   return <span className="confirm">[CONFIRM: {children}]</span>;
 }

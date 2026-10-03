@@ -4,6 +4,7 @@
 title: "MD Medicine Physician in Bongaigaon | Medcare"
 description: "Adult medical care from an MD physician in Bongaigaon: fever, infections, fatty liver, joint pain, migraine, anaemia and long-term conditions."
 url: /internal-medicine/
+lastReviewed: "2026-10-03"
 h1: "Internal *medicine*"
 badge: internal-medicine
 about: { type: MedicalSpecialty, name: "Internal medicine" }

@@ -110,7 +110,7 @@ export interface ParsedPage {
 
 /* --------------------------------- helpers -------------------------------- */
 
-export const INDEXABLE = process.env.SITE_INDEXABLE === "true";
+export const INDEXABLE = process.env.SITE_NOINDEX !== "true";
 
 export function mdToHtml(md: string): string {
   return String(
@@ -173,7 +173,7 @@ export function resolveTokens(html: string, tokens: RenderToken[]): string {
     const t = tokens[Number(i)];
     if (!t) return m;
     if (t.kind === "confirm") {
-      if (process.env.SITE_INDEXABLE === "true") return "";
+      if (process.env.SITE_NOINDEX !== "true") return "";
       return `<span class="confirm">[CONFIRM${t.note ? `: ${esc(t.note)}` : ""}]</span>`;
     }
     const inner = resolveTokens(t.html, tokens);

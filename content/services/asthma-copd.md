@@ -4,6 +4,7 @@
 title: "Asthma and COPD Care with Spirometry | Medcare Bongaigaon"
 description: "Cough, wheeze or breathlessness? Spirometry in-house, inhaler training and long-term asthma and COPD care by an MD physician in Bongaigaon."
 url: /asthma-copd/
+lastReviewed: "2026-10-03"
 h1: "Asthma and *COPD*"
 badge: lungs
 about: { type: MedicalCondition, name: "Asthma; Chronic obstructive pulmonary disease", alternateName: ["COPD", "Hapani"] }

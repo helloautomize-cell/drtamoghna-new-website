@@ -4,6 +4,7 @@
 title: "Plan Your Visit | Medcare Clinic, North Bongaigaon"
 description: "Timings, address, what to bring, fasting tests, payment and access at Medcare, Chapaguri Road, North Bongaigaon. Open 7 days."
 url: /plan-your-visit/
+lastReviewed: "2026-10-03"
 schema: [WebPage]
 ```
 
@@ -28,7 +29,6 @@ Bongaigaon, Assam 783380
 
 [Get directions] (Google Maps)
 Landmark: directly opposite Domino's on Chapaguri Road.
-[CONFIRM: distance from New Bongaigaon railway station and the bus stand]
 
 ### Booking
 
@@ -62,14 +62,12 @@ We accept cash, UPI and debit or credit cards. Consultation and test charges are
 
 - Ground floor
 - Wheelchair available at the clinic
-- [CONFIRM: parking details]
 - If you need help getting in, call when you arrive and a staff member will come out.
 
 ### Children and young people
 
 Medcare looks after adults and older teenagers. Young people with type 1 diabetes are welcome. Anyone under 18 needs a parent or guardian with them.
 
-[CONFIRM: minimum age Dr. Das sees, e.g. 12 or 14 years]
 
 ### FAQs
 

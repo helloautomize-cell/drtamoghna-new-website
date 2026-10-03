@@ -4,6 +4,7 @@
 title: "Book an Appointment | Medcare Bongaigaon"
 description: "Book with Dr. Tamoghna Das at Medcare, North Bongaigaon. Call 60031 21297 or WhatsApp 98642 66191. We confirm within 30 to 60 minutes."
 url: /contact/
+lastReviewed: "2026-10-03"
 schema: [ContactPage]
 ```
 

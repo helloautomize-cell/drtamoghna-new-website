@@ -8,6 +8,7 @@ import { accent, getPage, pageH1 } from "@/lib/content";
 import { pageGraph } from "@/lib/page-schema";
 import { pageMeta } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
+import { formatDate } from "@/lib/format";
 import { images } from "@/lib/images";
 
 /**
@@ -60,7 +61,7 @@ export default function LegalPage({
           <h1 dangerouslySetInnerHTML={{ __html: accent(h1) }} />
           <p className="legal-updated">
             Last updated:{" "}
-            {updated ? updated : <ConfirmChip>launch date</ConfirmChip>}
+            {updated ? formatDate(updated) : <ConfirmChip>launch date</ConfirmChip>}
           </p>
 
           {page.sections.map((s, i) => {

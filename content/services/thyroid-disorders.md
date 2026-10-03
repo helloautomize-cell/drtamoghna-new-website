@@ -4,6 +4,7 @@
 title: "Thyroid Doctor in Bongaigaon | Medcare"
 description: "Underactive and overactive thyroid, thyroid in pregnancy and thyroid swelling, diagnosed and treated by an MD physician in Bongaigaon."
 url: /thyroid-disorders/
+lastReviewed: "2026-10-03"
 h1: "Thyroid *disorders*"
 badge: thyroid
 about: { type: MedicalCondition, name: "Thyroid disease", alternateName: ["Hypothyroidism", "Hyperthyroidism", "Goitre"] }

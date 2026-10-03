@@ -4,6 +4,7 @@
 title: "Gestational Diabetes Care in Bongaigaon | Medcare"
 description: "Diabetes in pregnancy cared for by an MD physician in Bongaigaon, alongside your obstetrician. Sugar targets, diet, CGM and safe treatment."
 url: /diabetes-care/diabetes-in-pregnancy/
+lastReviewed: "2026-10-03"
 h1: "Diabetes in *pregnancy*"
 badge: gdm
 about: { type: MedicalCondition, name: "Gestational diabetes", alternateName: ["GDM", "Diabetes in pregnancy"] }

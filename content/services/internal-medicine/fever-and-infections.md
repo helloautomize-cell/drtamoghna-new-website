@@ -4,6 +4,7 @@
 title: "Fever, Dengue, Malaria and Typhoid Care | Medcare Bongaigaon"
 description: "Fever that will not settle? Diagnosis of dengue, malaria, typhoid, scrub typhus, urine and chest infections by an MD physician in Bongaigaon."
 url: /internal-medicine/fever-and-infections/
+lastReviewed: "2026-10-03"
 h1: "Fever and *infections*"
 badge: fever
 about: { type: MedicalCondition, name: "Fever", alternateName: ["Jor", "Dengue", "Malaria", "Typhoid", "Scrub typhus"] }

@@ -4,6 +4,7 @@
 title: "Migraine and Headache Treatment in Bongaigaon | Medcare"
 description: "Frequent headaches or migraine? Diagnosis, trigger diary and a prevention plan from an MD physician in Bongaigaon. Fewer, milder attacks."
 url: /internal-medicine/migraine-headache/
+lastReviewed: "2026-10-03"
 h1: "Migraine and *headache*"
 badge: headache
 about: { type: MedicalCondition, name: "Migraine", alternateName: ["Headache", "Tension-type headache"] }

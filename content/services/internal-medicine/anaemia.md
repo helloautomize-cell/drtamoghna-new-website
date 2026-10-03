@@ -4,6 +4,7 @@
 title: "Anaemia (Low Haemoglobin) Treatment in Bongaigaon | Medcare"
 description: "Tired, breathless or pale? Find out why your haemoglobin is low and correct it. Anaemia care by an MD physician in Bongaigaon."
 url: /internal-medicine/anaemia/
+lastReviewed: "2026-10-03"
 h1: "*Anaemia* and low haemoglobin"
 badge: anaemia
 about: { type: MedicalCondition, name: "Anaemia", alternateName: ["Low haemoglobin", "Anemia"] }

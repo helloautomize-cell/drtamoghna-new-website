@@ -4,6 +4,7 @@
 title: "Heart Health and Heart Risk Checks in Bongaigaon | Medcare"
 description: "Find and lower your heart risk early. BP, sugar, cholesterol, ECG and echo with strain imaging, by an MD physician trained in echocardiography."
 url: /heart-health/
+lastReviewed: "2026-10-03"
 h1: "Heart health and heart *risk*"
 badge: heart
 about: { type: MedicalCondition, name: "Cardiovascular disease risk" }

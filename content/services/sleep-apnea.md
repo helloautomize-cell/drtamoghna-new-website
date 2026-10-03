@@ -4,6 +4,7 @@
 title: "Sleep Apnea and Snoring Treatment in Bongaigaon | Medcare"
 description: "Loud snoring, choking at night or daytime sleepiness? Sleep study and treatment by a physician with a Diploma in Obstructive Sleep Apnea."
 url: /sleep-apnea/
+lastReviewed: "2026-10-03"
 h1: "Sleep apnea and sleep *disorders*"
 badge: sleep
 about: { type: MedicalCondition, name: "Obstructive sleep apnea", alternateName: ["OSA", "Snoring"] }

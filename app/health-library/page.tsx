@@ -6,6 +6,7 @@ import RouteLink from "@/components/RouteLink";
 import ConfirmChip from "@/components/ConfirmChip";
 import { CtaBand } from "@/components/content/PageParts";
 import { accent, getPage, pageH1 } from "@/lib/content";
+import { formatDate } from "@/lib/format";
 import { pageGraph } from "@/lib/page-schema";
 import { pageMeta } from "@/lib/metadata";
 import type { BadgeSlug } from "@/lib/service-badges";
@@ -93,7 +94,7 @@ export default function Page() {
                   <span className="hl-by">
                     Written by Dr. Tamoghna Das ·{" "}
                     {p.datePublished && !/CONFIRM/.test(p.datePublished) ? (
-                      p.datePublished
+                      formatDate(p.datePublished)
                     ) : (
                       <>
                         <ConfirmChip>launch date</ConfirmChip> Coming soon

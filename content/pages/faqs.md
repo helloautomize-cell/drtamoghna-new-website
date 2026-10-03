@@ -4,6 +4,7 @@
 title: "FAQs | Medcare Diabetes & Obesity Clinic, Bongaigaon"
 description: "Answers on booking, timings, tests, fasting, payment, reports, follow-up and privacy at Medcare, North Bongaigaon."
 url: /faqs/
+lastReviewed: "2026-10-03"
 schema: [FAQPage]
 ```
 

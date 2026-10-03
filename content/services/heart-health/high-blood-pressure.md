@@ -4,6 +4,7 @@
 title: "High Blood Pressure Treatment in Bongaigaon | Medcare"
 description: "Confirm, treat and track high BP in Bongaigaon. 24-hour BP monitoring, ECG and echo in-house, with a clear plan from an MD physician."
 url: /heart-health/high-blood-pressure/
+lastReviewed: "2026-10-03"
 h1: "High blood *pressure*"
 badge: blood-pressure
 about: { type: MedicalCondition, name: "Hypertension", alternateName: ["High BP", "High blood pressure"] }

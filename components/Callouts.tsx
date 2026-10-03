@@ -1,7 +1,6 @@
 import { CircleAlert, Info, TriangleAlert } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 import { images } from "@/lib/images";
-import ConfirmChip from "./ConfirmChip";
 
 export function EmergencyCallout() {
   return (
@@ -24,7 +23,7 @@ export function ReviewerCallout() {
       <img className="co-avatar" src={images.avatar.src} alt="" width={48} height={48} loading="lazy" />
       <p>
         <b>Medically reviewed by</b> {siteConfig.doctor.name}, {siteConfig.doctor.qualifications} ·{" "}
-        {siteConfig.doctor.registration} · Last reviewed <ConfirmChip>sign-off date</ConfirmChip>
+        {siteConfig.doctor.registration} · Last reviewed {siteConfig.reviewDateDisplay}
       </p>
     </div>
   );
@@ -48,7 +47,7 @@ export function InfoCallout() {
       <Info className="co-ic" size={24} strokeWidth={2} aria-hidden />
       <p>
         <b>Medically reviewed by</b> {siteConfig.doctor.name}, {siteConfig.doctor.qualifications} ·{" "}
-        {siteConfig.doctor.registration} · Last reviewed <ConfirmChip>sign-off date</ConfirmChip>
+        {siteConfig.doctor.registration} · Last reviewed {siteConfig.reviewDateDisplay}
       </p>
     </div>
   );

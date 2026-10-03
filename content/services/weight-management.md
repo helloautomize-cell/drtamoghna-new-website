@@ -4,6 +4,7 @@
 title: "Obesity and Weight Management in Bongaigaon | Medcare"
 description: "Medical weight care by an MD physician in Bongaigaon: body composition, causes checked, a realistic food and activity plan, and follow-up."
 url: /weight-management/
+lastReviewed: "2026-10-03"
 h1: "Obesity and weight *management*"
 badge: weight
 about: { type: MedicalCondition, name: "Obesity" }

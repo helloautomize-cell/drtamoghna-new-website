@@ -4,6 +4,7 @@
 title: "CGM, Insulin and Diabetes Diet Counselling | Medcare"
 description: "Continuous glucose monitoring, insulin training and diabetes diet counselling in Bongaigaon. See your sugar day and night and learn to act on it."
 url: /diabetes-care/continuous-glucose-monitoring/
+lastReviewed: "2026-10-03"
 h1: "CGM, insulin and diet *counselling*"
 badge: cgm
 about: { type: MedicalTest, name: "Continuous glucose monitoring" }

@@ -4,6 +4,7 @@
 title: "Fatty Liver Treatment in Bongaigaon | Medcare"
 description: "Fatty liver found on ultrasound? Find the cause, check liver damage and protect your liver with a clear plan from an MD physician in Bongaigaon."
 url: /internal-medicine/fatty-liver/
+lastReviewed: "2026-10-03"
 h1: "Fatty liver and liver *disorders*"
 badge: liver
 about: { type: MedicalCondition, name: "Metabolic dysfunction-associated steatotic liver disease", alternateName: ["Fatty liver", "NAFLD", "MASLD"] }

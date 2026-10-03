@@ -4,6 +4,7 @@
 title: "2D Echo with Strain Imaging in Bongaigaon | Medcare"
 description: "Heart ultrasound with strain imaging in Bongaigaon, performed by Dr. Tamoghna Das, fellowship-trained in echocardiography. No fasting, results explained."
 url: /heart-health/echocardiography/
+lastReviewed: "2026-10-03"
 h1: "Echocardiography with strain *imaging*"
 badge: echo
 about: { type: MedicalTest, name: "Echocardiography", alternateName: ["2D Echo", "Echo test", "Heart ultrasound", "Speckle tracking strain echocardiography"] }

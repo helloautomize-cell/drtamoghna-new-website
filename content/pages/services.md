@@ -4,6 +4,7 @@
 title: "Services and Tests at Medcare Bongaigaon"
 description: "Every condition we look after and every test done at Medcare: diabetes, weight, BP, heart, echo, Holter, thyroid, lungs, sleep and general medicine."
 url: /services/
+lastReviewed: "2026-10-03"
 schema: [CollectionPage]
 ```
 

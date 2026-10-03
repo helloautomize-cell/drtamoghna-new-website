@@ -4,6 +4,7 @@
 title: "Health Library | Medcare Bongaigaon"
 description: "Plain-language articles on diabetes, weight, heart health, thyroid, sleep and more, written and reviewed by Dr. Tamoghna Das, MD Medicine."
 url: /health-library/
+lastReviewed: "2026-10-03"
 schema: [CollectionPage]
 ```
 

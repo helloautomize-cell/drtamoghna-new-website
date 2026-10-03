@@ -5,6 +5,7 @@ title: "Dr. Tamoghna Das, MD Medicine | Medcare Bongaigaon"
 description: "Internal medicine and cardio-diabetic consultant in Bongaigaon. MBBS, MD (GMCH), fellowship in echocardiography. Reg. No. 20276, Assam."
 url: /dr-tamoghna-das/
 reviewer: dr-tamoghna-das
+lastReviewed: "2026-10-03"
 schema: [ProfilePage, Physician]
 ```
 
@@ -54,7 +55,6 @@ Note for build: quotes are Dr. Das's own words from intake, lightly edited for r
 - 2024 · Certificate Course in Diabetic Foot Management, IMMAST, Mumbai (RCS England CPD-accredited) [CONFIRM: the certificate seen says "Certificate Course", held 9 August 2024; Dr. Das wrote "Diploma"]
 - 2026 · Diploma in Obstructive Sleep Apnea, IMMAST, Mumbai
 - 2026 · Certificate in Respiratory Critical Care with hands-on ventilation workshop, ISCCM Guwahati City Branch
-- [CONFIRM: Diabetic Diet Counselling certification: body and year]
 
 ### Work experience
 
@@ -69,10 +69,9 @@ Note for build: quotes are Dr. Das's own words from intake, lightly edited for r
 Current roles:
 - Secretary, Indian Medical Association (IMA), Bongaigaon branch
 - Secretary, Association of Physicians of India (API), Bongaigaon
-- [CONFIRM: Joint Secretary, Lower Assam Diabetes Society]
 - Visiting Consultant, Swagat Hospital, Bongaigaon · Visiting Echocardiologist, Lower Assam Hospital, Bongaigaon (decision D1: shown here only)
 
-Memberships ([CONFIRM: "Life member" for each, otherwise "Member"]):
+Memberships:
 - Association of Physicians of India (API)
 - Research Society for the Study of Diabetes in India (RSSDI)
 - Indian Medical Association (IMA)
@@ -96,7 +95,6 @@ Award:
 
 Publications:
 - Gupta R, Das T, Suchak MK, et al. Prevalence of stage B heart failure in patients undergoing echocardiography during regular clinical practice. *Indian Heart Journal*. 2025. [CONFIRM: DOI link]
-- [CONFIRM: other papers with links]
 
 ### Conditions and services (non-clickable chip groups)
 

@@ -5,7 +5,7 @@ title: "Medcare Bongaigaon | Diabetes, Heart and Weight Care"
 description: "Physician-led care for diabetes, weight, BP, heart, thyroid and more in North Bongaigaon. Echo, Holter, ECG and HbA1c in-house. Open 7 days."
 url: /
 reviewer: dr-tamoghna-das
-lastReviewed: "[CONFIRM: date of Dr. Das sign-off]"
+lastReviewed: "2026-10-03"
 schema: [MedicalWebPage, FAQPage]
 ```
 

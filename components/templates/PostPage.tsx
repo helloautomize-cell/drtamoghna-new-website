@@ -12,6 +12,7 @@ import { serviceTabs } from "@/lib/services";
 import { images, type ImageKey } from "@/lib/images";
 import { pageGraph } from "@/lib/page-schema";
 import { pageMeta } from "@/lib/metadata";
+import { formatDate } from "@/lib/format";
 
 export const POST_URLS = [
   "/health-library/hba1c-explained/",
@@ -95,7 +96,7 @@ export default function PostPage({
           <p className="byline">
             Written by Dr. Tamoghna Das ·{" "}
             {dateOk ? (
-              fm.datePublished
+              formatDate(fm.datePublished!)
             ) : (
               <>
                 <ConfirmChip>launch date</ConfirmChip> Coming soon

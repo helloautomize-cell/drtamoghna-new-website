@@ -25,6 +25,7 @@ import { pageGraph } from "@/lib/page-schema";
 import { pageMeta } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
 import { whatsappUrl } from "@/lib/whatsapp";
+import { formatDate } from "@/lib/format";
 import type { BadgeSlug } from "@/lib/service-badges";
 import type { Faq } from "@/lib/content-types";
 
@@ -191,7 +192,7 @@ export default function Home() {
                 <span className="hl-by">
                   Written by Dr. Tamoghna Das ·{" "}
                   {p.datePublished && !/CONFIRM/.test(p.datePublished) ? (
-                    p.datePublished
+                    formatDate(p.datePublished)
                   ) : (
                     <>
                       <ConfirmChip>launch date</ConfirmChip> Coming soon

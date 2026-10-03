@@ -5,6 +5,7 @@ title: "About Medcare | Physician-Led Clinic in Bongaigaon"
 description: "Medcare Diabetes & Obesity Clinic was founded in 2023 by Dr. Tamoghna Das, MD Medicine. How we work, what we do in-house, and how to find us."
 url: /about/
 reviewer: dr-tamoghna-das
+lastReviewed: "2026-10-03"
 schema: [AboutPage]
 ```
 

@@ -34,7 +34,7 @@ const notoSansDevanagari = Noto_Sans_Devanagari({
   preload: false,
 });
 
-const indexable = process.env.SITE_INDEXABLE === "true";
+const indexable = process.env.SITE_NOINDEX !== "true";
 
 export const metadata: Metadata = {
   metadataBase: siteConfig.siteUrl ? new URL(siteConfig.siteUrl) : undefined,

@@ -94,10 +94,14 @@ export const siteConfig = {
     source: "manual" as "manual" | "places-api",
   },
 
-  // Q52: becomes the launch date.
-  legalLastUpdated: null as string | null,
+  // Q52: launch date, 3 October 2026.
+  legalLastUpdated: "2026-10-03" as string | null,
 
-  siteIndexable: process.env.SITE_INDEXABLE === "true",
+  /** Dr. Das's content sign-off date (launch). Used for lastReviewed. */
+  reviewDate: "2026-10-03",
+  reviewDateDisplay: "3 October 2026",
+
+  siteIndexable: process.env.SITE_NOINDEX !== "true",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "",
 } as const;
 

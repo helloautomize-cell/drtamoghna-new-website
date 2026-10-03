@@ -4,6 +4,7 @@
 title: "Joint Pain and Arthritis Treatment in Bongaigaon | Medcare"
 description: "Knee pain, swollen joints, gout or body pain? Find the cause and get a clear treatment plan from an MD physician in Bongaigaon."
 url: /internal-medicine/joint-pain-arthritis/
+lastReviewed: "2026-10-03"
 h1: "Joint pain and *arthritis*"
 badge: joints
 about: { type: MedicalCondition, name: "Arthritis", alternateName: ["Joint pain", "Gout", "Osteoarthritis", "Rheumatoid arthritis", "Baat"] }

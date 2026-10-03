@@ -4,6 +4,7 @@
 title: "GLP-1 Weight-Loss Medicines: Doctor-Led Advice | Medcare"
 description: "Are GLP-1 medicines right for you? Honest assessment, safety checks and follow-up by an MD physician in Bongaigaon. No sales, no promises."
 url: /weight-management/glp-1-medicines/
+lastReviewed: "2026-10-03"
 h1: "GLP-1 weight-loss medicines: *doctor-led* assessment and follow-up"
 badge: glp1
 about: { type: MedicalTherapy, name: "GLP-1 receptor agonist therapy (assessment and monitoring)" }

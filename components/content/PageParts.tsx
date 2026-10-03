@@ -4,6 +4,7 @@ import { images } from "@/lib/images";
 import { whatsappUrl } from "@/lib/whatsapp";
 import { bookingHref } from "@/lib/booking-context";
 import { accent, type GlanceItem, type Section, type Step } from "@/lib/content";
+import { formatDate } from "@/lib/format";
 import ConfirmChip from "@/components/ConfirmChip";
 import BookButton from "@/components/BookButton";
 import RouteLink from "@/components/RouteLink";
@@ -61,7 +62,7 @@ export function ReviewerBox({ lastReviewed }: { lastReviewed?: string }) {
             <ConfirmChip>{confirm[1]?.trim() || "date"}</ConfirmChip>
           </>
         ) : lastReviewed ? (
-          <> · Last reviewed {lastReviewed}</>
+          <> · Last reviewed {formatDate(lastReviewed)}</>
         ) : null}
       </p>
     </div>

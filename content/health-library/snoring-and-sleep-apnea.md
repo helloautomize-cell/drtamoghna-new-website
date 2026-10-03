@@ -7,8 +7,9 @@ url: /health-library/snoring-and-sleep-apnea/
 category: Lungs and sleep
 author: dr-tamoghna-das
 reviewer: dr-tamoghna-das
-datePublished: "[CONFIRM: launch date]"
-dateModified: "[CONFIRM: launch date]"
+lastReviewed: "2026-10-03"
+datePublished: "2026-10-03"
+dateModified: "2026-10-03"
 badge: sleep
 readingTime: 5
 related: [/sleep-apnea/, /heart-health/high-blood-pressure/, /weight-management/]

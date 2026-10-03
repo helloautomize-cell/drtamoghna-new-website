@@ -4,6 +4,7 @@
 title: "Heart Failure Care in Bongaigaon | Medcare"
 description: "Breathless, tired or swollen feet? Heart failure diagnosed with echo and managed long term by an MD physician in Bongaigaon, Assam."
 url: /heart-health/heart-failure/
+lastReviewed: "2026-10-03"
 h1: "Heart failure *care*"
 badge: heart-failure
 about: { type: MedicalCondition, name: "Heart failure" }

@@ -4,6 +4,7 @@
 title: "Holter Monitoring (Patch Holter) in Bongaigaon | Medcare"
 description: "A small wearable patch records your heartbeat for 3 days or longer at home. For palpitations, dizziness and fainting. No admission needed."
 url: /heart-health/holter-monitoring/
+lastReviewed: "2026-10-03"
 h1: "Holter *monitoring*"
 badge: holter
 about: { type: MedicalTest, name: "Ambulatory ECG monitoring", alternateName: ["Holter test", "Patch Holter"] }

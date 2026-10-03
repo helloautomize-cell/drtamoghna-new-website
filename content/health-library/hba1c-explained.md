@@ -7,8 +7,9 @@ url: /health-library/hba1c-explained/
 category: Diabetes
 author: dr-tamoghna-das
 reviewer: dr-tamoghna-das
-datePublished: "[CONFIRM: launch date]"
-dateModified: "[CONFIRM: launch date]"
+lastReviewed: "2026-10-03"
+datePublished: "2026-10-03"
+dateModified: "2026-10-03"
 badge: diabetes
 readingTime: 6
 related: [/diabetes-care/, /diabetes-care/continuous-glucose-monitoring/, /health-check-ups/]

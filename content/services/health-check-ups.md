@@ -4,6 +4,7 @@
 title: "Preventive Health Check-Up in Bongaigaon | Medcare"
 description: "A doctor-planned health check-up in Bongaigaon: consultation first, then only the tests you need. Heart, sugar, BP, lungs and more in-house."
 url: /health-check-ups/
+lastReviewed: "2026-10-03"
 h1: "Preventive health *check-ups*"
 badge: checkup
 about: { type: MedicalProcedure, name: "Preventive health examination" }

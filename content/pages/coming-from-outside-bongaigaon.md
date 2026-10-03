@@ -4,6 +4,7 @@
 title: "Visiting Medcare from Outside Bongaigaon"
 description: "Coming from Kokrajhar, Chirang, Dhubri, Goalpara, Barpeta or elsewhere in the Northeast? Plan a one-day visit with consultation and tests together."
 url: /coming-from-outside-bongaigaon/
+lastReviewed: "2026-10-03"
 schema: [WebPage]
 ```
 
@@ -24,7 +25,6 @@ Intro: Patients visit Medcare from across lower Assam and the Bodoland region, i
 ECG · Echocardiography with strain imaging · HbA1c · Finger-prick sugar · Spirometry · Body composition · Diabetic foot check
 
 Worn at home and returned later: patch Holter, 24-hour BP monitor, continuous glucose monitoring sensor, home sleep study.
-[CONFIRM: Holter, CGM and BP monitor can be returned by courier or by a family member, or must be returned in person?]
 
 ### Follow-up from far away
 
@@ -34,7 +34,6 @@ Note: Medcare does not offer video consultations at present. [CONFIRM]
 
 ### Getting here
 
-[CONFIRM: road distance and time from Kokrajhar, Dhubri, Goalpara, Barpeta, Chirang (Kajalgaon); nearest railway station and bus stand]
 
 ### FAQs
 
