@@ -3,7 +3,7 @@ import { breadcrumbJsonLd } from "@/lib/schema";
 export type Crumb = { label: string; href: string };
 
 /**
- * Breadcrumbs (master-rules 3.1): on every inner page from Phase 3, with
+ * Breadcrumbs (master-rules 3.1): on every inner page, with
  * BreadcrumbList JSON-LD. The last item is the current page (not a link).
  */
 export default function Breadcrumbs({

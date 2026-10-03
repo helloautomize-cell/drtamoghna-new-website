@@ -4,7 +4,7 @@ import { siteConfig } from "@/lib/site-config";
 
 /**
  * Header specimen for /styleguide: logo, menu labels, Dr. Das, About, BookButton.
- * Static only; the working menus arrive in Phase 2.
+ * Static specimen of the header layout.
  */
 export default function HeaderSpecimen() {
   const menus = ["Diabetes and weight", "Heart health", "More care"];

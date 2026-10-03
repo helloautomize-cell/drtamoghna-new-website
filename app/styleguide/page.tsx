@@ -127,7 +127,7 @@ export default function StyleguidePage() {
       {/* BREADCRUMBS */}
       <section className="section-mc">
         <SectionHeading eyebrow="Navigation" title="Breadcrumbs with" accent="JSON-LD">
-          On every inner page from Phase 3. Emits a BreadcrumbList schema node; the current
+          On every inner page. Emits a BreadcrumbList schema node; the current
           page is text, not a link.
         </SectionHeading>
         <div className="shell" data-reveal style={{ padding: "14px 20px" }}>
@@ -144,7 +144,7 @@ export default function StyleguidePage() {
       <section className="section-mc">
         <SectionHeading eyebrow="Home hero" title="One doctor, one" accent="portrait">
           Dr. Das is the only doctor, so the hero is ONE large portrait card with a frosted name
-          caption and one glass label off the face. The photo slot is a placeholder until Phase 1b.
+          caption and one glass label off the face.
         </SectionHeading>
         <Hero />
       </section>
@@ -387,12 +387,6 @@ export default function StyleguidePage() {
           The client badges are used unchanged: teal-to-aqua line art on a white coin with a CSS
           ring. sm 56, md 112, lg 160 px.
         </SectionHeading>
-        <div className="promptbox">
-          Circular medical service badge, clean line-art illustration of [SUBJECT], gradient strokes
-          from deep teal #006973 to bright aqua #2AD4D8, with small soft peach #F2A98B plus-sign
-          sparkles, centred on a plain off-white background #F7FBFB, no text, no logos, no brand
-          names, no red cross, flat premium style, 1024x1024.
-        </div>
         <BadgeGrid />
       </section>
 

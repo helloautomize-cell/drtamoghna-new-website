@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
  * split-content.mjs · Split resources/content/new-website-content.md into one
- * file per page under content/. Idempotent: regenerates every file, so never
- * hand-edit content/ — edit the source in resources/ instead.
+ * file per page under content/. Idempotent: rewrites every file, so never
+ * hand-edit content/; edit the source in resources/ instead.
  *
- * Grouping (per the phase prompt):
+ * Grouping:
  *   21 service pages   -> content/services/<url path>.md
  *   7 legal pages      -> content/legal/<slug>.md
  *   3 library posts    -> content/health-library/<slug>.md
@@ -42,7 +42,7 @@ const LEGAL_SLUGS = new Set([
 
 const text = readFileSync(SRC, "utf8");
 
-// Stop before Part 8 (review guide) — build-only, never rendered.
+// Stop before Part 8 (review guide): build-only, never rendered.
 const part8 = text.indexOf("# Part 8");
 const usable = part8 === -1 ? text : text.slice(0, part8);
 
@@ -69,7 +69,7 @@ function outPath(url, isPost) {
   return join(OUT, "pages", `${slug}.md`);
 }
 
-// Reset the generated tree.
+// Reset the output tree.
 mkdirSync(OUT, { recursive: true });
 if (readdirSync(OUT, { withFileTypes: true }).length) rmSync(OUT, { recursive: true, force: true });
 

@@ -19,7 +19,7 @@ const chips = [
  * One-doctor hero: ONE large portrait card (2:3 desktop, 4:5 below 900px),
  * frosted name caption, one glass "Open 7 days" label off the face,
  * peach glow top right, faint teal ring bottom left.
- * Real photo wired in Phase 1b: 2:3 desktop / 4:5 mobile art direction,
+ * Real photo: 2:3 desktop / 4:5 mobile art direction,
  * LCP image loads eagerly with high priority.
  */
 export default function Hero() {

@@ -85,11 +85,15 @@ function pageList(): { url: string; title: string; description: string }[] {
     });
 }
 
+type PageEntry = { url: string; title: string; description: string };
+
 export function llmsTxt(): string {
-  const groups = new Map<string, typeof pageList extends () => infer R ? R : never>();
+  const groups = new Map<string, PageEntry[]>();
   for (const g of GROUP_ORDER) groups.set(g.label, []);
   for (const p of pageList()) {
-    groups.get(groupOf(p.url))?.push(p) ?? groups.set(groupOf(p.url), [p]);
+    const list = groups.get(groupOf(p.url));
+    if (list) list.push(p);
+    else groups.set(groupOf(p.url), [p]);
   }
 
   const out: string[] = [
@@ -102,8 +106,7 @@ export function llmsTxt(): string {
     "Address: Chapaguri Road, opposite Domino's, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380.",
     "",
   ];
-  for (const [label, pages] of groups) {
-    const list = pages as { url: string; title: string; description: string }[];
+  for (const [label, list] of groups) {
     if (!list.length) continue;
     out.push(`## ${label}`, "");
     for (const p of list) {
@@ -149,7 +152,7 @@ const BARE_DROP = new Set([
 function mdToPlain(md: string): string {
   const lines = dropBuildLines(md.split("\n"));
   const out: string[] = [];
-  for (let line of lines) {
+  for (const line of lines) {
     let l = line.trimEnd();
     const t = l.trim();
     if (!t) {

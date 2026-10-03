@@ -5,9 +5,9 @@ import { useSyncExternalStore } from "react";
 /**
  * consent.ts · Cookie consent store.
  *
- * No analytics code runs yet; this only records the visitor's choice so
- * Phase 5+ can gate scripts on the `consent:analytics` flag. Essential
- * cookies are always on and not stored as a choice.
+ * Records the visitor's choice; components/Analytics.tsx gates GA4 on
+ * the `consent:analytics` flag. Essential cookies are always on and are
+ * not stored as a choice.
  *
  * Pitfall from master-rules Part 9 avoided: getSnapshot returns a cached
  * snapshot object, never a fresh one, so useSyncExternalStore does not loop.

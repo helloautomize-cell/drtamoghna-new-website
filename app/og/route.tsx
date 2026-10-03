@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 
 /**
- * /og?title=... · generated Open Graph image: Dr. Das portrait + Medcare
+ * /og?title=... · dynamic Open Graph image: Dr. Das portrait + Medcare
  * name + page title on the brand gradient (site-plan social image).
  */
 export const runtime = "nodejs";
