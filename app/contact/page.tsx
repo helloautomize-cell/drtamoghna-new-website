@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Mail, MapPin, MessageCircle, Phone, TriangleAlert } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import BookingForm from "@/components/BookingForm";
+import BookDirectCard from "@/components/BookDirectCard";
 import JsonLd from "@/components/JsonLd";
 import MapCard from "@/components/MapCard";
 import RouteLink from "@/components/RouteLink";
@@ -71,14 +72,19 @@ export default async function Page({
         </p>
 
         <div className="contact-grid">
-          <BookingForm
-            // eslint-disable-next-line react-hooks/purity -- dynamic page; ts must be per-request for the fill-time check
-            ts={Date.now()}
-            reason={reason}
-            dateMin={min}
-            dateMax={max}
-            emailReady={Boolean(process.env.RESEND_API_KEY)}
-          />
+          {process.env.RESEND_API_KEY ? (
+            <BookingForm
+              // eslint-disable-next-line react-hooks/purity -- dynamic page; ts must be per-request for the fill-time check
+              ts={Date.now()}
+              reason={reason}
+              dateMin={min}
+              dateMax={max}
+              source={`/contact/${reason ? `?reason=${reason}` : ""}#book`}
+              turnstileSiteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || ""}
+            />
+          ) : (
+            <BookDirectCard />
+          )}
 
           <aside className="contact-cards" aria-label="Other ways to reach us">
             {/* eslint-disable-next-line @next/next/no-img-element */}

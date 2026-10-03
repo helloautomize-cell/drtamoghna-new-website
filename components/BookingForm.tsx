@@ -1,15 +1,20 @@
 "use client";
 
-import { useActionState, useState } from "react";
+import { useActionState, useEffect, useRef, useState } from "react";
+import Script from "next/script";
+import { MessageCircle, Phone } from "lucide-react";
 import { bookAppointment, type BookingState } from "@/app/contact/actions";
 import { BOOKING_REASONS } from "@/lib/booking-context";
+import { GUARDIAN_CONSENT_TEXT, PATIENT_CONSENT_TEXT } from "@/lib/consent-text";
 import { siteConfig } from "@/lib/site-config";
+import { whatsappUrl } from "@/lib/whatsapp";
 import RouteLink from "./RouteLink";
 
 /**
  * BookingForm · content Page 7. Progressive enhancement: posts to the
  * Server Action and works without JavaScript. Client-side Sunday check
  * hides the Evening option; the server still validates everything.
+ * Rendered only when RESEND_API_KEY is configured (see contact page).
  */
 const initial: BookingState = { errors: {} };
 
@@ -18,19 +23,28 @@ export default function BookingForm({
   reason,
   dateMin,
   dateMax,
-  emailReady,
+  source,
+  turnstileSiteKey,
 }: {
   ts: number;
   reason?: string;
   dateMin: string;
   dateMax: string;
-  emailReady: boolean;
+  source: string;
+  turnstileSiteKey?: string;
 }) {
   const [state, action, pending] = useActionState(bookAppointment, initial);
   const v = state.values || {};
   const [under18, setUnder18] = useState(v.under18 === "on");
   const [sunday, setSunday] = useState(false);
+  const [consentAt, setConsentAt] = useState("");
+  const summaryRef = useRef<HTMLDivElement>(null);
   const e = state.errors;
+  const errorCount = Object.keys(e).length;
+
+  useEffect(() => {
+    if (errorCount) summaryRef.current?.focus();
+  }, [errorCount, state]);
 
   const onDate = (d: string) => {
     if (!d) return setSunday(false);
@@ -48,9 +62,42 @@ export default function BookingForm({
   return (
     <form className="bform" id="book" action={action} noValidate={false}>
       {state.formError ? (
-        <p className="fld-err form-err" role="alert">
-          {state.formError}
-        </p>
+        <div className="fld-err form-err" role="alert">
+          <p>{state.formError}</p>
+          {state.sendFailed ? (
+            <p className="form-err-btns">
+              <a className="btn ghost sm" href={`tel:${siteConfig.phone.tel}`}>
+                <Phone size={16} strokeWidth={2} aria-hidden /> Call{" "}
+                {siteConfig.phone.display}
+              </a>{" "}
+              <a
+                className="btn ghost sm"
+                href={whatsappUrl("an appointment")}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MessageCircle size={16} strokeWidth={2} aria-hidden /> WhatsApp{" "}
+                {siteConfig.whatsapp.display}
+              </a>
+            </p>
+          ) : null}
+        </div>
+      ) : null}
+
+      {errorCount ? (
+        <div
+          className="fld-err form-err"
+          role="alert"
+          tabIndex={-1}
+          ref={summaryRef}
+        >
+          <p>Please check the form:</p>
+          <ul>
+            {Object.values(e).map((msg, i) => (
+              <li key={i}>{msg}</li>
+            ))}
+          </ul>
+        </div>
       ) : null}
 
       <div className="fld">
@@ -211,9 +258,7 @@ export default function BookingForm({
                 required={under18}
                 defaultChecked={v.guardianConsent === "on"}
               />{" "}
-              I am
-              the parent or legal guardian and I consent to Medcare using these
-              details to arrange care for this child.
+              {GUARDIAN_CONSENT_TEXT}
             </label>
             {err("guardianConsent")}
           </div>
@@ -227,9 +272,11 @@ export default function BookingForm({
             name="consent"
             required
             defaultChecked={v.consent === "on"}
+            onChange={(ev) =>
+              setConsentAt(ev.target.checked ? String(Date.now()) : "")
+            }
           />{" "}
-          I agree that Medcare may
-          use these details to contact me about my appointment, as explained in the{" "}
+          {PATIENT_CONSENT_TEXT.replace("Privacy Policy.", "")}
           <RouteLink href="/privacy-policy/">Privacy Policy</RouteLink>.
         </label>
         {err("consent")}
@@ -241,6 +288,23 @@ export default function BookingForm({
         <input id="f-website" name="website" tabIndex={-1} autoComplete="off" />
       </div>
       <input type="hidden" name="ts" value={ts} />
+      <input type="hidden" name="source" value={source} />
+      <input type="hidden" name="consentAt" value={consentAt} />
+
+      {turnstileSiteKey ? (
+        <>
+          {/* Turnstile renders when configured; keys absent tonight. */}
+          <Script
+            src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+            strategy="afterInteractive"
+          />
+          <div
+            className="cf-turnstile"
+            data-sitekey={turnstileSiteKey}
+            data-theme="light"
+          />
+        </>
+      ) : null}
 
       <button className="bform-submit" type="submit" disabled={pending}>
         {pending ? "Sending..." : "Request appointment"}
@@ -249,12 +313,6 @@ export default function BookingForm({
         Please do not include detailed medical information here. You can share it
         with Dr. Das at your visit.
       </p>
-      {!emailReady ? (
-        <p className="fld-note resend">
-          Preview: requests are not emailed yet. Please call {siteConfig.phone.display}{" "}
-          or WhatsApp {siteConfig.whatsapp.display}.
-        </p>
-      ) : null}
     </form>
   );
 }

@@ -3512,10 +3512,81 @@ table.ct {
   color: var(--ink-2);
   margin-top: 6px;
 }
-.fld-note.resend {
+.form-err ul {
+  margin: 6px 0 0;
+  padding-left: 20px;
+}
+.form-err-btns {
+  margin: 10px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.form-err-btns a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.bdirect {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: 0 12px 40px rgba(15, 61, 66, 0.08);
+}
+.bdirect h2 {
+  margin: 0;
+}
+.bdirect-lead {
+  color: var(--ink-2);
+  margin: 0;
+}
+.bdirect-btns {
+  display: grid;
+  gap: 12px;
+  margin-top: 6px;
+}
+.bdirect-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 20px;
+  border-radius: 16px;
+  font-size: 18px;
+  min-height: 64px;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.bdirect-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(15, 61, 66, 0.14);
+}
+.bdirect-btn.call {
+  background: var(--slate);
+  color: #fff;
+}
+.bdirect-btn.wa {
   background: var(--primary-50);
-  border-radius: 10px;
-  padding: 10px 12px;
+  color: var(--ink);
+  border: 1px solid var(--primary-200, var(--line));
+}
+.bdirect-hours {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--ink-2);
+  margin: 4px 0 0;
+}
+@media (max-width: 560px) {
+  .bdirect {
+    padding: 22px;
+  }
+  .bdirect-btn {
+    font-size: 16px;
+  }
 }
 .guardian {
   border: 1px dashed var(--line);
