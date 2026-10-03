@@ -4,6 +4,7 @@ import { useState } from "react";
 import { MapPin } from "lucide-react";
 import { images } from "@/lib/images";
 import { siteConfig } from "@/lib/site-config";
+import { trackEvent } from "@/lib/analytics";
 
 /**
  * Click-to-load map: a static clinic photo with a "Show map" button.
@@ -24,6 +25,7 @@ export default function MapCard() {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           allowFullScreen
+          onLoad={() => trackEvent("map_load")}
         />
       </div>
     );

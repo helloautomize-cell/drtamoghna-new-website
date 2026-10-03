@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { TriangleAlert } from "lucide-react";
 import RouteLink from "@/components/RouteLink";
+import LeadTracker from "@/components/LeadTracker";
 import { accent, getPage, pageH1 } from "@/lib/content";
 import { pageMeta } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
@@ -16,11 +17,13 @@ export default async function Page({
 }) {
   const params = await searchParams;
   const isContact = params.type === "contact";
+  const formType = typeof params.type === "string" ? params.type : "appointment";
   const page = getPage("/thank-you/");
   const h1 = pageH1(page);
 
   return (
     <div className="page-body thankyou">
+      <LeadTracker formType={formType} />
       <h1 dangerouslySetInnerHTML={{ __html: accent(h1) }} />
       {isContact ? (
         <p className="ph-intro">

@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { Play } from "lucide-react";
 import { images } from "@/lib/images";
 import { usePrefersReducedMotion } from "@/lib/usePrefersReducedMotion";
+import { trackEvent } from "@/lib/analytics";
 
 /**
  * "Inside our echo room" silent loop. preload="none" and the video only
@@ -13,8 +14,15 @@ import { usePrefersReducedMotion } from "@/lib/usePrefersReducedMotion";
  */
 export default function EchoVideo() {
   const ref = useRef<HTMLVideoElement>(null);
+  const played = useRef(false);
   const [reducedPlay, setReducedPlay] = useState(false);
   const reduced = usePrefersReducedMotion();
+
+  const onPlay = () => {
+    if (played.current) return;
+    played.current = true;
+    trackEvent("video_play");
+  };
 
   useEffect(() => {
     const video = ref.current;
@@ -69,6 +77,7 @@ export default function EchoVideo() {
         poster={images.echoPoster.src}
         src={images.echoLoop.src}
         aria-label={images.echoLoop.alt}
+        onPlay={onPlay}
       />
       <figcaption>
         Inside our echo room. Dr. Das performs every echocardiogram himself.

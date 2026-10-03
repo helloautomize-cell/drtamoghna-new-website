@@ -8,6 +8,9 @@ import Footer from "@/components/Footer";
 import MobileActionBar from "@/components/MobileActionBar";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import CookieBanner from "@/components/CookieBanner";
+import Analytics from "@/components/Analytics";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const figtree = Figtree({
@@ -35,6 +38,7 @@ const notoSansDevanagari = Noto_Sans_Devanagari({
 });
 
 const indexable = process.env.SITE_NOINDEX !== "true";
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "";
 
 export const metadata: Metadata = {
   metadataBase: siteConfig.siteUrl ? new URL(siteConfig.siteUrl) : undefined,
@@ -55,6 +59,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${figtree.variable} ${instrumentSerif.variable} ${notoSansDevanagari.variable}`}
     >
       <body>
+        {GA_ID ? (
+          // Consent Mode v2 defaults: everything denied until the visitor
+          // accepts. Inline data only, no network request.
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});`,
+            }}
+          />
+        ) : null}
         <a className="skip-link" href="#content">
           Skip to content
         </a>
@@ -67,6 +80,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <MobileActionBar />
         <FloatingWhatsApp />
         <CookieBanner />
+        <Analytics gaId={GA_ID} />
+        <SpeedInsights />
+        <VercelAnalytics />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteGraph) }}
