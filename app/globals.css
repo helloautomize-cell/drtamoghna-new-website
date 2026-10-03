@@ -3090,6 +3090,12 @@ table.ct {
   cursor: pointer;
   min-height: 56px;
 }
+.faq-t {
+  list-style: none;
+}
+.faq-t::-webkit-details-marker {
+  display: none;
+}
 .faq-t:hover {
   color: var(--primary-500);
 }
@@ -3098,13 +3104,13 @@ table.ct {
   color: var(--primary-500);
   transition: transform 0.25s;
 }
-.faq[data-state="open"] .faq-i {
+.faq[open] .faq-i {
   transform: rotate(45deg);
 }
 .faq-c {
   overflow: hidden;
 }
-.faq-c[data-state="open"] {
+.faq[open] .faq-c {
   animation: faqopen 0.28s ease;
 }
 @keyframes faqopen {

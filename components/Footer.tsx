@@ -1,12 +1,9 @@
-"use client";
-
 import RouteLink from "@/components/RouteLink";
 import { ChevronDown, Clock, MapPin, MessageCircle, Phone } from "lucide-react";
 import { footerColumns, catchmentLine, footerTagline } from "@/lib/nav";
 import { siteConfig } from "@/lib/site-config";
-import { openCookieSettings } from "@/lib/consent";
-import { useMounted } from "@/lib/useMounted";
 import { whatsappUrl } from "@/lib/whatsapp";
+import { CookieSettingsButton, ObfuscatedEmail } from "./FooterBits";
 import GoogleRatingChip from "./GoogleRatingChip";
 
 /**
@@ -34,20 +31,6 @@ function InstagramIcon() {
   );
 }
 
-/** Email assembled in JS; the noscript-safe text fallback stays readable. */
-function ObfuscatedEmail() {
-  const mounted = useMounted();
-  if (!mounted) {
-    return <span className="foot-email">medcarebongaigaon at gmail dot com</span>;
-  }
-  const addr = "medcarebongaigaon" + "@" + "gmail" + "." + "com";
-  return (
-    <a className="foot-email" href={`mailto:${addr}`}>
-      {addr}
-    </a>
-  );
-}
-
 function ColumnLinks({ heading, links }: { heading: string; links: { label: string; href: string }[] }) {
   return (
     <ul>
@@ -58,9 +41,7 @@ function ColumnLinks({ heading, links }: { heading: string; links: { label: stri
       ))}
       {heading === "Legal" ? (
         <li>
-          <button type="button" className="foot-cookies" onClick={openCookieSettings}>
-            Cookie settings
-          </button>
+          <CookieSettingsButton />
         </li>
       ) : null}
     </ul>

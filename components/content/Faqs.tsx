@@ -1,29 +1,41 @@
-"use client";
-
-import * as Accordion from "@radix-ui/react-accordion";
-import { Plus } from "lucide-react";
 import RichHtml from "./RichHtml";
 import type { Faq } from "@/lib/content-types";
 
-/** FAQ accordion: numbered questions, answers with confirm/callout atoms. */
+/**
+ * FAQ accordion: native <details>/<summary>, so answers are in the initial
+ * HTML, work without JavaScript and cost zero hydration. The shared `name`
+ * groups them into an exclusive accordion where supported.
+ */
 export default function Faqs({ faqs }: { faqs: Faq[] }) {
   return (
-    <Accordion.Root type="single" collapsible className="faqs">
+    <div className="faqs">
       {faqs.map((f, i) => (
-        <Accordion.Item className="faq" key={i} value={`f${i}`}>
-          <Accordion.Header className="faq-h">
-            <Accordion.Trigger className="faq-t">
-              <span>{f.q}</span>
-              <Plus className="faq-i" size={18} strokeWidth={2.2} aria-hidden />
-            </Accordion.Trigger>
-          </Accordion.Header>
-          <Accordion.Content className="faq-c">
+        <details className="faq" key={i} name="faqs">
+          <summary className="faq-t">
+            <span>{f.q}</span>
+            <svg
+              className="faq-i"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M5 12h14" />
+              <path d="M12 5v14" />
+            </svg>
+          </summary>
+          <div className="faq-c">
             <div className="faq-b">
               <RichHtml html={f.html} tokens={f.tokens} />
             </div>
-          </Accordion.Content>
-        </Accordion.Item>
+          </div>
+        </details>
       ))}
-    </Accordion.Root>
+    </div>
   );
 }
