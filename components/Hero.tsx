@@ -1,4 +1,4 @@
-import { Clock } from "lucide-react";
+import { Clock, Phone } from "lucide-react";
 import BookButton from "./BookButton";
 import DoctorChip from "./DoctorChip";
 import { siteConfig } from "@/lib/site-config";
@@ -25,7 +25,7 @@ const chips = [
 export default function Hero() {
   return (
     <div className="hero">
-      <div>
+      <div className="hero-text">
         <span className="eyebrow">Medcare · North Bongaigaon, Assam</span>
         <h1>
           Diabetes, heart and weight care in <em className="acc">Bongaigaon</em>
@@ -35,8 +35,15 @@ export default function Hero() {
         </p>
         <div className="btns">
           <BookButton />
-          <a className="btn btn-s" href={`tel:${siteConfig.phone.tel}`}>
+          <a className="btn btn-s hcall" href={`tel:${siteConfig.phone.tel}`}>
             Call {siteConfig.phone.display}
+          </a>
+          <a
+            className="hcall-ic"
+            href={`tel:${siteConfig.phone.tel}`}
+            aria-label={`Call ${siteConfig.phone.display}`}
+          >
+            <Phone size={20} strokeWidth={2} aria-hidden />
           </a>
         </div>
         <div className="hchips">
@@ -72,6 +79,7 @@ export default function Hero() {
           </figcaption>
         </figure>
       </div>
+      <p className="mline">Open every day. Most tests on the same visit.</p>
     </div>
   );
 }

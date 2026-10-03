@@ -27,6 +27,7 @@ import { serviceTabs, type ServiceCard } from "@/lib/services";
 import { serviceBadges, type BadgeSlug } from "@/lib/service-badges";
 import { pageGraph } from "@/lib/page-schema";
 import JsonLd from "@/components/JsonLd";
+import EchoVideo from "@/components/EchoVideo";
 import { pageMeta } from "@/lib/metadata";
 import type { Metadata } from "next";
 
@@ -155,6 +156,7 @@ export default function ServicePage({ url }: { url: string }) {
               section={s}
               tokens={page.tokens}
               hub={hub}
+              url={url}
             />
           ))}
 
@@ -197,13 +199,18 @@ function SectionBlock({
   section,
   tokens,
   hub,
+  url,
 }: {
   section: Section;
   tokens: Parameters<typeof RichHtml>[0]["tokens"];
   hub: boolean;
+  url: string;
 }) {
   if (/^intro/i.test(section.heading)) return null;
   const id = sectionId(section.heading);
+  const echoVideo =
+    url === "/heart-health/echocardiography/" &&
+    /^what happens/i.test(section.heading);
 
   switch (section.kind) {
     case "glance":
@@ -234,6 +241,7 @@ function SectionBlock({
       return (
         <section className="psec" aria-labelledby={id}>
           <h2 id={id}>{section.heading}</h2>
+          {echoVideo ? <EchoVideo /> : null}
           {resolved.length ? (
             <div className="sgc-row">
               {resolved.map(({ card, fallback }, i) =>
