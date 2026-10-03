@@ -45,7 +45,13 @@ test.describe("crawl", () => {
     expect(res?.status()).toBe(200);
     const xml = await res!.text();
     for (const route of ROUTES) {
+      if (route === "/thank-you/") continue; // noindex, excluded
       expect(xml, `sitemap missing ${route}`).toContain(`${route}</loc>`);
+    }
+    for (const route of ["/thank-you/", "/styleguide/"]) {
+      expect(xml, `sitemap should not list ${route}`).not.toContain(
+        `${route}</loc>`,
+      );
     }
   });
 
@@ -204,6 +210,9 @@ test.describe("content hygiene", () => {
 /* ---------- booking form ---------- */
 
 test.describe("booking form", () => {
+  // The full form only renders when the server action can email (RESEND_API_KEY).
+  // Without a key the book-by-phone card is shown (see launch.spec.ts).
+  test.skip(!process.env.RESEND_API_KEY, "RESEND_API_KEY not set");
   const VALID_DATE = (() => {
     const d = new Date(Date.now() + 10 * 86400000);
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;

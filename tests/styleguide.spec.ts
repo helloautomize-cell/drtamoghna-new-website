@@ -97,7 +97,7 @@ test.describe("carousels", () => {
 });
 
 test.describe("indexing", () => {
-  for (const path of ["/", "/styleguide/"]) {
+  for (const path of ["/styleguide/", "/thank-you/"]) {
     test(`X-Robots-Tag noindex on ${path}`, async ({ request }) => {
       const res = await request.get(path);
       expect(res.headers()["x-robots-tag"]).toContain("noindex");
