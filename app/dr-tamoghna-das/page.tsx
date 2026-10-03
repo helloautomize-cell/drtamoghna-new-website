@@ -10,6 +10,7 @@ import { CtaBand, ReviewerBox } from "@/components/content/PageParts";
 import {
   accent,
   extractConfirms,
+  resolveTokens,
   getPage,
   mdToHtml,
   type RenderToken,
@@ -34,10 +35,10 @@ function t(html: string, tokens: RenderToken[]) {
 /** Markdown line -> {html,tokens} for bespoke lists. */
 function rich(text: string): { html: string; tokens: RenderToken[] } {
   const tokens: RenderToken[] = [];
-  const html = mdToHtml(extractConfirms(text.trim(), tokens)).replace(
-    /^<p>|<\/p>$/g,
-    "",
-  );
+  const html = resolveTokens(
+    mdToHtml(extractConfirms(text.trim(), tokens)),
+    tokens,
+  ).replace(/^<p>|<\/p>$/g, "");
   return { html, tokens };
 }
 

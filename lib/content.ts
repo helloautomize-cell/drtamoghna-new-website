@@ -141,6 +141,53 @@ export function extractConfirms(text: string, tokens: RenderToken[]): string {
   });
 }
 
+const esc = (s: string) =>
+  s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const svg = (size: number, inner: string, fill = false) =>
+  `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="${fill ? "currentColor" : "none"}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${inner}</svg>`;
+const ICONS = {
+  alert: svg(
+    24,
+    '<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/>',
+  ),
+  info: svg(
+    24,
+    '<circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/>',
+  ),
+  quote: svg(
+    18,
+    '<path d="M10 8c-3 1-5 3-5 6v3h5v-6H7c0-1.5 1.5-2.5 3-3V8Z"/><path d="M19 8c-3 1-5 3-5 6v3h5v-6h-3c0-1.5 1.5-2.5 3-3V8Z"/>',
+    true,
+  ),
+};
+
+/**
+ * Replace every %%TOK_n%% placeholder with its final serialized markup.
+ * This must happen before the HTML reaches the DOM: splitting markup at
+ * placeholders inside <li>/<p> produced invalid nests (span > li) and
+ * hydration mismatches. Callout bodies can hold confirm placeholders, so
+ * the pass recurses; indices are stable because tokens are append-only.
+ */
+export function resolveTokens(html: string, tokens: RenderToken[]): string {
+  return html.replace(/%%TOK_(\d+)%%/g, (m, i) => {
+    const t = tokens[Number(i)];
+    if (!t) return m;
+    if (t.kind === "confirm") {
+      if (process.env.SITE_INDEXABLE === "true") return "";
+      return `<span class="confirm">[CONFIRM${t.note ? `: ${esc(t.note)}` : ""}]</span>`;
+    }
+    const inner = resolveTokens(t.html, tokens);
+    const title = t.title ? `<b>${esc(t.title)}. </b>` : "";
+    if (t.variant === "emergency") {
+      return `<div class="callout em">${ICONS.alert.replace("<svg", '<svg class="co-ic"')}<div>${title}${inner}</div></div>`;
+    }
+    if (t.variant === "quote") {
+      return `<blockquote class="pullquote">${ICONS.quote}${inner}</blockquote>`;
+    }
+    return `<div class="callout ${t.variant === "tip" ? "warn" : "info"}">${ICONS.info.replace("<svg", '<svg class="co-ic"')}<div>${title}${inner}</div></div>`;
+  });
+}
+
 /** Extract contiguous `> ` blockquotes into callout tokens. */
 function extractQuotes(text: string, tokens: RenderToken[]): string {
   const lines = text.split("\n");
@@ -192,7 +239,7 @@ function renderMd(raw: string, tokens: RenderToken[]): string {
       html = html.replace(`<p>%%TOK_${i}%%</p>`, `%%TOK_${i}%%`);
     }
   });
-  return html;
+  return resolveTokens(html, tokens);
 }
 
 /* ------------------------------- body parsing ----------------------------- */
@@ -228,8 +275,11 @@ function parseFaqs(raw: string): Faq[] {
   const flush = () => {
     if (q !== null) {
       const tokens: RenderToken[] = [];
-      const html = mdToHtml(
-        extractConfirms(dropBuildLines(buf).join("\n").trim(), tokens),
+      const html = resolveTokens(
+        mdToHtml(
+          extractConfirms(dropBuildLines(buf).join("\n").trim(), tokens),
+        ),
+        tokens,
       );
       faqs.push({ q, html, tokens });
     }
@@ -256,10 +306,10 @@ function parseGlance(raw: string): GlanceItem[] {
     const m = l.trim().match(/^-\s+\*\*(.+?):\*\*\s*(.*)$/);
     if (m) {
       const tokens: RenderToken[] = [];
-      const html = mdToHtml(extractConfirms(m[2].trim(), tokens)).replace(
-        /^<p>|<\/p>$/g,
-        "",
-      );
+      const html = resolveTokens(
+        mdToHtml(extractConfirms(m[2].trim(), tokens)),
+        tokens,
+      ).replace(/^<p>|<\/p>$/g, "");
       items.push({ label: m[1], html, tokens });
     }
   }
@@ -274,10 +324,10 @@ function parseSteps(raw: string): Step[] {
     const m = l.trim().match(re);
     if (m) {
       const tokens: RenderToken[] = [];
-      const html = mdToHtml(extractConfirms(m[2].trim(), tokens)).replace(
-        /^<p>|<\/p>$/g,
-        "",
-      );
+      const html = resolveTokens(
+        mdToHtml(extractConfirms(m[2].trim(), tokens)),
+        tokens,
+      ).replace(/^<p>|<\/p>$/g, "");
       steps.push({ title: m[1], html, tokens });
     }
   }

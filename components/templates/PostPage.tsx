@@ -7,7 +7,7 @@ import RouteLink from "@/components/RouteLink";
 import Faqs from "@/components/content/Faqs";
 import RichHtml from "@/components/content/RichHtml";
 import { CtaBand, ReviewerBox, sectionId } from "@/components/content/PageParts";
-import { accent, getPage, mdToHtml, pageH1, type ParsedPage } from "@/lib/content";
+import { accent, getPage, mdToHtml, pageH1, resolveTokens, type ParsedPage } from "@/lib/content";
 import { serviceTabs } from "@/lib/services";
 import { images, type ImageKey } from "@/lib/images";
 import { pageGraph } from "@/lib/page-schema";
@@ -54,14 +54,17 @@ export default function PostPage({
   const brief = inBrief(page);
   const briefTokens: import("@/lib/content-types").RenderToken[] = [];
   const briefHtml = brief
-    ? mdToHtml(
-        brief.replace(/\[CONFIRM[^\]]*\]/g, (m) => {
-          briefTokens.push({
-            kind: "confirm",
-            note: m.replace(/\[CONFIRM:?\s*|\]/g, ""),
-          });
-          return `%%TOK_${briefTokens.length - 1}%%`;
-        }),
+    ? resolveTokens(
+        mdToHtml(
+          brief.replace(/\[CONFIRM[^\]]*\]/g, (m) => {
+            briefTokens.push({
+              kind: "confirm",
+              note: m.replace(/\[CONFIRM:?\s*|\]/g, ""),
+            });
+            return `%%TOK_${briefTokens.length - 1}%%`;
+          }),
+        ),
+        briefTokens,
       )
     : "";
   const related = (fm.related || [])

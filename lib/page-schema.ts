@@ -58,6 +58,7 @@ function faqNode(faqs: Faq[], strip: (h: string) => string) {
 function stripHtml(html: string): string {
   return html
     .replace(/%%TOK_\d+%%/g, "")
+    .replace(/\[CONFIRM[^\]]*\]/g, "")
     .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim();
