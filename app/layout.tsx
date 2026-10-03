@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import { Figtree, Instrument_Serif, Noto_Sans_Devanagari } from "next/font/google";
 import { siteConfig } from "@/lib/site-config";
+import { siteGraph } from "@/lib/schema";
+import UtilityBar from "@/components/UtilityBar";
+import SiteHeader from "@/components/SiteHeader";
+import Footer from "@/components/Footer";
+import MobileActionBar from "@/components/MobileActionBar";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import CookieBanner from "@/components/CookieBanner";
 import "./globals.css";
 
 const figtree = Figtree({
@@ -47,7 +54,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       lang="en-IN"
       className={`${figtree.variable} ${instrumentSerif.variable} ${notoSansDevanagari.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        <a className="skip-link" href="#content">
+          Skip to content
+        </a>
+        <UtilityBar />
+        <SiteHeader />
+        <main id="content" className="main-shell">
+          {children}
+        </main>
+        <Footer />
+        <MobileActionBar />
+        <FloatingWhatsApp />
+        <CookieBanner />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteGraph) }}
+        />
+      </body>
     </html>
   );
 }

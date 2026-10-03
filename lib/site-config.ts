@@ -45,8 +45,7 @@ export const siteConfig = {
   whatsapp: {
     display: "98642 66191",
     wa: "919864266191",
-    prefill: (pageTitle: string) =>
-      `Hello Medcare, I would like to book a visit about ${pageTitle}. My name is `,
+    // Message pattern lives in lib/whatsapp.ts (single source).
   },
   email: "medcarebongaigaon@gmail.com", // Q25, obfuscated in HTML
 

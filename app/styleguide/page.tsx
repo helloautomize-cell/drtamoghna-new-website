@@ -19,8 +19,7 @@ import CenteredCarousel from "@/components/CenteredCarousel";
 import DoctorCard from "@/components/DoctorCard";
 import { EmergencyCallout, ReviewerCallout, TipCallout } from "@/components/Callouts";
 import PhoneFrame from "@/components/PhoneFrame";
-import MobileActionBar from "@/components/MobileActionBar";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import IconGrid from "@/components/IconGrid";
 import RevealObserver from "@/components/RevealObserver";
 
@@ -109,19 +108,35 @@ const typeRows: [string, React.ReactNode][] = [
 
 export default function StyleguidePage() {
   return (
-    <main className="container-mc styleguide-body" style={{ paddingBlock: "0 96px" }}>
+    <div className="container-mc styleguide-body" style={{ paddingBlock: "0 96px" }}>
       <RevealObserver />
 
       {/* SITE SHELL SPECIMEN */}
       <section className="section-mc" style={{ borderTop: 0, paddingTop: 56 }}>
         <SectionHeading eyebrow="Site shell" title="Utility bar and" accent="header">
-          Thin white utility bar with hours and the emergency line, then a white header with the
-          logo, menus and the two-part Book button. Static specimen; the working menus come in Phase
-          2.
+          Thin white utility bar with hours and the emergency line, then the sticky header with
+          the logo, mega menus and the two-part Book button. The live versions are at the top of
+          this page.
         </SectionHeading>
         <div className="shell" data-reveal>
           <UtilityBar />
           <HeaderSpecimen />
+        </div>
+      </section>
+
+      {/* BREADCRUMBS */}
+      <section className="section-mc">
+        <SectionHeading eyebrow="Navigation" title="Breadcrumbs with" accent="JSON-LD">
+          On every inner page from Phase 3. Emits a BreadcrumbList schema node; the current
+          page is text, not a link.
+        </SectionHeading>
+        <div className="shell" data-reveal style={{ padding: "14px 20px" }}>
+          <Breadcrumbs
+            items={[
+              { label: "Heart health", href: "/heart-health/" },
+              { label: "Echocardiography", href: "/heart-health/echocardiography/" },
+            ]}
+          />
         </div>
       </section>
 
@@ -435,8 +450,6 @@ export default function StyleguidePage() {
         </div>
       </section>
 
-      <MobileActionBar pageTitle="Styleguide" />
-      <FloatingWhatsApp pageTitle="Styleguide" />
-    </main>
+    </div>
   );
 }

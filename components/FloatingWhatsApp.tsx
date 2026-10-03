@@ -1,19 +1,22 @@
+"use client";
+
+import { usePathname } from "next/navigation";
 import { MessageCircle } from "lucide-react";
-import { siteConfig } from "@/lib/site-config";
+import { whatsappUrlForPath } from "@/lib/whatsapp";
 
 /**
- * Desktop-only floating WhatsApp button: solid WhatsApp-green 56px circle.
+ * Desktop-only floating WhatsApp button: solid #1F8F55 56px circle, bottom
+ * right, pre-filled from the page title.
  */
-export default function FloatingWhatsApp({ pageTitle = "Medcare" }: { pageTitle?: string }) {
+export default function FloatingWhatsApp() {
+  const pathname = usePathname();
   return (
     <a
       className="wa"
-      href={`https://wa.me/${siteConfig.whatsapp.wa}?text=${encodeURIComponent(
-        siteConfig.whatsapp.prefill(pageTitle),
-      )}`}
+      href={whatsappUrlForPath(pathname)}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label={`WhatsApp ${siteConfig.whatsapp.display}`}
+      aria-label="Chat on WhatsApp"
     >
       <MessageCircle size={26} strokeWidth={1.8} aria-hidden />
     </a>
