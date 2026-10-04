@@ -5,14 +5,23 @@ import useEmblaCarousel from "embla-carousel-react";
 import { Pause, Play } from "lucide-react";
 import { serviceTabs } from "@/lib/services";
 import { usePrefersReducedMotion } from "@/lib/usePrefersReducedMotion";
+import {
+  AUTO_ADVANCE_MS,
+  RESUME_AFTER_MS,
+  bindRowProgress,
+  smoothScrollTo,
+  useAutoScrollRow,
+} from "@/lib/motion";
 import ServiceBadgeCard from "./ServiceBadgeCard";
 
 /**
- * Service tabs + Embla ServiceCarousel of ServiceBadgeCards.
- * Autoplay every 4.5s (loop), pauses on hover, focus, touch and a hidden
- * tab, resumes 6s after interaction, pause/play button, progress bar,
- * edge fade. On touch devices the orbit ring spins once on first scroll
- * into view. Off under prefers-reduced-motion.
+ * Service tabs + carousel of ServiceBadgeCards.
+ * Below 768px: native scroll-snap row driven by the shared motion module
+ * (no transforms, real scroll). Desktop: Embla with loop off and snaps
+ * trimmed, re-initialised after fonts load and on every tab change, so
+ * the cards are always measured on a settled layout. Autoplay uses the
+ * shared timings, rewinds at the end, and pauses on touch, hover, focus,
+ * a hidden tab and while off-screen. Pause/play + progress bar stay.
  */
 export default function ServiceTabs() {
   const [tab, setTab] = useState(0);
@@ -20,26 +29,58 @@ export default function ServiceTabs() {
   const reduced = usePrefersReducedMotion();
   const pausedRef = useRef(false);
   const userRef = useRef(false);
+  const visibleRef = useRef(true);
   const resumeRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const viewportRef = useRef<HTMLDivElement>(null);
   const barRef = useRef<HTMLElement>(null);
+  const mRowRef = useRef<HTMLDivElement>(null);
+  const mBarRef = useRef<HTMLElement>(null);
 
   const current = serviceTabs[tab];
-  const [emblaRef, emblaApi] = useEmblaCarousel({
-    loop: current.cards.length > 3,
-    align: "start",
-    containScroll: false,
-    dragFree: false,
+  const { paused: mPaused, togglePause: mToggle } = useAutoScrollRow(mRowRef, {
+    maxWidth: 767,
   });
 
-  // Re-init when the slide set changes
+  // Mobile progress bar
+  useEffect(() => {
+    const row = mRowRef.current;
+    const bar = mBarRef.current;
+    if (!row || !bar) return;
+    return bindRowProgress(row, bar);
+  }, [tab]);
+
+  const [emblaRef, emblaApi] = useEmblaCarousel({
+    loop: false,
+    align: "start",
+    containScroll: "trimSnaps",
+  });
+
+  // Re-init when the slide set changes, once fonts settle, and whenever
+  // the desktop viewport becomes visible again after a breakpoint cross.
   useEffect(() => {
     if (!emblaApi) return;
-    emblaApi.reInit({ loop: current.cards.length > 3, align: "start", containScroll: false });
-    emblaApi.scrollTo(0, true);
+    const reinit = () => {
+      emblaApi.reInit({ loop: false, align: "start", containScroll: "trimSnaps" });
+      emblaApi.scrollTo(0, true);
+    };
+    reinit();
+    let live = true;
+    document.fonts?.ready.then(() => live && emblaApi.reInit());
+    const mq = matchMedia("(min-width: 768px)");
+    const onMq = () => mq.matches && emblaApi.reInit();
+    mq.addEventListener("change", onMq);
+    return () => {
+      live = false;
+      mq.removeEventListener("change", onMq);
+    };
   }, [emblaApi, current]);
 
-  // Progress bar
+  // Mobile row: reset scroll on tab change
+  useEffect(() => {
+    mRowRef.current?.scrollTo({ left: 0 });
+  }, [tab]);
+
+  // Progress bar (desktop Embla)
   useEffect(() => {
     if (!emblaApi) return;
     const update = () => {
@@ -58,33 +99,48 @@ export default function ServiceTabs() {
     };
   }, [emblaApi, tab]);
 
-  // Autoplay
+  // Autoplay + off-screen gate (desktop Embla)
   useEffect(() => {
     if (!emblaApi) return;
     const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const viewport = emblaApi.rootNode();
     const hold = () => {
       userRef.current = true;
       clearTimeout(resumeRef.current);
-      resumeRef.current = setTimeout(() => (userRef.current = false), 6000);
+      resumeRef.current = setTimeout(() => (userRef.current = false), RESUME_AFTER_MS);
     };
-    const viewport = emblaApi.rootNode();
+    let io: IntersectionObserver | undefined;
+    if ("IntersectionObserver" in window) {
+      io = new IntersectionObserver(
+        (entries) => entries.forEach((en) => (visibleRef.current = en.isIntersecting)),
+        { threshold: 0.15 },
+      );
+      io.observe(viewport);
+    }
     const events = ["pointerenter", "focusin", "touchstart", "wheel"] as const;
     events.forEach((e) => viewport.addEventListener(e, hold, { passive: true }));
     const timer = setInterval(() => {
-      if (reduce || pausedRef.current || userRef.current || document.hidden) return;
-      emblaApi.scrollNext();
-    }, 4500);
+      if (
+        reduce ||
+        pausedRef.current ||
+        userRef.current ||
+        !visibleRef.current ||
+        document.hidden
+      )
+        return;
+      if (emblaApi.canScrollNext()) emblaApi.scrollNext();
+      else emblaApi.scrollTo(0);
+    }, AUTO_ADVANCE_MS);
     return () => {
       clearInterval(timer);
       clearTimeout(resumeRef.current);
+      io?.disconnect();
       events.forEach((e) => viewport.removeEventListener(e, hold));
     };
   }, [emblaApi]);
 
   // Touch devices: spin the orbit ring once on first scroll into view
   useEffect(() => {
-    const viewport = viewportRef.current;
-    if (!viewport) return;
     const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
     const touch = matchMedia("(hover: none)").matches;
     if (reduce || !touch || !("IntersectionObserver" in window)) return;
@@ -98,8 +154,9 @@ export default function ServiceTabs() {
         }),
       { threshold: 0.6 },
     );
-    const badges = viewport.querySelectorAll(".badge");
-    badges.forEach((b) => io.observe(b));
+    [viewportRef.current, mRowRef.current].forEach((root) =>
+      root?.querySelectorAll(".badge").forEach((b) => io.observe(b)),
+    );
     return () => io.disconnect();
   }, [tab]);
 
@@ -111,6 +168,23 @@ export default function ServiceTabs() {
     },
     [emblaApi],
   );
+
+  const onMobileKeyDown = (e: React.KeyboardEvent) => {
+    const row = mRowRef.current;
+    if (!row) return;
+    const c = row.children[0] as HTMLElement | undefined;
+    if (!c) return;
+    const gap = parseFloat(getComputedStyle(row).gap || "0") || 0;
+    const w = c.getBoundingClientRect().width + gap;
+    if (e.key === "ArrowLeft") smoothScrollTo(row, row.scrollLeft - w);
+    if (e.key === "ArrowRight") smoothScrollTo(row, row.scrollLeft + w);
+  };
+
+  const cards = current.cards.map((c) => (
+    <div key={c.href} className="sg-slide">
+      <ServiceBadgeCard card={c} glow={current.glow} />
+    </div>
+  ));
 
   return (
     <>
@@ -129,48 +203,76 @@ export default function ServiceTabs() {
       </div>
       <p style={{ margin: 0, color: "var(--ink-2)" }}>{current.intro}</p>
       <div className="washsvc">
-        <div
-          className="sg-embla"
-          ref={(el) => {
-            emblaRef(el);
-            viewportRef.current = el;
-          }}
-          onKeyDown={onKeyDown}
-          style={{ overflow: "hidden" }}
-        >
+        <div className="sg-mob">
           <div
-            style={{
-              display: "flex",
-              gap: 22,
-              paddingBlock: "8px 20px",
-              maskImage: "linear-gradient(90deg, #000 92%, transparent)",
-              WebkitMaskImage: "linear-gradient(90deg, #000 92%, transparent)",
-            }}
+            className="sg-mrow"
+            ref={mRowRef}
+            onKeyDown={onMobileKeyDown}
+            tabIndex={0}
+            aria-label={`${current.label} services`}
           >
-            {current.cards.map((c) => (
-              <div key={c.href} className="sg-slide">
-                <ServiceBadgeCard card={c} glow={current.glow} />
-              </div>
-            ))}
+            {cards}
+          </div>
+          <div className="ctrl">
+            {!reduced && (
+              <button
+                className="pp"
+                type="button"
+                aria-label={mPaused ? "Play slideshow" : "Pause slideshow"}
+                onClick={mToggle}
+              >
+                {mPaused ? (
+                  <Play size={14} aria-hidden />
+                ) : (
+                  <Pause size={14} aria-hidden />
+                )}
+              </button>
+            )}
+            <span className="prog">
+              <i ref={mBarRef} />
+            </span>
           </div>
         </div>
-        <div className="ctrl">
-          {!reduced && (
-            <button
-              className="pp"
-              type="button"
-              aria-label={paused ? "Play slideshow" : "Pause slideshow"}
-              onClick={() => {
-                pausedRef.current = !pausedRef.current;
-                setPaused(pausedRef.current);
+        <div className="sg-emb">
+          <div
+            className="sg-embla"
+            ref={(el) => {
+              emblaRef(el);
+              viewportRef.current = el;
+            }}
+            onKeyDown={onKeyDown}
+            style={{ overflow: "hidden" }}
+          >
+            <div
+              style={{
+                display: "flex",
+                gap: 22,
+                paddingBlock: "8px 20px",
+                maskImage: "linear-gradient(90deg, #000 92%, transparent)",
+                WebkitMaskImage: "linear-gradient(90deg, #000 92%, transparent)",
               }}
             >
-              {paused ? <Play size={14} aria-hidden /> : <Pause size={14} aria-hidden />}
-            </button>
-          )}
-          <span className="prog">
-            <i ref={barRef} />
-          </span>
+              {cards}
+            </div>
+          </div>
+          <div className="ctrl">
+            {!reduced && (
+              <button
+                className="pp"
+                type="button"
+                aria-label={paused ? "Play slideshow" : "Pause slideshow"}
+                onClick={() => {
+                  pausedRef.current = !pausedRef.current;
+                  setPaused(pausedRef.current);
+                }}
+              >
+                {paused ? <Play size={14} aria-hidden /> : <Pause size={14} aria-hidden />}
+              </button>
+            )}
+            <span className="prog">
+              <i ref={barRef} />
+            </span>
+          </div>
         </div>
       </div>
     </>

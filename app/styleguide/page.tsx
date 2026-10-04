@@ -21,7 +21,6 @@ import { EmergencyCallout, ReviewerCallout, TipCallout } from "@/components/Call
 import PhoneFrame from "@/components/PhoneFrame";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import IconGrid from "@/components/IconGrid";
-import RevealObserver from "@/components/RevealObserver";
 
 export const metadata: Metadata = {
   title: "Styleguide",
@@ -109,8 +108,6 @@ const typeRows: [string, React.ReactNode][] = [
 export default function StyleguidePage() {
   return (
     <div className="container-mc styleguide-body" style={{ paddingBlock: "0 96px" }}>
-      <RevealObserver />
-
       {/* SITE SHELL SPECIMEN */}
       <section className="section-mc" style={{ borderTop: 0, paddingTop: 56 }}>
         <SectionHeading eyebrow="Site shell" title="Utility bar and" accent="header">

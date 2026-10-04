@@ -16,6 +16,7 @@
     "check:dashes": "node scripts/check-dashes.mjs",
     "images": "node scripts/process-images.mjs",
     "check:images": "node scripts/check-images.mjs",
+    "check:css-vars": "node scripts/check-css-vars.mjs",
     "split-content": "node scripts/split-content.mjs",
     "launch-check": "node scripts/launch-check.mjs"
   },

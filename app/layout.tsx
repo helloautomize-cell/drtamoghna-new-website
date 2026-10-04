@@ -9,6 +9,7 @@ import MobileActionBar from "@/components/MobileActionBar";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import CookieBanner from "@/components/CookieBanner";
 import Analytics from "@/components/Analytics";
+import RevealObserver from "@/components/RevealObserver";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
 import "./globals.css";
@@ -58,6 +59,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${figtree.variable} ${instrumentSerif.variable} ${notoSansDevanagari.variable}`}
     >
       <body>
+        {/* Enables the data-reveal hidden state only when JS is running
+            and motion is allowed, so content can never stay invisible
+            without JS. RevealObserver (below) adds .rv on scroll. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `if(!matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('js-rv')`,
+          }}
+        />
         {GA_ID ? (
           // Consent Mode v2 defaults: everything denied until the visitor
           // accepts. Inline data only, no network request.
@@ -77,6 +86,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </main>
         <Footer />
         <MobileActionBar />
+        <RevealObserver />
         <FloatingWhatsApp />
         <CookieBanner />
         <Analytics gaId={GA_ID} />

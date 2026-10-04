@@ -1190,6 +1190,34 @@ table.ct {
     flex-basis: 200px;
   }
 }
+/* Service carousel: native scroll-snap row below 768px, Embla above */
+.sg-mob {
+  display: none;
+}
+@media (max-width: 767px) {
+  .sg-emb {
+    display: none;
+  }
+  .sg-mob {
+    display: block;
+  }
+  .sg-mrow {
+    display: flex;
+    gap: 22px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding-block: 8px 20px;
+    mask-image: linear-gradient(90deg, #000 92%, transparent);
+    -webkit-mask-image: linear-gradient(90deg, #000 92%, transparent);
+  }
+  .sg-mrow::-webkit-scrollbar {
+    display: none;
+  }
+  .sg-mrow > .sg-slide {
+    scroll-snap-align: start;
+  }
+}
 .ctrl.mobile-only {
   display: none;
 }
@@ -1424,11 +1452,17 @@ table.ct {
     overflow: hidden;
     border: 1px solid var(--line);
   }
+  .trk-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 10px;
+  }
   .trk-count {
     font-size: 14px;
     color: var(--ink-2);
     font-variant-numeric: tabular-nums;
-    margin-top: 10px;
   }
   .trk-prog {
     height: 4px;
@@ -1955,13 +1989,18 @@ table.ct {
   color: var(--ink);
 }
 
-/* Reveal animation: fade up 16px, 500ms, once */
+/* Reveal animation: fade up 16px, 500ms, once.
+   The hidden state applies only after JS confirms the observer is running
+   (html.js-rv is set by an inline script in the layout), so content can
+   never stay invisible without JavaScript or if the observer fails. */
 [data-reveal] {
-  opacity: 0;
-  transform: translateY(16px);
   transition:
     opacity 0.5s var(--ease),
     transform 0.5s var(--ease);
+}
+.js-rv [data-reveal]:not(.rv) {
+  opacity: 0;
+  transform: translateY(16px);
 }
 [data-reveal].rv {
   opacity: 1;
@@ -1969,9 +2008,9 @@ table.ct {
 }
 @media (prefers-reduced-motion: reduce) {
   [data-reveal] {
-    opacity: 1;
-    transform: none;
-    transition: none;
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
   }
 }
 
@@ -3017,7 +3056,7 @@ table.ct {
 .pb-main thead th {
   background: var(--primary-50);
   font-weight: 700;
-  border-bottom: 2px solid var(--primary-200, var(--line));
+  border-bottom: 2px solid var(--line);
 }
 .pb-main table tr:last-child td {
   border-bottom: 0;
@@ -3292,7 +3331,7 @@ table.ct {
 /* CTA band */
 .cta-band {
   margin-top: 46px;
-  background: linear-gradient(120deg, var(--primary) 0%, var(--slate) 100%);
+  background: linear-gradient(120deg, var(--primary) 0%, var(--secondary) 100%);
   border-radius: 0;
 }
 .cta-in {
@@ -3437,7 +3476,7 @@ table.ct {
 }
 .bform input:focus,
 .bform select:focus {
-  outline: 2px solid var(--primary-200, #9fd9dd);
+  outline: 2px solid #9fd9dd;
   border-color: var(--primary);
 }
 .bform .fld-row {
@@ -3552,13 +3591,13 @@ table.ct {
   box-shadow: 0 8px 24px rgba(15, 61, 66, 0.14);
 }
 .bdirect-btn.call {
-  background: var(--slate);
+  background: var(--secondary);
   color: #fff;
 }
 .bdirect-btn.wa {
   background: var(--primary-50);
   color: var(--ink);
-  border: 1px solid var(--primary-200, var(--line));
+  border: 1px solid var(--line);
 }
 .bdirect-hours {
   display: flex;
@@ -3593,7 +3632,7 @@ table.ct {
   min-height: 54px;
   border: 0;
   border-radius: 14px;
-  background: var(--slate);
+  background: var(--secondary);
   color: #fff;
   font: 700 17px/1 var(--sans);
   cursor: pointer;
@@ -3684,7 +3723,7 @@ table.ct {
   padding: 0 26px;
   border: 0;
   border-radius: 999px;
-  background: var(--slate);
+  background: var(--secondary);
   color: #fff;
   font: 700 16px/1 var(--sans);
   cursor: pointer;
@@ -4265,7 +4304,7 @@ table.ct {
     border-radius: 50%;
     border: 1.5px solid var(--line);
     background: #fff;
-    color: var(--primary-600);
+    color: var(--primary-700);
   }
   .home .hero .portrait .tag {
     top: 12px;
@@ -4316,7 +4355,7 @@ table.ct {
   transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
 }
 .concern-pill svg {
-  color: var(--primary-600);
+  color: var(--primary-700);
 }
 .concern-pill:hover {
   border-color: var(--primary);
@@ -4461,7 +4500,7 @@ table.ct {
 .vb-addr svg {
   flex: none;
   margin-top: 3px;
-  color: var(--primary-600);
+  color: var(--primary-700);
 }
 .vb-chips {
   display: flex;
@@ -4546,7 +4585,7 @@ table.ct {
   transition: border-color 0.2s;
 }
 .mq-pill svg {
-  color: var(--primary-600);
+  color: var(--primary-700);
 }
 .mq-pill:hover {
   border-color: var(--primary);
@@ -4616,7 +4655,7 @@ table.ct {
 .hc-row > svg {
   flex: none;
   margin-top: 3px;
-  color: var(--primary-600);
+  color: var(--primary-700);
 }
 .hc-row a {
   color: var(--ink);
@@ -4627,11 +4666,11 @@ table.ct {
   gap: 6px;
 }
 .hc-row a:hover {
-  color: var(--primary-600);
+  color: var(--primary-700);
 }
 .hc-dir {
   font-size: 14px;
-  color: var(--primary-600) !important;
+  color: var(--primary-700) !important;
 }
 .hc-em {
   color: var(--alert);
@@ -4685,7 +4724,7 @@ table.ct {
   box-sizing: content-box;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.92);
-  color: var(--primary-600);
+  color: var(--primary-700);
   box-shadow: var(--shadow-card);
 }
 .echovideo figcaption {

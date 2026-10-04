@@ -11,7 +11,6 @@ import DoctorCard from "@/components/DoctorCard";
 import ConditionsMarquee from "@/components/ConditionsMarquee";
 import SectionHeading from "@/components/SectionHeading";
 import MapCard from "@/components/MapCard";
-import RevealObserver from "@/components/RevealObserver";
 import RouteLink from "@/components/RouteLink";
 import Badge from "@/components/Badge";
 import JsonLd from "@/components/JsonLd";
@@ -92,7 +91,6 @@ export default function Home() {
   return (
     <div className="container-mc home">
       <JsonLd data={graph} />
-      <RevealObserver />
 
       {/* Hero */}
       <section className="home-hero">
@@ -102,8 +100,9 @@ export default function Home() {
       <ConcernPills />
 
       {/* 01 / Why Medcare */}
-      <section className="section-mc" data-reveal>
+      <section className="section-mc">
         <SectionHeading
+          reveal
           eyebrow="01 / Why Medcare"
           title="Care that looks at the"
           accent="whole"
@@ -116,13 +115,14 @@ export default function Home() {
       </section>
 
       {/* 02 / About Medcare */}
-      <section className="section-mc" data-reveal>
+      <section className="section-mc">
         <AboutSection />
       </section>
 
       {/* 03 / How we can help */}
-      <section className="section-mc" data-reveal>
+      <section className="section-mc">
         <SectionHeading
+          reveal
           eyebrow="03 / How we can help"
           title="Conditions and tests,"
           accent="explained"
@@ -136,8 +136,9 @@ export default function Home() {
       </section>
 
       {/* 04 / Your first visit, step by step */}
-      <section className="section-mc" data-reveal>
+      <section className="section-mc">
         <SectionHeading
+          reveal
           eyebrow="04 / Your first visit"
           title="Your first visit, step by"
           accent="step"
@@ -150,8 +151,9 @@ export default function Home() {
       </div>
 
       {/* 05 / Meet your doctor */}
-      <section className="section-mc" data-reveal>
+      <section className="section-mc">
         <SectionHeading
+          reveal
           eyebrow="05 / Meet your doctor"
           title="Meet"
           accent="Dr. Tamoghna Das"
@@ -163,8 +165,9 @@ export default function Home() {
       </section>
 
       {/* 07 / Conditions we look after */}
-      <section className="section-mc" data-reveal>
+      <section className="section-mc">
         <SectionHeading
+          reveal
           eyebrow="07 / Conditions"
           title="Conditions we look"
           accent="after"
@@ -173,8 +176,9 @@ export default function Home() {
       </section>
 
       {/* 08 / From our Health Library */}
-      <section className="section-mc" data-reveal>
+      <section className="section-mc">
         <SectionHeading
+          reveal
           eyebrow="08 / Health Library"
           title="From our Health"
           accent="Library"
@@ -212,8 +216,8 @@ export default function Home() {
       </section>
 
       {/* 09 / Quick answers */}
-      <section className="section-mc" data-reveal>
-        <SectionHeading eyebrow="09 / Quick answers" title="Quick" accent="answers" />
+      <section className="section-mc">
+        <SectionHeading reveal eyebrow="09 / Quick answers" title="Quick" accent="answers" />
         <Faqs faqs={faqs} />
         <p className="more-link">
           <RouteLink className="link-arrow" href="/faqs/">
@@ -223,8 +227,8 @@ export default function Home() {
       </section>
 
       {/* Contact block */}
-      <section className="section-mc" data-reveal>
-        <SectionHeading eyebrow="Contact" title="Find" accent="us" />
+      <section className="section-mc">
+        <SectionHeading reveal eyebrow="Contact" title="Find" accent="us" />
         <div className="hcontact">
           <div className="hc-rows">
             <p className="hc-row">
