@@ -1,8 +1,11 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { Pause, Play } from "lucide-react";
 import { visitSteps } from "@/lib/services";
 import { images, type ImageKey } from "@/lib/images";
+import { useAutoScrollRow } from "@/lib/motion";
+import { usePrefersReducedMotion } from "@/lib/usePrefersReducedMotion";
 import { BookingFormMock, WhatsAppMock } from "./PhoneMocks";
 
 function StepMedia({ mock, img }: { mock: string | null; img?: ImageKey }) {
@@ -29,6 +32,9 @@ export default function StepTracker() {
   const stepsRef = useRef<HTMLDivElement>(null);
   const slidesRef = useRef<HTMLDivElement>(null);
   const [mobileIdx, setMobileIdx] = useState(0);
+  const reduced = usePrefersReducedMotion();
+  const { paused, togglePause } = useAutoScrollRow(slidesRef, { maxWidth: 899 });
+
 
   // IntersectionObserver drives the active step
   useEffect(() => {
@@ -113,8 +119,20 @@ export default function StepTracker() {
             </div>
           ))}
         </div>
-        <div className="trk-count">
-          Step {mobileIdx + 1} of {visitSteps.length}
+        <div className="trk-foot">
+          <div className="trk-count">
+            Step {mobileIdx + 1} of {visitSteps.length}
+          </div>
+          {!reduced && (
+            <button
+              className="pp"
+              type="button"
+              aria-label={paused ? "Play slideshow" : "Pause slideshow"}
+              onClick={togglePause}
+            >
+              {paused ? <Play size={14} aria-hidden /> : <Pause size={14} aria-hidden />}
+            </button>
+          )}
         </div>
         <div className="trk-prog">
           <i style={{ width: `${((mobileIdx + 1) / visitSteps.length) * 100}%` }} />

@@ -16,6 +16,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { centredCards } from "@/lib/services";
+import { AUTO_ADVANCE_MS, RESUME_AFTER_MS } from "@/lib/motion";
 import { usePrefersReducedMotion } from "@/lib/usePrefersReducedMotion";
 
 const icons: Record<string, LucideIcon> = {
@@ -30,7 +31,7 @@ const icons: Record<string, LucideIcon> = {
 /**
  * Centred carousel: side cards scale(.92) rotate(-1deg) at 0.5 opacity,
  * active dot widens into a pill. Arrows, dots, swipe, autoplay every
- * 4.5s, pause on hover/focus/touch/hidden tab, resume 6s, off under
+ * shared timings, pause on hover/focus/touch/hidden tab, off under
  * reduced motion.
  */
 export default function CenteredCarousel() {
@@ -59,7 +60,7 @@ export default function CenteredCarousel() {
     const hold = () => {
       userRef.current = true;
       clearTimeout(resumeRef.current);
-      resumeRef.current = setTimeout(() => (userRef.current = false), 6000);
+      resumeRef.current = setTimeout(() => (userRef.current = false), RESUME_AFTER_MS);
     };
     const viewport = emblaApi.rootNode();
     const events = ["pointerenter", "focusin", "touchstart", "wheel"] as const;
@@ -67,7 +68,7 @@ export default function CenteredCarousel() {
     const timer = setInterval(() => {
       if (reduce || pausedRef.current || userRef.current || document.hidden) return;
       emblaApi.scrollNext();
-    }, 4500);
+    }, AUTO_ADVANCE_MS);
     return () => {
       clearInterval(timer);
       clearTimeout(resumeRef.current);
