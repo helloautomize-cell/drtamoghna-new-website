@@ -38,7 +38,7 @@ export default function Hero() {
         rel="preload"
         as="image"
         imageSrcSet={imgSrcSet(images.heroDesktop)}
-        imageSizes="480px"
+        imageSizes="800px"
         media="(min-width: 901px)"
         fetchPriority="high"
       />
@@ -87,7 +87,7 @@ export default function Hero() {
             <img
               src={images.heroDesktop.src}
               srcSet={imgSrcSet(images.heroDesktop)}
-              sizes="(max-width: 900px) calc(100vw - 40px), 480px"
+              sizes="(max-width: 900px) calc(100vw - 40px), 800px"
               alt={images.heroDesktop.alt}
               width={images.heroDesktop.width}
               height={images.heroDesktop.height}
