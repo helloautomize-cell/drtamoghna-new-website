@@ -2,7 +2,7 @@ import { ArrowRight, Clock, MapPin } from "lucide-react";
 import RouteLink from "./RouteLink";
 import Badge from "./Badge";
 import SectionHeading from "./SectionHeading";
-import { images } from "@/lib/images";
+import { images, imgSrcSet } from "@/lib/images";
 
 /**
  * 02 / About Medcare (content Home): clinic consultation-room photo with
@@ -16,7 +16,15 @@ export default function AboutSection() {
     <div className="aboutgrid">
       <figure className="about-img">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={im.src} alt={im.alt} width={im.width} height={im.height} loading="lazy" />
+        <img
+          src={im.src}
+          srcSet={imgSrcSet(im)}
+          sizes="(max-width: 899px) calc(100vw - 40px), 570px"
+          alt={im.alt}
+          width={im.width}
+          height={im.height}
+          loading="lazy"
+        />
         <span className="about-tag t1">
           <MapPin size={16} strokeWidth={2} aria-hidden /> Caring for Bongaigaon since 2023
         </span>

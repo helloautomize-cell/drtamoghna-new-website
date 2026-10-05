@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import { ChevronDown, Menu } from "lucide-react";
 import { megaMenus, headerLinks } from "@/lib/nav";
-import { images } from "@/lib/images";
+import { images, imgSrcSet } from "@/lib/images";
 import { siteConfig } from "@/lib/site-config";
 import { badgeFile } from "@/lib/service-badges";
 import BookButton from "./BookButton";
@@ -24,6 +24,8 @@ function MenuDoctorCard() {
     <div className="mm-doc">
       <img
         src={images.avatar.src}
+        srcSet={imgSrcSet(images.avatar)}
+        sizes="48px"
         width={48}
         height={48}
         alt={images.avatar.alt}

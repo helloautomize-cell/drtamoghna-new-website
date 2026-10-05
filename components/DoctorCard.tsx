@@ -1,6 +1,6 @@
 import BookButton from "./BookButton";
 import { siteConfig } from "@/lib/site-config";
-import { images } from "@/lib/images";
+import { images, imgSrcSet } from "@/lib/images";
 
 /**
  * Doctor feature card (one doctor): image left 38%, details right,
@@ -15,6 +15,8 @@ export default function DoctorCard() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={images.portrait.src}
+          srcSet={imgSrcSet(images.portrait)}
+          sizes="(max-width: 899px) calc(100vw - 40px), 400px"
           alt={images.portrait.alt}
           width={images.portrait.width}
           height={images.portrait.height}

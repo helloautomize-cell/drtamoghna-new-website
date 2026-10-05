@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Pause, Play } from "lucide-react";
 import { visitSteps } from "@/lib/services";
-import { images, type ImageKey } from "@/lib/images";
+import { images, imgSrcSet, type ImageKey } from "@/lib/images";
 import { useAutoScrollRow } from "@/lib/motion";
 import { usePrefersReducedMotion } from "@/lib/usePrefersReducedMotion";
 import { BookingFormMock, WhatsAppMock } from "./PhoneMocks";
@@ -17,6 +17,8 @@ function StepMedia({ mock, img, eager = false }: { mock: string | null; img?: Im
       /* eslint-disable-next-line @next/next/no-img-element */
       <img
         src={im.src}
+        srcSet={imgSrcSet(im)}
+        sizes="(max-width: 767px) 250px, 340px"
         alt={im.alt}
         width={im.width}
         height={im.height}

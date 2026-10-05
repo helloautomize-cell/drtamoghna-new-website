@@ -22,7 +22,7 @@ import {
 } from "@/lib/content";
 import { bookingHref } from "@/lib/booking-context";
 import { siteConfig } from "@/lib/site-config";
-import { images, type ImageKey } from "@/lib/images";
+import { images, imgSrcSet, type ImageKey } from "@/lib/images";
 import { pageGraph } from "@/lib/page-schema";
 import { pageMeta } from "@/lib/metadata";
 
@@ -99,6 +99,8 @@ export default function ContentPage({
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={heroImg.src}
+                srcSet={imgSrcSet(heroImg)}
+                sizes="(max-width: 767px) calc(100vw - 40px), 340px"
                 alt={heroImg.alt}
                 width={heroImg.width}
                 height={heroImg.height}
@@ -142,6 +144,8 @@ function ContentSection({
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={images[img.img].src}
+        srcSet={imgSrcSet(images[img.img])}
+        sizes="(max-width: 767px) calc(100vw - 40px), 720px"
         alt={images[img.img].alt}
         width={images[img.img].width}
         height={images[img.img].height}

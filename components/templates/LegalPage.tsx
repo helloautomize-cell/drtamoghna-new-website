@@ -9,7 +9,7 @@ import { pageGraph } from "@/lib/page-schema";
 import { pageMeta } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
 import { formatDate } from "@/lib/format";
-import { images } from "@/lib/images";
+import { images, imgSrcSet } from "@/lib/images";
 
 /**
  * LegalPage · sticky left table of contents on desktop, "Last updated"
@@ -75,6 +75,8 @@ export default function LegalPage({
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={images[img.img].src}
+                      srcSet={imgSrcSet(images[img.img])}
+                      sizes="(max-width: 767px) calc(100vw - 40px), 720px"
                       alt={images[img.img].alt}
                       width={images[img.img].width}
                       height={images[img.img].height}

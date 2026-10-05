@@ -1,6 +1,6 @@
 import { CircleAlert, Info, TriangleAlert } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
-import { images } from "@/lib/images";
+import { images, imgSrcSet } from "@/lib/images";
 
 export function EmergencyCallout() {
   return (
@@ -20,7 +20,16 @@ export function ReviewerCallout() {
   return (
     <div className="callout info">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img className="co-avatar" src={images.avatar.src} alt="" width={48} height={48} loading="lazy" />
+      <img
+        className="co-avatar"
+        src={images.avatar.src}
+        srcSet={imgSrcSet(images.avatar)}
+        sizes="48px"
+        alt=""
+        width={48}
+        height={48}
+        loading="lazy"
+      />
       <p>
         <b>Medically reviewed by</b> {siteConfig.doctor.name}, {siteConfig.doctor.qualifications} ·{" "}
         {siteConfig.doctor.registration} · Last reviewed {siteConfig.reviewDateDisplay}

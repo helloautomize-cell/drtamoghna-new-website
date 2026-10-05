@@ -1,5 +1,5 @@
 import { siteConfig } from "@/lib/site-config";
-import { images } from "@/lib/images";
+import { images, imgSrcSet } from "@/lib/images";
 
 /**
  * Hero doctor chip: one avatar (Dr. Das is the only doctor) + name line.
@@ -11,6 +11,8 @@ export default function DoctorChip() {
       <img
         className="avatar"
         src={images.avatar.src}
+        srcSet={imgSrcSet(images.avatar)}
+        sizes="42px"
         alt=""
         width={42}
         height={42}

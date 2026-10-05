@@ -9,7 +9,7 @@ import RichHtml from "@/components/content/RichHtml";
 import { CtaBand, ReviewerBox, sectionId } from "@/components/content/PageParts";
 import { accent, getPage, mdToHtml, pageH1, resolveTokens, type ParsedPage } from "@/lib/content";
 import { serviceTabs } from "@/lib/services";
-import { images, type ImageKey } from "@/lib/images";
+import { images, imgSrcSet, type ImageKey } from "@/lib/images";
 import { pageGraph } from "@/lib/page-schema";
 import { pageMeta } from "@/lib/metadata";
 import { formatDate } from "@/lib/format";
@@ -125,6 +125,8 @@ export default function PostPage({
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={images[img.img].src}
+                      srcSet={imgSrcSet(images[img.img])}
+                      sizes="(max-width: 767px) calc(100vw - 40px), 720px"
                       alt={images[img.img].alt}
                       width={images[img.img].width}
                       height={images[img.img].height}

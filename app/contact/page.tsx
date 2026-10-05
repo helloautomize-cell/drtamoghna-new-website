@@ -13,7 +13,7 @@ import { pageGraph } from "@/lib/page-schema";
 import { pageMeta } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
 import { whatsappUrl } from "@/lib/whatsapp";
-import { images } from "@/lib/images";
+import { images, imgSrcSet } from "@/lib/images";
 import { isReasonSlug } from "@/lib/booking-context";
 
 export const dynamic = "force-dynamic";
@@ -91,6 +91,8 @@ export default async function Page({
             <img
               className="cc-bg"
               src={images.exterior.src}
+              srcSet={imgSrcSet(images.exterior)}
+              sizes="(max-width: 899px) 100vw, 560px"
               alt=""
               loading="lazy"
               aria-hidden

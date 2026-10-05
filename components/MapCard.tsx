@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { MapPin } from "lucide-react";
-import { images } from "@/lib/images";
+import { images, imgSrcSet } from "@/lib/images";
 import { siteConfig } from "@/lib/site-config";
 import { trackEvent } from "@/lib/analytics";
 
@@ -35,6 +35,8 @@ export default function MapCard() {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={images.exterior.src}
+        srcSet={imgSrcSet(images.exterior)}
+        sizes="(max-width: 899px) calc(100vw - 40px), 640px"
         alt={images.exterior.alt}
         width={images.exterior.width}
         height={images.exterior.height}

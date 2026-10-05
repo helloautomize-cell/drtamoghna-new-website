@@ -78,16 +78,19 @@ for (const entry of manifest.images) {
     }
 
     img = applyTreatments(img, entry.treatment);
+    const baseBuf = await img.toColourspace("srgb").toBuffer();
 
-    const targetW = Math.min(Math.max(...(o.widths || [cropW])), cropW);
-    img = img.resize({ width: targetW, withoutEnlargement: true });
-
-    const { data, info } = await img
-      .jpeg({ quality: 85, mozjpeg: true })
-      .toColourspace("srgb")
-      .toBuffer({ resolveWithObject: true });
-    writeFileSync(dst, data);
-    rows.push([o.out, `${info.width}x${info.height}`, `${(data.length / 1024).toFixed(1)} KB`]);
+    const ws = [...new Set((o.widths || [cropW]).filter((w) => w <= cropW))].sort((a, b) => b - a);
+    for (const w of ws) {
+      const out = w === ws[0] ? o.out : o.out.replace(/\.jpg$/, `-${w}w.jpg`);
+      const { data, info } = await sharp(baseBuf)
+        .resize({ width: w, withoutEnlargement: true })
+        .jpeg({ quality: 85, mozjpeg: true })
+        .toColourspace("srgb")
+        .toBuffer({ resolveWithObject: true });
+      writeFileSync(join(OUT, out), data);
+      rows.push([out, `${info.width}x${info.height}`, `${(data.length / 1024).toFixed(1)} KB`]);
+    }
   }
   if (entry.alt !== undefined) {
     for (const o of entry.outputs) altMap[o.out] = entry.alt;

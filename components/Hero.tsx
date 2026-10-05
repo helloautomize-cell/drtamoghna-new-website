@@ -2,7 +2,7 @@ import { Clock, Phone } from "lucide-react";
 import BookButton from "./BookButton";
 import DoctorChip from "./DoctorChip";
 import { siteConfig } from "@/lib/site-config";
-import { images } from "@/lib/images";
+import { images, imgSrcSet } from "@/lib/images";
 
 const chips = [
   "Diabetes",
@@ -25,6 +25,23 @@ const chips = [
 export default function Hero() {
   return (
     <div className="hero">
+      {/* LCP: preload the correct art-directed crop per breakpoint */}
+      <link
+        rel="preload"
+        as="image"
+        imageSrcSet={imgSrcSet(images.heroMobile)}
+        imageSizes="calc(100vw - 40px)"
+        media="(max-width: 900px)"
+        fetchPriority="high"
+      />
+      <link
+        rel="preload"
+        as="image"
+        imageSrcSet={imgSrcSet(images.heroDesktop)}
+        imageSizes="480px"
+        media="(min-width: 901px)"
+        fetchPriority="high"
+      />
       <div className="hero-text">
         <span className="eyebrow">Medcare · North Bongaigaon, Assam</span>
         <h1>
@@ -62,9 +79,15 @@ export default function Hero() {
         </span>
         <figure>
           <picture>
-            <source media="(max-width: 900px)" srcSet={images.heroMobile.src} />
+            <source
+              media="(max-width: 900px)"
+              srcSet={imgSrcSet(images.heroMobile)}
+              sizes="calc(100vw - 40px)"
+            />
             <img
               src={images.heroDesktop.src}
+              srcSet={imgSrcSet(images.heroDesktop)}
+              sizes="(max-width: 900px) calc(100vw - 40px), 480px"
               alt={images.heroDesktop.alt}
               width={images.heroDesktop.width}
               height={images.heroDesktop.height}

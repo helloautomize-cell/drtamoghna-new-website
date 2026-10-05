@@ -1,6 +1,6 @@
 import { Phone } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
-import { images } from "@/lib/images";
+import { images, imgSrcSet } from "@/lib/images";
 import { whatsappUrl } from "@/lib/whatsapp";
 import { bookingHref } from "@/lib/booking-context";
 import { accent, type GlanceItem, type Section, type Step } from "@/lib/content";
@@ -51,7 +51,16 @@ export function ReviewerBox({ lastReviewed }: { lastReviewed?: string }) {
   return (
     <div className="callout info reviewer">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img className="co-avatar" src={images.avatar.src} alt="" width={48} height={48} loading="lazy" />
+      <img
+        className="co-avatar"
+        src={images.avatar.src}
+        srcSet={imgSrcSet(images.avatar)}
+        sizes="48px"
+        alt=""
+        width={48}
+        height={48}
+        loading="lazy"
+      />
       <p>
         <b>Medically reviewed by</b>{" "}
         <RouteLink href="/dr-tamoghna-das/">{siteConfig.doctor.name}</RouteLink>,{" "}
