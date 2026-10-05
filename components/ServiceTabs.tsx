@@ -180,9 +180,9 @@ export default function ServiceTabs() {
     if (e.key === "ArrowRight") smoothScrollTo(row, row.scrollLeft + w);
   };
 
-  const cards = current.cards.map((c) => (
+  const cards = current.cards.map((c, i) => (
     <div key={c.href} className="sg-slide">
-      <ServiceBadgeCard card={c} glow={current.glow} />
+      <ServiceBadgeCard card={c} glow={current.glow} eager={i < 2} />
     </div>
   ));
 
