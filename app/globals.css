@@ -27,7 +27,7 @@
   /* Gradients and effects */
   --grad-brand: linear-gradient(90deg, #00838f 0%, #1e3d49 100%);
   --grad-btn: linear-gradient(90deg, #00838f, #1e3d49, #00838f);
-  --grad-bar: linear-gradient(90deg, rgba(0, 131, 143, 0.92), rgba(30, 61, 73, 0.92));
+  --grad-bar: linear-gradient(90deg, rgba(0, 105, 115, 0.94), rgba(30, 61, 73, 0.94));
   --shadow-card: 0 1px 2px rgba(20, 48, 58, 0.04), 0 12px 32px -12px rgba(30, 61, 73, 0.18);
   --shadow-hover: 0 20px 48px -16px rgba(30, 61, 73, 0.28);
   --glass: rgba(255, 255, 255, 0.62);
@@ -70,6 +70,10 @@
 /* Base */
 html {
   scroll-behavior: smooth;
+}
+/* Keep hash targets (skip link, #book, toc links) clear of the sticky header */
+[id] {
+  scroll-margin-top: 96px;
 }
 body {
   margin: 0;
@@ -1913,6 +1917,10 @@ table.ct {
 @media (max-width: 1023px) {
   .mbar {
     display: grid;
+  }
+  /* Room at the page bottom so the fixed bar never covers content */
+  body {
+    padding-bottom: calc(66px + env(safe-area-inset-bottom));
   }
 }
 .mbar > * {

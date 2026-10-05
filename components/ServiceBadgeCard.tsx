@@ -9,13 +9,21 @@ import type { ServiceCard } from "@/lib/services";
  * Hover: orbit ring spins once (1.2s), lift + scale 1.06, coin flip
  * rotateY(360deg) once (0.9s), sheen sweep once, arrow slides 4px.
  */
-export default function ServiceBadgeCard({ card, glow }: { card: ServiceCard; glow: string }) {
+export default function ServiceBadgeCard({
+  card,
+  glow,
+  eager = false,
+}: {
+  card: ServiceCard;
+  glow: string;
+  eager?: boolean;
+}) {
   return (
     <a className={`sgc ${glow}`} href={card.href}>
       <span className="halo">
         <span className="badge">
           <span className="coin">
-            <Badge slug={card.badge} size="md" />
+            <Badge slug={card.badge} size="md" eager={eager} />
           </span>
         </span>
       </span>

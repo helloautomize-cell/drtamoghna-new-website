@@ -187,7 +187,7 @@ export default function Home() {
           {posts.map((p, i) => (
             <RouteLink className={`hl-card g${(i % 4) + 1}`} key={p.url} href={p.url}>
               <div className="hl-cover" aria-hidden>
-                {p.badge ? <Badge slug={p.badge} size="md" /> : null}
+                {p.badge ? <Badge slug={p.badge} size="md" eager={i < 2} /> : null}
               </div>
               <div className="hl-meta">
                 <span className="chip sm">{p.category}</span>

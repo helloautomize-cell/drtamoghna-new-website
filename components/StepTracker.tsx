@@ -8,14 +8,20 @@ import { useAutoScrollRow } from "@/lib/motion";
 import { usePrefersReducedMotion } from "@/lib/usePrefersReducedMotion";
 import { BookingFormMock, WhatsAppMock } from "./PhoneMocks";
 
-function StepMedia({ mock, img }: { mock: string | null; img?: ImageKey }) {
+function StepMedia({ mock, img, eager = false }: { mock: string | null; img?: ImageKey; eager?: boolean }) {
   if (mock === "booking") return <BookingFormMock />;
   if (mock === "whatsapp") return <WhatsAppMock />;
   if (img) {
     const im = images[img];
     return (
       /* eslint-disable-next-line @next/next/no-img-element */
-      <img src={im.src} alt={im.alt} width={im.width} height={im.height} loading="lazy" />
+      <img
+        src={im.src}
+        alt={im.alt}
+        width={im.width}
+        height={im.height}
+        loading={eager ? "eager" : "lazy"}
+      />
     );
   }
   return null;
@@ -111,7 +117,7 @@ export default function StepTracker() {
           {visitSteps.map((s, i) => (
             <div className="trk-slide" key={s.name}>
               <div className="step-media">
-                <StepMedia mock={s.mock} img={s.img} />
+                <StepMedia mock={s.mock} img={s.img} eager={i < 2} />
               </div>
               <small>{String(i + 1).padStart(2, "0")}</small>
               <h3>{s.name}</h3>

@@ -9,10 +9,12 @@ export default function Badge({
   slug,
   size = "md",
   className = "",
+  eager = false,
 }: {
   slug: BadgeSlug;
   size?: BadgeSize;
   className?: string;
+  eager?: boolean;
 }) {
   const px = badgePx[size];
   return (
@@ -23,7 +25,7 @@ export default function Badge({
       alt=""
       width={px}
       height={px}
-      loading={size === "lg" ? "eager" : "lazy"}
+      loading={eager || size === "lg" ? "eager" : "lazy"}
       decoding="async"
     />
   );
