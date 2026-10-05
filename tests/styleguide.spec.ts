@@ -60,7 +60,7 @@ test.describe("carousels", () => {
     // pause via button
     await page.locator('.carnav button[aria-label="Pause slideshow"]').click();
     const before = await dotIndex();
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(3900);
     expect(await dotIndex()).toBe(before);
 
     // resume, then hover pause
@@ -68,31 +68,42 @@ test.describe("carousels", () => {
     await carousel.hover();
     await page.waitForTimeout(100);
     const before2 = await dotIndex();
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(3900); // inside the 4s resume window: still paused
     expect(await dotIndex()).toBe(before2);
+    // after the hold expires it advances again
+    await page.mouse.move(20, 20);
+    await page.waitForTimeout(4500);
+    expect(await dotIndex()).not.toBe(before2);
   });
 
   test("service carousel pauses on hover and via the pause button", async ({ page }) => {
     await page.goto(PAGE);
     const viewport = page.locator(".sg-embla").first();
     await viewport.scrollIntoViewIfNeeded();
-    const transform = () =>
+    // translateX of the embla track (sub-pixel drift allowed)
+    const tx = () =>
       page
         .locator(".sg-embla > div")
         .first()
-        .evaluate((el) => getComputedStyle(el).transform);
+        .evaluate((el) => {
+          const m = getComputedStyle(el).transform.match(/matrix\([^,]+,[^,]+,[^,]+,[^,]+,\s*([-\d.]+)/);
+          return m ? parseFloat(m[1]) : 0;
+        });
 
-    await page.locator('.washsvc button[aria-label="Pause slideshow"]').click();
-    const t0 = await transform();
-    await page.waitForTimeout(5000);
-    expect(await transform()).toBe(t0);
+    await page.locator('.sg-emb button[aria-label="Pause slideshow"]').click();
+    const t0 = await tx();
+    await page.waitForTimeout(3900);
+    expect(Math.abs((await tx()) - t0)).toBeLessThan(2);
 
-    await page.locator('.washsvc button[aria-label="Play slideshow"]').click();
+    await page.locator('.sg-emb button[aria-label="Play slideshow"]').click();
     await viewport.hover();
-    await page.waitForTimeout(100);
-    const t1 = await transform();
-    await page.waitForTimeout(5000);
-    expect(await transform()).toBe(t1);
+    await page.waitForTimeout(800); // let any in-flight scroll settle before sampling
+    const t1 = await tx();
+    await page.waitForTimeout(3900); // inside the 4s resume window: still paused
+    expect(Math.abs((await tx()) - t1)).toBeLessThan(2);
+    await page.mouse.move(20, 20);
+    await page.waitForTimeout(4500);
+    expect(Math.abs((await tx()) - t1)).toBeGreaterThan(20);
   });
 });
 
