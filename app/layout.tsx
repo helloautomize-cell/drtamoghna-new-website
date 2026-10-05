@@ -27,7 +27,6 @@ const instrumentSerif = Instrument_Serif({
   style: "italic",
   variable: "--font-serif",
   display: "swap",
-  preload: false,
 });
 
 const notoSansDevanagari = Noto_Sans_Devanagari({
