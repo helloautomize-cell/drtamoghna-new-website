@@ -44,7 +44,7 @@ Also seen: tiredness and weakness, acidity and stomach upsets, urinary problems,
 
 1. **Listening.** A full history of your symptoms and how they started.
 2. **Examination.** A head-to-toe examination focused on your problem.
-3. **Tests that answer questions.** In-house tests such as ECG, echo, sugar or spirometry when they help, and blood tests at a lab of your choice.
+3. **Tests that answer questions.** In-house tests such as ECG, echo, sugar or spirometry when they help, and blood tests through our lab partner Agilus, with samples collected at Medcare.
 4. **Diagnosis and plan.** What is wrong, how it will be treated, and what you can do yourself.
 5. **Referral when needed.** If you need a surgeon, a scan or a hospital, Dr. Das explains why and helps you choose.
 

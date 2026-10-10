@@ -3,20 +3,20 @@
  * the site renders, so AI crawlers see exactly what visitors see.
  * No [CONFIRM] text and no build notes reach either file.
  */
-import { readFileSync } from "fs";
 import {
   allContentUrls,
   contentFile,
   dropBuildLines,
   getPage,
   pageH1,
+  readContentFile,
 } from "./content";
 import { IDENTITY } from "./site-config";
 import { SITE_BASE } from "./metadata";
 
 /** Entity statement, site-plan section 1 (word for word). */
 export const ENTITY_STATEMENT =
-  "Medcare Diabetes & Obesity Clinic is an outpatient clinic on Chapaguri Road, North Bongaigaon, Assam, founded in September 2023 by Dr. Tamoghna Das, MBBS, MD (Medicine), a consultant physician in internal medicine, diabetes and heart health with advanced training in echocardiography. The clinic offers consultations, echocardiography with strain imaging, ECG, patch Holter monitoring, 24-hour blood pressure monitoring, continuous glucose monitoring, HbA1c testing, spirometry, body composition analysis, diabetic foot checks and sleep studies. It is open Monday to Saturday from 9 am to 8:30 pm and Sunday from 9 am to 3:30 pm. Patients come from Bongaigaon, Chirang, Kokrajhar, Dhubri, Goalpara, Barpeta and other parts of Northeast India.";
+  "Medcare Diabetes, Obesity and Echocardiography Clinic is an outpatient clinic on Chapaguri Road, North Bongaigaon, Assam, founded in September 2023 by Dr. Tamoghna Das, MBBS, MD (Medicine), a consultant physician in internal medicine, diabetes and heart health with advanced training in echocardiography. The clinic offers consultations, echocardiography with strain imaging, ECG, patch Holter monitoring, 24-hour blood pressure monitoring, continuous glucose monitoring, HbA1c testing, spirometry, body composition analysis, diabetic foot checks and sleep studies, an in-house pharmacy and lab sample collection through Agilus. It is open Monday to Saturday from 9 am to 8:30 pm and Sunday from 9 am to 3:30 pm. Patients come from Bongaigaon, Chirang, Kokrajhar, Dhubri, Goalpara, Barpeta and other parts of Northeast India.";
 
 const GROUP_ORDER: { label: string; match: (u: string) => boolean }[] = [
   {
@@ -97,12 +97,12 @@ export function llmsTxt(): string {
   }
 
   const out: string[] = [
-    "# Medcare Diabetes & Obesity Clinic, Bongaigaon",
+    "# Medcare Diabetes, Obesity and Echocardiography Clinic, Bongaigaon",
     "",
     `> ${ENTITY_STATEMENT}`,
     "",
-    "One doctor runs every consultation: Dr. Tamoghna Das, MBBS, MD (Medicine), Assam Council of Medical Registration No. 20276.",
-    "Phone: +91 60031 21297. WhatsApp: +91 98642 66191. Email: medcarebongaigaon@gmail.com.",
+    "One doctor runs every consultation: Dr. Tamoghna Das, MBBS, MD (Medicine), Assam Council of Medical Registration No. 20276. Consultation hours Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm, by prior appointment.",
+    "Phone: +91 60031 21297. WhatsApp: +91 60031 21297 or +91 93651 75235. Email: medcarebongaigaon@gmail.com.",
     "Address: Chapaguri Road, opposite Domino's, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380.",
     "",
   ];
@@ -196,7 +196,7 @@ function mdToPlain(md: string): string {
 function pagePlainText(url: string): string {
   const file = contentFile(url);
   if (!file) return "";
-  const raw = readFileSync(file, "utf8");
+  const raw = readContentFile(file);
   const yamlMatch = raw.match(/```yaml\n([\s\S]*?)```/);
   const body = (yamlMatch ? raw.slice(yamlMatch.index! + yamlMatch[0].length) : raw)
     .replaceAll("{IDENTITY}", IDENTITY)
@@ -207,7 +207,7 @@ function pagePlainText(url: string): string {
 
 export function llmsFullTxt(): string {
   const out: string[] = [
-    "# Medcare Diabetes & Obesity Clinic, Bongaigaon\n\n",
+    "# Medcare Diabetes, Obesity and Echocardiography Clinic, Bongaigaon\n\n",
     ENTITY_STATEMENT,
     "\n",
   ];

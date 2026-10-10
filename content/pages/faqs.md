@@ -1,7 +1,7 @@
 # FAQs
 
 ```yaml
-title: "FAQs | Medcare Diabetes & Obesity Clinic, Bongaigaon"
+title: "FAQs | Medcare Diabetes, Obesity and Echocardiography Clinic"
 description: "Answers on booking, timings, tests, fasting, payment, reports, follow-up and privacy at Medcare, North Bongaigaon."
 url: /faqs/
 lastReviewed: "2026-10-03"
@@ -14,9 +14,9 @@ Intro: Short answers to the questions we hear most. For anything about your own 
 
 ### Booking and timings
 1. **How do I book an appointment?**
-   Use the booking form on our Contact page, call 60031 21297 or send a WhatsApp message to 98642 66191. We confirm your time within 30 to 60 minutes during clinic hours. Requests sent after the clinic closes are confirmed the next morning.
+   Use the booking form on our Contact page, call 60031 21297 or send a WhatsApp message to 60031 21297 or 93651 75235. We confirm your time within 30 to 60 minutes during clinic hours. Requests sent after the clinic closes are confirmed the next morning.
 2. **What are Medcare's timings?**
-   Monday to Saturday, 9 am to 8:30 pm. Sunday, 9 am to 3:30 pm. On festival holidays the hours may change, so please call before you come.
+   Monday to Saturday, 9 am to 8:30 pm. Sunday, 9 am to 3:30 pm. Dr. Das's consultations are Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm, by prior appointment. On festival holidays the hours may change, so please call before you come.
 3. **Can I walk in without booking?**
    Yes, but booked patients are seen at their reserved time, so you may need to wait for a free slot. Booking is the better option, especially if you need tests.
 4. **What if I cannot come at my booked time?**
@@ -24,7 +24,7 @@ Intro: Short answers to the questions we hear most. For anything about your own 
 
 ### Tests and reports
 5. **Which tests are done at Medcare?**
-   ECG, echocardiography with strain imaging, patch Holter monitoring, 24-hour blood pressure monitoring, continuous glucose monitoring, HbA1c, finger-prick sugar, spirometry, body composition analysis, diabetic foot checks and sleep studies. Blood tests are done at a lab of your choice.
+   ECG, echocardiography with strain imaging, patch Holter monitoring, 24-hour blood pressure monitoring, continuous glucose monitoring, HbA1c, finger-prick sugar, spirometry, body composition analysis, diabetic foot checks and sleep studies. Blood tests are done through our lab partner, Agilus; samples are collected at Medcare and reports are given at the clinic.
 6. **Do I need to come fasting?**
    Only for some blood tests. Echo, ECG, Holter and most clinic tests need no fasting. When you book, tell us what you are coming for and we will tell you whether to fast. Do not skip diabetes medicines without asking.
 7. **When will I get my echo report?**
@@ -42,9 +42,9 @@ Intro: Short answers to the questions we hear most. For anything about your own 
 
 ### Care and follow-up
 12. **Do you sell medicines?**
-    No. Medcare does not sell medicines. You are free to buy your medicines at any licensed pharmacy you choose.
+    Yes. Medcare has its own pharmacy that sells genuine medicines, so you can buy prescribed medicines at the clinic with a proper bill.
 13. **Can I ask a question on WhatsApp between visits?**
-    You can send reports and simple questions to 98642 66191. Treatment changes usually need a visit. WhatsApp is not watched for emergencies, so in an emergency call 108 or 112.
+    You can send reports and simple questions on WhatsApp to 60031 21297 or 93651 75235. Treatment changes usually need a visit. WhatsApp is not watched for emergencies, so in an emergency call 108 or 112.
 14. **Do you see children?**
     Medcare looks after adults and older teenagers, including young people with type 1 diabetes. Patients under 18 must come with a parent or guardian. [CONFIRM: minimum age]
 15. **Do you offer online or video consultations?**

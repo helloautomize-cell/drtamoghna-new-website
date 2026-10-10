@@ -187,7 +187,7 @@ export const serviceTabs: ServiceTab[] = [
 export const visitSteps = [
   {
     name: "Book",
-    text: "Use the form, call 60031 21297 or WhatsApp 98642 66191. We confirm your time within 30 to 60 minutes during clinic hours.",
+    text: "Use the form, call 60031 21297 or WhatsApp 60031 21297 or 93651 75235. We confirm your time within 30 to 60 minutes during clinic hours.",
     mock: "booking" as const,
   },
   {
@@ -204,7 +204,7 @@ export const visitSteps = [
   },
   {
     name: "Tests if needed",
-    text: "Many tests, such as ECG, echo and HbA1c, can be done the same day. Blood tests can be done at a lab of your choice.",
+    text: "Many tests, such as ECG, echo and HbA1c, can be done the same day. Blood tests are done through our lab partner, Agilus. Samples are collected at Medcare and reports are given at the clinic.",
     mock: null,
     img: "echoScreen" as const,
   },

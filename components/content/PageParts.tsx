@@ -1,13 +1,13 @@
 import { Phone } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 import { images, imgSrcSet } from "@/lib/images";
-import { whatsappUrl } from "@/lib/whatsapp";
 import { bookingHref } from "@/lib/booking-context";
 import { accent, type GlanceItem, type Section, type Step } from "@/lib/content";
 import { formatDate } from "@/lib/format";
 import ConfirmChip from "@/components/ConfirmChip";
 import BookButton from "@/components/BookButton";
 import RouteLink from "@/components/RouteLink";
+import WhatsAppMenu from "@/components/WhatsAppMenu";
 import RichHtml from "./RichHtml";
 
 /**
@@ -93,9 +93,9 @@ export function CtaBand({ url, title }: { url: string; title: string }) {
           <a className="btn ghost" href={`tel:${siteConfig.phone.tel}`}>
             <Phone size={18} strokeWidth={2} aria-hidden /> Call {siteConfig.phone.display}
           </a>
-          <a className="btn ghost" href={whatsappUrl(title)} target="_blank" rel="noopener">
+          <WhatsAppMenu className="btn ghost" pageTitle={title}>
             WhatsApp
-          </a>
+          </WhatsAppMenu>
         </div>
       </div>
     </section>

@@ -21,7 +21,7 @@ Anaemia means there is less haemoglobin in the blood than normal, so the body ge
 - **How common:** more than half of women aged 15 to 49 in India have anaemia (NFHS-5)
 - **Common causes:** low iron, low vitamin B12 or folate, heavy periods, worms, blood loss from the stomach or bowel, long-term illness, kidney disease, and inherited haemoglobin conditions
 - **Local note:** haemoglobin E trait and other inherited haemoglobin conditions are common in Northeast India and can look like iron deficiency
-- **At Medcare:** consultation, examination and a cause-focused test plan (lab of your choice)
+- **At Medcare:** consultation, examination and a cause-focused test plan (samples collected at Medcare, Agilus lab)
 
 ### Symptoms
 

@@ -45,7 +45,7 @@ The thyroid is a small butterfly-shaped gland in the front of the neck that cont
 ### What happens at Medcare
 
 1. **History and examination.** Symptoms, family history, medicines, pregnancy plans, and a careful examination of the neck.
-2. **Tests.** TSH and T4 at a lab of your choice, with antibodies or ultrasound of the neck when needed. ECG if you have palpitations.
+2. **Tests.** TSH and T4, with antibodies or ultrasound of the neck when needed. Blood samples are collected at Medcare through our lab partner Agilus, and reports are given at the clinic. ECG if you have palpitations.
 3. **Treatment.** For an underactive thyroid, usually one tablet a day, with the dose adjusted by blood tests. For an overactive thyroid, medicines to calm the gland and the heartbeat, and discussion of other treatment options when needed.
 4. **Follow-up.** TSH is rechecked about 6 to 8 weeks after any dose change, then every 6 to 12 months once stable.
 5. **Linked conditions.** Cholesterol, weight, anaemia and heart rhythm are checked, because thyroid problems affect all of them.

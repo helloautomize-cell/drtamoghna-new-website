@@ -115,10 +115,10 @@ Link: View all services →
 
 H2: Your first visit, step by *step*
 
-1. **Book.** Use the form, call 60031 21297 or WhatsApp 98642 66191. We confirm your time within 30 to 60 minutes during clinic hours.
+1. **Book.** Use the form, call 60031 21297 or WhatsApp 60031 21297 or 93651 75235. We confirm your time within 30 to 60 minutes during clinic hours.
 2. **Arrive and register.** Bring your old prescriptions, reports and the medicines you take. If you have diabetes, bring your sugar diary or meter.
 3. **Consultation.** Dr. Das listens to your concerns, asks about your history and examines you. There is time for your questions.
-4. **Tests if needed.** Many tests, such as ECG, echo and HbA1c, can be done the same day. Blood tests can be done at a lab of your choice.
+4. **Tests if needed.** Many tests, such as ECG, echo and HbA1c, can be done the same day. Blood tests are done through our lab partner, Agilus. Samples are collected at Medcare and reports are given at the clinic.
 5. **Your plan.** Dr. Das explains the results in plain words and writes a plan you can follow at home: medicines, food, activity and when to come back.
 6. **Follow-up.** You return for review as planned. Between visits you can send reports on WhatsApp so the clinic knows they have arrived.
 
@@ -169,13 +169,13 @@ H2: Quick *answers*
 
 FAQs:
 1. **Do I need an appointment, or can I walk in?**
-   Booking is better, because your time is reserved and waiting is shorter. You can book online, call 60031 21297 or WhatsApp 98642 66191, and we confirm within 30 to 60 minutes during clinic hours. If you walk in, we will fit you in when a slot is free, but you may need to wait.
+   Booking is better, because your time is reserved and waiting is shorter. You can book online, call 60031 21297 or message us on WhatsApp at 60031 21297 or 93651 75235, and we confirm within 30 to 60 minutes during clinic hours. If you walk in, we will fit you in when a slot is free, but you may need to wait.
 2. **Can I get my echo or ECG done on the same day as the consultation?**
    Usually, yes. Dr. Das first examines you and decides which tests will help. ECG, echocardiography, HbA1c and several other tests are done at Medcare, so most patients finish the consultation and tests in one visit. Some tests, such as Holter monitoring or a sleep study, are worn at home and returned later.
 3. **What should I bring to my first visit?**
    Bring all your current medicines or their strips, old prescriptions, discharge papers and any test reports from the last year. If you check sugar at home, bring the meter or your diary. A list of your questions helps too. If you are coming for a fasting test, ask us when you book whether to come fasting.
 4. **Is Medcare open on Sunday?**
-   Yes. Medcare is open Monday to Saturday from 9 am to 8:30 pm and on Sunday from 9 am to 3:30 pm. Hours on festival holidays can change, so please call 60031 21297 before you visit on a holiday.
+   Yes. Medcare is open Monday to Saturday from 9 am to 8:30 pm and on Sunday from 9 am to 3:30 pm. Dr. Das's consultations are Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm, by prior appointment. Hours on festival holidays can change, so please call 60031 21297 before you visit on a holiday.
 
 Link: See all FAQs →
 
@@ -183,7 +183,7 @@ Link: See all FAQs →
 
 H2: Find *us*
 - Address (3 lines) · Get directions
-- Call 60031 21297 · WhatsApp 98642 66191 · Email
+- Call 60031 21297 · WhatsApp 60031 21297 or 93651 75235 · Email
 - Hours: Mon to Sat 9 am to 8:30 pm · Sun 9 am to 3:30 pm
 - Medical emergency? Call 108 or 112.
 - Photo card: clinic exterior + [Show map] (click to load)

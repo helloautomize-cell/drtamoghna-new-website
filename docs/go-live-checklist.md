@@ -63,7 +63,7 @@ step. "Agency" = Automize Media Labs, "Clinic" = Dr. Das's team,
 
 ## 7. Google Business Profile (Agency)
 
-- [ ] Rename the profile to **Medcare Diabetes & Obesity Clinic**.
+- [ ] Rename the profile to **Medcare Diabetes, Obesity and Echocardiography Clinic**.
 - [ ] Set the website link with UTM:
       `https://<apex-domain>/?utm_source=google&utm_medium=organic&utm_campaign=gbp`
 - [ ] Set hours to match the site exactly: Mon-Sat 9 am-8:30 pm,

@@ -20,7 +20,7 @@ Heart disease often builds silently for years through high blood pressure, diabe
 
 - **Main risk factors:** high BP, diabetes, high cholesterol, smoking or tobacco, obesity, inactivity, family history of early heart disease, kidney disease
 - **Tests at Medcare:** BP, ECG, echocardiography with strain imaging, Holter monitoring, 24-hour BP monitoring, HbA1c
-- **Blood tests (lab of your choice):** cholesterol profile, kidney function, sugar and others as needed
+- **Blood tests (samples collected at Medcare, Agilus lab):** cholesterol profile, kidney function, sugar and others as needed
 - **Who should be checked:** adults over 40, and younger adults with diabetes, high BP, a strong family history or symptoms
 - **What we manage:** heart risk, high BP, heart failure, palpitations, and follow-up after a heart attack or procedure
 

@@ -59,7 +59,7 @@ Many people have no symptoms for years. When symptoms do appear, they can includ
 1. **Detailed history.** Your symptoms, family history, food habits, work hours, sleep, other illnesses and every medicine you take.
 2. **Examination.** Weight, waist, BP, pulse, feet, skin and signs of complications.
 3. **Tests in the clinic.** HbA1c and finger-prick sugar during the visit. A diabetic foot check for nerve feeling and blood flow. ECG and echo when your heart needs a look, which is common in people who have had diabetes for some years.
-4. **Blood and urine tests.** Usually kidney function, urine albumin, cholesterol and others as needed. You can do these at a lab of your choice.
+4. **Blood and urine tests.** Usually kidney function, urine albumin, cholesterol and others as needed. Samples are collected at Medcare through our lab partner Agilus, and reports are given at the clinic.
 5. **Your plan.** Medicines with clear timings, a food plan built around what you eat at home, an activity goal, and a schedule for sugar checks.
 6. **Complication screening.** A yearly plan for eyes, kidneys, feet and heart, so problems are found while they are still small.
 

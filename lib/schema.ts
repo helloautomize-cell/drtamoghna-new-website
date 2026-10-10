@@ -108,6 +108,14 @@ export const physicianNode = {
   memberOf: memberships.map((name) => ({ "@type": "Organization", name })),
   award: "COVID-19 award for exemplary service, Rangiya Division (N.F. Railway), 2021",
   knowsLanguage: siteConfig.doctor.languageCodes,
+  // Dr. Das's own consultation hours; the clinic's wider hours are on
+  // the MedicalClinic node below.
+  openingHoursSpecification: siteConfig.doctor.consultHours.specs.map((s) => ({
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: [...s.dayOfWeek],
+    opens: s.opens,
+    closes: s.closes,
+  })),
   worksFor: { "@id": `${base}/#clinic` },
   subjectOf: {
     "@type": "ScholarlyArticle",
@@ -137,6 +145,13 @@ export const clinicNode = {
     addressCountry: siteConfig.address.country,
   },
   telephone: siteConfig.phone.schema,
+  contactPoint: siteConfig.whatsapp.numbers.map((n) => ({
+    "@type": "ContactPoint",
+    contactType: "customer service",
+    telephone: n.schema,
+    url: `https://wa.me/${n.wa}`,
+    availableLanguage: siteConfig.doctor.languageCodes,
+  })),
   email: siteConfig.email,
   openingHoursSpecification: [
     {

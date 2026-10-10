@@ -89,9 +89,21 @@ export default function Footer() {
               </p>
               <p className="foot-line">
                 <MessageCircle size={16} strokeWidth={1.8} aria-hidden />
-                <a href={whatsappUrl("Medcare")} target="_blank" rel="noopener noreferrer">
-                  WhatsApp {siteConfig.whatsapp.display}
-                </a>
+                <span>
+                  WhatsApp{" "}
+                  {siteConfig.whatsapp.numbers.map((n, i) => (
+                    <span key={n.wa}>
+                      {i > 0 ? " or " : ""}
+                      <a
+                        href={whatsappUrl("Medcare", n.wa)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {n.display}
+                      </a>
+                    </span>
+                  ))}
+                </span>
               </p>
               <ObfuscatedEmail />
             </div>

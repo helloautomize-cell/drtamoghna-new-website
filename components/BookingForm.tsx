@@ -7,7 +7,7 @@ import { bookAppointment, type BookingState } from "@/app/contact/actions";
 import { BOOKING_REASONS } from "@/lib/booking-context";
 import { GUARDIAN_CONSENT_TEXT, PATIENT_CONSENT_TEXT } from "@/lib/consent-text";
 import { siteConfig } from "@/lib/site-config";
-import { whatsappUrl } from "@/lib/whatsapp";
+import WhatsAppMenu from "./WhatsAppMenu";
 import RouteLink from "./RouteLink";
 
 /**
@@ -70,15 +70,10 @@ export default function BookingForm({
                 <Phone size={16} strokeWidth={2} aria-hidden /> Call{" "}
                 {siteConfig.phone.display}
               </a>{" "}
-              <a
-                className="btn ghost sm"
-                href={whatsappUrl("an appointment")}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <WhatsAppMenu className="btn ghost sm" pageTitle="an appointment">
                 <MessageCircle size={16} strokeWidth={2} aria-hidden /> WhatsApp{" "}
                 {siteConfig.whatsapp.display}
-              </a>
+              </WhatsAppMenu>
             </p>
           ) : null}
         </div>
@@ -203,15 +198,17 @@ export default function BookingForm({
             defaultValue={v.timeOfDay || "morning"}
             aria-describedby="sun-note"
           >
-            <option value="morning">Morning (9 am to 12 pm)</option>
-            <option value="afternoon">Afternoon (12 pm to 4 pm)</option>
+            <option value="morning">Morning (10 am to 12 pm)</option>
+            <option value="afternoon">Afternoon (12 pm to 2 pm)</option>
             <option value="evening" disabled={sunday}>
-              Evening (4 pm to 8:30 pm, Monday to Saturday)
+              Evening (6 pm to 8 pm, Monday to Saturday)
             </option>
           </select>
           {sunday ? (
             <span className="fld-note" id="sun-note">
-              On Sunday we are open 9 am to 3:30 pm.
+              The clinic is open on Sunday, but Dr. Das&rsquo;s consultations
+              are Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm, by prior
+              appointment.
             </span>
           ) : null}
           {err("timeOfDay")}

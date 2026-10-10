@@ -10,9 +10,12 @@ const noindex = process.env.SITE_NOINDEX === "true";
  * Google Analytics/Tag Manager (consent-gated), Cloudflare Turnstile and
  * Vercel analytics only.
  */
+// React dev mode uses eval() for error callstack reconstruction.
+const devEval = process.env.NODE_ENV === "development" ? " 'unsafe-eval'" : "";
+
 const csp = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://challenges.cloudflare.com https://va.vercel-scripts.com",
+  `script-src 'self' 'unsafe-inline'${devEval} https://www.googletagmanager.com https://challenges.cloudflare.com https://va.vercel-scripts.com`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob: https://www.google-analytics.com https://www.googletagmanager.com",
   "font-src 'self'",

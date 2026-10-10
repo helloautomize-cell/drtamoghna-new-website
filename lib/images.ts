@@ -11,19 +11,19 @@ export const images = {
     src: `${B}/doctors/dr-das-hero.jpg`, widths: [380, 600, 793],
     width: 793,
     height: 1190,
-    alt: "Dr. Tamoghna Das, physician at Medcare Diabetes & Obesity Clinic, Bongaigaon, in a white coat with a stethoscope",
+    alt: "Dr. Tamoghna Das, physician at Medcare Diabetes, Obesity and Echocardiography Clinic, Bongaigaon, in a white coat with a stethoscope",
   },
   heroMobile: {
     src: `${B}/doctors/dr-das-hero-mobile.jpg`, widths: [390, 640, 793],
     width: 793,
     height: 991,
-    alt: "Dr. Tamoghna Das, physician at Medcare Diabetes & Obesity Clinic, Bongaigaon, in a white coat with a stethoscope",
+    alt: "Dr. Tamoghna Das, physician at Medcare Diabetes, Obesity and Echocardiography Clinic, Bongaigaon, in a white coat with a stethoscope",
   },
   portrait: {
     src: `${B}/doctors/dr-das-portrait.jpg`, widths: [400, 793],
     width: 793,
     height: 991,
-    alt: "Dr. Tamoghna Das, physician at Medcare Diabetes & Obesity Clinic, Bongaigaon, in a white coat with a stethoscope",
+    alt: "Dr. Tamoghna Das, physician at Medcare Diabetes, Obesity and Echocardiography Clinic, Bongaigaon, in a white coat with a stethoscope",
   },
   avatar: { src: `${B}/doctors/dr-das-avatar.jpg`, widths: [96, 256, 512], width: 512, height: 512, alt: "Dr. Tamoghna Das" },
   consultation: {
@@ -78,13 +78,13 @@ export const images = {
     src: `${B}/clinic/clinic-exterior-wide.jpg`, widths: [1320],
     width: 1320,
     height: 742,
-    alt: "Front of Medcare Diabetes & Obesity Clinic on Chapaguri Road, North Bongaigaon, at dusk",
+    alt: "Front of Medcare Diabetes, Obesity and Echocardiography Clinic on Chapaguri Road, North Bongaigaon, at dusk",
   },
   exterior: {
     src: `${B}/clinic/clinic-exterior.jpg`, widths: [640, 1320],
     width: 1320,
     height: 880,
-    alt: "Front of Medcare Diabetes & Obesity Clinic on Chapaguri Road, North Bongaigaon, at dusk",
+    alt: "Front of Medcare Diabetes, Obesity and Echocardiography Clinic on Chapaguri Road, North Bongaigaon, at dusk",
   },
   reception: {
     src: `${B}/clinic/clinic-reception.jpg`, widths: [640, 1024, 1536],

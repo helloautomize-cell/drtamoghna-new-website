@@ -16,14 +16,14 @@ import YAML from "yaml";
 
 const CONTENT = "content";
 const DEFAULT_DESC =
-  "Medcare Diabetes & Obesity Clinic, North Bongaigaon, Assam. Dr. Tamoghna Das, MBBS, MD (Medicine).";
+  "Medcare Diabetes, Obesity and Echocardiography Clinic, North Bongaigaon, Assam. Dr. Tamoghna Das, MBBS, MD (Medicine).";
 
 // Keep in sync with pageMeta() calls in app/*/page.tsx.
 const OVERRIDES = {
   "/contact/": {
     title: "Book an Appointment | Medcare Bongaigaon",
     description:
-      "Book with Dr. Tamoghna Das at Medcare, North Bongaigaon. Call 60031 21297 or WhatsApp 98642 66191. We confirm within 30 to 60 minutes.",
+      "Book with Dr. Tamoghna Das at Medcare, North Bongaigaon. Call 60031 21297 or WhatsApp 60031 21297 or 93651 75235. We confirm within 30 to 60 minutes.",
   },
   "/services/": {
     title: "Services and Tests at Medcare Bongaigaon",
@@ -53,7 +53,7 @@ function walk(dir) {
 
 const rows = [];
 for (const file of walk(CONTENT)) {
-  const text = readFileSync(file, "utf8");
+  const text = readFileSync(file, "utf8").replace(/\r\n/g, "\n");
   const m = text.match(/```yaml\n([\s\S]*?)```/);
   if (!m) continue;
   const fm = YAML.parse(m[1]);

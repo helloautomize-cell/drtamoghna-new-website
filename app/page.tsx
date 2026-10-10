@@ -23,7 +23,7 @@ import { getPage, mdToHtml, pageH1 } from "@/lib/content";
 import { pageGraph } from "@/lib/page-schema";
 import { pageMeta } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
-import { whatsappUrl } from "@/lib/whatsapp";
+import WhatsAppMenu from "@/components/WhatsAppMenu";
 import { formatDate } from "@/lib/format";
 import type { BadgeSlug } from "@/lib/service-badges";
 import type { Faq } from "@/lib/content-types";
@@ -33,7 +33,7 @@ const page = getPage("/");
 const HOME_FAQS: { q: string; a: string }[] = [
   {
     q: "Do I need an appointment, or can I walk in?",
-    a: "Booking is better, because your time is reserved and waiting is shorter. You can book online, call 60031 21297 or WhatsApp 98642 66191, and we confirm within 30 to 60 minutes during clinic hours. If you walk in, we will fit you in when a slot is free, but you may need to wait.",
+    a: "Booking is better, because your time is reserved and waiting is shorter. You can book online, call 60031 21297 or message us on WhatsApp at 60031 21297 or 93651 75235, and we confirm within 30 to 60 minutes during clinic hours. If you walk in, we will fit you in when a slot is free, but you may need to wait.",
   },
   {
     q: "Can I get my echo or ECG done on the same day as the consultation?",
@@ -45,7 +45,7 @@ const HOME_FAQS: { q: string; a: string }[] = [
   },
   {
     q: "Is Medcare open on Sunday?",
-    a: "Yes. Medcare is open Monday to Saturday from 9 am to 8:30 pm and on Sunday from 9 am to 3:30 pm. Hours on festival holidays can change, so please call 60031 21297 before you visit on a holiday.",
+    a: "Yes. Medcare is open Monday to Saturday from 9 am to 8:30 pm and on Sunday from 9 am to 3:30 pm. Dr. Das's consultations are Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm, by prior appointment. Hours on festival holidays can change, so please call 60031 21297 before you visit on a holiday.",
   },
 ];
 
@@ -251,14 +251,10 @@ export default function Home() {
               <a href={`tel:${siteConfig.phone.tel}`}>
                 Call {siteConfig.phone.display}
               </a>
-              <a
-                href={whatsappUrl("Medcare")}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <WhatsAppMenu pageTitle="Medcare">
                 <MessageCircle size={15} strokeWidth={2} aria-hidden /> WhatsApp{" "}
                 {siteConfig.whatsapp.display}
-              </a>
+              </WhatsAppMenu>
             </p>
             <p className="hc-row">
               <Mail size={18} strokeWidth={1.9} aria-hidden />

@@ -9,7 +9,7 @@ url: /appointments-cancellation-refund/
 H1: Appointments, cancellation and *refund*
 
 ### Booking
-- Book through the website form, by calling +91 60031 21297, or by WhatsApp on +91 98642 66191
+- Book through the website form, by calling +91 60031 21297, or by WhatsApp on +91 60031 21297 or +91 93651 75235
 - A website request is confirmed only when the clinic calls or messages you
 - We aim to confirm within 30 to 60 minutes during clinic hours. Requests sent after closing are confirmed the next morning.
 - Clinic hours: Monday to Saturday 9 am to 8:30 pm, Sunday 9 am to 3:30 pm

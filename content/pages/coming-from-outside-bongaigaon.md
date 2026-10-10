@@ -14,7 +14,7 @@ Intro: Patients visit Medcare from across lower Assam and the Bodoland region, i
 
 ### Plan a one-day visit
 
-1. **Book before you travel.** Call 60031 21297 or WhatsApp 98642 66191 and tell us you are coming from outside Bongaigaon. We will suggest a time that suits your travel.
+1. **Book before you travel.** Call 60031 21297 or WhatsApp 60031 21297 or 93651 75235 and tell us you are coming from outside Bongaigaon. We will suggest a time that suits your travel.
 2. **Send your reports in advance.** WhatsApp old reports and your medicine list so Dr. Das can see your history before you arrive.
 3. **Ask about fasting.** If a fasting blood test may be needed, we will tell you when to stop eating and how to manage diabetes medicines that morning.
 4. **Arrive early in the day.** A morning arrival leaves time for tests such as echo, ECG or HbA1c after the consultation.
@@ -38,7 +38,7 @@ Note: Medcare does not offer video consultations at present. [CONFIRM]
 ### FAQs
 
 1. **Can I finish everything in one day?**
-   Usually yes. Book ahead, arrive in the morning and bring your old reports. Consultation and most tests are done the same day at Medcare. Blood tests are done at a lab nearby of your choice, and some reports may arrive later, in which case you can send them on WhatsApp.
+   Usually yes. Book ahead, arrive in the morning and bring your old reports. Consultation and most tests are done the same day at Medcare. Blood samples are collected at Medcare through our lab partner Agilus and reports are given at the clinic; some reports may arrive later, in which case you can send them on WhatsApp.
 2. **Do I need to stay overnight?**
    Most patients do not. A sleep study is done overnight, and some monitors are worn for one to several days. If you need one of these, we will plan the timing with you.
 3. **Can I consult without coming to Bongaigaon?**

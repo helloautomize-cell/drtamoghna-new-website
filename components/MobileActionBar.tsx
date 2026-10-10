@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import * as Dialog from "@radix-ui/react-dialog";
 import { CalendarDays, MessageCircle, Phone } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
-import { whatsappUrlForPath } from "@/lib/whatsapp";
+import WhatsAppMenu from "./WhatsAppMenu";
 
 /**
  * Mobile action bar (master-rules 3.1): below 1024px on every page, brand
@@ -53,10 +53,10 @@ export default function MobileActionBar() {
           <Phone size={20} strokeWidth={1.8} aria-hidden />
           Call Now
         </button>
-        <a href={whatsappUrlForPath(pathname)} target="_blank" rel="noopener noreferrer">
+        <WhatsAppMenu>
           <MessageCircle size={20} strokeWidth={1.8} aria-hidden />
           WhatsApp
-        </a>
+        </WhatsAppMenu>
       </nav>
 
       <Dialog.Root open={callOpen} onOpenChange={setCallOpen}>

@@ -1,6 +1,6 @@
-# Medcare Diabetes & Obesity Clinic website
+# Medcare Diabetes, Obesity and Echocardiography Clinic website
 
-Public website for Medcare Diabetes & Obesity Clinic, Bongaigaon, Assam,
+Public website for Medcare Diabetes, Obesity and Echocardiography Clinic, Bongaigaon, Assam,
 the clinic of Dr. Tamoghna Das, MBBS, MD (Medicine).
 
 ## Stack

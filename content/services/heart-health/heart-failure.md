@@ -38,7 +38,7 @@ Finding heart failure at stage A or B gives the greatest chance to prevent sympt
 
 1. **History and examination.** Symptoms, how far you can walk, sleep position, swelling, weight change and past illnesses.
 2. **Echo and ECG.** To see how well the heart pumps and fills, the valves, pressures and rhythm. Strain imaging adds detail on heart muscle function.
-3. **Blood tests.** Kidney function, salts, haemoglobin, thyroid, sugar and, when needed, a heart failure marker (NT-proBNP), done at a lab of your choice.
+3. **Blood tests.** Kidney function, salts, haemoglobin, thyroid, sugar and, when needed, a heart failure marker (NT-proBNP), with samples collected at Medcare through our lab partner Agilus.
 4. **Treatment plan.** Medicines that ease fluid build-up and medicines proven to help the heart work better and live longer, started and adjusted step by step.
 5. **Self-care training.** Daily weight, fluid and salt guidance, activity, vaccines, and warning signs.
 6. **Follow-up.** Regular reviews to adjust medicines, check kidneys and salts, and repeat echo when useful. If you need a device or procedure, Dr. Das will explain your options.

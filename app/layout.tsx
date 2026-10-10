@@ -55,6 +55,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en-IN"
+      // The js-rv script in <body> mutates this element's classList
+      // before hydration, so its className intentionally differs.
+      suppressHydrationWarning
       className={`${figtree.variable} ${instrumentSerif.variable} ${notoSansDevanagari.variable}`}
     >
       <body>

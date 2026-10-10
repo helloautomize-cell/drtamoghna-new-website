@@ -11,7 +11,12 @@ function walk(dir: string): string[] {
   });
 }
 const ROUTES: string[] = walk(CONTENT_DIR)
-  .map((f) => readFileSync(f, "utf8").match(/^url:\s*(\S+)$/m)?.[1])
+  .map(
+    (f) =>
+      readFileSync(f, "utf8")
+        .replace(/\r\n/g, "\n")
+        .match(/^url:\s*(\S+)$/m)?.[1],
+  )
   .filter((u): u is string => Boolean(u))
   .filter((u) => u !== "/");
 const PAGES = [...ROUTES, "/"];

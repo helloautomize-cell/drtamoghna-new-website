@@ -24,14 +24,14 @@ double-checks.
    Is the clinic open on public holidays, with shorter hours, or closed?
    The site currently does not mention holiday hours.
 
-4. **Who covers clinic hours** · affects `/about/`, `/dr-tamoghna-das/`
-   Do you personally cover all OPD hours (Mon-Sat 9 am-8:30 pm,
-   Sun 9 am-3:30 pm), or are some hours covered differently? The site
-   says "Dr. Das sees every patient himself".
+4. ~~**Who covers clinic hours**~~ Resolved: the site now states Dr. Das's
+   consultation hours as Monday to Saturday, 10 am to 2 pm and 6 pm to
+   8 pm, by prior appointment. Clinic hours stay Mon-Sat 9 am-8:30 pm,
+   Sun 9 am-3:30 pm.
 
-5. **WhatsApp number** · affects `/contact/`, footer, floating button
-   Is 98642 66191 a clinic phone or a personal number? The site presents
-   it as the clinic's WhatsApp.
+5. ~~**WhatsApp number**~~ Resolved: the personal number is removed. The
+   site uses two clinic WhatsApp numbers, 60031 21297 and 93651 75235,
+   behind one chooser component.
 
 6. **Entrance and parking** · affects `/plan-your-visit/`
    Is there any step at the clinic entrance, and what parking is

@@ -12,7 +12,7 @@ import { getPage, pageH1, accent } from "@/lib/content";
 import { pageGraph } from "@/lib/page-schema";
 import { pageMeta } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
-import { whatsappUrl } from "@/lib/whatsapp";
+import WhatsAppMenu from "@/components/WhatsAppMenu";
 import { images, imgSrcSet } from "@/lib/images";
 import { isReasonSlug } from "@/lib/booking-context";
 
@@ -21,7 +21,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = pageMeta({
   title: "Book an Appointment | Medcare Bongaigaon",
   description:
-    "Book with Dr. Tamoghna Das at Medcare, North Bongaigaon. Call 60031 21297 or WhatsApp 98642 66191. We confirm within 30 to 60 minutes.",
+    "Book with Dr. Tamoghna Das at Medcare, North Bongaigaon. Call 60031 21297 or WhatsApp 60031 21297 or 93651 75235. We confirm within 30 to 60 minutes.",
   url: "/contact/",
 });
 
@@ -104,17 +104,12 @@ export default async function Page({
                   <b>Call</b> {siteConfig.phone.display}
                 </span>
               </a>
-              <a
-                className="ccard"
-                href={whatsappUrl("an appointment")}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <WhatsAppMenu className="ccard" pageTitle="an appointment">
                 <MessageCircle size={20} strokeWidth={2} aria-hidden />
                 <span>
                   <b>WhatsApp</b> {siteConfig.whatsapp.display}
                 </span>
-              </a>
+              </WhatsAppMenu>
               <a className="ccard" href={`mailto:${siteConfig.email}`}>
                 <Mail size={20} strokeWidth={2} aria-hidden />
                 <span>

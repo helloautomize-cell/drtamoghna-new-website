@@ -20,7 +20,7 @@ Fever is the body's response to an infection or inflammation. Most short fevers 
 - **See a doctor if:** fever lasts more than 2 to 3 days, is very high, or comes with any warning sign
 - **Common causes in our area:** viral fever, dengue, malaria, typhoid, scrub typhus, leptospirosis, urine infections, chest infections, flu
 - **People who need early review:** those with diabetes, heart, kidney or liver disease, pregnancy, older adults and anyone on steroids or cancer treatment
-- **Tests:** chosen after examination; usually done at a lab of your choice
+- **Tests:** chosen after examination; samples usually collected at Medcare through our lab partner Agilus
 - **Fever medicine:** use only what your doctor advises; avoid painkillers commonly used for joint pain until dengue is ruled out
 
 ### Fevers common in Assam

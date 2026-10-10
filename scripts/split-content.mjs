@@ -40,7 +40,7 @@ const LEGAL_SLUGS = new Set([
   "accessibility",
 ]);
 
-const text = readFileSync(SRC, "utf8");
+const text = readFileSync(SRC, "utf8").replace(/\r\n/g, "\n");
 
 // Stop before Part 8 (review guide): build-only, never rendered.
 const part8 = text.indexOf("# Part 8");

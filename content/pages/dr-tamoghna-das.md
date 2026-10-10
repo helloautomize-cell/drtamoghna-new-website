@@ -20,13 +20,13 @@ Key facts card:
 - **Experience:** More than 15 years as a doctor · more than 10 years as a medicine specialist
 - **Languages:** English, Assamese, Bengali, Bodo, Hindi
 - **Registration:** Assam Council of Medical Registration No. 20276
-- **Practice:** Medcare Diabetes & Obesity Clinic, Bongaigaon (founder)
+- **Practice:** Medcare Diabetes, Obesity and Echocardiography Clinic, Bongaigaon (founder)
 
 Buttons: [Book with Dr. Das] [Call 60031 21297]
 
 ### About
 
-Dr. Tamoghna Das is an internal medicine and cardio-diabetic consultant in Bongaigaon, Assam, and the founder of Medcare Diabetes & Obesity Clinic. He studied medicine at Gauhati Medical College and Hospital, where he completed his MBBS in 2010 and his MD in Medicine in 2015, and then worked as Registrar in the Department of Medicine.
+Dr. Tamoghna Das is an internal medicine and cardio-diabetic consultant in Bongaigaon, Assam, and the founder of Medcare Diabetes, Obesity and Echocardiography Clinic. He studied medicine at Gauhati Medical College and Hospital, where he completed his MBBS in 2010 and his MD in Medicine in 2015, and then worked as Registrar in the Department of Medicine.
 
 He joined Indian Railways through the UPSC Combined Medical Services examination and served as Assistant Divisional Medical Officer and later as Divisional Medical Officer (Medicine Specialist) until 2023. During the COVID-19 pandemic he received an award for exemplary service from the Divisional Railway Manager, Rangiya Division.
 
@@ -58,7 +58,7 @@ Note for build: quotes are Dr. Das's own words from intake, lightly edited for r
 
 ### Work experience
 
-- Since September 2023 · Founder and Internal Medicine and Cardio-Diabetic Consultant, Medcare Diabetes & Obesity Clinic, Bongaigaon
+- Since September 2023 · Founder and Internal Medicine and Cardio-Diabetic Consultant, Medcare Diabetes, Obesity and Echocardiography Clinic, Bongaigaon
 - 2019 to June 2023 · Divisional Medical Officer (Medicine Specialist), Indian Railways
 - 2017 to 2019 · Assistant Divisional Medical Officer, Indian Railways (UPSC CMS 2013)
 - 2016 to 2017 · Consultant Physician, Arya Wellness Clinic, Guwahati
@@ -111,12 +111,12 @@ Mobile: 6 per group + "Show all (n)".
 
 1. **What kind of doctor is Dr. Tamoghna Das?**
    Dr. Das is a consultant physician with an MD in Medicine from Gauhati Medical College and Hospital. He looks after adults with long-term and everyday medical problems, with a focus on diabetes, weight, blood pressure and heart health. He also has fellowship training in echocardiography, so he performs and reports heart ultrasound scans himself at Medcare.
-2. **Is Dr. Das a cardiologist?**
-   No. Dr. Das is a physician (MD Medicine) with advanced training in echocardiography. He manages heart risk, high blood pressure and heart failure as part of internal medicine, and performs echo tests. If you need a procedure such as angiography or a pacemaker, he will explain this and help you choose where to go.
+2. **Does Dr. Das see heart patients?**
+   Yes. Dr. Das is an MD in Internal Medicine with a Post Graduate Fellowship in Clinical Echocardiography (cardiac physician). He examines, diagnoses and manages most clinical cardiology diseases and disorders, drawing on his experience in clinical cardiology and cardiac imaging. He manages heart risk, high blood pressure, heart failure and heart rhythm problems, and performs echocardiography, strain imaging and Holter monitoring at Medcare. If you need a procedure such as angiography, angioplasty or a pacemaker, he will explain why and help you choose where to go.
 3. **Which languages does Dr. Das speak?**
    English, Assamese, Bengali, Bodo and Hindi. You can speak in the language you are most comfortable with, and he will explain your reports and plan in the same language.
 4. **Where does Dr. Das see patients?**
-   Dr. Das sees patients at Medcare Diabetes & Obesity Clinic on Chapaguri Road, opposite Domino's, North Bongaigaon. The clinic is open Monday to Saturday from 9 am to 8:30 pm and Sunday from 9 am to 3:30 pm. Call 60031 21297 to book.
+   Dr. Das sees patients at Medcare Diabetes, Obesity and Echocardiography Clinic on Chapaguri Road, opposite Domino's, North Bongaigaon. His consultation hours are Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm, by prior appointment. Call or WhatsApp 60031 21297 or 93651 75235 to book.
 5. **How can I check Dr. Das's registration?**
    Dr. Das is registered with the Assam Council of Medical Registration, registration number 20276. You can verify registered doctors through the National Medical Commission's Indian Medical Register search or by contacting the Assam council.
 

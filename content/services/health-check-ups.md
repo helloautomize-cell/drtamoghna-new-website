@@ -20,7 +20,7 @@ A preventive health check-up looks for silent problems such as high sugar, high 
 
 - **How it works:** consultation first, then a test plan for you, then a results visit
 - **Done at Medcare:** BP, weight and waist, body composition, HbA1c and finger-prick sugar, ECG, echo, spirometry and foot checks, as needed
-- **Blood and urine tests:** at a lab of your choice
+- **Blood and urine tests:** collected at Medcare through our lab partner Agilus, reports given at the clinic
 - **Who should come:** adults over 30 every year or as advised, and younger adults with a family history or risk factors
 - **What you get:** results explained, your risk in plain words, and a written plan
 

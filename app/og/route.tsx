@@ -43,7 +43,7 @@ export async function GET(request: Request) {
           }}
         >
           <div style={{ fontSize: 26, fontWeight: 700, opacity: 0.92 }}>
-            Medcare Diabetes & Obesity Clinic
+            Medcare Diabetes, Obesity and Echocardiography Clinic
           </div>
           <div
             style={{

@@ -2,7 +2,7 @@
 
 ```yaml
 title: "About Medcare | Physician-Led Clinic in Bongaigaon"
-description: "Medcare Diabetes & Obesity Clinic was founded in 2023 by Dr. Tamoghna Das, MD Medicine. How we work, what we do in-house, and how to find us."
+description: "Medcare Diabetes, Obesity and Echocardiography Clinic was founded in 2023 by Dr. Tamoghna Das, MD Medicine. How we work and how to find us."
 url: /about/
 reviewer: dr-tamoghna-das
 lastReviewed: "2026-10-03"
@@ -11,7 +11,7 @@ schema: [AboutPage]
 
 H1: About *Medcare*
 
-Intro (answer-first): Medcare Diabetes & Obesity Clinic is a physician-led outpatient clinic on Chapaguri Road in North Bongaigaon, Assam. It was founded in September 2023 by Dr. Tamoghna Das, MBBS, MD (Medicine), who sees every patient himself. The clinic looks after diabetes, weight, blood pressure, heart health, thyroid, lung and sleep problems, and does most of the related tests under one roof.
+Intro (answer-first): Medcare Diabetes, Obesity and Echocardiography Clinic is a physician-led outpatient clinic on Chapaguri Road in North Bongaigaon, Assam. It was founded in September 2023 by Dr. Tamoghna Das, MBBS, MD (Medicine), who sees every patient himself. The clinic looks after diabetes, weight, blood pressure, heart health, thyroid, lung and sleep problems, and does most of the related tests under one roof.
 
 ### Why Medcare was started
 
@@ -44,7 +44,7 @@ Tests done in the clinic:
 - Diabetic foot nerve and circulation check
 - Sleep study
 
-Medcare does not run its own laboratory or sell medicines at present. Dr. Das tells you which blood tests you need, and you can get them done at a lab of your choice. Prescriptions can be filled at any pharmacy you prefer.
+Medcare has an in-house pharmacy and a lab tie-up with Agilus. Dr. Das tells you which blood tests you need; samples are collected at the clinic and reports are given there. Prescriptions can be filled at Medcare's in-house pharmacy, which sells genuine medicines.
 
 ### The clinic
 
@@ -61,7 +61,7 @@ If you need hospital admission, Dr. Das explains your options, and you choose th
 | Registration | Assam Council of Medical Registration No. 20276 |
 | Address | Chapaguri Road, opposite Domino's, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380 |
 | Hours | Mon to Sat 9 am to 8:30 pm · Sun 9 am to 3:30 pm |
-| Phone | 60031 21297 · WhatsApp 98642 66191 |
+| Phone | 60031 21297 · WhatsApp 60031 21297 or 93651 75235 |
 | Languages | English, Assamese, Bengali, Bodo, Hindi |
 
 Buttons: [Meet Dr. Das] [Plan your visit]

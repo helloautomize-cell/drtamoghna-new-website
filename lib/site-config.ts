@@ -1,17 +1,18 @@
 /**
- * site-config.ts · Single source of facts for Medcare Diabetes & Obesity Clinic.
+ * site-config.ts · Single source of facts for Medcare Diabetes, Obesity and
+ * Echocardiography Clinic.
  * Every value comes from resources/docs/client-answers.md. Nothing invented.
  * Anything awaiting Dr. Das's confirmation is listed in TODO_CONFIRM.
  */
 
 export const siteConfig = {
-  name: "Medcare Diabetes & Obesity Clinic",
+  name: "Medcare Diabetes, Obesity and Echocardiography Clinic",
   shortName: "Medcare",
   tagline: "Diabetes, weight, heart and thyroid care in Bongaigaon",
 
   // Q21: canonical NAP, word for word. Display breaks per client-answers.
   address: {
-    full: "Medcare Diabetes & Obesity Clinic, Chapaguri Road, opposite Domino's, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380",
+    full: "Medcare Diabetes, Obesity and Echocardiography Clinic, Chapaguri Road, opposite Domino's, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380",
     lines: [
       "Chapaguri Road, opposite Domino's",
       "North Bongaigaon, Gurunanak Nagar",
@@ -42,9 +43,23 @@ export const siteConfig = {
     tel: "+916003121297",
     schema: "+91-6003121297",
   },
+  // Q24: two clinic WhatsApp numbers. The personal number is removed.
   whatsapp: {
-    display: "98642 66191",
-    wa: "919864266191",
+    numbers: [
+      {
+        display: "60031 21297",
+        displayIntl: "+91 60031 21297",
+        wa: "916003121297",
+        schema: "+91-6003121297",
+      },
+      {
+        display: "93651 75235",
+        displayIntl: "+91 93651 75235",
+        wa: "919365175235",
+        schema: "+91-9365175235",
+      },
+    ],
+    display: "60031 21297 or 93651 75235",
     // Message pattern lives in lib/whatsapp.ts (single source).
   },
   email: "medcarebongaigaon@gmail.com", // Q25, obfuscated in HTML
@@ -65,6 +80,38 @@ export const siteConfig = {
     experience: "more than 15 years",
     experienceSpecialist: "more than 10 years as a specialist",
     experienceChip: "15+ years",
+    // Dr. Das's own consultation hours; the clinic `hours` above are wider.
+    consultHours: {
+      display: "Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm",
+      sentence:
+        "Dr. Das's consultations are Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm, by prior appointment.",
+      specs: [
+        {
+          dayOfWeek: [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+          ],
+          opens: "10:00",
+          closes: "14:00",
+        },
+        {
+          dayOfWeek: [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+          ],
+          opens: "18:00",
+          closes: "20:00",
+        },
+      ],
+    },
   },
 
   foundingDate: "2023-09", // Q20
@@ -114,14 +161,12 @@ export const siteConfig = {
  * Verbatim from new-website-content.md Part 6.
  */
 export const IDENTITY =
-  'This website is run by Medcare Diabetes & Obesity Clinic ("Medcare", "we", "us"), Chapaguri Road, opposite Domino\'s, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380, owned by Dr. Tamoghna Das. Phone: +91 60031 21297. Email: medcarebongaigaon@gmail.com.';
+  'This website is run by Medcare Diabetes, Obesity and Echocardiography Clinic ("Medcare", "we", "us"), Chapaguri Road, opposite Domino\'s, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380, owned by Dr. Tamoghna Das. Phone: +91 60031 21297. Email: medcarebongaigaon@gmail.com.';
 
 export const TODO_CONFIRM = [
   "Exact lat/long from the Maps pin (Q21)",
   "Floor or building name for the address (Q21)",
   "Holiday hours: open, short hours or closed (Q22)",
-  "Whether Dr. Das personally covers all OPD hours (Q22)",
-  "Whether 98642 66191 is a clinic or personal phone (Q24)",
   "Any step at the clinic entrance; parking type (Q27)",
   "Nearest railway station and bus stand, distance to clinic (Q28)",
   "Bhutan border towns mention OK (Q28)",

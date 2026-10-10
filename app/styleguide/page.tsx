@@ -19,6 +19,7 @@ import CenteredCarousel from "@/components/CenteredCarousel";
 import DoctorCard from "@/components/DoctorCard";
 import { EmergencyCallout, ReviewerCallout, TipCallout } from "@/components/Callouts";
 import PhoneFrame from "@/components/PhoneFrame";
+import WhatsAppMenu from "@/components/WhatsAppMenu";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import IconGrid from "@/components/IconGrid";
 
@@ -290,14 +291,9 @@ export default function StyleguidePage() {
           <a className="btn btn-s" href={`tel:${siteConfig.phone.tel}`}>
             Call {siteConfig.phone.display}
           </a>
-          <a
-            className="btn wa-btn"
-            href={`https://wa.me/${siteConfig.whatsapp.wa}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <WhatsAppMenu className="btn wa-btn">
             WhatsApp {siteConfig.whatsapp.display}
-          </a>
+          </WhatsAppMenu>
           <a className="link-arrow" href="/dr-tamoghna-das/">
             View profile <ArrowRight size={18} strokeWidth={2} aria-hidden />
           </a>
@@ -403,8 +399,8 @@ export default function StyleguidePage() {
               <b>Call Now</b> opens a sheet with one number: {siteConfig.phone.display}.
             </p>
             <p>
-              <b>WhatsApp</b> opens a chat with {siteConfig.whatsapp.display} and a message built
-              from the page.
+              <b>WhatsApp</b> opens a chooser with both clinic numbers (
+              {siteConfig.whatsapp.display}) and a message built from the page.
             </p>
             <p>
               Teal to slate gradient at 92% under glass, 64px tall buttons, 16px top corners,

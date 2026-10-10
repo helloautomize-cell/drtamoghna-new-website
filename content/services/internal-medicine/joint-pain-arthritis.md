@@ -19,7 +19,7 @@ Joint pain has many causes, from wear and tear in the knees to inflammation in r
 
 - **Common causes:** osteoarthritis (wear and tear), gout, rheumatoid arthritis, pain after viral fevers, frozen shoulder in diabetes, back and neck strain
 - **Clues that matter:** which joints, morning stiffness, swelling, redness, fever, age and family history
-- **Tests (lab of your choice):** blood count, inflammation markers, uric acid, rheumatoid factor and others as needed, and X-rays when useful
+- **Tests (samples collected at Medcare, Agilus lab):** blood count, inflammation markers, uric acid, rheumatoid factor and others as needed, and X-rays when useful
 - **Treatment:** exercise and weight care, pain relief used safely, and medicines that calm inflammatory arthritis
 - **At Medcare:** consultation, examination, test planning, and long-term follow-up
 

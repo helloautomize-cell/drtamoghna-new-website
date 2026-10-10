@@ -32,7 +32,7 @@ An ultrasound report may say grade 1, 2 or 3 fatty liver. This shows how much fa
 
 1. **History.** Weight change, alcohol, medicines, family history, diabetes, and symptoms such as tiredness or upper right abdominal discomfort.
 2. **Examination.** Weight, waist, body composition, BP, and signs of liver disease.
-3. **Tests.** Liver function, blood count, sugar, cholesterol and hepatitis tests at a lab of your choice. A simple score called FIB-4, calculated from routine blood tests, estimates scarring risk.
+3. **Tests.** Liver function, blood count, sugar, cholesterol and hepatitis tests, with samples collected at Medcare through our lab partner Agilus. A simple score called FIB-4, calculated from routine blood tests, estimates scarring risk.
 4. **Further checks when needed.** If the score is not low, Dr. Das may advise a liver stiffness scan (elastography) at a centre that offers it, or a specialist opinion.
 5. **Plan.** Weight, food, activity, alcohol advice, and control of diabetes, cholesterol and BP. Heart risk is also assessed, because people with fatty liver more often die of heart disease than of liver disease.
 6. **Follow-up.** Liver tests and scores rechecked to see progress.

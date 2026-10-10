@@ -8,8 +8,11 @@ export function whatsappMessage(pageTitle: string): string {
   return `Hello Medcare, I would like to book a visit about ${pageTitle}. My name is `;
 }
 
-export function whatsappUrl(pageTitle: string): string {
-  return `https://wa.me/${siteConfig.whatsapp.wa}?text=${encodeURIComponent(
+export function whatsappUrl(
+  pageTitle: string,
+  wa: string = siteConfig.whatsapp.numbers[0].wa,
+): string {
+  return `https://wa.me/${wa}?text=${encodeURIComponent(
     whatsappMessage(pageTitle),
   )}`;
 }

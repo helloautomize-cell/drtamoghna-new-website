@@ -17,7 +17,7 @@ export default function MapCard() {
     return (
       <div className="mapcard loaded">
         <iframe
-          title="Map: Medcare Diabetes & Obesity Clinic, Bongaigaon"
+          title="Map: Medcare Diabetes, Obesity and Echocardiography Clinic, Bongaigaon"
           src="https://www.google.com/maps?cid=18284086181285239697&hl=en&output=embed"
           width="100%"
           height="340"

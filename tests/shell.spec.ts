@@ -122,14 +122,23 @@ test.describe("mobile menu", () => {
 });
 
 test.describe("mobile action bar", () => {
-  test("visible below 1024 with encoded page title in the WhatsApp link", async ({ page }) => {
+  test("visible below 1024; WhatsApp opens the two-number chooser", async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/styleguide/");
     const bar = page.locator("nav.mbar");
     await expect(bar).toBeVisible();
-    const wa = bar.locator('a[href^="https://wa.me/"]');
-    const href = await wa.getAttribute("href");
-    expect(href).toContain(encodeURIComponent("Styleguide"));
+    await bar.getByRole("button", { name: "WhatsApp" }).click();
+    const chooser = page.getByRole("dialog");
+    await expect(chooser).toContainText("Chat on WhatsApp");
+    const links = chooser.locator('a[href^="https://wa.me/"]');
+    await expect(links).toHaveCount(2);
+    for (const num of ["916003121297", "919365175235"]) {
+      const href = await chooser
+        .locator(`a[href^="https://wa.me/${num}"]`)
+        .getAttribute("href");
+      expect(href).toContain(encodeURIComponent("Styleguide"));
+    }
+    await page.keyboard.press("Escape");
     // Call Now opens the sheet with the one call number.
     await bar.getByRole("button", { name: "Call Now" }).click();
     await expect(page.getByRole("dialog").getByRole("link", { name: /60031 21297/ })).toBeVisible();

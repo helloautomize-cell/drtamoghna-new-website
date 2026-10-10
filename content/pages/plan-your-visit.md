@@ -20,9 +20,11 @@ Intro: Medcare is on Chapaguri Road, opposite Domino's, in North Bongaigaon. We 
 | Sunday | 9 am to 3:30 pm |
 | Festival holidays | Hours may change. Please call before you visit. |
 
+Dr. Das sees patients by prior appointment, Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm.
+
 ### Address and directions
 
-Medcare Diabetes & Obesity Clinic
+Medcare Diabetes, Obesity and Echocardiography Clinic
 Chapaguri Road, opposite Domino's
 North Bongaigaon, Gurunanak Nagar
 Bongaigaon, Assam 783380
@@ -34,7 +36,7 @@ Landmark: directly opposite Domino's on Chapaguri Road.
 
 - Online: the booking form on the Contact page
 - Phone: 60031 21297
-- WhatsApp: 98642 66191
+- WhatsApp: 60031 21297 or 93651 75235
 - We confirm your time within 30 to 60 minutes during clinic hours. Requests sent after closing are confirmed the next morning.
 
 ### What to bring
@@ -78,4 +80,4 @@ Medcare looks after adults and older teenagers. Young people with type 1 diabete
 3. **Do you give a written plan?**
    Yes. You receive a prescription with medicines, doses and timings, and the tests and follow-up date. Dr. Das also explains food, activity and warning signs before you leave.
 4. **Can I send my reports on WhatsApp before the visit?**
-   You can send reports to 98642 66191 so the clinic has them ready. Please still bring the originals. WhatsApp is not monitored for emergencies.
+   You can send reports on WhatsApp to 60031 21297 or 93651 75235 so the clinic has them ready. Please still bring the originals. WhatsApp is not monitored for emergencies.

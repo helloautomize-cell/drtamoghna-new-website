@@ -113,7 +113,9 @@ test.describe("llms endpoints", () => {
       expect(res.status()).toBe(200);
       expect(res.headers()["content-type"]).toContain("text/plain");
       const body = await res.text();
-      expect(body).toContain("Medcare Diabetes & Obesity Clinic");
+      expect(body).toContain(
+        "Medcare Diabetes, Obesity and Echocardiography Clinic",
+      );
       expect(body).not.toContain("[CONFIRM");
       expect(body).not.toContain("%%TOK");
       expect(body).not.toContain("Note for build");
@@ -164,7 +166,13 @@ test.describe("booking fallback without RESEND_API_KEY", () => {
     const card = page.locator(".bdirect");
     await expect(card).toBeVisible();
     await expect(card.locator('a[href^="tel:"]')).toBeVisible();
-    await expect(card.locator('a[href*="wa.me"]')).toBeVisible();
+    const wa = card.getByRole("button", { name: /WhatsApp/ });
+    await expect(wa).toBeVisible();
+    await wa.click();
+    const chooser = page.getByRole("dialog");
+    await expect(chooser).toContainText("Chat on WhatsApp");
+    await expect(chooser.locator('a[href*="wa.me"]')).toHaveCount(2);
+    await page.keyboard.press("Escape");
     await expect(card).toContainText("30 to 60 minutes");
     await expect(page.locator("form.bform")).toHaveCount(0);
   });

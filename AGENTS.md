@@ -1,9 +1,9 @@
-# AGENTS.md · Medcare Diabetes & Obesity Clinic website
+# AGENTS.md · Medcare Diabetes, Obesity and Echocardiography Clinic website
 
 Read this before every task. It applies to every prompt in this project.
 
 ## What this is
-A Next.js website for Medcare Diabetes & Obesity Clinic, Bongaigaon, Assam, owned by Dr. Tamoghna Das (the only doctor). Built by Automize Media Labs. Medical site: YMYL, Indian medical advertising rules apply.
+A Next.js website for Medcare Diabetes, Obesity and Echocardiography Clinic, Bongaigaon, Assam, owned by Dr. Tamoghna Das (the only doctor). Built by Automize Media Labs. Medical site: YMYL, Indian medical advertising rules apply.
 
 ## Sources of truth (in this order)
 1. The current prompt from the agency.

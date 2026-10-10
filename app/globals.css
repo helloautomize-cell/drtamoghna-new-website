@@ -1056,6 +1056,9 @@ table.ct {
     linear-gradient(#000 0 0) content-box,
     linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
   mask-composite: exclude;
   transition: opacity 0.2s;
 }
@@ -1968,6 +1971,9 @@ table.ct {
   color: #fff;
   z-index: 5;
   text-decoration: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
 }
 @media (min-width: 1024px) {
   .wa {
@@ -2480,6 +2486,63 @@ table.ct {
   text-decoration: none;
 }
 .csheet-cancel {
+  margin-top: 10px;
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+  color: var(--ink-2);
+  font: 600 15px/1 var(--sans);
+  cursor: pointer;
+}
+
+/* ---------------------- WhatsApp number chooser ---------------------- */
+.wapop-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: rgba(20, 48, 58, 0.32);
+}
+/* Bottom sheet on mobile; inline styles anchor it on desktop. */
+.wapop {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: calc(12px + env(safe-area-inset-bottom));
+  z-index: 95;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: var(--shadow-hover);
+  padding: 18px;
+}
+@media (min-width: 1024px) {
+  .wapop {
+    width: 300px;
+    left: auto;
+  }
+}
+.wapop-title {
+  margin: 0 0 12px;
+  font: 700 17px/1.2 var(--sans);
+  color: var(--ink);
+}
+.wapop-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: var(--primary-50);
+  color: var(--primary-700);
+  font: 700 16px/1 var(--sans);
+  text-decoration: none;
+}
+.wapop-option + .wapop-option {
+  margin-top: 8px;
+}
+.wapop-cancel {
   margin-top: 10px;
   width: 100%;
   min-height: 44px;
@@ -3607,6 +3670,10 @@ table.ct {
   color: var(--ink);
   border: 1px solid var(--line);
 }
+button.bdirect-btn {
+  font-family: inherit;
+  cursor: pointer;
+}
 .bdirect-hours {
   display: flex;
   align-items: center;
@@ -3683,6 +3750,13 @@ table.ct {
   font-size: 15px;
   color: var(--ink);
   line-height: 1.5;
+}
+button.ccard {
+  border: 0;
+  width: 100%;
+  text-align: left;
+  font-family: inherit;
+  cursor: pointer;
 }
 .ccard:not(.static):not(.note):hover {
   background: #fff;
@@ -4665,7 +4739,8 @@ table.ct {
   margin-top: 3px;
   color: var(--primary-700);
 }
-.hc-row a {
+.hc-row a,
+.hc-row button {
   color: var(--ink);
   font-weight: 600;
   text-decoration: none;
@@ -4673,8 +4748,17 @@ table.ct {
   align-items: center;
   gap: 6px;
 }
-.hc-row a:hover {
+.hc-row a:hover,
+.hc-row button:hover {
   color: var(--primary-700);
+}
+.hc-row button {
+  background: none;
+  border: 0;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
 }
 .hc-dir {
   font-size: 14px;

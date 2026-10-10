@@ -406,11 +406,16 @@ function walk(dir: string): string[] {
   });
 }
 
+/** Read a content file; all parsing below assumes LF line endings. */
+export function readContentFile(file: string): string {
+  return readFileSync(file, "utf8").replace(/\r\n/g, "\n");
+}
+
 const urlIndex = cache((): Map<string, string> => {
   const map = new Map<string, string>();
   const seen = new Map<string, string>();
   for (const file of walk(CONTENT_DIR)) {
-    const text = readFileSync(file, "utf8");
+    const text = readContentFile(file);
     const yamlMatch = text.match(/```yaml\n([\s\S]*?)```/);
     if (!yamlMatch) continue;
     const url = (parseYaml(yamlMatch[1]) as { url?: string }).url;
@@ -435,7 +440,7 @@ export function contentFile(url: string): string | undefined {
 export const getPage = cache((url: string): ParsedPage => {
   const file = urlIndex().get(url);
   if (!file) throw new Error(`content: no page for url ${url}`);
-  const text = readFileSync(file, "utf8");
+  const text = readContentFile(file);
 
   const yamlMatch = text.match(/```yaml\n([\s\S]*?)```/);
   if (!yamlMatch) throw new Error(`content: missing frontmatter in ${file}`);
