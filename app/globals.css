@@ -1957,7 +1957,7 @@ table.ct {
 }
 
 /* Floating WhatsApp (desktop only) */
-.wa {
+.wa-fab {
   position: fixed;
   right: 22px;
   bottom: 22px;
@@ -1976,7 +1976,7 @@ table.ct {
   cursor: pointer;
 }
 @media (min-width: 1024px) {
-  .wa {
+  .wa-fab {
     display: grid;
   }
 }
@@ -3985,6 +3985,36 @@ button.ccard {
   color: var(--ink);
   line-height: 1.5;
 }
+.profile-document {
+  display: grid;
+  justify-items: start;
+  gap: 8px;
+  margin-top: 12px;
+}
+.profile-document-thumbnail {
+  display: block;
+  width: 160px;
+  max-width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.profile-document-thumbnail img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.profile-document-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  font-size: 17px;
+}
+@media (max-width: 767px) {
+  .profile-document-thumbnail {
+    width: 120px;
+  }
+}
 .chip-group {
   margin-bottom: 18px;
 }
@@ -4226,7 +4256,7 @@ button.ccard {
   .ubar,
   .sitefoot,
   .mbar,
-  .wa,
+  .wa-fab,
   .cookie,
   .cta-band,
   .crumbs {
@@ -4525,10 +4555,20 @@ button.ccard {
 @media (max-width: 900px) {
   .aboutgrid {
     grid-template-columns: 1fr;
-    gap: 26px;
+    gap: 20px;
   }
   .about-img > img {
-    height: 250px;
+    height: 170px;
+  }
+  .about-txt > p {
+    margin-bottom: 16px;
+    line-height: 1.58;
+  }
+  .about-row {
+    padding-block: 12px;
+  }
+  .about-txt .link-arrow {
+    margin-top: 14px;
   }
 }
 

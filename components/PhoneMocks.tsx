@@ -51,11 +51,12 @@ export function WhatsAppMock({ booking = false }: { booking?: boolean }) {
         </>
       ) : (
         <>
-          <div className="msg out">Hello Medcare, sending my reports as discussed.</div>
           <div className="msg in">
             <span className="who">Medcare</span>
-            Report received, Dr. Das will review it.
+            Your report is ready. Please visit the clinic for a review with Dr.
+            Das.
           </div>
+          <div className="msg out">Thank you, I will come in.</div>
         </>
       )}
     </div>

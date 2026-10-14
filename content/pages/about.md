@@ -11,7 +11,7 @@ schema: [AboutPage]
 
 H1: About *Medcare*
 
-Intro (answer-first): Medcare Diabetes, Obesity and Echocardiography Clinic is a physician-led outpatient clinic on Chapaguri Road in North Bongaigaon, Assam. It was founded in September 2023 by Dr. Tamoghna Das, MBBS, MD (Medicine), who sees every patient himself. The clinic looks after diabetes, weight, blood pressure, heart health, thyroid, lung and sleep problems, and does most of the related tests under one roof.
+Intro (answer-first): Medcare is a physician-led clinic run by Dr. Tamoghna Das, MBBS, MD (Internal Medicine), with a Post Graduate Fellowship in Echocardiography (JROP, Delhi). He is a member of the Indian Academy of Echocardiography (IAE) and the European Society of Cardiology (ESC), and has performed more than 10,000 echocardiography examinations. Medcare brings diabetes, obesity and heart care under one roof, with an advanced echocardiography lab, a weekly Heart Function Clinic recognised by the Heart Failure Association of India (HFAI), and in-house tests, so most patients can be examined, tested and treated in one place.
 
 ### Why Medcare was started
 

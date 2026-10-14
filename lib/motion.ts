@@ -94,18 +94,32 @@ export function useAutoScrollRow(
       clearTimeout(resume);
       resume = setTimeout(() => (user = false), RESUME_AFTER_MS);
     };
+    const enter = () => {
+      user = true;
+      clearTimeout(resume);
+    };
+    const leave = () => {
+      clearTimeout(resume);
+      user = false;
+    };
 
     const timer = setInterval(() => {
       if (active()) step();
     }, AUTO_ADVANCE_MS);
 
-    const events = ["pointerenter", "focusin", "touchstart", "wheel"] as const;
+    const events = ["focusin", "touchstart", "wheel"] as const;
     events.forEach((e) => row.addEventListener(e, hold, { passive: true }));
+    row.addEventListener("pointerenter", enter, { passive: true });
+    row.addEventListener("pointermove", enter, { passive: true });
+    row.addEventListener("pointerleave", leave, { passive: true });
 
     return () => {
       clearInterval(timer);
       clearTimeout(resume);
       events.forEach((e) => row.removeEventListener(e, hold));
+      row.removeEventListener("pointerenter", enter);
+      row.removeEventListener("pointermove", enter);
+      row.removeEventListener("pointerleave", leave);
       io?.disconnect();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps

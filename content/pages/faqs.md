@@ -14,7 +14,7 @@ Intro: Short answers to the questions we hear most. For anything about your own 
 
 ### Booking and timings
 1. **How do I book an appointment?**
-   Use the booking form on our Contact page, call 60031 21297 or send a WhatsApp message to 60031 21297 or 93651 75235. We confirm your time within 30 to 60 minutes during clinic hours. Requests sent after the clinic closes are confirmed the next morning.
+   Use the booking form on our Contact page, call or WhatsApp [60031 21297](tel:+916003121297) or [93651 75235](tel:+919365175235). We confirm your time within 30 to 60 minutes during clinic hours. Requests sent after the clinic closes are confirmed the next morning.
 2. **What are Medcare's timings?**
    Monday to Saturday, 9 am to 8:30 pm. Sunday, 9 am to 3:30 pm. Dr. Das's consultations are Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm, by prior appointment. On festival holidays the hours may change, so please call before you come.
 3. **Can I walk in without booking?**
@@ -24,7 +24,14 @@ Intro: Short answers to the questions we hear most. For anything about your own 
 
 ### Tests and reports
 5. **Which tests are done at Medcare?**
-   ECG, echocardiography with strain imaging, patch Holter monitoring, 24-hour blood pressure monitoring, continuous glucose monitoring, HbA1c, finger-prick sugar, spirometry, body composition analysis, diabetic foot checks and sleep studies. Blood tests are done through our lab partner, Agilus; samples are collected at Medcare and reports are given at the clinic.
+   These tests are available at Medcare:
+   1. 2D echocardiography with colour Doppler, tissue Doppler and strain imaging (cardiac speckle tracking), for adults and children: heart failure, valvular heart disease, prosthetic valves, congenital heart disease, cardiomyopathies, diabetic and hypertensive heart disease and more.
+   2. ECG.
+   3. Spirometry (lung function test).
+   4. All blood, urine, stool and sputum tests.
+   5. Fibroscan of the liver, on the 2nd Tuesday of every month.
+   6. Ambulatory patch Holter for 72 hours, 7 days or up to 1 month of cardiac monitoring.
+   7. CGM device for real-time, 14-day continuous blood sugar monitoring.
 6. **Do I need to come fasting?**
    Only for some blood tests. Echo, ECG, Holter and most clinic tests need no fasting. When you book, tell us what you are coming for and we will tell you whether to fast. Do not skip diabetes medicines without asking.
 7. **When will I get my echo report?**

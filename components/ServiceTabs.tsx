@@ -109,6 +109,14 @@ export default function ServiceTabs() {
       clearTimeout(resumeRef.current);
       resumeRef.current = setTimeout(() => (userRef.current = false), RESUME_AFTER_MS);
     };
+    const enter = () => {
+      userRef.current = true;
+      clearTimeout(resumeRef.current);
+    };
+    const leave = () => {
+      clearTimeout(resumeRef.current);
+      userRef.current = false;
+    };
     let io: IntersectionObserver | undefined;
     if ("IntersectionObserver" in window) {
       io = new IntersectionObserver(
@@ -117,8 +125,11 @@ export default function ServiceTabs() {
       );
       io.observe(viewport);
     }
-    const events = ["pointerenter", "focusin", "touchstart", "wheel"] as const;
+    const events = ["focusin", "touchstart", "wheel"] as const;
     events.forEach((e) => viewport.addEventListener(e, hold, { passive: true }));
+    viewport.addEventListener("pointerenter", enter, { passive: true });
+    viewport.addEventListener("pointermove", enter, { passive: true });
+    viewport.addEventListener("pointerleave", leave, { passive: true });
     const timer = setInterval(() => {
       if (
         reduce ||
@@ -136,6 +147,9 @@ export default function ServiceTabs() {
       clearTimeout(resumeRef.current);
       io?.disconnect();
       events.forEach((e) => viewport.removeEventListener(e, hold));
+      viewport.removeEventListener("pointerenter", enter);
+      viewport.removeEventListener("pointermove", enter);
+      viewport.removeEventListener("pointerleave", leave);
     };
   }, [emblaApi]);
 

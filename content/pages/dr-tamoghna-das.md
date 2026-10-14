@@ -55,6 +55,8 @@ Note for build: quotes are Dr. Das's own words from intake, lightly edited for r
 - 2024 · Certificate Course in Diabetic Foot Management, IMMAST, Mumbai (RCS England CPD-accredited) [CONFIRM: the certificate seen says "Certificate Course", held 9 August 2024; Dr. Das wrote "Diploma"]
 - 2026 · Diploma in Obstructive Sleep Apnea, IMMAST, Mumbai
 - 2026 · Certificate in Respiratory Critical Care with hands-on ventilation workshop, ISCCM Guwahati City Branch
+- 2026 · Certificate of Completion, Certificate Course on Artificial Intelligence in Medicine (CCAIM), Batch 4, 4 months, June to September 2026. Approved by Universal AI University; conducted by Doctors AI Education and Research Foundation and the Indian College of Artificial Intelligence in Medicine (ICAIM). Certificate issued 18 September 2026.
+- 2026 · Certificate of Achievement, Competency Enhancement Program: Training on AI in Medicine, 42 hours, Healthcare Sector Skill Council. Issued 18 September 2026.
 
 ### Work experience
 
@@ -86,7 +88,7 @@ Memberships:
 
 Talks and teaching:
 - Speaker at national and regional meetings of the Association of Physicians of India and RSSDI
-- Speaker, International Congress of Diabetes Technology (DTechCon), Jaipur, May 2025
+- Speaker, World Congress of Diabetes Technology & Therapeutics (DTech 2025), Jaipur, 9 to 11 May 2025. Talk: Optimizing the Design of an Artificial Pancreas to Improve Diabetes Management.
 - Speaker, API Assam State Chapter Mid Term CME
 - Invited speaker at national medical education programmes
 
@@ -95,6 +97,7 @@ Award:
 
 Publications:
 - Gupta R, Das T, Suchak MK, et al. Prevalence of stage B heart failure in patients undergoing echocardiography during regular clinical practice. *Indian Heart Journal*. 2025. [CONFIRM: DOI link]
+- S Baruah, B Thakuria, T Das, S Kalunkhe. "Cryptogenic Burkholderia cepacia Sepsis in a Haemoglobin E Disease Patient with Splenic and Hepatic Abscesses." Case report. *Assam Journal of Internal Medicine*, July 2017, Vol 7, Issue 2, p. 38. (Department of Medicine, Gauhati Medical College.)
 
 ### Conditions and services (non-clickable chip groups)
 

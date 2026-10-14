@@ -32,6 +32,7 @@ Mobile short line (under the portrait): Open every day. Most tests on the same v
 Row label: What brings you in today
 
 Pills (each links to a page):
+- Advanced Echocardiography Lab → /heart-health/echocardiography/
 - High sugar or diabetes → /diabetes-care/
 - Weight concerns → /weight-management/
 - Blood pressure → /heart-health/high-blood-pressure/
@@ -61,7 +62,7 @@ H2: A physician-led clinic in *North Bongaigaon*
 
 Photo labels (placed off faces): "Caring for Bongaigaon since 2023" · "Open 7 days"
 
-Paragraph: Dr. Tamoghna Das opened Medcare in September 2023 on Chapaguri Road, opposite Domino's. Before that he spent six years as a medicine specialist with Indian Railways and trained in medicine at Gauhati Medical College and Hospital. Medcare brings his two main interests together: long-term conditions such as diabetes, high blood pressure and obesity, and the heart, which these conditions quietly affect.
+Paragraph: Medcare is a physician-led clinic run by Dr. Tamoghna Das, MBBS, MD (Internal Medicine), with a Post Graduate Fellowship in Echocardiography (JROP, Delhi). He is a member of the Indian Academy of Echocardiography (IAE) and the European Society of Cardiology (ESC), and has performed more than 10,000 echocardiography examinations. Medcare brings diabetes, obesity and heart care under one roof, with an advanced echocardiography lab, a weekly Heart Function Clinic recognised by the Heart Failure Association of India (HFAI), and in-house tests, so most patients can be examined, tested and treated in one place.
 
 Rows:
 - (doctor badge) **Consultations** · Diabetes, weight, BP, heart, thyroid, lungs, sleep and general medicine
@@ -118,13 +119,13 @@ H2: Your first visit, step by *step*
 1. **Book.** Use the form, call 60031 21297 or WhatsApp 60031 21297 or 93651 75235. We confirm your time within 30 to 60 minutes during clinic hours.
 2. **Arrive and register.** Bring your old prescriptions, reports and the medicines you take. If you have diabetes, bring your sugar diary or meter.
 3. **Consultation.** Dr. Das listens to your concerns, asks about your history and examines you. There is time for your questions.
-4. **Tests if needed.** Many tests, such as ECG, echo and HbA1c, can be done the same day. Blood tests are done through our lab partner, Agilus. Samples are collected at Medcare and reports are given at the clinic.
+4. **Tests if needed.** We have all the tests available under one roof. Echo and ECG reports are available within minutes to hours. Most blood test reports are available the same day, while some may take a day or two.
 5. **Your plan.** Dr. Das explains the results in plain words and writes a plan you can follow at home: medicines, food, activity and when to come back.
-6. **Follow-up.** You return for review as planned. Between visits you can send reports on WhatsApp so the clinic knows they have arrived.
+6. **Follow-up.** Once your reports arrive, Medcare staff will notify you and call you for review. If you cannot come immediately, your report will be sent to you on WhatsApp, but the review is done only in person.
 
 ### Visit band
 
-Card title: Visit us in *North Bongaigaon*
+Card title: Visit us in *Bongaigaon*
 Address: Chapaguri Road, opposite Domino's, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380
 Chips: Ground floor · Wheelchair available
 Buttons: [Get directions] [Plan your visit]
@@ -169,13 +170,13 @@ H2: Quick *answers*
 
 FAQs:
 1. **Do I need an appointment, or can I walk in?**
-   Booking is better, because your time is reserved and waiting is shorter. You can book online, call 60031 21297 or message us on WhatsApp at 60031 21297 or 93651 75235, and we confirm within 30 to 60 minutes during clinic hours. If you walk in, we will fit you in when a slot is free, but you may need to wait.
+   Booking is better, because your time is reserved and waiting is shorter. You can book online, call or WhatsApp [60031 21297](tel:+916003121297) or [93651 75235](tel:+919365175235), and we confirm within 30 to 60 minutes during clinic hours. If you walk in, we will fit you in when a slot is free, but you may need to wait.
 2. **Can I get my echo or ECG done on the same day as the consultation?**
-   Usually, yes. Dr. Das first examines you and decides which tests will help. ECG, echocardiography, HbA1c and several other tests are done at Medcare, so most patients finish the consultation and tests in one visit. Some tests, such as Holter monitoring or a sleep study, are worn at home and returned later.
+   Usually, yes. Dr. Das first examines you and decides which tests will help. ECG, echocardiography, HbA1c and several other tests are done at Medcare, so most patients finish the consultation and tests in one visit. Some tests, such as Holter monitoring or a sleep study, are worn at home and returned later. Some tests take longer. The Holter (a disposable ambulatory cardiac monitoring patch) is worn for at least 72 hours, and its report is available after that. The CGM (continuous glucose monitoring) report is available after the device has been worn for 14 days.
 3. **What should I bring to my first visit?**
    Bring all your current medicines or their strips, old prescriptions, discharge papers and any test reports from the last year. If you check sugar at home, bring the meter or your diary. A list of your questions helps too. If you are coming for a fasting test, ask us when you book whether to come fasting.
 4. **Is Medcare open on Sunday?**
-   Yes. Medcare is open Monday to Saturday from 9 am to 8:30 pm and on Sunday from 9 am to 3:30 pm. Dr. Das's consultations are Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm, by prior appointment. Hours on festival holidays can change, so please call 60031 21297 before you visit on a holiday.
+   Yes. Medcare is open Monday to Saturday from 9 am to 8:30 pm and on Sunday from 9 am to 3:30 pm. Dr. Das is not available on Sunday, except for emergencies by prior appointment. All blood tests and ECG remain available, and the pharmacy is open on Sunday during the hours above.
 
 Link: See all FAQs →
 

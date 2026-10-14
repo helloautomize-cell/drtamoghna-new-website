@@ -39,12 +39,16 @@ export default function AboutSection() {
           accent="North Bongaigaon"
         />
         <p>
-          Dr. Tamoghna Das opened Medcare in September 2023 on Chapaguri Road,
-          opposite Domino&apos;s. Before that he spent six years as a medicine
-          specialist with Indian Railways and trained in medicine at Gauhati
-          Medical College and Hospital. Medcare brings his two main interests
-          together: long-term conditions such as diabetes, high blood pressure
-          and obesity, and the heart, which these conditions quietly affect.
+          Medcare is a physician-led clinic run by Dr. Tamoghna Das, MBBS, MD
+          (Internal Medicine), with a Post Graduate Fellowship in
+          Echocardiography (JROP, Delhi). He is a member of the Indian Academy
+          of Echocardiography (IAE) and the European Society of Cardiology
+          (ESC), and has performed more than 10,000 echocardiography
+          examinations. Medcare brings diabetes, obesity and heart care under
+          one roof, with an advanced echocardiography lab, a weekly Heart
+          Function Clinic recognised by the Heart Failure Association of India
+          (HFAI), and in-house tests, so most patients can be examined, tested
+          and treated in one place.
         </p>
         <div className="about-rows">
           <div className="about-row">

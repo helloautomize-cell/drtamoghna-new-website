@@ -5,7 +5,7 @@ import { images } from "@/lib/images";
 
 /**
  * Visit band (content Home): desktop 60vh sticky exterior photo with a
- * frosted "Visit us in North Bongaigaon" card; mobile compact card only.
+ * frosted "Visit us in Bongaigaon" card; mobile compact card only.
  */
 export default function VisitBand() {
   const im = images.exteriorWide;
@@ -22,7 +22,7 @@ export default function VisitBand() {
         />
         <div className="vb-card">
           <h2>
-            Visit us in <em className="acc">North Bongaigaon</em>
+            Visit us in <em className="acc">Bongaigaon</em>
           </h2>
           <p className="vb-addr">
             <MapPin size={17} strokeWidth={2} aria-hidden />

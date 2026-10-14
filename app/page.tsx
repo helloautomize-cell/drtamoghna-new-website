@@ -33,11 +33,11 @@ const page = getPage("/");
 const HOME_FAQS: { q: string; a: string }[] = [
   {
     q: "Do I need an appointment, or can I walk in?",
-    a: "Booking is better, because your time is reserved and waiting is shorter. You can book online, call 60031 21297 or message us on WhatsApp at 60031 21297 or 93651 75235, and we confirm within 30 to 60 minutes during clinic hours. If you walk in, we will fit you in when a slot is free, but you may need to wait.",
+    a: "Booking is better, because your time is reserved and waiting is shorter. You can book online, call or WhatsApp [60031 21297](tel:+916003121297) or [93651 75235](tel:+919365175235), and we confirm within 30 to 60 minutes during clinic hours. If you walk in, we will fit you in when a slot is free, but you may need to wait.",
   },
   {
     q: "Can I get my echo or ECG done on the same day as the consultation?",
-    a: "Usually, yes. Dr. Das first examines you and decides which tests will help. ECG, echocardiography, HbA1c and several other tests are done at Medcare, so most patients finish the consultation and tests in one visit. Some tests, such as Holter monitoring or a sleep study, are worn at home and returned later.",
+    a: "Usually, yes. Dr. Das first examines you and decides which tests will help. ECG, echocardiography, HbA1c and several other tests are done at Medcare, so most patients finish the consultation and tests in one visit. Some tests, such as Holter monitoring or a sleep study, are worn at home and returned later. Some tests take longer. The Holter (a disposable ambulatory cardiac monitoring patch) is worn for at least 72 hours, and its report is available after that. The CGM (continuous glucose monitoring) report is available after the device has been worn for 14 days.",
   },
   {
     q: "What should I bring to my first visit?",
@@ -45,7 +45,7 @@ const HOME_FAQS: { q: string; a: string }[] = [
   },
   {
     q: "Is Medcare open on Sunday?",
-    a: "Yes. Medcare is open Monday to Saturday from 9 am to 8:30 pm and on Sunday from 9 am to 3:30 pm. Dr. Das's consultations are Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm, by prior appointment. Hours on festival holidays can change, so please call 60031 21297 before you visit on a holiday.",
+    a: "Yes. Medcare is open Monday to Saturday from 9 am to 8:30 pm and on Sunday from 9 am to 3:30 pm. Dr. Das is not available on Sunday, except for emergencies by prior appointment. All blood tests and ECG remain available, and the pharmacy is open on Sunday during the hours above.",
   },
 ];
 

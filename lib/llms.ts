@@ -16,7 +16,7 @@ import { SITE_BASE } from "./metadata";
 
 /** Entity statement, site-plan section 1 (word for word). */
 export const ENTITY_STATEMENT =
-  "Medcare Diabetes, Obesity and Echocardiography Clinic is an outpatient clinic on Chapaguri Road, North Bongaigaon, Assam, founded in September 2023 by Dr. Tamoghna Das, MBBS, MD (Medicine), a consultant physician in internal medicine, diabetes and heart health with advanced training in echocardiography. The clinic offers consultations, echocardiography with strain imaging, ECG, patch Holter monitoring, 24-hour blood pressure monitoring, continuous glucose monitoring, HbA1c testing, spirometry, body composition analysis, diabetic foot checks and sleep studies, an in-house pharmacy and lab sample collection through Agilus. It is open Monday to Saturday from 9 am to 8:30 pm and Sunday from 9 am to 3:30 pm. Patients come from Bongaigaon, Chirang, Kokrajhar, Dhubri, Goalpara, Barpeta and other parts of Northeast India.";
+  "Medcare is a physician-led clinic run by Dr. Tamoghna Das, MBBS, MD (Internal Medicine), with a Post Graduate Fellowship in Echocardiography (JROP, Delhi). He is a member of the Indian Academy of Echocardiography (IAE) and the European Society of Cardiology (ESC), and has performed more than 10,000 echocardiography examinations. Medcare brings diabetes, obesity and heart care under one roof, with an advanced echocardiography lab, a weekly Heart Function Clinic recognised by the Heart Failure Association of India (HFAI), and in-house tests, so most patients can be examined, tested and treated in one place. The clinic is on Chapaguri Road, North Bongaigaon, Assam, founded in September 2023, and offers consultations, echocardiography with strain imaging, ECG, patch Holter monitoring, 24-hour blood pressure monitoring, continuous glucose monitoring, HbA1c testing, spirometry, body composition analysis, diabetic foot checks and sleep studies, an in-house pharmacy and lab sample collection through Agilus. It is open Monday to Saturday from 9 am to 8:30 pm and Sunday from 9 am to 3:30 pm. Patients come from Bongaigaon, Chirang, Kokrajhar, Dhubri, Goalpara, Barpeta and other parts of Northeast India.";
 
 const GROUP_ORDER: { label: string; match: (u: string) => boolean }[] = [
   {
@@ -112,6 +112,13 @@ export function llmsTxt(): string {
     for (const p of list) {
       const desc = p.description ? `, ${p.description}` : "";
       out.push(`- [${p.title}](${SITE_BASE}${p.url})${desc}`);
+      if (p.url === "/dr-tamoghna-das/") {
+        const entries = getPage(p.url).sections
+          .filter((s) => /education and training|certifications and roles/i.test(s.heading))
+          .flatMap((s) => s.raw.split("\n"))
+          .filter((line) => /^- /.test(line) && /Burkholderia|Artificial Pancreas|CCAIM|Training on AI in Medicine/.test(line));
+        for (const entry of entries) out.push(`  ${mdToPlain(entry)}`);
+      }
     }
     out.push("");
   }

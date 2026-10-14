@@ -9,7 +9,7 @@ import WhatsAppMenu from "./WhatsAppMenu";
  */
 export default function FloatingWhatsApp() {
   return (
-    <WhatsAppMenu className="wa" ariaLabel="Chat on WhatsApp">
+    <WhatsAppMenu className="wa-fab" ariaLabel="Chat on WhatsApp">
       <MessageCircle size={26} strokeWidth={1.8} aria-hidden />
     </WhatsAppMenu>
   );

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Phone } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
@@ -83,6 +84,50 @@ function subLists(raw: string) {
     }
   }
   return groups;
+}
+
+function ProfileDocument({ html }: { html: string }) {
+  const documents = [
+    {
+      match: "CCAIM",
+      href: "/documents/ccaim-batch4-certificate.pdf",
+      label: "View certificate (PDF)",
+      image: { src: "/documents/ccaim-batch4-certificate.png", width: 1287, height: 909, alt: "CCAIM Batch 4 certificate, Dr. Tamoghna Das" },
+    },
+    {
+      match: "Training on AI in Medicine",
+      href: "/documents/ai-in-medicine-training-certificate.pdf",
+      label: "View certificate (PDF)",
+      image: { src: "/documents/ai-in-medicine-training-certificate.png", width: 1131, height: 1544, alt: "AI in Medicine training certificate, Dr. Tamoghna Das" },
+    },
+    {
+      match: "Artificial Pancreas",
+      href: "/documents/dtech-2025-talk-slide.jpg",
+      label: "View talk slide (JPG)",
+      image: { src: "/documents/dtech-2025-talk-slide.jpg", width: 1400, height: 787, alt: "Title slide of Dr. Tamoghna Das's talk at DTech 2025, Jaipur" },
+    },
+    {
+      match: "Burkholderia",
+      href: "/documents/burkholderia-cepacia-case-report-2017.pdf",
+      label: "Read the paper (PDF)",
+      image: undefined,
+    },
+  ];
+  const document = documents.find((item) => html.includes(item.match));
+  if (!document) return null;
+
+  return (
+    <span className="profile-document">
+      {document.image && (
+        <a className="profile-document-thumbnail" href={document.href} target="_blank" rel="noopener">
+          <Image {...document.image} alt={document.image.alt} sizes="(max-width: 767px) 120px, 160px" loading="lazy" />
+        </a>
+      )}
+      <a className="profile-document-link" href={document.href} target="_blank" rel="noopener">
+        {document.label}
+      </a>
+    </span>
+  );
 }
 
 export default function Page() {
@@ -207,7 +252,7 @@ export default function Page() {
                 {education.map((e, i) => (
                   <li key={i}>
                     <span className="tl-period">{e.period}</span>
-                    <span>{t(e.text.html, e.text.tokens)}</span>
+                    <span>{t(e.text.html, e.text.tokens)}<ProfileDocument html={e.text.html} /></span>
                   </li>
                 ))}
               </ol>
@@ -260,7 +305,7 @@ export default function Page() {
                     <b>{g.label}</b>
                     <ul>
                       {g.items.map((it, j) => (
-                        <li key={j}>{t(it.html, it.tokens)}</li>
+                        <li key={j}>{t(it.html, it.tokens)}<ProfileDocument html={it.html} /></li>
                       ))}
                     </ul>
                   </div>

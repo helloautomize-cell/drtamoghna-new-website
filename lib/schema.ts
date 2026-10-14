@@ -104,6 +104,18 @@ export const physicianNode = {
       },
       identifier: siteConfig.doctor.registrationNumber,
     },
+    {
+      "@type": "EducationalOccupationalCredential",
+      credentialCategory: "Certificate of Completion",
+      name: "Certificate Course on Artificial Intelligence in Medicine (CCAIM)",
+      description: "Batch 4, 4 months, June to September 2026. Approved by Universal AI University; conducted by Doctors AI Education and Research Foundation and the Indian College of Artificial Intelligence in Medicine (ICAIM). Certificate issued 18 September 2026.",
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      credentialCategory: "Certificate of Achievement",
+      name: "Competency Enhancement Program: Training on AI in Medicine",
+      description: "42 hours, Healthcare Sector Skill Council. Issued 18 September 2026.",
+    },
   ],
   memberOf: memberships.map((name) => ({ "@type": "Organization", name })),
   award: "COVID-19 award for exemplary service, Rangiya Division (N.F. Railway), 2021",
@@ -117,12 +129,38 @@ export const physicianNode = {
     closes: s.closes,
   })),
   worksFor: { "@id": `${base}/#clinic` },
-  subjectOf: {
-    "@type": "ScholarlyArticle",
-    name: "Prevalence of stage B heart failure in patients undergoing echocardiography during regular clinical practice",
-    isPartOf: { "@type": "Periodical", name: "Indian Heart Journal" },
-    datePublished: "2025",
-  },
+  subjectOf: [
+    {
+      "@type": "ScholarlyArticle",
+      name: "Prevalence of stage B heart failure in patients undergoing echocardiography during regular clinical practice",
+      isPartOf: { "@type": "Periodical", name: "Indian Heart Journal" },
+      datePublished: "2025",
+    },
+    {
+      "@type": "ScholarlyArticle",
+      name: "Cryptogenic Burkholderia cepacia Sepsis in a Haemoglobin E Disease Patient with Splenic and Hepatic Abscesses",
+      author: ["S Baruah", "B Thakuria", "T Das", "S Kalunkhe"].map((name) => ({ "@type": "Person", name })),
+      genre: "Case report",
+      description: "Department of Medicine, Gauhati Medical College.",
+      isPartOf: {
+        "@type": "PublicationIssue",
+        issueNumber: "2",
+        isPartOf: {
+          "@type": "PublicationVolume",
+          volumeNumber: "7",
+          isPartOf: { "@type": "Periodical", name: "Assam Journal of Internal Medicine" },
+        },
+      },
+      datePublished: "2017-07",
+      pagination: "38",
+    },
+    {
+      "@type": "PresentationDigitalDocument",
+      name: "Optimizing the Design of an Artificial Pancreas to Improve Diabetes Management",
+      description: "Speaker, World Congress of Diabetes Technology & Therapeutics (DTech 2025), Jaipur, 9 to 11 May 2025. Talk: Optimizing the Design of an Artificial Pancreas to Improve Diabetes Management.",
+      author: { "@id": `${base}/#dr-tamoghna-das` },
+    },
+  ],
 };
 
 export const clinicNode = {
@@ -132,7 +170,7 @@ export const clinicNode = {
   alternateName: ["Medcare", "Medcare Clinic Bongaigaon"],
   url: `${base}/`,
   image: `${base}/images/clinic/clinic-exterior.jpg`,
-  logo: `${base}/brand/medcare-logo.svg`,
+  logo: `${base}/brand/medcare-logo.png`,
   // Maps pin resolved via g.page -> place id 0x3758ffe383475f4b, CID below.
   // geo + GeoCircle stay omitted: exact lat/long still TODO_CONFIRM.
   hasMap: "https://www.google.com/maps?cid=18284086181285239697",

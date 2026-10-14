@@ -204,7 +204,7 @@ export const visitSteps = [
   },
   {
     name: "Tests if needed",
-    text: "Many tests, such as ECG, echo and HbA1c, can be done the same day. Blood tests are done through our lab partner, Agilus. Samples are collected at Medcare and reports are given at the clinic.",
+    text: "We have all the tests available under one roof. Echo and ECG reports are available within minutes to hours. Most blood test reports are available the same day, while some may take a day or two.",
     mock: null,
     img: "echoScreen" as const,
   },
@@ -216,7 +216,7 @@ export const visitSteps = [
   },
   {
     name: "Follow-up",
-    text: "You return for review as planned. Between visits you can send reports on WhatsApp so the clinic knows they have arrived.",
+    text: "Once your reports arrive, Medcare staff will notify you and call you for review. If you cannot come immediately, your report will be sent to you on WhatsApp, but the review is done only in person.",
     mock: "whatsapp" as const,
   },
 ];
