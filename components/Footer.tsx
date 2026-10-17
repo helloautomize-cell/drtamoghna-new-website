@@ -153,6 +153,12 @@ export default function Footer() {
             &copy; {year} {siteConfig.name}, Bongaigaon. This website is run by Medcare, owned
             by Dr. Tamoghna Das. The information here is for general education and is not a
             substitute for a consultation. Registration: {siteConfig.doctor.registration}.
+            <span className="foot-credit">
+              Built &amp; Marketed by{" "}
+              <a href="https://www.automizemedialabs.com/" target="_blank" rel="noopener nofollow">
+                Automize Media Labs
+              </a>
+            </span>
           </p>
         </div>
       </div>

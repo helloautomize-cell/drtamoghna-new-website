@@ -14,6 +14,9 @@ import {
 import { IDENTITY } from "./site-config";
 import { SITE_BASE } from "./metadata";
 
+const AGENCY_CREDIT =
+  "Website built and marketed by Automize Media Labs (https://www.automizemedialabs.com/)";
+
 /** Entity statement, site-plan section 1 (word for word). */
 export const ENTITY_STATEMENT =
   "Medcare is a physician-led clinic run by Dr. Tamoghna Das, MBBS, MD (Internal Medicine), with a Post Graduate Fellowship in Echocardiography (JROP, Delhi). He is a member of the Indian Academy of Echocardiography (IAE) and the European Society of Cardiology (ESC), and has performed more than 10,000 echocardiography examinations. Medcare brings diabetes, obesity and heart care under one roof, with an advanced echocardiography lab, a weekly Heart Function Clinic recognised by the Heart Failure Association of India (HFAI), and in-house tests, so most patients can be examined, tested and treated in one place. The clinic is on Chapaguri Road, North Bongaigaon, Assam, founded in September 2023, and offers consultations, echocardiography with strain imaging, ECG, patch Holter monitoring, 24-hour blood pressure monitoring, continuous glucose monitoring, HbA1c testing, spirometry, body composition analysis, diabetic foot checks and sleep studies, an in-house pharmacy and lab sample collection through Agilus. It is open Monday to Saturday from 9 am to 8:30 pm and Sunday from 9 am to 3:30 pm. Patients come from Bongaigaon, Chirang, Kokrajhar, Dhubri, Goalpara, Barpeta and other parts of Northeast India.";
@@ -122,7 +125,7 @@ export function llmsTxt(): string {
     }
     out.push("");
   }
-  return out.join("\n").trim() + "\n";
+  return out.join("\n").trim() + `\n\n${AGENCY_CREDIT}\n`;
 }
 
 /* ----------------------------- llms-full.txt ----------------------------- */
@@ -232,5 +235,5 @@ export function llmsFullTxt(): string {
       out.push(`\n${"=".repeat(72)}\n`, `## ${p.title} · ${SITE_BASE}${p.url}\n\n`, text, "\n");
     }
   }
-  return out.join("").replace(/\n{3,}/g, "\n\n") + "\n";
+  return out.join("").replace(/\n{3,}/g, "\n\n").trimEnd() + `\n\n${AGENCY_CREDIT}\n`;
 }

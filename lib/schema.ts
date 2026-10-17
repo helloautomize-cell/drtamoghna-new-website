@@ -244,6 +244,11 @@ export const websiteNode = {
   name: siteConfig.name,
   inLanguage: "en-IN",
   publisher: { "@id": `${base}/#clinic` },
+  creator: {
+    "@type": "Organization",
+    name: "Automize Media Labs",
+    url: "https://www.automizemedialabs.com/",
+  },
 };
 
 export const siteGraph = {

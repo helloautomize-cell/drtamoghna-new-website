@@ -2,6 +2,7 @@
   "name": "medcare-website",
   "version": "0.1.0",
   "private": true,
+  "author": "Automize Media Labs (https://www.automizemedialabs.com/)",
   "scripts": {
     "dev": "next dev",
     "prebuild": "node scripts/export-seo-meta.mjs",

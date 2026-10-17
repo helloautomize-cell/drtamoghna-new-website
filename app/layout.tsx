@@ -46,6 +46,8 @@ export const metadata: Metadata = {
   // 60-character limit in scripts/export-seo-meta.mjs).
   title: `${siteConfig.name}, Bongaigaon`,
   description: siteConfig.tagline,
+  authors: [{ name: "Automize Media Labs", url: "https://www.automizemedialabs.com/" }],
+  creator: "Automize Media Labs",
   robots: indexable
     ? { index: true, follow: true }
     : { index: false, follow: false, nocache: true },

@@ -2830,6 +2830,23 @@ table.ct {
   color: var(--ink-2);
   max-width: 80ch;
 }
+.foot-credit {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+}
+.foot-credit a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  max-width: 100%;
+  color: var(--primary-700);
+  font-weight: 600;
+}
+.foot-credit a:hover,
+.foot-credit a:focus-visible {
+  text-decoration: underline;
+}
 @media (max-width: 1023px) {
   .foot-top {
     grid-template-columns: 1fr;

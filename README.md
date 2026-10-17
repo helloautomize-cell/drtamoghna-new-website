@@ -33,3 +33,5 @@ See `.env.example`. The site is indexable by default; set
 - `docs/client-inputs-needed.md` — open questions for Dr. Das
 - `docs/entity-facts.md` — canonical NAP, hours and services for listings
 - `docs/seo-meta.csv` — every page's title and description
+
+Built and marketed by Automize Media Labs - https://www.automizemedialabs.com/
