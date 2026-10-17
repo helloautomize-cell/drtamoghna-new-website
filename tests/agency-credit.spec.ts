@@ -26,23 +26,25 @@ for (const path of [
     await expect(link).toHaveAttribute("target", "_blank");
     await expect(link).toHaveAttribute("rel", "noopener nofollow");
 
-    // Next.js intentionally adds noindex to missing pages, but inherits authorship.
-    await expect(page.locator('meta[name="author"]')).toHaveAttribute("content", "Automize Media Labs");
-    await expect(page.locator('meta[name="creator"]')).toHaveAttribute("content", "Automize Media Labs");
-    await expect(page.locator('link[rel="author"]')).toHaveAttribute("href", AGENCY_URL);
+    await expect(page.locator('meta[name="author"][content="Automize Media Labs"]')).toHaveCount(0);
+    await expect(page.locator('meta[name="creator"][content="Automize Media Labs"]')).toHaveCount(0);
+    await expect(page.locator(`link[rel="author"][href="${AGENCY_URL}"]`)).toHaveCount(0);
     const blocks = await page.locator('script[type="application/ld+json"]').allTextContents();
     expect(new Set(blocks).size).toBe(blocks.length);
+    expect(blocks.join("")).not.toContain("Automize");
+    expect(blocks.join("")).not.toContain(AGENCY_URL);
     const nodes = blocks.flatMap((raw) => {
       const json = JSON.parse(raw);
       return json["@graph"] ?? [json];
     });
     const websites = nodes.filter((node) => node["@type"] === "WebSite");
     expect(websites).toHaveLength(1);
-    expect(websites[0].creator).toEqual({
-      "@type": "Organization",
-      name: "Automize Media Labs",
-      url: AGENCY_URL,
-    });
+    expect(websites[0]).not.toHaveProperty("creator");
+    const clinic = nodes.find((node) => node["@type"] === "MedicalClinic");
+    const physician = nodes.find((node) => node["@type"] === "Physician");
+    expect(clinic.name).toContain("Medcare");
+    expect(physician.name).toBe("Dr. Tamoghna Das");
+    expect(websites[0].publisher).toEqual({ "@id": clinic["@id"] });
   });
 }
 
