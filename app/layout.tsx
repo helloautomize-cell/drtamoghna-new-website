@@ -55,6 +55,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en-IN"
+      // Keeps CSS scroll-behavior: smooth for in-page anchors while Next
+      // disables it during route-change scroll resets (instant jump to top).
+      data-scroll-behavior="smooth"
       // The js-rv script in <body> mutates this element's classList
       // before hydration, so its className intentionally differs.
       suppressHydrationWarning
