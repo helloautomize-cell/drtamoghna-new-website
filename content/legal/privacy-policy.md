@@ -18,9 +18,11 @@ This policy explains how we handle personal data you share with us through this 
 ### 3. The information we collect
 
 **Through this website**
-- Booking form: patient name, mobile number, age, reason for visit, preferred date and time, town (optional), and for patients under 18, the guardian's name and consent
+- Booking form: your name, mobile number, the type of visit, the reason or test you pick, your chosen day and time slot, and a note (optional)
 - Contact by email or WhatsApp: the details you choose to send
 - Technical data: basic device and browser data needed to run and secure the website. With your consent only, anonymous usage data through Google Analytics (see section 9)
+
+When you request an appointment online, your name, mobile number, visit reason, chosen time and note are saved to a private Google Sheet that only Medcare staff can open. We use them only to arrange your visit.
 
 We ask you not to send detailed medical information through the website form.
 
@@ -49,13 +51,13 @@ We use your personal data:
 You can withdraw consent at any time (section 10). Withdrawal does not affect care already provided or records we must keep by law.
 
 ### 6. Children
-For patients under 18, we ask a parent or legal guardian to give consent, both on the website form and at the clinic. We do not knowingly collect children's data for any purpose other than their care, and we do not track or profile children.
+For patients under 18, we ask that a parent or legal guardian make the appointment request and give consent at the clinic. We do not knowingly collect children's data for any purpose other than their care, and we do not track or profile children.
 
 ### 7. Who we share information with
 Only as needed:
 - **Clinic staff** involved in your care, who are bound to keep it confidential
 - **Other doctors, labs or hospitals** you are referred to or choose, with your knowledge
-- **Service providers** that help us run the clinic and website: messaging and email (WhatsApp, email), secure cloud storage, website hosting, a form email service, a spam check service, and, with consent, website analytics. Device makers' secure portals may process test data from monitoring devices.
+- **Service providers** that help us run the clinic and website: messaging and email (WhatsApp, email), secure cloud storage, website hosting, Google (the private Google Sheet and Apps Script that store and alert us about booking requests), and, with consent, website analytics. Device makers' secure portals may process test data from monitoring devices.
 - **Authorities**, when the law requires it (for example, notifiable diseases or a court order)
 
 Some of these providers may store data outside India, under their own security and privacy terms and in line with Indian law.
@@ -84,7 +86,7 @@ To use any of these rights, contact our privacy contact (section 12). We may nee
 - Paper records are kept in locked storage at the clinic
 - Digital records are kept in password-protected accounts with two-step verification
 - Only people who need the data for your care can access it
-- The website uses encrypted connections (HTTPS) and does not store form data in a database
+- The website uses encrypted connections (HTTPS). Booking requests are stored in a private Google Sheet that only Medcare staff can open, not in a public database
 If a data breach affects you, we will inform you and the Data Protection Board as the law requires.
 
 ### 12. Privacy contact and complaints

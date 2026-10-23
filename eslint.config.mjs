@@ -13,6 +13,7 @@ const eslintConfig = defineConfig([
     "node_modules/**",
     "resources/**",
     "_kit-archive/**",
+    "docs/**",
     "playwright-report/**",
     "test-results/**",
   ]),

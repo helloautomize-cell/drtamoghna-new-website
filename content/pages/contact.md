@@ -16,18 +16,14 @@ Emergency notice above the form: This form is not for emergencies. In a medical 
 
 ### Form (`#book`)
 
-- Patient name
-- Mobile number (+91)
-- Age, in years or months
-- Reason for visit (dropdown, see site plan section 6)
-- Preferred date (today to 60 days ahead)
-- Preferred time: Morning (10 am to 12 pm) · Afternoon (12 pm to 2 pm) · Evening (6 pm to 8 pm, Monday to Saturday)
-  Note on Sunday dates: "The clinic is open on Sunday, but Dr. Das's consultations are Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm, by prior appointment."
-- Town or city (optional)
-- "The patient is under 18": guardian name (required if ticked) + "I am the parent or legal guardian and I consent to Medcare using these details to arrange care for this child."
-- Consent checkbox (global line)
+The shared slot booking form (same component as /book/): hourly slots saved to the clinic's private Google Sheet.
+
+- What brings you in? New consultation · Follow-up · Show reports · Test only
+- Reason for visit, or "Which test?" for Test only, with a short prep note under the select
+- Choose a day and time: 14 day strip plus "More dates" (today to 30 days ahead); only open hourly slots can be picked
+- Your details: name, mobile number, "Anything we should know?" note (optional, 300 characters), consent checkbox
 - Button: Request appointment
-- Under the form: global line
+- Under the form: "No advance payment. Pay at the clinic by cash, UPI or card." and the confirmation timing line
 
 ### Contact cards (beside the form, over the clinic image)
 - **Call** 60031 21297

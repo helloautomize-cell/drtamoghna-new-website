@@ -240,6 +240,19 @@ export const clinicNode = {
     siteConfig.social.facebook,
     siteConfig.social.instagram,
   ],
+  // Online appointment request page (hourly slots, confirmed by phone).
+  potentialAction: {
+    "@type": "ReserveAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `${base}/book/`,
+      actionPlatform: [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/MobileWebPlatform",
+      ],
+    },
+    result: { "@type": "Reservation", name: "Appointment request" },
+  },
 };
 
 export const websiteNode = {

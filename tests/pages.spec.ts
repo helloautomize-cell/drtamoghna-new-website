@@ -215,105 +215,145 @@ test.describe("content hygiene", () => {
 /* ---------- booking form ---------- */
 
 test.describe("booking form", () => {
-  // The full form only renders when the server action can email (RESEND_API_KEY).
-  // Without a key the book-by-phone card is shown (see launch.spec.ts).
-  test.skip(!process.env.RESEND_API_KEY, "RESEND_API_KEY not set");
-  const VALID_DATE = (() => {
-    const d = new Date(Date.now() + 10 * 86400000);
-    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-  })();
-
+  // The shared slot form posts to the Google Sheet through a server
+  // action. With SHEETS_* unset the UI still renders the clinic's
+  // standard slots (offline fallback), so structure tests need no env.
   const fill = async (
     page: import("@playwright/test").Page,
     over: Record<string, string> = {},
   ) => {
-    const f = {
-      patientName: "Test Patient",
-      mobile: "9864012345",
-      age: "45",
-      ...over,
-    };
-    await page.locator("#f-name").fill(f.patientName);
-    await page.locator("#f-mobile").fill(f.mobile);
-    await page.locator("#f-age").fill(f.age);
-    await page.locator("#f-reason").selectOption("diabetes");
-    await page.locator("#f-date").fill(VALID_DATE);
+    const f = { name: "Test Patient", mobile: "9864012345", ...over };
+    await page.locator(".vt-card", { hasText: "New consultation" }).click();
+    await page
+      .locator("select[name=reason]")
+      .selectOption("Diabetes or high sugar");
+    // First bookable day chip in the strip (skips a hidden spent Today).
+    await page
+      .locator(".day-strip .day:has(input[name=date]:not(:disabled))")
+      .first()
+      .click();
+    await expect(
+      page.locator(".slot:has(input[name=slotStart]:not(:disabled))").first(),
+    ).toBeVisible({ timeout: 15000 });
+    await page
+      .locator(".slot:has(input[name=slotStart]:not(:disabled))")
+      .first()
+      .click();
+    await page.locator("input[name=name]").fill(f.name);
+    await page.locator("input[name=mobile]").fill(f.mobile);
     await page.locator("input[name=consent]").check({ force: true });
-    // The action rejects submissions faster than 3 s since render.
-    await page.waitForTimeout(3200);
     return f;
   };
 
-  test("client-side required checks on empty submit", async ({ page }) => {
-    await page.goto("/contact/");
-    await page.locator("button.bform-submit").click();
-    const invalid = await page.locator(
-      "input:invalid, select:invalid",
-    ).count();
-    expect(invalid).toBeGreaterThan(0);
-    expect(page.url()).toContain("/contact/");
+  test("visit types render; picking one enables the reason select", async ({
+    page,
+  }) => {
+    await page.goto("/book/");
+    for (const t of [
+      "New consultation",
+      "Follow-up",
+      "Show reports",
+      "Test only",
+    ]) {
+      await expect(page.getByRole("radio", { name: t })).toBeVisible();
+    }
+    const reason = page.locator("select[name=reason]");
+    await expect(reason).toBeDisabled();
+    await page.locator(".vt-card", { hasText: "Follow-up" }).click();
+    await expect(reason).toBeEnabled();
+    await reason.selectOption("Diabetes or high sugar");
+    await expect(reason).toHaveValue("Diabetes or high sugar");
   });
 
-  test("bad mobile rejected", async ({ page }) => {
-    await page.goto("/contact/");
-    await fill(page, { mobile: "12345" });
-    await page.locator("button.bform-submit").click();
-    await expect(page.locator("#err-mobile")).toBeVisible();
+  test("Test only switches the select to tests with a prep note", async ({
+    page,
+  }) => {
+    await page.goto("/book/");
+    await page.locator(".vt-card", { hasText: "Test only" }).click();
+    const sel = page.locator("select[name=reason]");
+    await sel.selectOption("ECG");
+    await expect(sel).toHaveValue("ECG");
+    await expect(page.locator(".bk-prep")).toContainText(
+      "No special preparation",
+    );
   });
 
-  test("under-18 requires guardian (client)", async ({ page }) => {
-    await page.goto("/contact/");
+  test("day strip and slot grid let a slot be picked", async ({ page }) => {
+    await page.goto("/book/");
+    const day = page
+      .locator(".day-strip .day:has(input[name=date]:not(:disabled))")
+      .first();
+    await expect(day).toBeVisible({ timeout: 15000 });
+    await day.click();
+    const slot = page
+      .locator(".slot:has(input[name=slotStart]:not(:disabled))")
+      .first();
+    await expect(slot).toBeVisible();
+    await slot.click();
+    await expect(page.locator("input[name=slotStart]:checked")).toHaveCount(1);
+  });
+
+  test("empty submit shows inline errors and moves focus", async ({
+    page,
+  }) => {
+    await page.goto("/book/");
+    await page.locator("button.bform-submit").click();
+    await expect(page.locator(".fld-err").first()).toBeVisible();
+    const focused = await page.evaluate(() =>
+      document.activeElement?.getAttribute("name"),
+    );
+    expect(focused).toBe("visitType");
+    expect(page.url()).toContain("/book/");
+  });
+
+  test("honeypot submissions are silently accepted", async ({ page }) => {
+    await page.goto("/book/");
     await fill(page);
-    await page.locator("#f-u18").check({ force: true });
-    await page.locator("button.bform-submit").click();
-    const invalid = await page.locator("#f-guardian:invalid").count();
-    expect(invalid).toBe(1);
-  });
-
-  test("under-18 guardian validated on server (no JS)", async ({ browser }) => {
-    const ctx = await browser.newContext({ javaScriptEnabled: false });
-    const page = await ctx.newPage();
-    await page.goto("/contact/");
-    await fill(page);
-    await page.locator("#f-u18").check({ force: true });
-    await page.locator("button.bform-submit").click();
-    await expect(page.locator("#err-guardianName")).toBeVisible({ timeout: 15000 });
-    await ctx.close();
-  });
-
-  test("honeypot rejects", async ({ page }) => {
-    await page.goto("/contact/");
-    await fill(page);
-    await page.locator("#f-website").evaluate((el: HTMLInputElement) => {
+    await page.locator("input[name=website]").evaluate((el: HTMLInputElement) => {
       el.value = "http://spam.example";
     });
     await page.locator("button.bform-submit").click();
-    await expect(page.locator(".form-err")).toBeVisible();
-    expect(page.url()).toContain("/contact/");
+    await expect(page.locator(".bk-success")).toContainText(
+      "Request received",
+      { timeout: 15000 },
+    );
   });
 
-  test("valid submit redirects to thank-you", async ({ page }) => {
-    await page.goto("/contact/");
+  test("without SHEETS_* env a valid submit shows the fallback panel", async ({
+    page,
+  }) => {
+    test.skip(Boolean(process.env.SHEETS_WEBHOOK_URL), "Sheet is configured");
+    await page.goto("/book/");
     await fill(page);
+    // startedAt guard: real submissions must be at least 3 s after render.
+    await page.waitForTimeout(3200);
     await page.locator("button.bform-submit").click();
-    await page.waitForURL("**/thank-you/**");
-    expect(page.url()).toContain("/thank-you/");
-  });
-
-  test("works with JavaScript disabled", async ({ browser }) => {
-    const ctx = await browser.newContext({ javaScriptEnabled: false });
-    const page = await ctx.newPage();
-    await page.goto("/contact/");
-    await fill(page);
-    await page.locator("button.bform-submit").click();
-    await page.waitForURL("**/thank-you/**", { timeout: 15000 });
-    expect(page.url()).toContain("/thank-you/");
-    await ctx.close();
+    const panel = page.locator(".bk-success");
+    await expect(panel).toContainText("Something went wrong", {
+      timeout: 15000,
+    });
+    await expect(panel.locator('a[href^="tel:"]')).toBeVisible();
+    await expect(
+      panel.getByRole("button", { name: /WhatsApp/ }),
+    ).toBeVisible();
   });
 
   test("reason prefills from ?reason=", async ({ page }) => {
-    await page.goto("/contact/?reason=echocardiography#book");
-    await expect(page.locator("#f-reason")).toHaveValue("echocardiography");
+    await page.goto("/book/?reason=echocardiography");
+    await expect(
+      page.getByRole("radio", { name: "Test only" }),
+    ).toBeChecked();
+    await expect(page.locator("select[name=reason]")).toHaveValue(
+      "Echocardiography (echo)",
+    );
+  });
+
+  test("no WhatsApp button inside the booking form", async ({ page }) => {
+    await page.goto("/book/");
+    const form = page.locator("form.bform.booking");
+    await expect(
+      form.locator('a[href*="wa.me"], button:has-text("WhatsApp")'),
+    ).toHaveCount(0);
   });
 });
 

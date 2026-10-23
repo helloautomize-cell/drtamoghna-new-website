@@ -5,7 +5,7 @@ import { CalendarDays } from "lucide-react";
  * The two-part Book button: teal icon block, deep slate label, single line.
  */
 export default function BookButton({
-  href = "/contact/#book",
+  href = "/book/",
   label = "Book Appointment",
   ariaLabel,
 }: {

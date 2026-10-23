@@ -18,6 +18,7 @@ import ConfirmChip from "@/components/ConfirmChip";
 import AutoScrollRow from "@/components/AutoScrollRow";
 import Faqs from "@/components/content/Faqs";
 import { CtaBand } from "@/components/content/PageParts";
+import { BookingFormController } from "@/components/forms/booking-form-controller";
 import { ObfuscatedEmail } from "@/components/FooterBits";
 import { getPage, mdToHtml, pageH1 } from "@/lib/content";
 import { pageGraph } from "@/lib/page-schema";
@@ -224,6 +225,22 @@ export default function Home() {
             See all FAQs <ArrowRight size={18} strokeWidth={2} aria-hidden />
           </RouteLink>
         </p>
+      </section>
+
+      {/* 10 / Book online */}
+      <section className="section-mc" id="book">
+        <SectionHeading
+          reveal
+          eyebrow="10 / Book online"
+          title="Book an"
+          accent="appointment"
+        >
+          Pick a day and an hourly slot. We call you to confirm; pay nothing
+          online.
+        </SectionHeading>
+        <div className="book-home">
+          <BookingFormController surface="home" layout="compact" />
+        </div>
       </section>
 
       {/* Contact block */}

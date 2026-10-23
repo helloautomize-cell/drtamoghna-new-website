@@ -1,21 +1,19 @@
 import type { Metadata } from "next";
 import { Mail, MapPin, MessageCircle, Phone, TriangleAlert } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import BookingForm from "@/components/BookingForm";
-import BookDirectCard from "@/components/BookDirectCard";
 import JsonLd from "@/components/JsonLd";
 import MapCard from "@/components/MapCard";
 import RouteLink from "@/components/RouteLink";
 import SocialLinks, { clinicSocial } from "@/components/SocialLinks";
 import { CtaBand } from "@/components/content/PageParts";
-import { dateBounds } from "@/lib/booking-validation";
+import { BookingFormController } from "@/components/forms/booking-form-controller";
+import { REASON_SLUG_MAP } from "@/data/booking-options";
 import { getPage, pageH1, accent } from "@/lib/content";
 import { pageGraph } from "@/lib/page-schema";
 import { pageMeta } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
 import WhatsAppMenu from "@/components/WhatsAppMenu";
 import { images, imgSrcSet } from "@/lib/images";
-import { isReasonSlug } from "@/lib/booking-context";
 
 export const dynamic = "force-dynamic";
 
@@ -32,16 +30,16 @@ export default async function Page({
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
   const params = await searchParams;
-  const reason = typeof params.reason === "string" && isReasonSlug(params.reason)
-    ? params.reason
-    : undefined;
+  const prefill =
+    typeof params.reason === "string"
+      ? REASON_SLUG_MAP[params.reason]
+      : undefined;
   const page = getPage("/contact/");
   const h1 = pageH1(page);
   const intro = page.kv["Intro"] || "";
   const emergency =
     page.kv["Emergency notice above the form"] ||
     "This form is not for emergencies. In a medical emergency, call 108 or 112.";
-  const { min, max } = dateBounds();
 
   const graph = pageGraph({
     page,
@@ -73,19 +71,13 @@ export default async function Page({
         </p>
 
         <div className="contact-grid">
-          {process.env.RESEND_API_KEY ? (
-            <BookingForm
-              // eslint-disable-next-line react-hooks/purity -- dynamic page; ts must be per-request for the fill-time check
-              ts={Date.now()}
-              reason={reason}
-              dateMin={min}
-              dateMax={max}
-              source={`/contact/${reason ? `?reason=${reason}` : ""}#book`}
-              turnstileSiteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || ""}
-            />
-          ) : (
-            <BookDirectCard />
-          )}
+          <BookingFormController
+            surface="contact"
+            layout="compact"
+            formId="book"
+            initialVisitType={prefill?.visitType}
+            initialReason={prefill?.reason}
+          />
 
           <aside className="contact-cards" aria-label="Other ways to reach us">
             {/* eslint-disable-next-line @next/next/no-img-element */}

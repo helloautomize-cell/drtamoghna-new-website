@@ -10,7 +10,7 @@ const suggestions = [
   { label: "Weight management", href: "/weight-management/" },
   { label: "Echocardiography", href: "/heart-health/echocardiography/" },
   { label: "Plan your visit", href: "/plan-your-visit/" },
-  { label: "Book an appointment", href: "/contact/#book" },
+  { label: "Book an appointment", href: "/book/" },
 ];
 
 export default function NotFound() {

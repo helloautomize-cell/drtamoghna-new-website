@@ -7,7 +7,7 @@ import { test, expect } from "@playwright/test";
  */
 
 const PUBLIC = ["/", "/contact/", "/diabetes-care/", "/dr-tamoghna-das/", "/privacy-policy/"];
-const PRIVATE = ["/styleguide/", "/thank-you/"];
+const PRIVATE = ["/styleguide/", "/thank-you/", "/book/"];
 const BOTS = [
   "Googlebot",
   "Bingbot",
@@ -159,22 +159,17 @@ test.describe("metadata", () => {
   });
 });
 
-test.describe("booking fallback without RESEND_API_KEY", () => {
-  test.skip(Boolean(process.env.RESEND_API_KEY), "RESEND_API_KEY is set");
-  test("phone/WhatsApp card renders at #book", async ({ page }) => {
+test.describe("booking form surfaces", () => {
+  test("/contact/#book and /book/ render the shared slot form", async ({
+    page,
+  }) => {
     await page.goto("/contact/#book");
-    const card = page.locator(".bdirect");
-    await expect(card).toBeVisible();
-    await expect(card.locator('a[href^="tel:"]')).toBeVisible();
-    const wa = card.getByRole("button", { name: /WhatsApp/ });
-    await expect(wa).toBeVisible();
-    await wa.click();
-    const chooser = page.getByRole("dialog");
-    await expect(chooser).toContainText("Chat on WhatsApp");
-    await expect(chooser.locator('a[href*="wa.me"]')).toHaveCount(2);
-    await page.keyboard.press("Escape");
-    await expect(card).toContainText("30 to 60 minutes");
-    await expect(page.locator("form.bform")).toHaveCount(0);
+    await expect(page.locator("form.bform.booking#book")).toBeVisible();
+    await expect(
+      page.getByRole("radio", { name: "New consultation" }),
+    ).toBeVisible();
+    await page.goto("/book/");
+    await expect(page.locator("form.bform.booking")).toBeVisible();
   });
 });
 

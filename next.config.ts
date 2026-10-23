@@ -60,6 +60,11 @@ const nextConfig: NextConfig = {
         headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
       },
       {
+        // The booking page stays out of the index; links on it are followed.
+        source: "/book/:path*",
+        headers: [{ key: "X-Robots-Tag", value: "noindex, follow" }],
+      },
+      {
         source: "/thank-you/:path*",
         headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
       },

@@ -1,7 +1,8 @@
 /**
  * booking-context.ts · Booking reason map (site-plan section 6).
- * Every Book button links /contact/?reason=<slug>#book so the form's
- * "Reason for visit" dropdown opens prefilled.
+ * Every Book button links /book/?reason=<slug> so the booking form's
+ * visit type and reason open prefilled (see REASON_SLUG_MAP in
+ * data/booking-options.ts).
  */
 
 export const BOOKING_REASONS = [
@@ -59,7 +60,7 @@ export function reasonForUrl(url: string): ReasonSlug {
 }
 
 export function bookingHref(url: string): string {
-  return `/contact/?reason=${reasonForUrl(url)}#book`;
+  return `/book/?reason=${reasonForUrl(url)}`;
 }
 
 export function isReasonSlug(v: string): v is ReasonSlug {

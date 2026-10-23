@@ -8,8 +8,12 @@ the clinic of Dr. Tamoghna Das, MBBS, MD (Medicine).
 - Next.js (App Router) + TypeScript, static-first rendering
 - Content in `content/**/*.md` with frontmatter, parsed by `lib/content.ts`
 - Site facts in `lib/site-config.ts` (single source for NAP, hours, phones)
-- Booking form: Server Action + Resend (`RESEND_API_KEY`); a
-  phone/WhatsApp card is shown while the key is not configured
+- Booking form: hourly slots on `/book/`, `/contact/` and the home
+  section, saved to a private Google Sheet through an Apps Script web
+  app (`SHEETS_WEBHOOK_URL` + `SHEETS_WEBHOOK_SECRET`, server only).
+  Setup notes: `docs/BOOKING.md`. The clinic gets email alerts from the
+  Sheet and calls the patient; no WhatsApp or email service in the
+  booking flow.
 - Analytics: GA4 via gtag, loaded only after cookie consent
   (`NEXT_PUBLIC_GA_ID`), plus Vercel Speed Insights and Web Analytics
 
@@ -30,6 +34,7 @@ See `.env.example`. The site is indexable by default; set
 ## Docs for the agency
 
 - `docs/go-live-checklist.md` — launch steps and owners
+- `docs/BOOKING.md` — Google Sheet and Apps Script setup for online booking
 - `docs/client-inputs-needed.md` — open questions for Dr. Das
 - `docs/entity-facts.md` — canonical NAP, hours and services for listings
 - `docs/seo-meta.csv` — every page's title and description

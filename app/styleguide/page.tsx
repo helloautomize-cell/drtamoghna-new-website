@@ -393,7 +393,7 @@ export default function StyleguidePage() {
           <PhoneFrame />
           <div className="specs">
             <p>
-              <b>Book Now</b> opens the appointment form (<code>/contact/#book</code>).
+              <b>Book Now</b> opens the appointment form (<code>/book/</code>).
             </p>
             <p>
               <b>Call Now</b> opens a sheet with one number: {siteConfig.phone.display}.

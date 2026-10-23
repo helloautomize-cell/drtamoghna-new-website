@@ -54,7 +54,7 @@ export default function Analytics({ gaId }: { gaId: string }) {
       const a = (ev.target as HTMLElement).closest?.("a");
       if (!a) return;
       const href = a.getAttribute("href") || "";
-      if (a.classList.contains("book") || /\/contact\/?[?#][^"]*book/.test(href) || href.includes("/contact/#book")) {
+      if (a.classList.contains("book") || href.startsWith("/book/")) {
         trackEvent("book_click");
       } else if (href.startsWith("tel:")) {
         trackEvent("call_click");

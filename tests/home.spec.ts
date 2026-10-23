@@ -34,7 +34,7 @@ test.describe("home hero mobile fold", () => {
     expect(call!.x + call!.width).toBeLessThanOrEqual(btns!.x + btns!.width + 1);
   });
 
-  test("no section except the hero is taller than 1.3x viewport", async ({ page }) => {
+  test("no section except the hero and booking form is taller than 1.3x viewport", async ({ page }) => {
     await page.goto("/");
     await dismissConsent(page);
     const max = MOBILE.height * 1.3;
@@ -43,7 +43,8 @@ test.describe("home hero mobile fold", () => {
       document
         .querySelectorAll("main section, main .section-mc, main .vband")
         .forEach((el) => {
-          if (el.closest(".home-hero")) return;
+          // #book is the four-step slot booking form, tall by design.
+          if (el.closest(".home-hero") || el.closest("#book")) return;
           const h = el.getBoundingClientRect().height;
           if (h > m)
             out.push(
@@ -55,12 +56,12 @@ test.describe("home hero mobile fold", () => {
     expect(tall).toEqual([]);
   });
 
-  test("total home height is reported (target ~9000-10000px)", async ({ page }) => {
+  test("total home height is reported (target ~11000-13000px)", async ({ page }) => {
     await page.goto("/");
     const h = await page.evaluate(() => document.documentElement.scrollHeight);
     console.log(`HOME_HEIGHT_390=${h}`);
     expect(h).toBeGreaterThan(5000);
-    expect(h).toBeLessThan(11000);
+    expect(h).toBeLessThan(13000);
   });
 });
 

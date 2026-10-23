@@ -26,24 +26,17 @@ step. "Agency" = Automize Media Labs, "Clinic" = Dr. Das's team,
       IndexNow already notifies Bing on every production deploy.
 - [ ] Confirm `/llms.txt` and `/llms-full.txt` return 200 on the domain.
 
-## 3. Booking email, Resend (Developer + Agency)
+## 3. Online booking, Google Sheet (Developer + Agency)
 
-- [ ] In Resend, verify the sending domain with SPF, DKIM and DMARC
-      records. **Never touch MX records** (clinic email stays on its
-      current provider).
-- [ ] Set `RESEND_API_KEY`, `RESEND_TO` (clinic inbox, default
-      `medcarebongaigaon@gmail.com`) and `RESEND_FROM`
-      (`Medcare Website <appointments@<verified-domain>>`) in Vercel,
-      then redeploy.
-- [ ] The full booking form appears automatically at `/contact/#book`;
-      until then the phone/WhatsApp card is shown. Send one test
-      request and confirm the email arrives with the field table.
-
-## 4. Spam protection, Cloudflare Turnstile (Developer)
-
-- [ ] Create a Turnstile site for the domain; set
-      `NEXT_PUBLIC_TURNSTILE_SITE_KEY` and `TURNSTILE_SECRET_KEY` in
-      Vercel, redeploy. The widget appears on the form automatically.
+- [ ] Set up the private Google Sheet and Apps Script web app exactly as
+      in `docs/BOOKING.md` (script property `SECRET`, `setup()`,
+      `sendTestEmail()`, web app deployment).
+- [ ] Set `SHEETS_WEBHOOK_URL` and `SHEETS_WEBHOOK_SECRET` in Vercel for
+      Production and Preview, then redeploy.
+- [ ] Set the clinic alert inbox on the Settings tab (`ClinicEmail`).
+- [ ] Send one test request at `/book/`, confirm a row appears in the
+      Bookings tab and the alert email arrives, then mark it Cancelled
+      to free the slot.
 
 ## 5. Analytics (Agency)
 

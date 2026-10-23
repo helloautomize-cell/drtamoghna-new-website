@@ -45,7 +45,7 @@ export default function MobileActionBar() {
   return (
     <>
       <nav className="mbar" aria-label="Quick actions" hidden={typing}>
-        <RouteLink href="/contact/#book">
+        <RouteLink href="/book/">
           <CalendarDays size={20} strokeWidth={1.8} aria-hidden />
           Book Now
         </RouteLink>
