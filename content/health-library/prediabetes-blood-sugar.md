@@ -25,8 +25,6 @@ kind: "pillar"
 wordCount: 3109
 ```
 
-H1: Prediabetes: Blood Sugar Range, Risk Factors & How to Prevent Diabetes
-
 **In brief**
 - Prediabetes means your blood sugar is above the normal range, but not yet high enough to be called diabetes.
 - An HbA1c of 5.7% to 6.4% falls in the prediabetes range.

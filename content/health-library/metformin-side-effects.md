@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 391
 ```
 
-H1: Metformin Side Effects: What Is Common and When to Call a Doctor
-
 Metformin is often the first medicine prescribed for type 2 diabetes. Most people tolerate it well, but some notice side effects, especially at the start.
 
 **Quick answer**
-The most common side effects are stomach related, such as nausea, loose stools, bloating and a metallic taste. These often settle with time and can be reduced by taking metformin with food or using an extended-release form. Rare but serious problems, such as lactic acidosis, need urgent care.
+- The most common side effects are stomach related, such as nausea, loose stools, bloating and a metallic taste.
+- These often settle with time and can be reduced by taking metformin with food or using an extended-release form.
+- Rare but serious problems, such as lactic acidosis, need urgent care.
 
 ### Common Side Effects
 

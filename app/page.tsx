@@ -21,6 +21,7 @@ import { CtaBand } from "@/components/content/PageParts";
 import { BookingFormController } from "@/components/forms/booking-form-controller";
 import { ObfuscatedEmail } from "@/components/FooterBits";
 import { getPage, mdToHtml, pageH1 } from "@/lib/content";
+import { blogImages } from "@/lib/blog-images";
 import { pageGraph } from "@/lib/page-schema";
 import { pageMeta } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
@@ -72,6 +73,7 @@ export default function Home() {
   }));
   const posts = POST_URLS.map((u) => {
     const p = getPage(u);
+    const fx = p.frontmatter as Record<string, unknown>;
     return {
       url: u,
       h1: pageH1(p).replace(/\*/g, ""),
@@ -80,6 +82,7 @@ export default function Home() {
       readingTime: p.frontmatter.readingTime,
       datePublished: p.frontmatter.datePublished,
       description: p.frontmatter.description || "",
+      img: typeof fx.image === "string" ? blogImages[fx.image]?.src : undefined,
     };
   });
   const graph = pageGraph({
@@ -188,22 +191,29 @@ export default function Home() {
           {posts.map((p, i) => (
             <RouteLink className={`hl-card g${(i % 4) + 1}`} key={p.url} href={p.url}>
               <div className="hl-cover" aria-hidden>
-                {p.badge ? <Badge slug={p.badge} size="md" eager={i < 2} /> : null}
+                {p.img ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img className="hl-photo" src={p.img} alt="" width={1280} height={720} loading={i < 2 ? "eager" : "lazy"} />
+                ) : p.badge ? (
+                  <Badge slug={p.badge} size="md" eager={i < 2} />
+                ) : null}
               </div>
               <div className="hl-meta">
                 <span className="chip sm">{p.category}</span>
                 <h2>{p.h1}</h2>
                 <p>{p.description}</p>
                 <span className="hl-by">
-                  Written by Dr. Tamoghna Das ·{" "}
+                  Written by Dr. Tamoghna Das
                   {p.datePublished && !/CONFIRM/.test(p.datePublished) ? (
-                    formatDate(p.datePublished)
+                    <span className="nbw">{" "}· {formatDate(p.datePublished)}</span>
                   ) : (
                     <>
-                      <ConfirmChip>launch date</ConfirmChip> Coming soon
+                      {" "}· <ConfirmChip>launch date</ConfirmChip> Coming soon
                     </>
                   )}
-                  {p.readingTime ? ` · ${p.readingTime} min read` : null}
+                  {p.readingTime ? (
+                    <span className="nbw">{" "}· {p.readingTime} min read</span>
+                  ) : null}
                 </span>
               </div>
             </RouteLink>

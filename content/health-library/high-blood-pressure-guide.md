@@ -25,8 +25,6 @@ kind: "pillar"
 wordCount: 4430
 ```
 
-H1: High Blood Pressure (Hypertension): Diagnosis, Home Monitoring and Treatment
-
 **In brief**
 - High blood pressure (hypertension) means the pressure in your arteries stays higher than it should over months and years. A clinic reading of 140/90 mmHg or more, seen on more than one visit, is usually called high BP.
 - Most people with high BP feel perfectly well, which is why it is so often found by chance.

@@ -25,8 +25,6 @@ kind: "pillar"
 wordCount: 3772
 ```
 
-H1: Diabetes Medicines, Insulin, GLP-1 & SGLT2: How Doctors Choose Treatment
-
 **In brief**
 - Diabetes medicine treatment is chosen according to your blood sugar, HbA1c, weight, kidney health, heart health, other medicines and risk of side effects.
 - Metformin is commonly used for Type 2 diabetes, but it is not the right choice for every person.

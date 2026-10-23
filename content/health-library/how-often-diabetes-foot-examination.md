@@ -25,10 +25,10 @@ kind: "support"
 wordCount: 437
 ```
 
-H1: How Often Should People With Diabetes Have a Foot Examination?
-
 **Quick answer**
-Everyone with diabetes should have a full foot examination at least once a year. If you have nerve damage, poor circulation, foot deformity or a past ulcer, you need checks more often, as advised by your doctor, sometimes every one to six months. You should also look at your own feet every day.
+- Everyone with diabetes should have a full foot examination at least once a year.
+- If you have nerve damage, poor circulation, foot deformity or a past ulcer, you need checks more often, as advised by your doctor, sometimes every one to six months.
+- You should also look at your own feet every day.
 
 ### Why Feet Need Special Attention
 

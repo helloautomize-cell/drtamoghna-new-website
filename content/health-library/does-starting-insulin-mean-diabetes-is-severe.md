@@ -25,10 +25,11 @@ kind: "support"
 wordCount: 406
 ```
 
-H1: Does Starting Insulin Mean Diabetes Has Become Severe?
-
 **Quick answer**
-No. Starting insulin does not mean you failed or that your diabetes has become dangerously severe. Type 2 diabetes usually progresses over time as the pancreas makes less insulin, so many people eventually need it. Insulin is an effective treatment that protects your organs when tablets alone are not enough.
+- No.
+- Starting insulin does not mean you failed or that your diabetes has become dangerously severe.
+- Type 2 diabetes usually progresses over time as the pancreas makes less insulin, so many people eventually need it.
+- Insulin is an effective treatment that protects your organs when tablets alone are not enough.
 
 ### Why Insulin May Be Needed
 

@@ -12,11 +12,12 @@ datePublished: "2026-10-03"
 dateModified: "2026-10-03"
 badge: diabetes
 readingTime: 6
+image: "hba1c-vs-fasting-blood-sugar"
+imageAlt: "A lab technician holding two blood sample tubes in a clean modern diagnostic lab in India"
 related: [/diabetes-care/, /diabetes-care/continuous-glucose-monitoring/, /health-check-ups/]
 posts: ["/health-library/hba1c-vs-fasting-blood-sugar/", "/health-library/normal-prediabetes-diabetes-hba1c-levels/", "/health-library/type-2-diabetes/"]
 ```
 
-H1: HbA1c explained: what your 3-month sugar *number* means
 
 **In brief**
 - HbA1c shows your average blood sugar over roughly the last 3 months.

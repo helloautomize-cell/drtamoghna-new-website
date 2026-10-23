@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 578
 ```
 
-H1: Sleep Apnea and Diabetes: What Is the Connection?
-
 Sleep apnea and type 2 diabetes are closely linked. Many people with type 2 diabetes also have obstructive sleep apnea, often without knowing it. Sleep apnea can worsen insulin resistance and blood sugar control, while obesity and metabolic changes in diabetes raise apnea risk. Diabetes guidelines recommend evaluating for sleep apnea when symptoms such as snoring or daytime sleepiness are present.
 
 **Quick answer**
-Sleep apnea causes repeated oxygen drops and broken sleep, which raise stress hormones, increase insulin resistance and make blood sugar harder to control. Obesity, which is common in type 2 diabetes, increases apnea risk. Screening for sleep apnea and treating it, along with weight management, may improve energy, BP and overall metabolic health.
+- Sleep apnea causes repeated oxygen drops and broken sleep, which raise stress hormones, increase insulin resistance and make blood sugar harder to control.
+- Obesity, which is common in type 2 diabetes, increases apnea risk.
+- Screening for sleep apnea and treating it, along with weight management, may improve energy, BP and overall metabolic health.
 
 ### How Does Sleep Apnea Affect Blood Sugar?
 

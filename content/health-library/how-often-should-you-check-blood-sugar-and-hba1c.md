@@ -25,10 +25,10 @@ kind: "support"
 wordCount: 401
 ```
 
-H1: How Often Should You Check Blood Sugar and HbA1c?
-
 **Quick answer**
-HbA1c is usually checked every three months if your diabetes is not well controlled or treatment has changed, and about every six months once your sugar is stable. Home blood sugar checks depend on your treatment: people on insulin test more often, while those on tablets alone may test less often. Your doctor sets the plan.
+- HbA1c is usually checked every three months if your diabetes is not well controlled or treatment has changed, and about every six months once your sugar is stable.
+- Home blood sugar checks depend on your treatment: people on insulin test more often, while those on tablets alone may test less often.
+- Your doctor sets the plan.
 
 ### HbA1c: The Three-Month Average
 

@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 630
 ```
 
-H1: Obesity and Sleep Apnea: Why They Often Go Together
-
 Obesity is one of the strongest risk factors for obstructive sleep apnea (OSA), a condition where the airway repeatedly narrows or closes during sleep. Extra fat around the neck and abdomen makes the airway more likely to collapse. In turn, poor sleep from apnea affects hunger hormones and energy, which can make weight loss harder. Treating one often helps the other.
 
 **Quick answer**
-Fat around the neck, tongue and abdomen narrows the airway and reduces lung volume, raising sleep apnea risk. Sleep apnea causes poor sleep, daytime tiredness and hormonal changes that increase appetite and cravings. Weight loss can reduce apnea severity, and treating apnea, often with CPAP, can improve energy and support weight management.
+- Fat around the neck, tongue and abdomen narrows the airway and reduces lung volume, raising sleep apnea risk.
+- Sleep apnea causes poor sleep, daytime tiredness and hormonal changes that increase appetite and cravings.
+- Weight loss can reduce apnea severity, and treating apnea, often with CPAP, can improve energy and support weight management.
 
 ### How Does Obesity Cause Sleep Apnea?
 

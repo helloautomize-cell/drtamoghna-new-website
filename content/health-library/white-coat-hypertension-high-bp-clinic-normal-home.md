@@ -25,12 +25,13 @@ kind: "support"
 wordCount: 675
 ```
 
-H1: BP High at the Clinic but Normal at Home? Here's Why
-
 If your blood pressure is high at the clinic but normal at home, you may have white-coat hypertension. This happens when anxiety or alertness in a medical setting temporarily raises BP. It is common and usually confirmed with home BP monitoring or 24-hour ambulatory BP monitoring (ABPM). It still needs follow-up because it may carry some extra risk over time.
 
 **Quick answer**
-White-coat hypertension means BP is high in the clinic but normal outside it. It is caused by a stress response in medical settings. Doctors confirm it with home readings or ABPM. The opposite, masked hypertension, is when clinic BP looks normal but home BP is high, which can be more concerning because it is easy to miss.
+- White-coat hypertension means BP is high in the clinic but normal outside it.
+- It is caused by a stress response in medical settings.
+- Doctors confirm it with home readings or ABPM.
+- The opposite, masked hypertension, is when clinic BP looks normal but home BP is high, which can be more concerning because it is easy to miss.
 
 ### Why Does BP Rise at the Clinic?
 

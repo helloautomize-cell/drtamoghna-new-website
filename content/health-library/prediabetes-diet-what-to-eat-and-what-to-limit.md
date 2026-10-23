@@ -25,10 +25,9 @@ kind: "support"
 wordCount: 400
 ```
 
-H1: Prediabetes Diet: What to Eat and What to Limit
-
 **Quick answer**
-A prediabetes diet focuses on vegetables, protein, high-fibre foods and whole grains, with controlled portions of rice, wheat and sweets, and fewer sugary drinks and refined snacks. Along with exercise and gentle weight loss, these changes can help bring blood sugar back toward normal.
+- A prediabetes diet focuses on vegetables, protein, high-fibre foods and whole grains, with controlled portions of rice, wheat and sweets, and fewer sugary drinks and refined snacks.
+- Along with exercise and gentle weight loss, these changes can help bring blood sugar back toward normal.
 
 ### What to Eat More Of
 

@@ -25,12 +25,13 @@ kind: "support"
 wordCount: 674
 ```
 
-H1: Semaglutide vs Tirzepatide: What Patients Should Know
-
 Semaglutide and tirzepatide are prescription medicines used for type 2 diabetes and, in specific formulations, for weight management. Semaglutide acts on the GLP-1 hormone pathway. Tirzepatide acts on both GLP-1 and GIP pathways. Both reduce appetite, slow stomach emptying and improve blood sugar. Clinical trials show both can lead to significant weight loss, with tirzepatide producing greater average weight loss in direct comparison studies. The right choice depends on your health, goals, tolerance and access.
 
 **Quick answer**
-Both medicines can help with weight loss and sugar control when used with lifestyle changes. Tirzepatide has shown greater average weight loss in head-to-head trials, while semaglutide has strong evidence for heart protection in certain patients. Both commonly cause nausea and other digestive side effects. They need a prescription and medical supervision, and they are not suitable for everyone.
+- Both medicines can help with weight loss and sugar control when used with lifestyle changes.
+- Tirzepatide has shown greater average weight loss in head-to-head trials, while semaglutide has strong evidence for heart protection in certain patients.
+- Both commonly cause nausea and other digestive side effects.
+- They need a prescription and medical supervision, and they are not suitable for everyone.
 
 ### How Do They Work?
 

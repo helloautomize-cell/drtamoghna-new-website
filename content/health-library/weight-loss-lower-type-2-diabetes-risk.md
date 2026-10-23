@@ -25,12 +25,11 @@ kind: "support"
 wordCount: 430
 ```
 
-H1: How Much Weight Loss Lowers Type 2 Diabetes Risk?
-
 Excess weight, especially around the waist, makes the body less responsive to insulin. Losing some of it can improve this response and lower diabetes risk.
 
 **Quick answer**
-Large studies in people with prediabetes found that losing around 5 to 7 percent of body weight, along with regular physical activity, substantially lowered the chance of developing type 2 diabetes. More weight loss often brings more benefit, but even modest loss helps.
+- Large studies in people with prediabetes found that losing around 5 to 7 percent of body weight, along with regular physical activity, substantially lowered the chance of developing type 2 diabetes.
+- More weight loss often brings more benefit, but even modest loss helps.
 
 ### Why Weight Loss Helps
 

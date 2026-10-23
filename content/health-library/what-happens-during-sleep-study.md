@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 649
 ```
 
-H1: What Happens During a Sleep Study? A Patient Guide
-
 A sleep study is a painless test that records what happens to your body while you sleep. It measures breathing, oxygen levels, heart rate and sometimes brain activity and leg movements. It is the main test used to diagnose sleep apnea. Some studies are done overnight in a sleep lab, while others are done at home with a portable device.
 
 **Quick answer**
-During a sleep study, small sensors are placed on your body to record breathing, oxygen, heart rate and, in a lab study, brain waves and muscle activity. You sleep as normally as possible. Results show how many times breathing stops or reduces per hour, called the apnea-hypopnea index (AHI), which helps diagnose and grade sleep apnea.
+- During a sleep study, small sensors are placed on your body to record breathing, oxygen, heart rate and, in a lab study, brain waves and muscle activity.
+- You sleep as normally as possible.
+- Results show how many times breathing stops or reduces per hour, called the apnea-hypopnea index (AHI), which helps diagnose and grade sleep apnea.
 
 ### Types of Sleep Studies
 

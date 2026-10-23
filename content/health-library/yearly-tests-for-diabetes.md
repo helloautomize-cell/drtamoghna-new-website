@@ -25,10 +25,9 @@ kind: "support"
 wordCount: 375
 ```
 
-H1: What Tests Should Be Done Every Year If You Have Diabetes?
-
 **Quick answer**
-If you have diabetes, a yearly review should include HbA1c (more often if needed), a kidney check (urine albumin and serum creatinine), a lipid profile, an eye examination, a foot examination, and blood pressure and weight checks. An ECG or heart assessment is added based on your risk.
+- If you have diabetes, a yearly review should include HbA1c (more often if needed), a kidney check (urine albumin and serum creatinine), a lipid profile, an eye examination, a foot examination, and blood pressure and weight checks.
+- An ECG or heart assessment is added based on your risk.
 
 ### Core Yearly Tests
 

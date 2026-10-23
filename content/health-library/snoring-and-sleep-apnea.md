@@ -12,11 +12,12 @@ datePublished: "2026-10-03"
 dateModified: "2026-10-03"
 badge: sleep
 readingTime: 5
+image: "loud-snoring-sign-of-sleep-apnea"
+imageAlt: "An Indian woman awake in bed covering her ears with a pillow while her husband sleeps"
 related: [/sleep-apnea/, /heart-health/high-blood-pressure/, /weight-management/]
 posts: ["/health-library/loud-snoring-sign-of-sleep-apnea/", "/health-library/sleep-apnea-metabolic-health/", "/health-library/obesity-and-sleep-apnea/"]
 ```
 
-H1: Loud snoring and daytime sleepiness: when to think of sleep *apnea*
 
 **In brief**
 - Snoring is common, but loud snoring with pauses in breathing or gasping can mean obstructive sleep apnea.

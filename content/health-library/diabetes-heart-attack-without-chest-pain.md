@@ -25,10 +25,11 @@ kind: "support"
 wordCount: 412
 ```
 
-H1: Can a Person With Diabetes Have a Heart Attack Without Chest Pain?
-
 **Quick answer**
-Yes. People with diabetes can have a "silent" heart attack with little or no chest pain. High sugar over time can damage the nerves that carry pain signals, so the usual warning may be dull, mild or absent. Unusual breathlessness, sweating, fatigue or discomfort in the jaw, arm or upper abdomen can be the only signs.
+- Yes.
+- People with diabetes can have a "silent" heart attack with little or no chest pain.
+- High sugar over time can damage the nerves that carry pain signals, so the usual warning may be dull, mild or absent.
+- Unusual breathlessness, sweating, fatigue or discomfort in the jaw, arm or upper abdomen can be the only signs.
 
 ### Why Pain May Be Missing
 

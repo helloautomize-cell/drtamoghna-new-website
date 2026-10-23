@@ -25,12 +25,11 @@ kind: "support"
 wordCount: 668
 ```
 
-H1: Why Diabetes Increases the Risk of Heart Attack
-
 Diabetes increases the risk of heart attack because high blood sugar damages the inner lining of blood vessels over time, making it easier for fatty plaques to build up in the arteries that supply the heart. Diabetes also often comes with high blood pressure, abnormal cholesterol, excess weight and inflammation, which together raise cardiovascular risk further.
 
 **Quick answer**
-People with diabetes have a higher risk of heart disease because of blood vessel damage from high sugar, faster plaque buildup, a tendency for blood to clot more easily and frequent coexisting risk factors like hypertension and high cholesterol. Controlling sugar, BP and cholesterol, stopping smoking and staying active can significantly lower this risk.
+- People with diabetes have a higher risk of heart disease because of blood vessel damage from high sugar, faster plaque buildup, a tendency for blood to clot more easily and frequent coexisting risk factors like hypertension and high cholesterol.
+- Controlling sugar, BP and cholesterol, stopping smoking and staying active can significantly lower this risk.
 
 ### How Does High Sugar Affect Blood Vessels?
 

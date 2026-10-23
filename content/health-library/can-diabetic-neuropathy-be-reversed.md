@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 572
 ```
 
-H1: Can Diabetic Neuropathy Be Reversed or Controlled?
-
 Diabetic neuropathy usually cannot be fully reversed once nerve damage is established, but it can often be slowed or stopped from getting worse. In early stages, good blood sugar control and treating other risk factors may lead to some improvement in symptoms. Pain and discomfort can also be eased with medicines and good foot care.
 
 **Quick answer**
-Early neuropathy may improve partly with tight, steady blood sugar control, correcting vitamin B12 deficiency and healthy lifestyle changes. Long-standing nerve damage is usually permanent. Treatment focuses on preventing progression, relieving pain, protecting the feet and avoiding complications like ulcers and infections.
+- Early neuropathy may improve partly with tight, steady blood sugar control, correcting vitamin B12 deficiency and healthy lifestyle changes.
+- Long-standing nerve damage is usually permanent.
+- Treatment focuses on preventing progression, relieving pain, protecting the feet and avoiding complications like ulcers and infections.
 
 ### What Can Improve?
 

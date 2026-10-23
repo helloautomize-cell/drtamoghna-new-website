@@ -25,12 +25,11 @@ kind: "support"
 wordCount: 596
 ```
 
-H1: Sleep Apnea Symptoms: Sleepiness, Headaches and Gasping
-
 Obstructive sleep apnea causes symptoms both at night and during the day. At night, people may snore loudly, stop breathing for short periods and wake up gasping. During the day, they often feel very sleepy, wake with headaches and struggle to concentrate. Many people do not realise they have it because the night-time symptoms happen while they are asleep.
 
 **Quick answer**
-Common sleep apnea symptoms include loud snoring, breathing pauses, gasping or choking at night, frequent night urination, morning headaches, dry mouth, excessive daytime sleepiness, poor concentration, irritability and high blood pressure that is hard to control. If you have several of these, ask your doctor about a sleep study.
+- Common sleep apnea symptoms include loud snoring, breathing pauses, gasping or choking at night, frequent night urination, morning headaches, dry mouth, excessive daytime sleepiness, poor concentration, irritability and high blood pressure that is hard to control.
+- If you have several of these, ask your doctor about a sleep study.
 
 ### Night-Time Symptoms
 

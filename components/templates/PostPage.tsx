@@ -149,12 +149,12 @@ export default function PostPage({
 
   return (
     <>
-      <Breadcrumbs items={crumbs} jsonLd={false} />
       <JsonLd data={graph} />
 
       <article className="post">
+        <Breadcrumbs items={crumbs} jsonLd={false} />
         <header className="post-head">
-          {fm.category ? <span className="chip">{fm.category}</span> : null}
+          {cluster || fm.category ? <span className="chip">{cluster || fm.category}</span> : null}
           <h1 dangerouslySetInnerHTML={{ __html: accent(h1) }} />
           <p className="byline">
             Written by{" "}
@@ -173,13 +173,11 @@ export default function PostPage({
                 {" "}· <ConfirmChip>launch date</ConfirmChip> Coming soon
               </>
             )}
-            {fm.readingTime ? ` · ${fm.readingTime} min read` : null}
+            {fm.readingTime ? (
+              <span className="nbw">{" "}· {fm.readingTime} min read</span>
+            ) : null}
           </p>
         </header>
-
-        {leadBeforeHtml ? (
-          <RichHtml html={leadBeforeHtml} tokens={leadTokens} />
-        ) : null}
 
         {hero ? (
           <figure className="post-hero-img">
@@ -192,6 +190,10 @@ export default function PostPage({
               fetchPriority="high"
             />
           </figure>
+        ) : null}
+
+        {leadBeforeHtml ? (
+          <RichHtml html={leadBeforeHtml} tokens={leadTokens} />
         ) : null}
 
         {briefHtml ? (

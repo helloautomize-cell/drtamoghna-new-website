@@ -25,12 +25,11 @@ kind: "support"
 wordCount: 417
 ```
 
-H1: When Does a Person With Type 2 Diabetes Need Insulin?
-
 Many people worry when told they need insulin. In type 2 diabetes, it is a common and effective treatment, and not a sign of personal failure.
 
 **Quick answer**
-Insulin may be needed when blood sugar stays high despite lifestyle changes and other medicines, when HbA1c is very high at diagnosis, during severe illness or surgery, in pregnancy, or when there are signs of significant insulin deficiency. Some people use it for a short time, others long term.
+- Insulin may be needed when blood sugar stays high despite lifestyle changes and other medicines, when HbA1c is very high at diagnosis, during severe illness or surgery, in pregnancy, or when there are signs of significant insulin deficiency.
+- Some people use it for a short time, others long term.
 
 ### Why It Happens
 
