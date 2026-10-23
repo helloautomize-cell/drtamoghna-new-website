@@ -13,6 +13,7 @@ dateModified: "2026-10-03"
 badge: diabetes
 readingTime: 6
 related: [/diabetes-care/, /diabetes-care/continuous-glucose-monitoring/, /health-check-ups/]
+posts: ["/health-library/hba1c-vs-fasting-blood-sugar/", "/health-library/normal-prediabetes-diabetes-hba1c-levels/", "/health-library/type-2-diabetes/"]
 ```
 
 H1: HbA1c explained: what your 3-month sugar *number* means

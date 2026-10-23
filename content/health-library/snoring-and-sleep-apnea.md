@@ -13,6 +13,7 @@ dateModified: "2026-10-03"
 badge: sleep
 readingTime: 5
 related: [/sleep-apnea/, /heart-health/high-blood-pressure/, /weight-management/]
+posts: ["/health-library/loud-snoring-sign-of-sleep-apnea/", "/health-library/sleep-apnea-metabolic-health/", "/health-library/obesity-and-sleep-apnea/"]
 ```
 
 H1: Loud snoring and daytime sleepiness: when to think of sleep *apnea*
