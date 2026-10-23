@@ -5,6 +5,9 @@
  * (see package.json postbuild) and can be run manually: node scripts/indexnow.mjs
  *
  * The key file public/<INDEXNOW_KEY>.txt must exist at the site root.
+ *
+ * IndexNow is a best-effort search-engine ping: any failure prints a warning
+ * and exits 0 so it can never fail a deployment.
  */
 
 import { readFileSync, readdirSync } from "node:fs";
@@ -12,7 +15,6 @@ import { join } from "node:path";
 
 const SITE =
   process.env.NEXT_PUBLIC_SITE_URL || "https://drtamoghna-new-website.vercel.app";
-const HOST = new URL(SITE).host;
 
 // Key: INDEXNOW_KEY env, else the single *.txt key file committed in public/.
 function findKey() {
@@ -33,18 +35,46 @@ function findKey() {
   return key;
 }
 
+const hostOf = (u) => {
+  try {
+    return new URL(u).host;
+  } catch {
+    return null;
+  }
+};
+
 async function main() {
   const key = findKey();
+  // The live sitemap is always the previous deployment's, and NEXT_PUBLIC_SITE_URL
+  // may redirect (apex -> www). IndexNow rejects URLs outside `host`, so derive
+  // the submission host from the sitemap URLs themselves rather than the env var.
   const sitemap = await fetch(`${SITE}/sitemap.xml`);
   if (!sitemap.ok) throw new Error(`sitemap fetch failed: ${sitemap.status}`);
   const xml = await sitemap.text();
-  const urlList = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
-  if (!urlList.length) throw new Error("no URLs found in sitemap");
+  const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+  if (!locs.length) throw new Error("no URLs found in sitemap");
+
+  const counts = new Map();
+  for (const u of locs) {
+    const h = hostOf(u);
+    if (h) counts.set(h, (counts.get(h) || 0) + 1);
+  }
+  const host = [...counts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0];
+  const urlList = locs.filter((u) => hostOf(u) === host);
+  if (!host || !urlList.length) {
+    console.warn("indexnow: warning: no sitemap URLs to submit, skipping");
+    return;
+  }
+  if (urlList.length !== locs.length) {
+    console.warn(
+      `indexnow: warning: dropped ${locs.length - urlList.length} URLs not on host ${host}`,
+    );
+  }
 
   const body = {
-    host: HOST,
+    host,
     key,
-    keyLocation: `${SITE}/${key}.txt`,
+    keyLocation: `https://${host}/${key}.txt`,
     urlList,
   };
   const res = await fetch("https://api.indexnow.org/indexnow", {
@@ -53,8 +83,13 @@ async function main() {
     body: JSON.stringify(body),
   });
   const text = await res.text().catch(() => "");
-  console.log(`indexnow: submitted ${urlList.length} URLs for ${HOST} -> HTTP ${res.status} ${text}`);
-  if (!res.ok) process.exit(1);
+  if (!res.ok) {
+    console.warn(
+      `indexnow: warning: submission of ${urlList.length} URLs for ${host} failed -> HTTP ${res.status} ${text}`,
+    );
+    return;
+  }
+  console.log(`indexnow: submitted ${urlList.length} URLs for ${host} -> HTTP ${res.status} ${text}`);
 }
 
 // During local builds the site is not yet deployed; only submit on Vercel
@@ -64,10 +99,12 @@ const forced = process.env.INDEXNOW_FORCE === "1" || process.argv.includes("--fo
 if (process.argv.includes("--check")) {
   console.log(`indexnow: key file OK -> ${findKey()}`);
 } else if (onVercelProd || forced) {
-  main().catch((e) => {
-    console.error(`indexnow: ${e.message}`);
-    process.exit(1);
-  });
+  main()
+    .then(() => process.exit(0))
+    .catch((e) => {
+      console.warn(`indexnow: warning: ${e.message} (skipping; deployment unaffected)`);
+      process.exit(0);
+    });
 } else {
   console.log("indexnow: skipped (not a Vercel production build; use --force to submit)");
 }
