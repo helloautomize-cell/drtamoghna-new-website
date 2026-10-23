@@ -128,15 +128,12 @@ test.describe("home motion", () => {
 });
 
 test.describe("media request gating", () => {
-  test("zero Google Maps requests before Show map is clicked", async ({ page }) => {
-    const maps: string[] = [];
-    page.on("request", (r) => {
-      if (/google\.|gstatic|maps\.|maps\.app|ggpht/.test(r.url())) maps.push(r.url());
-    });
+  test("homepage map card renders the Google Maps embed", async ({ page }) => {
     await page.goto("/");
     await dismissConsent(page);
-    await page.waitForTimeout(2500);
-    expect(maps).toEqual([]);
+    const iframe = page.locator(".mapcard iframe");
+    await expect(iframe).toHaveCount(1);
+    await expect(iframe).toHaveAttribute("src", /google\.com\/maps/);
   });
 
   test("echo video makes no network request until it is in view", async ({

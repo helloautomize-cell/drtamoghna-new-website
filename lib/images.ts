@@ -2,7 +2,7 @@
  * Typed map of published images. Components import from here;
  * no hard-coded image paths in components.
  */
-export type SiteImage = { src: string; width: number; height: number; alt: string; widths?: readonly number[] };
+export type SiteImage = { src: string; width: number; height: number; alt: string; widths?: readonly number[]; avif?: string; jpg?: string };
 
 const B = "/images";
 
@@ -75,10 +75,12 @@ export const images = {
     alt: "Echocardiography images with Doppler measurements on the screen of the echo system at Medcare",
   },
   exteriorWide: {
-    src: `${B}/clinic/clinic-exterior-wide.jpg`, widths: [1320],
-    width: 1320,
-    height: 742,
-    alt: "Front of Medcare Diabetes, Obesity and Echocardiography Clinic on Chapaguri Road, North Bongaigaon, at dusk",
+    src: `${B}/medcare-storefront.webp`, widths: [640, 960, 1280],
+    avif: `${B}/medcare-storefront.avif`,
+    jpg: `${B}/medcare-storefront.jpg`,
+    width: 1280,
+    height: 720,
+    alt: "Medcare Diabetes & Obesity Clinic storefront on Chapaguri Road, Bongaigaon, with the Medcare logo and Assamese name on the sign",
   },
   exterior: {
     src: `${B}/clinic/clinic-exterior.jpg`, widths: [640, 1320],
@@ -130,12 +132,13 @@ export type ImageKey = keyof typeof images;
  * Responsive srcset for JPEGs. Variants (`<name>-<w>w.jpg`) are emitted by
  * scripts/process-images.mjs from the widths in the image manifest.
  */
-export function imgSrcSet(im: SiteImage): string | undefined {
+export function imgSrcSet(im: SiteImage, format?: string): string | undefined {
   if (!im.widths || im.widths.length < 2) return undefined;
-  const base = im.src.replace(/\.jpg$/, "");
+  const ext = format ?? im.src.slice(im.src.lastIndexOf("."));
+  const base = im.src.slice(0, im.src.lastIndexOf("."));
   const parts = im.widths
     .slice(0, -1)
-    .map((w) => `${base}-${w}w.jpg ${w}w`);
+    .map((w) => `${base}-${w}w${ext} ${w}w`);
   parts.push(`${im.src} ${im.widths[im.widths.length - 1]}w`);
   return parts.join(", ");
 }

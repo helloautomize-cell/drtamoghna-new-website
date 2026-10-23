@@ -180,11 +180,11 @@ test.describe("booking fallback without RESEND_API_KEY", () => {
 
 test.describe("request gating", () => {
   for (const path of ["/", "/contact/", "/plan-your-visit/"]) {
-    test(`no analytics/maps/video requests on load ${path}`, async ({ page }) => {
+    test(`no analytics/video requests on load ${path}`, async ({ page }) => {
       const hits: string[] = [];
       page.on("request", (r) => {
         if (
-          /google-analytics|googletagmanager|google\.com\/maps|maps\.google|youtube/.test(
+          /google-analytics|googletagmanager|youtube/.test(
             r.url(),
           )
         )

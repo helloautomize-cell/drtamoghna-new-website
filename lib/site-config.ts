@@ -112,6 +112,12 @@ export const siteConfig = {
         },
       ],
     },
+    // Dr. Das's personal profiles; the clinic's accounts are in `social` below.
+    social: {
+      linkedin: "https://in.linkedin.com/in/tamoghna-das-a96660264",
+      x: "https://x.com/dr_tamoghna",
+      facebook: "https://www.facebook.com/people/Dr-Tamoghna-Das-MD-Medicine/61550611900549/",
+    },
   },
 
   foundingDate: "2023-09", // Q20
@@ -129,7 +135,7 @@ export const siteConfig = {
 
   // Q55
   social: {
-    facebook: "https://www.facebook.com/profile.php?id=61551113781226",
+    facebook: "https://www.facebook.com/people/Medcare-Clinic/61551113781226/",
     instagram: "https://www.instagram.com/medcarebongaigaon/",
   },
 

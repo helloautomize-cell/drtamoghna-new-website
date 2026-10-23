@@ -79,8 +79,16 @@ Northeast India; patients also travel in from nearby Bhutan border towns.
 
 ## Social profiles
 
-- Facebook: https://www.facebook.com/profile.php?id=61551113781226
+Clinic (Medcare):
+
+- Facebook: https://www.facebook.com/people/Medcare-Clinic/61551113781226/
 - Instagram: https://www.instagram.com/medcarebongaigaon/
+
+Dr. Tamoghna Das (personal):
+
+- LinkedIn: https://in.linkedin.com/in/tamoghna-das-a96660264
+- X: https://x.com/dr_tamoghna
+- Facebook: https://www.facebook.com/people/Dr-Tamoghna-Das-MD-Medicine/61550611900549/
 
 ## Emergency line
 

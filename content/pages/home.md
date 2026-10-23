@@ -187,7 +187,7 @@ H2: Find *us*
 - Call 60031 21297 · WhatsApp 60031 21297 or 93651 75235 · Email
 - Hours: Mon to Sat 9 am to 8:30 pm · Sun 9 am to 3:30 pm
 - Medical emergency? Call 108 or 112.
-- Photo card: clinic exterior + [Show map] (click to load)
+- Map card: Google Maps embed (loads on the page)
 
 ### CTA band
 (global block)

@@ -37,4 +37,4 @@ Emergency notice above the form: This form is not for emergencies. In a medical 
 - **Hours** Mon to Sat 9 am to 8:30 pm · Sun 9 am to 3:30 pm
 - Line: Coming from outside Bongaigaon? [Plan a one-day visit]
 
-Map: Show map (click to load)
+Map: Google Maps embed (loads on the page)

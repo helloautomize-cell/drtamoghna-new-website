@@ -6,6 +6,7 @@ import BookDirectCard from "@/components/BookDirectCard";
 import JsonLd from "@/components/JsonLd";
 import MapCard from "@/components/MapCard";
 import RouteLink from "@/components/RouteLink";
+import SocialLinks, { clinicSocial } from "@/components/SocialLinks";
 import { CtaBand } from "@/components/content/PageParts";
 import { dateBounds } from "@/lib/booking-validation";
 import { getPage, pageH1, accent } from "@/lib/content";
@@ -116,6 +117,14 @@ export default async function Page({
                   <b>Email</b> medcarebongaigaon at gmail dot com
                 </span>
               </a>
+              <div className="ccard static follow">
+                <span>
+                  <b>Follow Medcare:</b>
+                </span>
+                <SocialLinks
+                  links={[clinicSocial.instagram, clinicSocial.facebook]}
+                />
+              </div>
               <div className="ccard static">
                 <MapPin size={20} strokeWidth={2} aria-hidden />
                 <span>

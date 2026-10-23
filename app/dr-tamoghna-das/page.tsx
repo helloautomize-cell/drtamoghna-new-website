@@ -5,6 +5,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import BookButton from "@/components/BookButton";
 import ChipGroup from "@/components/ChipGroup";
+import SocialLinks, { doctorSocial } from "@/components/SocialLinks";
 import Faqs from "@/components/content/Faqs";
 import RichHtml from "@/components/content/RichHtml";
 import { CtaBand, ReviewerBox } from "@/components/content/PageParts";
@@ -188,6 +189,16 @@ export default function Page() {
                   <b>{f.label}:</b> {t(f.val.html, f.val.tokens)}
                 </p>
               ))}
+            </div>
+            <div className="follow-row">
+              <span>Follow Dr. Das</span>
+              <SocialLinks
+                links={[
+                  doctorSocial.linkedin,
+                  doctorSocial.x,
+                  doctorSocial.facebook,
+                ]}
+              />
             </div>
             <div className="ph-actions">
               <BookButton href={bookingHref("/dr-tamoghna-das/")} label="Book with Dr. Das" />

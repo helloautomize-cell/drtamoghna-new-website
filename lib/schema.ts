@@ -120,6 +120,11 @@ export const physicianNode = {
   memberOf: memberships.map((name) => ({ "@type": "Organization", name })),
   award: "COVID-19 award for exemplary service, Rangiya Division (N.F. Railway), 2021",
   knowsLanguage: siteConfig.doctor.languageCodes,
+  sameAs: [
+    siteConfig.doctor.social.linkedin,
+    siteConfig.doctor.social.x,
+    siteConfig.doctor.social.facebook,
+  ],
   // Dr. Das's own consultation hours; the clinic's wider hours are on
   // the MedicalClinic node below.
   openingHoursSpecification: siteConfig.doctor.consultHours.specs.map((s) => ({
@@ -169,7 +174,7 @@ export const clinicNode = {
   name: siteConfig.name,
   alternateName: ["Medcare", "Medcare Clinic Bongaigaon"],
   url: `${base}/`,
-  image: `${base}/images/clinic/clinic-exterior.jpg`,
+  image: "https://www.medcare.org.in/images/medcare-storefront.jpg",
   logo: `${base}/brand/medcare-logo.png`,
   // Maps pin resolved via g.page -> place id 0x3758ffe383475f4b, CID below.
   // geo + GeoCircle stay omitted: exact lat/long still TODO_CONFIRM.

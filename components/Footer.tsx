@@ -5,6 +5,7 @@ import { siteConfig } from "@/lib/site-config";
 import { whatsappUrl } from "@/lib/whatsapp";
 import { CookieSettingsButton, ObfuscatedEmail } from "./FooterBits";
 import GoogleRatingChip from "./GoogleRatingChip";
+import SocialLinks, { clinicSocial } from "./SocialLinks";
 
 /**
  * Footer (site-plan section 3): brand line, address, hours, contact links,
@@ -12,24 +13,6 @@ import GoogleRatingChip from "./GoogleRatingChip";
  * (accordions on mobile), catchment line, social icons and the legal
  * bottom line. "Cookie settings" re-opens the consent dialog.
  */
-
-function FacebookIcon() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-    </svg>
-  );
-}
-
-function InstagramIcon() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-    </svg>
-  );
-}
 
 function ColumnLinks({ heading, links }: { heading: string; links: { label: string; href: string }[] }) {
   return (
@@ -141,14 +124,10 @@ export default function Footer() {
         <p className="foot-catchment">{catchmentLine}</p>
 
         <div className="foot-bottom">
-          <div className="foot-social">
-            <a href={siteConfig.social.facebook} target="_blank" rel="noopener noreferrer" aria-label="Medcare on Facebook">
-              <FacebookIcon />
-            </a>
-            <a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer" aria-label="Medcare on Instagram">
-              <InstagramIcon />
-            </a>
-          </div>
+          <SocialLinks
+            className="foot-social"
+            links={[clinicSocial.facebook, clinicSocial.instagram]}
+          />
           <p className="foot-legal">
             &copy; {year} {siteConfig.name}, Bongaigaon. This website is run by Medcare, owned
             by Dr. Tamoghna Das. The information here is for general education and is not a

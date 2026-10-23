@@ -11,11 +11,18 @@ import {
   pageH1,
   readContentFile,
 } from "./content";
-import { IDENTITY } from "./site-config";
+import { IDENTITY, siteConfig } from "./site-config";
 import { SITE_BASE } from "./metadata";
 
 const AGENCY_CREDIT =
   "Website built and marketed by Automize Media Labs (https://www.automizemedialabs.com/)";
+
+/** Clinic and doctor social profiles; same split as schema sameAs. */
+const SOCIAL_PROFILES = [
+  "Social profiles:",
+  `- Medcare: ${siteConfig.social.facebook} · ${siteConfig.social.instagram}`,
+  `- Dr. Tamoghna Das: ${siteConfig.doctor.social.linkedin} · ${siteConfig.doctor.social.x} · ${siteConfig.doctor.social.facebook}`,
+].join("\n");
 
 /** Entity statement, site-plan section 1 (word for word). */
 export const ENTITY_STATEMENT =
@@ -107,6 +114,7 @@ export function llmsTxt(): string {
     "One doctor runs every consultation: Dr. Tamoghna Das, MBBS, MD (Medicine), Assam Council of Medical Registration No. 20276. Consultation hours Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm, by prior appointment.",
     "Phone: +91 60031 21297. WhatsApp: +91 60031 21297 or +91 93651 75235. Email: medcarebongaigaon@gmail.com.",
     "Address: Chapaguri Road, opposite Domino's, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380.",
+    SOCIAL_PROFILES,
     "",
   ];
   for (const [label, list] of groups) {
@@ -219,6 +227,8 @@ export function llmsFullTxt(): string {
   const out: string[] = [
     "# Medcare Diabetes, Obesity and Echocardiography Clinic, Bongaigaon\n\n",
     ENTITY_STATEMENT,
+    "\n\n",
+    SOCIAL_PROFILES,
     "\n",
   ];
   const groups = new Map<string, { url: string; title: string }[]>();

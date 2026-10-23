@@ -317,18 +317,19 @@ test.describe("booking form", () => {
   });
 });
 
-/* ---------- click-to-load map ---------- */
+/* ---------- embedded map ---------- */
 
-test("no Google Maps request before Show map click", async ({ page }) => {
+test("Google Maps embed loads directly without a click", async ({ page }) => {
   const hits: string[] = [];
   page.on("request", (r) => {
     if (/google\.com\/maps|maps\.google|maps\.app\.goo/.test(r.url()))
       hits.push(r.url());
   });
   await page.goto("/plan-your-visit/");
-  await page.waitForTimeout(800);
-  expect(hits).toEqual([]);
-  await page.locator("button.mapcard-btn").first().click();
+  const iframe = page.locator(".mapcard iframe");
+  await expect(iframe).toHaveCount(1);
+  await expect(iframe).toHaveAttribute("src", /google\.com\/maps/);
+  await iframe.scrollIntoViewIfNeeded();
   await page.waitForTimeout(4000);
   expect(hits.length).toBeGreaterThan(0);
 });

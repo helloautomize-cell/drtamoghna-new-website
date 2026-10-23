@@ -2803,12 +2803,14 @@ table.ct {
   padding-top: 20px;
   border-top: 1px solid var(--line);
 }
-.foot-social {
+.foot-social,
+.social-links {
   display: flex;
   gap: 10px;
   flex: none;
 }
-.foot-social a {
+.foot-social a,
+.social-links a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2819,9 +2821,29 @@ table.ct {
   background: #fff;
   color: var(--ink);
 }
-.foot-social a:hover {
+.foot-social a:hover,
+.social-links a:hover {
   color: var(--primary-700);
   border-color: var(--primary-100);
+}
+@media (max-width: 1023px) {
+  .foot-social a,
+  .social-links a {
+    width: 44px;
+    height: 44px;
+  }
+}
+.follow-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  margin: 14px 0 0;
+}
+.follow-row > span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-2);
 }
 .foot-legal {
   margin: 0;
@@ -3778,10 +3800,13 @@ button.ccard {
 .ccard:not(.static):not(.note):hover {
   background: #fff;
 }
-.ccard svg {
+.ccard > svg {
   color: var(--primary-500);
   margin-top: 2px;
   flex: none;
+}
+.ccard.follow {
+  align-items: center;
 }
 .ccard b {
   display: inline;
@@ -3803,44 +3828,6 @@ button.ccard {
   border-radius: 20px;
   overflow: hidden;
   border: 1px solid var(--line);
-}
-.mapcard img {
-  display: block;
-  width: 100%;
-  height: 340px;
-  object-fit: cover;
-}
-.mapcard-btn {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  min-height: 52px;
-  padding: 0 26px;
-  border: 0;
-  border-radius: 999px;
-  background: var(--secondary);
-  color: #fff;
-  font: 700 16px/1 var(--sans);
-  cursor: pointer;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
-}
-.mapcard-btn:hover {
-  background: var(--primary);
-}
-.mapcard-link {
-  position: absolute;
-  right: 16px;
-  bottom: 14px;
-  background: rgba(255, 255, 255, 0.92);
-  border-radius: 999px;
-  padding: 8px 14px;
-  font-size: 13.5px;
-  font-weight: 600;
-  color: var(--ink);
 }
 .mapcard iframe {
   display: block;
@@ -4591,31 +4578,27 @@ button.ccard {
 
 /* Visit band */
 .vband {
-  position: relative;
-  height: 60vh;
-  min-height: 440px;
-  border-radius: 30px;
-  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  grid-template-areas: "card photo";
+  gap: 32px;
+  align-items: center;
 }
 .vb-media {
-  position: sticky;
-  top: 0;
-  height: 60vh;
-  min-height: 440px;
+  grid-area: photo;
+  min-width: 0;
 }
-.vb-media > img {
-  position: absolute;
-  inset: 0;
+.vb-media img {
+  display: block;
   width: 100%;
-  height: 100%;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
+  object-position: center top;
+  border-radius: 30px;
 }
 .vb-card {
-  position: absolute;
-  left: 48px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: min(430px, calc(100% - 96px));
+  grid-area: card;
+  min-width: 0;
   padding: 28px;
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.86);
@@ -4658,23 +4641,14 @@ button.ccard {
   flex-wrap: wrap;
 }
 @media (max-width: 900px) {
-  .vband,
-  .vb-media {
-    height: auto;
-    min-height: 0;
-    border-radius: 0;
-  }
-  .vb-media {
-    position: static;
-  }
-  .vb-media > img {
-    display: none;
+  .vband {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "photo"
+      "card";
+    gap: 16px;
   }
   .vb-card {
-    position: static;
-    transform: none;
-    margin: 0;
-    width: 100%;
     padding: 22px;
   }
 }
