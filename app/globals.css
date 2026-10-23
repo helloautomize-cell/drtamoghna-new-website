@@ -4078,6 +4078,25 @@ button.ccard {
   background: var(--primary);
   color: #fff;
 }
+.hl-chips a.chip {
+  text-decoration: none;
+  color: inherit;
+}
+.hl-cluster {
+  margin: 0 0 38px;
+}
+.hl-cluster-h {
+  font-size: clamp(21px, 3vw, 28px);
+  letter-spacing: -0.01em;
+  margin: 0 0 16px;
+}
+.hl-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .hl-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -4099,6 +4118,8 @@ button.ccard {
   height: 170px;
   display: grid;
   place-items: center;
+  position: relative;
+  overflow: hidden;
 }
 .hl-card.g1 .hl-cover {
   background: linear-gradient(135deg, #d9f1f3, #b3e0e4);
@@ -4120,7 +4141,8 @@ button.ccard {
 .hl-meta {
   padding: 18px;
 }
-.hl-meta h2 {
+.hl-meta h2,
+.hl-meta h3 {
   font-size: 18px;
   margin: 10px 0 6px;
   letter-spacing: -0.01em;
@@ -4165,6 +4187,52 @@ button.ccard {
 .post-body .psec p,
 .post-body .psec li {
   max-width: 68ch;
+}
+.post-hero-img {
+  margin: 0 0 26px;
+}
+.post-hero-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  display: block;
+}
+.post-notice {
+  border-top: 1px dashed var(--line);
+  margin: 26px 0 0;
+  padding-top: 18px;
+}
+.post-notice p {
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--ink-2);
+  margin: 0 0 8px;
+}
+.post-notice a {
+  color: var(--primary-500);
+}
+.author-box {
+  margin: 18px 0 0;
+  align-items: flex-start;
+}
+.author-box .author-box-body p {
+  margin: 0 0 4px;
+}
+.author-box-links a {
+  color: var(--primary-500);
+  font-weight: 600;
+}
+.faq-q {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+.sources a {
+  color: var(--primary-500);
+  text-decoration: none;
+}
+.sources a:hover {
+  text-decoration: underline;
 }
 
 /* Legal pages */

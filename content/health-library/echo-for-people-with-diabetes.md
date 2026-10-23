@@ -13,6 +13,7 @@ dateModified: "2026-10-03"
 badge: echo
 readingTime: 6
 related: [/heart-health/echocardiography/, /heart-health/heart-failure/, /diabetes-care/]
+posts: ["/health-library/heart-tests-for-people-with-diabetes/", "/health-library/2d-echo-vs-ecg-difference/", "/health-library/ecg-echo-stress-echo-holter/"]
 ```
 
 H1: Why people with diabetes or high BP may need an *echo*

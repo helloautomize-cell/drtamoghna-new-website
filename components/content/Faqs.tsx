@@ -12,7 +12,7 @@ export default function Faqs({ faqs }: { faqs: Faq[] }) {
       {faqs.map((f, i) => (
         <details className="faq" key={i} name="faqs">
           <summary className="faq-t">
-            <span>{f.q}</span>
+            <h3 className="faq-q">{f.q}</h3>
             <svg
               className="faq-i"
               width="18"
