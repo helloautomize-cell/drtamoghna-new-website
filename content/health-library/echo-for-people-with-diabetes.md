@@ -12,11 +12,12 @@ datePublished: "2026-10-03"
 dateModified: "2026-10-03"
 badge: echo
 readingTime: 6
+image: "2d-echo-vs-ecg-difference"
+imageAlt: "A cardiologist performing a 2D echocardiogram on a middle-aged Indian woman lying on her side"
 related: [/heart-health/echocardiography/, /heart-health/heart-failure/, /diabetes-care/]
 posts: ["/health-library/heart-tests-for-people-with-diabetes/", "/health-library/2d-echo-vs-ecg-difference/", "/health-library/ecg-echo-stress-echo-holter/"]
 ```
 
-H1: Why people with diabetes or high BP may need an *echo*
 
 **In brief**
 - Diabetes and high blood pressure can change the heart muscle years before any symptoms.

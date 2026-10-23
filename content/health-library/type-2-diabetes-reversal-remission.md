@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 465
 ```
 
-H1: Can Type 2 Diabetes Be Reversed or Put Into Remission?
-
 Many people ask whether diabetes can be cured. Type 2 diabetes is a long-term condition, but in some people blood sugar can return to a non-diabetic range. Doctors usually call this remission rather than cure.
 
 **Quick answer**
-Remission means blood sugar stays in a normal range for a sustained period without diabetes medicines. It is more likely when diabetes is recent and significant weight is lost. It is not a permanent cure, because sugar can rise again, so regular follow-up is still needed.
+- Remission means blood sugar stays in a normal range for a sustained period without diabetes medicines.
+- It is more likely when diabetes is recent and significant weight is lost.
+- It is not a permanent cure, because sugar can rise again, so regular follow-up is still needed.
 
 ### What Does Remission Mean?
 

@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 533
 ```
 
-H1: What Are the Early Symptoms of Type 2 Diabetes?
-
 Type 2 diabetes can develop slowly over years. Many people feel fine at first, and the condition is often found only on a routine blood test. When symptoms do appear, they are easy to put down to age, stress or a busy life.
 
 **Quick answer**
-Common early symptoms include increased thirst, frequent urination, tiredness, blurred vision, slow-healing cuts and repeated infections. Some people notice tingling in the feet or darkened skin folds on the neck. Many have no symptoms at all, so testing is the only reliable way to know.
+- Common early symptoms include increased thirst, frequent urination, tiredness, blurred vision, slow-healing cuts and repeated infections.
+- Some people notice tingling in the feet or darkened skin folds on the neck.
+- Many have no symptoms at all, so testing is the only reliable way to know.
 
 ### Common Early Symptoms
 

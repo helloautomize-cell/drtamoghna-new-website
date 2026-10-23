@@ -25,12 +25,14 @@ kind: "support"
 wordCount: 641
 ```
 
-H1: 2D Echo vs ECG: What Is the Difference?
-
 An ECG (electrocardiogram) records the electrical activity of the heart and shows rhythm and signs of strain or damage. A 2D echo (echocardiogram) is an ultrasound scan that shows the heart's structure, size, pumping strength and valves. They answer different questions, so doctors often use them together rather than choosing one over the other.
 
 **Quick answer**
-Use an ECG to check heart rhythm, rate and signs of a heart attack or strain. Use a 2D echo to see how well the heart pumps, check valves, wall thickness and chamber size, and look for fluid around the heart. An ECG takes a few minutes. An echo takes about 20 to 40 minutes. Both are painless and non-invasive.
+- Use an ECG to check heart rhythm, rate and signs of a heart attack or strain.
+- Use a 2D echo to see how well the heart pumps, check valves, wall thickness and chamber size, and look for fluid around the heart.
+- An ECG takes a few minutes.
+- An echo takes about 20 to 40 minutes.
+- Both are painless and non-invasive.
 
 ### What Is an ECG?
 

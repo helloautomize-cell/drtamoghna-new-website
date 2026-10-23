@@ -25,10 +25,11 @@ kind: "support"
 wordCount: 397
 ```
 
-H1: Can Diabetes and High BP Affect the Heart Without Symptoms?
-
 **Quick answer**
-Yes. Diabetes and high blood pressure can damage the heart and blood vessels silently for years before symptoms appear. You can feel completely well while arteries narrow, the heart muscle thickens or stiffens, or rhythm problems develop. That is why regular check-ups and heart screening are important.
+- Yes.
+- Diabetes and high blood pressure can damage the heart and blood vessels silently for years before symptoms appear.
+- You can feel completely well while arteries narrow, the heart muscle thickens or stiffens, or rhythm problems develop.
+- That is why regular check-ups and heart screening are important.
 
 ### How They Harm the Heart
 

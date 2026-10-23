@@ -25,10 +25,9 @@ kind: "support"
 wordCount: 456
 ```
 
-H1: Holter Monitor: What It Detects
-
 **Quick answer**
-A Holter monitor is a small portable device that records your heart's electrical activity continuously, usually for 24 to 48 hours, while you go about your daily routine. It can detect irregular heartbeats (arrhythmias), episodes that a short ECG misses, and heart rhythm changes linked to symptoms such as palpitations, dizziness or fainting.
+- A Holter monitor is a small portable device that records your heart's electrical activity continuously, usually for 24 to 48 hours, while you go about your daily routine.
+- It can detect irregular heartbeats (arrhythmias), episodes that a short ECG misses, and heart rhythm changes linked to symptoms such as palpitations, dizziness or fainting.
 
 ### Why a Holter Instead of a Regular ECG?
 

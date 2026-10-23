@@ -25,10 +25,10 @@ kind: "support"
 wordCount: 472
 ```
 
-H1: What Is a Normal Blood Pressure Reading by Age?
-
 **Quick answer**
-For most adults, a normal blood pressure is below 120/80 mmHg. Readings from 130/80 mmHg and above are usually considered high. Targets can differ with age and conditions such as diabetes or kidney disease, so your doctor will set the target that suits you.
+- For most adults, a normal blood pressure is below 120/80 mmHg.
+- Readings from 130/80 mmHg and above are usually considered high.
+- Targets can differ with age and conditions such as diabetes or kidney disease, so your doctor will set the target that suits you.
 
 ### Understanding the Two Numbers
 

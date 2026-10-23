@@ -25,8 +25,6 @@ kind: "pillar"
 wordCount: 3450
 ```
 
-H1: Diabetes and Heart Disease: Cardiovascular Risk, Symptoms, Tests and Prevention
-
 **In brief**
 - Diabetes can increase your risk of heart disease because persistently high blood sugar can affect blood vessels over time.
 - High blood pressure, high LDL cholesterol, excess weight, smoking and kidney disease can add to this risk.

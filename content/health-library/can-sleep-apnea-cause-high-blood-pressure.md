@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 618
 ```
 
-H1: Can Sleep Apnea Cause High Blood Pressure?
-
 Yes. Obstructive sleep apnea is a well-recognised cause of high blood pressure and is especially common in people whose BP stays high despite medicines. Repeated pauses in breathing during sleep lower oxygen levels and trigger stress responses that raise BP at night and during the day. Treating sleep apnea can help improve blood pressure in many people.
 
 **Quick answer**
-During sleep apnea, each breathing pause lowers oxygen and activates the body's stress system, releasing adrenaline-like hormones that tighten blood vessels and raise BP. Over time, this leads to sustained high BP. People with resistant hypertension, high night-time BP, obesity or diabetes should be screened for sleep apnea.
+- During sleep apnea, each breathing pause lowers oxygen and activates the body's stress system, releasing adrenaline-like hormones that tighten blood vessels and raise BP.
+- Over time, this leads to sustained high BP.
+- People with resistant hypertension, high night-time BP, obesity or diabetes should be screened for sleep apnea.
 
 ### How Does Sleep Apnea Raise BP?
 

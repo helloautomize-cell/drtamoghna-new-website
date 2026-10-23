@@ -31,6 +31,7 @@ type PostCard = {
   datePublished?: string;
   description: string;
   kind: string;
+  cluster: string;
   clusterOrder: number;
   img?: string;
 };
@@ -47,6 +48,7 @@ function postCard(url: string): PostCard {
     datePublished: p.frontmatter.datePublished,
     description: p.frontmatter.description || "",
     kind: (fx.kind as string) || "article",
+    cluster: (fx.cluster as string) || "",
     clusterOrder: typeof fx.clusterOrder === "number" ? fx.clusterOrder : 99,
     img: typeof fx.image === "string" ? blogImages[fx.image]?.src : undefined,
   };
@@ -142,19 +144,21 @@ export default function Page() {
                       ) : null}
                     </div>
                     <div className="hl-meta">
-                      <span className="chip sm">{p.category}</span>
+                      <span className="chip sm">{p.cluster || p.category}</span>
                       <h3>{p.h1}</h3>
                       <p>{p.description}</p>
                       <span className="hl-by">
-                        Written by Dr. Tamoghna Das ·{" "}
+                        Written by Dr. Tamoghna Das
                         {p.datePublished && !/CONFIRM/.test(p.datePublished) ? (
-                          formatDate(p.datePublished)
+                          <span className="nbw">{" "}· {formatDate(p.datePublished)}</span>
                         ) : (
                           <>
-                            <ConfirmChip>launch date</ConfirmChip> Coming soon
+                            {" "}· <ConfirmChip>launch date</ConfirmChip> Coming soon
                           </>
                         )}
-                        {p.readingTime ? ` · ${p.readingTime} min read` : null}
+                        {p.readingTime ? (
+                          <span className="nbw">{" "}· {p.readingTime} min read</span>
+                        ) : null}
                       </span>
                     </div>
                   </RouteLink>

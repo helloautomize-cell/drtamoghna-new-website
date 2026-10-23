@@ -25,8 +25,6 @@ kind: "pillar"
 wordCount: 3307
 ```
 
-H1: ECG vs 2D Echo vs Stress Echo vs Holter: Which Heart Test Do You Need?
-
 **In brief**
 - An ECG records the heart's electrical signals in 5 to 10 minutes. It picks up rhythm problems, a fast or slow rate, and signs of strain or an old heart attack.
 - A 2D echo is an ultrasound of the heart. It shows how strongly the heart pumps, how the valves work and whether the walls have thickened.

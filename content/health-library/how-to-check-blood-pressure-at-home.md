@@ -25,12 +25,10 @@ kind: "support"
 wordCount: 656
 ```
 
-H1: How to Check Blood Pressure at Home Correctly
-
 Checking blood pressure at home gives a more accurate picture of your usual BP than a single clinic reading. To get reliable results, use a validated upper-arm digital monitor, sit quietly for five minutes, keep your back supported and feet flat, rest your arm at heart level and take two readings one minute apart. Record them and share with your doctor.
 
 **Quick answer**
-For accurate home BP: avoid caffeine, smoking and exercise for 30 minutes before, empty your bladder, sit with back supported and feet flat, place the cuff on bare upper arm at heart level, stay silent, take two readings one minute apart, and repeat morning and evening for about a week before your doctor visit.
+- For accurate home BP: avoid caffeine, smoking and exercise for 30 minutes before, empty your bladder, sit with back supported and feet flat, place the cuff on bare upper arm at heart level, stay silent, take two readings one minute apart, and repeat morning and evening for about a week before your doctor visit.
 
 ### Choose the Right Monitor
 

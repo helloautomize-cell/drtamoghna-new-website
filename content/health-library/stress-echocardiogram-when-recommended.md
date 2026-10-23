@@ -25,12 +25,13 @@ kind: "support"
 wordCount: 697
 ```
 
-H1: Stress Echocardiogram: What It Is and When It's Needed
-
 A stress echocardiogram (stress echo) is a test that uses ultrasound to see how your heart muscle works at rest and under stress, usually during exercise on a treadmill or bicycle, or with a medicine that makes the heart work harder. It helps detect reduced blood flow to parts of the heart caused by narrowed coronary arteries.
 
 **Quick answer**
-A stress echo compares heart images before and after stress. If part of the heart muscle does not move well under stress, it may mean that area is not getting enough blood. It is recommended for chest discomfort, breathlessness on exertion, abnormal ECG findings, assessing known heart disease and, in some cases, before major surgery. It is non-invasive and uses no radiation.
+- A stress echo compares heart images before and after stress.
+- If part of the heart muscle does not move well under stress, it may mean that area is not getting enough blood.
+- It is recommended for chest discomfort, breathlessness on exertion, abnormal ECG findings, assessing known heart disease and, in some cases, before major surgery.
+- It is non-invasive and uses no radiation.
 
 ### How Does It Work?
 

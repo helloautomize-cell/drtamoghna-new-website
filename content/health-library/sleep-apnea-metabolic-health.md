@@ -25,8 +25,6 @@ kind: "pillar"
 wordCount: 3886
 ```
 
-H1: Sleep Apnea and Metabolic Health: Snoring, Daytime Sleepiness, Diabetes and BP
-
 **In brief**
 - Obstructive sleep apnea (OSA) is a condition in which the throat closes repeatedly during sleep, so breathing stops or becomes very shallow many times a night.
 - Typical signs are loud snoring, breathing pauses noticed by a family member, gasping at night and sleepiness during the day.

@@ -25,8 +25,6 @@ kind: "pillar"
 wordCount: 3850
 ```
 
-H1: High Cholesterol and Triglycerides: Your Lipid Profile, Statins and Heart Risk
-
 **In brief**
 - High cholesterol means there is more LDL ("bad") cholesterol in your blood than is healthy for your heart. You usually cannot feel it. A blood test called a lipid profile finds it.
 - The lipid profile reports total cholesterol, LDL, HDL ("good") cholesterol and triglycerides. Doctors watch LDL most closely.

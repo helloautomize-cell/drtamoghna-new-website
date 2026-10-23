@@ -25,12 +25,11 @@ kind: "support"
 wordCount: 393
 ```
 
-H1: Can Prediabetes Go Back to Normal?
-
 A prediabetes diagnosis can be worrying, but it is also a window of opportunity. At this stage, the body can often respond well to healthy changes.
 
 **Quick answer**
-Yes, in many people prediabetes can return to normal blood sugar levels with weight loss, a healthier diet and regular physical activity. It is not guaranteed, and sugar can rise again if old habits return, so ongoing monitoring is important.
+- Yes, in many people prediabetes can return to normal blood sugar levels with weight loss, a healthier diet and regular physical activity.
+- It is not guaranteed, and sugar can rise again if old habits return, so ongoing monitoring is important.
 
 ### What Helps Most
 

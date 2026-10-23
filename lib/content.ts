@@ -474,7 +474,7 @@ export const getPage = cache((url: string): ParsedPage => {
     .split("\n")
     .filter((l) => {
       const t = l.trim();
-      return t && !t.match(/^([A-Z][A-Za-z' ()/`#.-]{1,48}):\s*(.*)$/);
+      return !t.match(/^([A-Z][A-Za-z' ()/`#.0-9-]{1,48}):\s*(.*)$/);
     })
     .join("\n")
     .trim();

@@ -25,8 +25,6 @@ kind: "pillar"
 wordCount: 3352
 ```
 
-H1: Obesity Treatment: Medical Weight Loss, Diabetes & Heart Risk
-
 **In brief**
 - Obesity is a medical condition that can affect blood sugar, blood pressure, cholesterol, sleep and cardiovascular health.
 - BMI is useful for an initial assessment, but waist circumference and metabolic health can provide important additional information.

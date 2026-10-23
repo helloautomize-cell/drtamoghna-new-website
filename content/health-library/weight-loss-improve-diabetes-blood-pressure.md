@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 622
 ```
 
-H1: How Much Weight Loss Improves Diabetes and BP?
-
 Losing about 5 percent of your body weight can already improve blood sugar, blood pressure and cholesterol. Losing around 10 percent or more often brings bigger benefits, and in some people with type 2 diabetes, larger weight loss can lead to remission. You do not need to reach an ideal weight to see real health gains.
 
 **Quick answer**
-A 5 percent weight loss can lower blood sugar, HbA1c and BP. A 10 to 15 percent loss gives greater improvements and may reduce the need for some medicines. Larger, sustained weight loss, sometimes with medicines or surgery, can lead to diabetes remission in some people, especially when diabetes is recent.
+- A 5 percent weight loss can lower blood sugar, HbA1c and BP.
+- A 10 to 15 percent loss gives greater improvements and may reduce the need for some medicines.
+- Larger, sustained weight loss, sometimes with medicines or surgery, can lead to diabetes remission in some people, especially when diabetes is recent.
 
 ### What Does 5 Percent Look Like?
 

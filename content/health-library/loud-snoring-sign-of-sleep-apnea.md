@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 571
 ```
 
-H1: Is Loud Snoring a Sign of Sleep Apnea?
-
 Loud snoring can be a sign of obstructive sleep apnea (OSA), but not everyone who snores has it. Snoring happens when air vibrates soft tissues in the throat. In sleep apnea, the airway repeatedly narrows or closes, causing pauses in breathing, gasping and poor-quality sleep. Snoring with these extra signs, or with daytime sleepiness, should be checked by a doctor.
 
 **Quick answer**
-Snoring alone may be harmless. Snoring is more likely to mean sleep apnea when it is loud and regular, comes with pauses in breathing or choking sounds, and is linked to daytime sleepiness, morning headaches, high BP, obesity or diabetes. A sleep study confirms the diagnosis.
+- Snoring alone may be harmless.
+- Snoring is more likely to mean sleep apnea when it is loud and regular, comes with pauses in breathing or choking sounds, and is linked to daytime sleepiness, morning headaches, high BP, obesity or diabetes.
+- A sleep study confirms the diagnosis.
 
 ### Simple Snoring vs Sleep Apnea
 
