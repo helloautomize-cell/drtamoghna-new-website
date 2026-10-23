@@ -25,12 +25,11 @@ kind: "support"
 wordCount: 663
 ```
 
-H1: Diabetic Foot Ulcer: Early Warning Signs
-
 A diabetic foot ulcer is an open sore or wound, usually on the sole, toes or heel. It often begins as a small blister, crack, callus or cut that goes unnoticed because of reduced sensation. Without prompt care, ulcers can become infected and, in severe cases, lead to amputation. Recognising early warning signs and acting quickly makes a big difference.
 
 **Quick answer**
-Early warning signs include a blister or cut that is not healing, redness, swelling or warmth, thickened skin or callus with dark spots underneath, drainage on socks, a bad smell, or new pain or numbness. Anyone with diabetes who notices these should see a doctor promptly, even if the wound looks small.
+- Early warning signs include a blister or cut that is not healing, redness, swelling or warmth, thickened skin or callus with dark spots underneath, drainage on socks, a bad smell, or new pain or numbness.
+- Anyone with diabetes who notices these should see a doctor promptly, even if the wound looks small.
 
 ### Why Do Diabetic Foot Ulcers Happen?
 

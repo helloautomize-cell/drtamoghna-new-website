@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 629
 ```
 
-H1: How Is Obesity Diagnosed? BMI, Waist and Metabolic Health
-
 Obesity is diagnosed using body mass index (BMI) as a starting point, along with waist circumference and an assessment of metabolic health, such as blood sugar, blood pressure and cholesterol. Asian Indians tend to carry more fat around the abdomen and develop diabetes and heart disease at lower body weights, so lower BMI and waist cut-offs are often used in India.
 
 **Quick answer**
-Doctors usually calculate BMI from height and weight, measure waist circumference to check abdominal fat and look for health effects like high sugar, BP, cholesterol, fatty liver or sleep apnea. For Indian adults, overweight and obesity are often defined at lower BMI levels than in Western countries. Some newer approaches focus on whether excess fat is already affecting health.
+- Doctors usually calculate BMI from height and weight, measure waist circumference to check abdominal fat and look for health effects like high sugar, BP, cholesterol, fatty liver or sleep apnea.
+- For Indian adults, overweight and obesity are often defined at lower BMI levels than in Western countries.
+- Some newer approaches focus on whether excess fat is already affecting health.
 
 ### What Is BMI?
 

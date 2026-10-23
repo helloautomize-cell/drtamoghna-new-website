@@ -25,8 +25,6 @@ kind: "pillar"
 wordCount: 3459
 ```
 
-H1: Type 2 Diabetes: Symptoms, Diagnosis, Treatment & Long-Term Control
-
 **In brief**
 - **Type 2 diabetes** is a long-term condition in which the body does not use insulin effectively and, over time, may not produce enough insulin to keep blood sugar under control.
 - Common symptoms include increased thirst, frequent urination, tiredness, blurred vision, slow-healing wounds and unexplained weight loss. Some people have **no symptoms**, especially in the early stages.

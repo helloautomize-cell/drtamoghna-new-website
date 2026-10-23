@@ -25,12 +25,11 @@ kind: "support"
 wordCount: 723
 ```
 
-H1: Diabetic Foot Wound: What Never to Do at Home
-
 If you have diabetes, a small cut or blister on the foot can quickly become a serious problem. Some common home habits, such as applying harsh chemicals, cutting calluses yourself or ignoring the wound, can slow healing and increase infection risk. The safest approach is to clean the wound gently, cover it and see a doctor promptly.
 
 **Quick answer**
-Never cut corns or calluses yourself, use blades or harsh chemicals, apply turmeric pastes or other home remedies directly to open wounds, soak feet in hot water, walk on the wound, ignore a wound that is not healing, or use tight bandages. Clean gently with saline or clean water, cover with a sterile dressing and see a doctor within a day or two, or the same day if there are signs of infection.
+- Never cut corns or calluses yourself, use blades or harsh chemicals, apply turmeric pastes or other home remedies directly to open wounds, soak feet in hot water, walk on the wound, ignore a wound that is not healing, or use tight bandages.
+- Clean gently with saline or clean water, cover with a sterile dressing and see a doctor within a day or two, or the same day if there are signs of infection.
 
 ### Things You Should Never Do
 

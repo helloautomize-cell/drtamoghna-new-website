@@ -25,12 +25,13 @@ kind: "support"
 wordCount: 637
 ```
 
-H1: SGLT2 Inhibitors: Diabetes, Heart and Kidney Benefits
-
 SGLT2 inhibitors are a group of diabetes medicines that lower blood sugar by helping the kidneys remove extra glucose through urine. Beyond sugar control, some medicines in this group have shown benefits for heart failure and chronic kidney disease in suitable patients. That is why doctors increasingly consider them for people with type 2 diabetes who also have heart or kidney risk.
 
 **Quick answer**
-SGLT2 inhibitors work in the kidneys to flush out excess sugar. They may also lower the risk of heart failure hospitalisation and slow kidney disease progression in selected people. Common side effects include genital infections and increased urination. They are not suitable for everyone, so your doctor decides based on your kidney function, heart health and other medicines.
+- SGLT2 inhibitors work in the kidneys to flush out excess sugar.
+- They may also lower the risk of heart failure hospitalisation and slow kidney disease progression in selected people.
+- Common side effects include genital infections and increased urination.
+- They are not suitable for everyone, so your doctor decides based on your kidney function, heart health and other medicines.
 
 ### How Do SGLT2 Inhibitors Work?
 

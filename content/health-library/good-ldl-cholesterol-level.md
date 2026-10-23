@@ -25,12 +25,13 @@ kind: "support"
 wordCount: 683
 ```
 
-H1: What Is a Good LDL Cholesterol Level?
-
 A good LDL cholesterol level depends on your overall risk of heart disease. For a healthy adult with low risk, a lower LDL is generally better, and many labs show under 100 mg/dL as optimal. For people with diabetes, high blood pressure or other risk factors, doctors often aim lower. For those who already have heart disease or very high risk, targets are lower still.
 
 **Quick answer**
-There is no single LDL number that suits everyone. Doctors set your LDL target based on age, diabetes, BP, smoking, kidney health, family history and existing heart disease. People at higher risk need lower LDL targets. The lab's reference range is a general guide, not your personal goal.
+- There is no single LDL number that suits everyone.
+- Doctors set your LDL target based on age, diabetes, BP, smoking, kidney health, family history and existing heart disease.
+- People at higher risk need lower LDL targets.
+- The lab's reference range is a general guide, not your personal goal.
 
 ### What Is LDL?
 

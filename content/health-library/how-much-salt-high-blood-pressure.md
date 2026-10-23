@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 646
 ```
 
-H1: How Much Salt Is Safe With High Blood Pressure?
-
 The World Health Organization recommends that adults eat less than 5 grams of salt a day, which is about one level teaspoon in total, including salt already in food. Many Indians eat much more than this, mainly from cooking salt, pickles, papad, snacks and packaged foods. Reducing salt can lower blood pressure and help BP medicines work better.
 
 **Quick answer**
-Aim for less than 5 g of salt per day, or as advised by your doctor. Most salt comes from hidden sources such as pickles, papad, chutneys, namkeen, bread, instant noodles and restaurant food. Cutting back gradually, cooking with herbs and spices, and reading food labels can help lower BP within weeks.
+- Aim for less than 5 g of salt per day, or as advised by your doctor.
+- Most salt comes from hidden sources such as pickles, papad, chutneys, namkeen, bread, instant noodles and restaurant food.
+- Cutting back gradually, cooking with herbs and spices, and reading food labels can help lower BP within weeks.
 
 ### Why Does Salt Raise BP?
 

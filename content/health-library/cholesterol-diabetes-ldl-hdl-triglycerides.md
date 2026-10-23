@@ -25,12 +25,13 @@ kind: "support"
 wordCount: 671
 ```
 
-H1: Cholesterol and Diabetes: Understanding LDL, HDL and TG
-
 People with diabetes often have a typical cholesterol pattern: high triglycerides, low HDL ("good") cholesterol and LDL ("bad") cholesterol particles that are more harmful even when the total LDL number looks normal. Because diabetes already raises heart risk, doctors usually aim for lower LDL targets and recommend treatment more often than in people without diabetes.
 
 **Quick answer**
-LDL carries cholesterol into artery walls and is the main target of treatment. HDL helps remove cholesterol, and low levels raise risk. Triglycerides are blood fats that rise with high sugar, refined carbs, alcohol and excess weight. In diabetes, LDL targets are usually lower than in the general population, and many people benefit from statins along with lifestyle changes.
+- LDL carries cholesterol into artery walls and is the main target of treatment.
+- HDL helps remove cholesterol, and low levels raise risk.
+- Triglycerides are blood fats that rise with high sugar, refined carbs, alcohol and excess weight.
+- In diabetes, LDL targets are usually lower than in the general population, and many people benefit from statins along with lifestyle changes.
 
 ### What Does Each Value Mean?
 

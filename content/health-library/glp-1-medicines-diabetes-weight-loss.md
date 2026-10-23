@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 419
 ```
 
-H1: GLP-1 Medicines for Diabetes and Weight Loss: How Do They Work?
-
 GLP-1 receptor agonists are a class of medicines used for type 2 diabetes and, in some cases, weight management. They copy a natural gut hormone that helps control blood sugar and appetite.
 
 **Quick answer**
-GLP-1 medicines increase insulin release when sugar is high, reduce the sugar released by the liver, slow stomach emptying and lower appetite. This can improve blood sugar and help with weight loss. They are prescription medicines with side effects, so they need medical supervision.
+- GLP-1 medicines increase insulin release when sugar is high, reduce the sugar released by the liver, slow stomach emptying and lower appetite.
+- This can improve blood sugar and help with weight loss.
+- They are prescription medicines with side effects, so they need medical supervision.
 
 ### How They Work
 

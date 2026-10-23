@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 394
 ```
 
-H1: Normal, Prediabetes and Diabetes HbA1c Levels Explained
-
 HbA1c is a blood test that shows your average blood sugar over about three months. It is widely used to screen for prediabetes and diabetes.
 
 **Quick answer**
-An HbA1c below 5.7 percent is considered normal. A level of 5.7 to 6.4 percent indicates prediabetes. An HbA1c of 6.5 percent or higher suggests diabetes, usually confirmed with a repeat test.
+- 7 percent is considered normal.
+- 4 percent indicates prediabetes.
+- 5 percent or higher suggests diabetes, usually confirmed with a repeat test.
 
 ### HbA1c Ranges
 

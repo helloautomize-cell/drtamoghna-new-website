@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 678
 ```
 
-H1: Do Statins Need to Be Taken for Life?
-
 For many people, statins are a long-term treatment because the risk they protect against, heart attack and stroke, continues over time. Cholesterol often rises again when statins are stopped. However, the need for statins depends on your overall risk, and some people may have their dose or treatment adjusted with lifestyle changes. Any change should be made only with your doctor's advice.
 
 **Quick answer**
-Statins usually work only while you take them. Stopping them can cause LDL to rise back within weeks and may increase heart risk, especially in people with diabetes or existing heart disease. Some people with lower risk who make major lifestyle changes may be able to adjust treatment, but this should be decided with a doctor.
+- Statins usually work only while you take them.
+- Stopping them can cause LDL to rise back within weeks and may increase heart risk, especially in people with diabetes or existing heart disease.
+- Some people with lower risk who make major lifestyle changes may be able to adjust treatment, but this should be decided with a doctor.
 
 ### Why Are Statins Often Long-Term?
 

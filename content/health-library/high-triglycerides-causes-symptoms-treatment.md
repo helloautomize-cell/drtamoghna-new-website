@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 638
 ```
 
-H1: High Triglycerides: Causes, Symptoms and What to Do
-
 Triglycerides are a type of fat in the blood that the body uses for energy. High levels usually cause no symptoms but increase the risk of heart disease. Very high levels can cause pancreatitis, a painful and serious inflammation of the pancreas. The most common causes are refined carbohydrates, sugar, alcohol, excess weight and poorly controlled diabetes.
 
 **Quick answer**
-High triglycerides are often linked to high intake of sugar and refined carbs, alcohol, belly fat, inactivity, uncontrolled diabetes, hypothyroidism, kidney disease and certain medicines. Most people have no symptoms. Treatment starts with lifestyle changes and better sugar control, with medicines added when levels remain high or are very high.
+- High triglycerides are often linked to high intake of sugar and refined carbs, alcohol, belly fat, inactivity, uncontrolled diabetes, hypothyroidism, kidney disease and certain medicines.
+- Most people have no symptoms.
+- Treatment starts with lifestyle changes and better sugar control, with medicines added when levels remain high or are very high.
 
 ### What Are Normal Triglyceride Levels?
 

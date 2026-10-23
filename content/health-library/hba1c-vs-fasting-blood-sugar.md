@@ -25,12 +25,13 @@ kind: "support"
 wordCount: 536
 ```
 
-H1: HbA1c vs Fasting Blood Sugar: Which Test Is Better?
-
 Both tests help detect and monitor diabetes, but they measure different things. Understanding the difference helps you read your reports with more confidence.
 
 **Quick answer**
-Fasting blood sugar shows your sugar level at one moment after an overnight fast. HbA1c reflects your average blood sugar over roughly the past three months and does not need fasting. Neither is simply better. Doctors often use both, along with symptoms and other tests.
+- Fasting blood sugar shows your sugar level at one moment after an overnight fast.
+- HbA1c reflects your average blood sugar over roughly the past three months and does not need fasting.
+- Neither is simply better.
+- Doctors often use both, along with symptoms and other tests.
 
 ### What Is Fasting Blood Sugar?
 

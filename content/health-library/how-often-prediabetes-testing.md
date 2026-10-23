@@ -25,12 +25,12 @@ kind: "support"
 wordCount: 326
 ```
 
-H1: How Often Should Prediabetes Be Tested?
-
 Prediabetes can move toward diabetes without warning symptoms, so regular testing is the way to stay ahead of it.
 
 **Quick answer**
-Most people with prediabetes are advised to have blood sugar tested at least once a year. Those at higher risk, or who are making changes to lower their sugar, may be tested more often, sometimes every three to six months. Your doctor will set the schedule.
+- Most people with prediabetes are advised to have blood sugar tested at least once a year.
+- Those at higher risk, or who are making changes to lower their sugar, may be tested more often, sometimes every three to six months.
+- Your doctor will set the schedule.
 
 ### Which Tests Are Used
 

@@ -25,12 +25,13 @@ kind: "support"
 wordCount: 628
 ```
 
-H1: Do You Regain Weight After Stopping GLP-1 Medicines?
-
 Many people regain some or much of the weight they lost after stopping GLP-1 medicines such as semaglutide or tirzepatide. This happens because the medicines reduce appetite and increase fullness, and these effects fade when the medicine is stopped. Obesity is a chronic condition, so long-term planning with your doctor is important before stopping.
 
 **Quick answer**
-Clinical trials show that weight often returns after GLP-1 medicines are stopped, especially without strong lifestyle support. Appetite, cravings and food intake tend to increase again. Continuing healthy habits, building muscle, regular monitoring and a planned approach with your doctor can reduce regain. Some people may need long-term or maintenance treatment.
+- Clinical trials show that weight often returns after GLP-1 medicines are stopped, especially without strong lifestyle support.
+- Appetite, cravings and food intake tend to increase again.
+- Continuing healthy habits, building muscle, regular monitoring and a planned approach with your doctor can reduce regain.
+- Some people may need long-term or maintenance treatment.
 
 ### Why Does Weight Come Back?
 

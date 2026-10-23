@@ -25,10 +25,10 @@ kind: "support"
 wordCount: 473
 ```
 
-H1: What to Do Before an ECG or Echo
-
 **Quick answer**
-For an ECG or an echocardiogram (echo), you generally do not need to fast or stop your regular medicines unless your doctor says so. Wear a comfortable two-piece outfit, avoid heavy creams on the chest, carry your previous reports and medicine list, and stay relaxed. Both tests are painless and safe.
+- For an ECG or an echocardiogram (echo), you generally do not need to fast or stop your regular medicines unless your doctor says so.
+- Wear a comfortable two-piece outfit, avoid heavy creams on the chest, carry your previous reports and medicine list, and stay relaxed.
+- Both tests are painless and safe.
 
 ### What Is an ECG?
 

@@ -25,12 +25,11 @@ kind: "support"
 wordCount: 661
 ```
 
-H1: Heart Tests for People With Diabetes: What Is Needed?
-
 People with diabetes should have regular checks of heart risk factors, including blood pressure, cholesterol, kidney function and HbA1c. An ECG is often done as a baseline. Further tests such as a 2D echo, stress test or CT coronary scan are usually advised based on symptoms, overall risk and examination findings, not for everyone automatically.
 
 **Quick answer**
-Routine heart-related checks for people with diabetes include BP at every visit, a lipid profile, kidney tests (creatinine and urine albumin), HbA1c and often a baseline ECG. Additional tests like 2D echo, stress echo, treadmill test or Holter monitoring may be advised if you have symptoms, an abnormal ECG or high cardiovascular risk.
+- Routine heart-related checks for people with diabetes include BP at every visit, a lipid profile, kidney tests (creatinine and urine albumin), HbA1c and often a baseline ECG.
+- Additional tests like 2D echo, stress echo, treadmill test or Holter monitoring may be advised if you have symptoms, an abnormal ECG or high cardiovascular risk.
 
 ### Routine Checks
 

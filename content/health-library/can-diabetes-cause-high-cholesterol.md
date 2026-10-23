@@ -25,12 +25,13 @@ kind: "support"
 wordCount: 594
 ```
 
-H1: Can Diabetes Cause High Cholesterol?
-
 Yes. Diabetes, especially type 2 diabetes with insulin resistance, changes how the liver and body process fats. This often leads to high triglycerides, low HDL ("good") cholesterol and more harmful LDL particles. This pattern, called diabetic dyslipidaemia, raises the risk of heart disease. Good sugar control and lipid treatment work together to lower that risk.
 
 **Quick answer**
-Insulin resistance makes the liver release more fat into the blood, raising triglycerides and lowering HDL. LDL particles become smaller and denser, which makes them more likely to damage arteries. Poor sugar control worsens these changes. Lifestyle changes, better glucose control and often statins help manage cholesterol in diabetes.
+- Insulin resistance makes the liver release more fat into the blood, raising triglycerides and lowering HDL.
+- LDL particles become smaller and denser, which makes them more likely to damage arteries.
+- Poor sugar control worsens these changes.
+- Lifestyle changes, better glucose control and often statins help manage cholesterol in diabetes.
 
 ### How Does Diabetes Affect Cholesterol?
 

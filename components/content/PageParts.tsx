@@ -112,7 +112,7 @@ export function AuthorBox({ url }: { url: string }) {
           North Bongaigaon.
         </p>
         <p>
-          {d.titleLine} {d.registration}.
+          {d.titleLine}. {d.registration}.
         </p>
         <p className="author-box-links">
           <RouteLink href="/dr-tamoghna-das/">About Dr. Das</RouteLink>

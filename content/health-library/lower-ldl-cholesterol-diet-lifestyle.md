@@ -25,12 +25,11 @@ kind: "support"
 wordCount: 627
 ```
 
-H1: How to Lower LDL Cholesterol With Diet and Lifestyle
-
 You can lower LDL cholesterol by reducing saturated and trans fats, eating more soluble fibre, choosing healthy fats, staying active, losing excess weight and stopping smoking. These changes can lower LDL meaningfully, especially when combined. People at higher heart risk may still need medicines, but lifestyle changes make treatment more effective.
 
 **Quick answer**
-To lower LDL: cut down on ghee, butter, full-fat dairy, red meat, fried foods and bakery items; avoid vanaspati and trans fats; eat more oats, pulses, vegetables, fruits, nuts and seeds; use healthy oils in small amounts; exercise regularly; and maintain a healthy weight. Check your lipid profile after a few months to track progress.
+- To lower LDL: cut down on ghee, butter, full-fat dairy, red meat, fried foods and bakery items; avoid vanaspati and trans fats; eat more oats, pulses, vegetables, fruits, nuts and seeds; use healthy oils in small amounts; exercise regularly; and maintain a healthy weight.
+- Check your lipid profile after a few months to track progress.
 
 ### Foods to Limit
 

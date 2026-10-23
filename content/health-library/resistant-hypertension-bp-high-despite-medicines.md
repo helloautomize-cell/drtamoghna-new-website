@@ -25,12 +25,11 @@ kind: "support"
 wordCount: 622
 ```
 
-H1: Resistant Hypertension: Why BP Stays High on Medicines
-
 Resistant hypertension is when blood pressure stays above target despite taking three different BP medicines at good doses, usually including a diuretic. It is also used when BP needs four or more medicines to be controlled. Before confirming it, doctors check for common reasons BP may appear resistant, such as missed doses, incorrect measurement or high salt intake.
 
 **Quick answer**
-BP may stay high because of missed medicines, white-coat effect, high salt intake, excess weight, alcohol, certain medicines such as painkillers, or hidden causes like sleep apnea, kidney disease or hormone problems. Doctors confirm true resistant hypertension with home or ambulatory BP monitoring, review medicines and lifestyle, and test for secondary causes.
+- BP may stay high because of missed medicines, white-coat effect, high salt intake, excess weight, alcohol, certain medicines such as painkillers, or hidden causes like sleep apnea, kidney disease or hormone problems.
+- Doctors confirm true resistant hypertension with home or ambulatory BP monitoring, review medicines and lifestyle, and test for secondary causes.
 
 ### Pseudo-Resistant Hypertension
 

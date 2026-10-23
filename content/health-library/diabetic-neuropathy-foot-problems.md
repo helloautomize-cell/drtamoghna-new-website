@@ -25,8 +25,6 @@ kind: "pillar"
 wordCount: 3901
 ```
 
-H1: Diabetic Neuropathy and Foot Problems: Numbness, Ulcers and Prevention
-
 **In brief**
 - Most diabetic foot problems start with diabetic neuropathy, a slow nerve injury that shows up as burning, tingling or numbness in both feet.
 - Once feeling is reduced, a cut, blister or burn can go unnoticed for days and become an ulcer.

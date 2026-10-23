@@ -25,12 +25,13 @@ kind: "support"
 wordCount: 617
 ```
 
-H1: Why Do My Feet Burn or Tingle With Diabetes?
-
 Burning, tingling, pins and needles or numbness in the feet are common signs of diabetic peripheral neuropathy, a type of nerve damage caused by long-term high blood sugar. Symptoms usually start in the toes and feet and may spread upward. Numbness is especially important because it can stop you from noticing cuts or blisters, which can lead to foot ulcers.
 
 **Quick answer**
-High blood sugar damages small nerves and the blood vessels that supply them, especially in the feet. This causes burning, tingling, sharp pain or numbness, often worse at night. Other causes such as vitamin B12 deficiency, thyroid problems, alcohol and kidney disease should also be checked. Good sugar control, foot care and medicines for nerve pain can help.
+- High blood sugar damages small nerves and the blood vessels that supply them, especially in the feet.
+- This causes burning, tingling, sharp pain or numbness, often worse at night.
+- Other causes such as vitamin B12 deficiency, thyroid problems, alcohol and kidney disease should also be checked.
+- Good sugar control, foot care and medicines for nerve pain can help.
 
 ### How Does Diabetes Damage Nerves?
 

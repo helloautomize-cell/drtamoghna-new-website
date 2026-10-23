@@ -25,12 +25,13 @@ kind: "support"
 wordCount: 674
 ```
 
-H1: Diabetes, High BP and Heart Disease: The Connection
-
 Diabetes and high blood pressure often occur together and share common causes, such as insulin resistance, excess weight and inactivity. Each condition damages blood vessels on its own, and together they multiply the risk of heart attack, stroke, heart failure and kidney disease. Controlling both is one of the most effective ways to protect the heart.
 
 **Quick answer**
-High blood sugar damages vessel linings, while high BP puts extra pressure on artery walls. Together they speed up artery hardening, strain the heart muscle and harm the kidneys. Many people with type 2 diabetes also have hypertension. Regular BP checks, healthy lifestyle habits and medicines when needed help reduce combined risk.
+- High blood sugar damages vessel linings, while high BP puts extra pressure on artery walls.
+- Together they speed up artery hardening, strain the heart muscle and harm the kidneys.
+- Many people with type 2 diabetes also have hypertension.
+- Regular BP checks, healthy lifestyle habits and medicines when needed help reduce combined risk.
 
 ### Why Do Diabetes and High BP Often Occur Together?
 
