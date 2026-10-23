@@ -171,7 +171,7 @@ export default function PostPage({
         </section>
       </article>
 
-      <CtaBand url={url} title={h1.replace(/\*/g, "")} />
+      <CtaBand url={url} />
     </>
   );
 }

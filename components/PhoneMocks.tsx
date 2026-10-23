@@ -43,7 +43,11 @@ export function WhatsAppMock({ booking = false }: { booking?: boolean }) {
       </div>
       {booking ? (
         <>
-          <div className="msg out">Hello Medcare, I would like to book a visit about diabetes.</div>
+          <div className="msg out">
+            Hello Medcare
+            <br />
+            I&apos;d like to book an appointment with Dr. Tamoghna Das.
+          </div>
           <div className="msg in">
             <span className="who">Medcare</span>
             Thank you. We will confirm your time within 30 to 60 minutes.

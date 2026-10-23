@@ -136,7 +136,11 @@ test.describe("mobile action bar", () => {
       const href = await chooser
         .locator(`a[href^="https://wa.me/${num}"]`)
         .getAttribute("href");
-      expect(href).toContain(encodeURIComponent("Styleguide"));
+      expect(href).toContain(
+        encodeURIComponent(
+          "Hello Medcare\nI'd like to book an appointment with Dr. Tamoghna Das.",
+        ),
+      );
     }
     await page.keyboard.press("Escape");
     // Call Now opens the sheet with the one call number.

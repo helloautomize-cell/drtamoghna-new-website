@@ -2,10 +2,9 @@
 
 import { useRef, useState, type CSSProperties, type ReactNode } from "react";
 import * as Dialog from "@radix-ui/react-dialog";
-import { usePathname } from "next/navigation";
 import { MessageCircle } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
-import { pageTitleFromPath, whatsappUrl } from "@/lib/whatsapp";
+import { whatsappUrl } from "@/lib/whatsapp";
 
 /**
  * WhatsAppMenu · the one WhatsApp entry point for the whole site.
@@ -17,19 +16,14 @@ import { pageTitleFromPath, whatsappUrl } from "@/lib/whatsapp";
  * close, and aria attributes.
  */
 export default function WhatsAppMenu({
-  pageTitle,
   className,
   children,
   ariaLabel,
 }: {
-  /** Page title for the ?text= prefill; defaults to the current path. */
-  pageTitle?: string;
   className?: string;
   children?: ReactNode;
   ariaLabel?: string;
 }) {
-  const pathname = usePathname();
-  const title = pageTitle ?? pageTitleFromPath(pathname);
   const [open, setOpen] = useState(false);
   const [pos, setPos] = useState<CSSProperties | undefined>();
   const btnRef = useRef<HTMLButtonElement>(null);
@@ -79,7 +73,7 @@ export default function WhatsAppMenu({
             <a
               key={n.wa}
               className="wapop-option"
-              href={whatsappUrl(title, n.wa)}
+              href={whatsappUrl(n.wa)}
               target="_blank"
               rel="noopener noreferrer"
             >

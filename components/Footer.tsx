@@ -78,7 +78,7 @@ export default function Footer() {
                     <span key={n.wa}>
                       {i > 0 ? " or " : ""}
                       <a
-                        href={whatsappUrl("Medcare", n.wa)}
+                        href={whatsappUrl(n.wa)}
                         target="_blank"
                         rel="noopener noreferrer"
                       >

@@ -351,7 +351,7 @@ export default function Page() {
         </div>
       </div>
 
-      <CtaBand url="/dr-tamoghna-das/" title="Dr. Tamoghna Das" />
+      <CtaBand url="/dr-tamoghna-das/" />
     </>
   );
 }

@@ -76,7 +76,7 @@ export default function Page() {
         </div>
       </div>
 
-      <CtaBand url="/services/" title="Services" />
+      <CtaBand url="/services/" />
     </>
   );
 }

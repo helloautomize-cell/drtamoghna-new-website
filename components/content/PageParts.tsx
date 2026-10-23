@@ -79,7 +79,7 @@ export function ReviewerBox({ lastReviewed }: { lastReviewed?: string }) {
 }
 
 /** CTA band at the end of every content page. */
-export function CtaBand({ url, title }: { url: string; title: string }) {
+export function CtaBand({ url }: { url: string }) {
   return (
     <section className="cta-band">
       <div className="cta-in">
@@ -93,7 +93,7 @@ export function CtaBand({ url, title }: { url: string; title: string }) {
           <a className="btn ghost" href={`tel:${siteConfig.phone.tel}`}>
             <Phone size={18} strokeWidth={2} aria-hidden /> Call {siteConfig.phone.display}
           </a>
-          <WhatsAppMenu className="btn ghost" pageTitle={title}>
+          <WhatsAppMenu className="btn ghost">
             WhatsApp
           </WhatsAppMenu>
         </div>

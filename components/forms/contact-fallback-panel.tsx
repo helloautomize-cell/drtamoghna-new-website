@@ -17,7 +17,7 @@ export function ContactFallbackPanel({ message }: { message: string }) {
           <Phone size={17} strokeWidth={2} aria-hidden /> Call{" "}
           {siteConfig.phone.display}
         </a>
-        <WhatsAppMenu className="btn ghost" pageTitle="an appointment">
+        <WhatsAppMenu className="btn ghost">
           <MessageCircle size={17} strokeWidth={2} aria-hidden /> WhatsApp{" "}
           {siteConfig.whatsapp.display}
         </WhatsAppMenu>

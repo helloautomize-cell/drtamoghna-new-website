@@ -97,7 +97,7 @@ export default async function Page({
                   <b>Call</b> {siteConfig.phone.display}
                 </span>
               </a>
-              <WhatsAppMenu className="ccard" pageTitle="an appointment">
+              <WhatsAppMenu className="ccard">
                 <MessageCircle size={20} strokeWidth={2} aria-hidden />
                 <span>
                   <b>WhatsApp</b> {siteConfig.whatsapp.display}
@@ -148,7 +148,7 @@ export default async function Page({
         </section>
       </div>
 
-      <CtaBand url="/contact/" title="an appointment" />
+      <CtaBand url="/contact/" />
     </>
   );
 }

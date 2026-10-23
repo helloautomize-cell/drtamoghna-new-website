@@ -190,7 +190,7 @@ export default function ServicePage({ url }: { url: string }) {
         {!hub ? <TocAside sections={tocSections} url={url} /> : null}
       </div>
 
-      <CtaBand url={url} title={h1.replace(/\*/g, "")} />
+      <CtaBand url={url} />
     </>
   );
 }

@@ -109,7 +109,7 @@ export default function Page() {
         </div>
       </div>
 
-      <CtaBand url="/health-library/" title="Health Library" />
+      <CtaBand url="/health-library/" />
     </>
   );
 }

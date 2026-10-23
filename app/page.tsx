@@ -268,7 +268,7 @@ export default function Home() {
               <a href={`tel:${siteConfig.phone.tel}`}>
                 Call {siteConfig.phone.display}
               </a>
-              <WhatsAppMenu pageTitle="Medcare">
+              <WhatsAppMenu>
                 <MessageCircle size={15} strokeWidth={2} aria-hidden /> WhatsApp{" "}
                 {siteConfig.whatsapp.display}
               </WhatsAppMenu>
@@ -290,7 +290,7 @@ export default function Home() {
         </div>
       </section>
 
-      <CtaBand url="/" title="Medcare" />
+      <CtaBand url="/" />
     </div>
   );
 }

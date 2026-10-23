@@ -121,7 +121,7 @@ export default function ContentPage({
         </div>
       </div>
 
-      {!opts.hideCta ? <CtaBand url={url} title={h1.replace(/\*/g, "")} /> : null}
+      {!opts.hideCta ? <CtaBand url={url} /> : null}
     </>
   );
 }
