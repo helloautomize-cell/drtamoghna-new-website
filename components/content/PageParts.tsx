@@ -33,13 +33,25 @@ export function AtAGlance({ items, id }: { items: GlanceItem[]; id?: string }) {
 }
 
 export function Sources({ items }: { items: string[] }) {
+  const linkRe = /^\[([^\]]+)\]\((https?:\/\/[^)]+)\)\s*$/;
   return (
     <div className="sources">
       <h2>Sources</h2>
       <ul>
-        {items.map((s, i) => (
-          <li key={i}>{s}</li>
-        ))}
+        {items.map((s, i) => {
+          const m = s.match(linkRe);
+          return (
+            <li key={i}>
+              {m ? (
+                <a href={m[2]} rel="noopener noreferrer">
+                  {m[1]}
+                </a>
+              ) : (
+                s
+              )}
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
@@ -73,6 +85,67 @@ export function ReviewerBox({ lastReviewed }: { lastReviewed?: string }) {
         ) : lastReviewed ? (
           <> · Last reviewed {formatDate(lastReviewed)}</>
         ) : null}
+      </p>
+    </div>
+  );
+}
+
+/** Author box at the end of every Health Library article. */
+export function AuthorBox({ url }: { url: string }) {
+  const d = siteConfig.doctor;
+  return (
+    <div className="callout info reviewer author-box">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        className="co-avatar"
+        src={images.avatar.src}
+        srcSet={imgSrcSet(images.avatar)}
+        sizes="48px"
+        alt={images.avatar.alt}
+        width={48}
+        height={48}
+        loading="lazy"
+      />
+      <div className="author-box-body">
+        <p>
+          <b>{d.name}</b>, {d.qualifications} · {d.shortTitle}, {siteConfig.name},{" "}
+          North Bongaigaon.
+        </p>
+        <p>
+          {d.titleLine} {d.registration}.
+        </p>
+        <p className="author-box-links">
+          <RouteLink href="/dr-tamoghna-das/">About Dr. Das</RouteLink>
+          {" · "}
+          <RouteLink href={bookingHref(url)}>Book an appointment</RouteLink>
+          {" · "}
+          <RouteLink href="/plan-your-visit/">Plan your visit</RouteLink>
+        </p>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Medical disclaimer + red-flag line for Health Library articles.
+ * Information only; urgent-care triggers from the content brief.
+ */
+export function PostNotice() {
+  return (
+    <div className="post-notice">
+      <p>
+        <b>Medical disclaimer.</b> This article is for general information only.
+        It is not a diagnosis and is not a substitute for a consultation with a
+        doctor. For advice about your own health, please{" "}
+        <RouteLink href="/contact/#book">book an appointment</RouteLink>. Read our{" "}
+        <RouteLink href="/medical-disclaimer/">medical disclaimer</RouteLink>.
+      </p>
+      <p>
+        <b>Seek urgent care now</b>, call 108 or 112, or go to the nearest
+        emergency department if you have chest pain, sudden breathlessness,
+        fainting, weakness on one side of the body, very high blood sugar with
+        vomiting or drowsiness, repeated low blood sugar with confusion, or a
+        foot wound with redness, swelling or fever.
       </p>
     </div>
   );

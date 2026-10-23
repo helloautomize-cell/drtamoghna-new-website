@@ -80,6 +80,7 @@ export function pageGraph({
   const graph: Record<string, unknown>[] = [breadcrumbNode(crumbs)];
 
   if (pageType === "BlogPosting") {
+    const extra = fm as Record<string, unknown>;
     const post: Record<string, unknown> = {
       "@type": "BlogPosting",
       "@id": `${url}#post`,
@@ -97,7 +98,38 @@ export function pageGraph({
       post.datePublished = fm.datePublished;
     if (fm.dateModified && !/CONFIRM/.test(fm.dateModified))
       post.dateModified = fm.dateModified;
+    if (typeof extra.image === "string" && extra.image)
+      post.image = `${SITE_BASE}/images/blog/${extra.image}.webp`;
+    if (typeof extra.wordCount === "number") post.wordCount = extra.wordCount;
+    if (fm.category) post.articleSection = fm.category;
+    if (typeof extra.keywords === "string" && extra.keywords)
+      post.keywords = extra.keywords;
+    if (Array.isArray(extra.citation) && extra.citation.length) {
+      post.citation = extra.citation
+        .filter((c): c is string => typeof c === "string")
+        .map((c) => {
+          const [name, link] = c.split("|").map((s) => s.trim());
+          return { "@type": "CreativeWork", name, url: link };
+        });
+    }
     graph.push(post);
+    if (fm.about) {
+      const mw: Record<string, unknown> = {
+        "@type": "MedicalWebPage",
+        "@id": `${url}#medicalwebpage`,
+        url,
+        name: (fm.h1 || fm.title).replace(/\*/g, ""),
+        description: fm.description,
+        inLanguage: "en-IN",
+        isPartOf: { "@id": ids.website },
+        about: aboutNode(fm.about),
+        reviewedBy: { "@id": ids.physician },
+        medicalAudience: { "@type": "MedicalAudience", audienceType: "Patient" },
+      };
+      if (fm.lastReviewed && !/CONFIRM|\[date\]/.test(fm.lastReviewed))
+        mw.lastReviewed = fm.lastReviewed;
+      graph.push(mw);
+    }
   } else {
     const node: Record<string, unknown> = {
       "@type": pageType === "ProfilePage" ? "ProfilePage" : pageType,

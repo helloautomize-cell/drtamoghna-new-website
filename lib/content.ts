@@ -232,7 +232,7 @@ function renderMd(raw: string, tokens: RenderToken[]): string {
   const cleaned = dropBuildLines(raw.split("\n")).join("\n");
   const noQuotes = extractQuotes(cleaned, tokens);
   const noConfirms = extractConfirms(noQuotes, tokens);
-  let html = mdToHtml(noConfirms);
+  let html = mdToHtml(noConfirms).replace(/<h4>/g, "<h3>").replace(/<\/h4>/g, "</h3>");
   // Block-level callout tokens must not remain wrapped in <p>.
   tokens.forEach((t, i) => {
     if (t.kind === "callout") {

@@ -55,8 +55,24 @@ const PAGE_REASON: Record<string, ReasonSlug> = {
   "/health-check-ups/": "checkup",
 };
 
+/** Health Library article -> booking reason, matched on the topic slug. */
+const HL_REASON: [RegExp, ReasonSlug][] = [
+  [/sleep|snoring|apnea/, "sleep"],
+  [/foot|neuropathy/, "diabetic-foot"],
+  [/glp|semaglutide|tirzepatide|insulin|metformin|sglt2/, "cgm-insulin"],
+  [/obesity|weight|bmi/, "weight"],
+  [/blood-pressure|hypertension|salt/, "blood-pressure"],
+  [/ecg|echo|holter|heart|cholesterol|triglycerides|ldl|statin/, "heart"],
+  [/diabetes|blood-sugar|hba1c|prediabetes|sugar/, "diabetes"],
+];
+
 export function reasonForUrl(url: string): ReasonSlug {
-  return PAGE_REASON[url] ?? "other";
+  if (PAGE_REASON[url]) return PAGE_REASON[url];
+  if (url.startsWith("/health-library/")) {
+    const slug = url.split("/")[2] || "";
+    return HL_REASON.find(([re]) => re.test(slug))?.[1] ?? "other";
+  }
+  return "other";
 }
 
 export function bookingHref(url: string): string {
