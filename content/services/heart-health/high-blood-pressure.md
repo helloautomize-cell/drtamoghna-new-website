@@ -9,6 +9,7 @@ h1: "High blood *pressure*"
 badge: blood-pressure
 about: { type: MedicalCondition, name: "Hypertension", alternateName: ["High BP", "High blood pressure"] }
 related: [/heart-health/, /heart-health/echocardiography/, /sleep-apnea/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

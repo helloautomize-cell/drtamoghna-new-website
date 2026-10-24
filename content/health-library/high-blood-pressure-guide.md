@@ -313,6 +313,14 @@ You can request a time through the[appointment page](/contact/#book).
 - BP medicines are not addictive, they protect the heart and kidneys, and they should only be stopped on your doctor's advice.
 - A reading of 180/120 mmHg or more with chest pain, breathlessness, weakness or confusion needs emergency care through 108 or 112.
 
+### More in this guide
+
+- [How Much Salt Is Safe With High Blood Pressure?](/health-library/how-much-salt-high-blood-pressure/)
+- [How to Check Blood Pressure at Home Correctly](/health-library/how-to-check-blood-pressure-at-home/)
+- [What Is a Normal Blood Pressure Reading by Age?](/health-library/normal-blood-pressure-reading-by-age/)
+- [Resistant Hypertension: Why BP Stays High on Medicines](/health-library/resistant-hypertension-bp-high-despite-medicines/)
+- [BP High at the Clinic but Normal at Home? Here's Why](/health-library/white-coat-hypertension-high-bp-clinic-normal-home/)
+
 ### FAQs
 
 1. **Is 140/90 high blood pressure?**

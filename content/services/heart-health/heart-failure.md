@@ -10,6 +10,7 @@ badge: heart-failure
 about: { type: MedicalCondition, name: "Heart failure" }
 related: [/heart-health/echocardiography/, /heart-health/high-blood-pressure/, /diabetes-care/]
 posts: [/health-library/echo-for-people-with-diabetes/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

@@ -32,13 +32,15 @@ Prediabetes can move toward diabetes without warning symptoms, so regular testin
 - Those at higher risk, or who are making changes to lower their sugar, may be tested more often, sometimes every three to six months.
 - Your doctor will set the schedule.
 
-### Which Tests Are Used
+This article sits inside our guide to [Prediabetes: Blood Sugar Range, Risk & Prevention](/health-library/prediabetes-blood-sugar/). For the neighbouring questions, see [Can Prediabetes Go Back to Normal?](/health-library/can-prediabetes-go-back-to-normal/) and [Prediabetes Diet: What to Eat and What to Limit](/health-library/prediabetes-diet-what-to-eat-and-what-to-limit/).
+
+### Which tests are used
 
 - HbA1c
 - Fasting blood sugar
 - Post-meal or glucose tolerance test in some cases
 
-### When to Test More Often
+### When to test more often
 
 - Rising weight or waist size
 - Strong family history of diabetes
@@ -47,18 +49,18 @@ Prediabetes can move toward diabetes without warning symptoms, so regular testin
 - New symptoms like thirst or frequent urination
 - Starting a new lifestyle plan, to check progress
 
-### What Else Should Be Checked
+### What else should be checked
 
 - Blood pressure
 - Cholesterol and triglycerides
 - Weight and waist measurement
 - Kidney and liver tests if advised
 
-### Keep a Simple Record
+### Keep a simple record
 
 Note your reports with dates so trends are easy to see. A rising trend is a signal to act sooner.
 
-### Key Takeaways
+### Key takeaways
 
 - Test at least once a year.
 - High-risk people may need more frequent checks.
@@ -66,11 +68,10 @@ Note your reports with dates so trends are easy to see. A rising trend is a sign
 - Check blood pressure and cholesterol too.
 - Track results over time.
 
-### Final Thoughts
+### Final thoughts
 
-Regular testing turns prediabetes from a worry into something you can manage. For follow-up planning, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Regular testing turns prediabetes from a worry into something you can manage.
 
-This article is part of our guide to [prediabetes](/health-library/prediabetes-blood-sugar/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

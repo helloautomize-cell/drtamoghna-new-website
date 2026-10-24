@@ -33,7 +33,9 @@ Semaglutide and tirzepatide are prescription medicines used for type 2 diabetes 
 - Both commonly cause nausea and other digestive side effects.
 - They need a prescription and medical supervision, and they are not suitable for everyone.
 
-### How Do They Work?
+This article sits inside our guide to [Obesity Treatment: Medical Weight Loss & Heart Risk](/health-library/obesity-weight-management/). For the neighbouring questions, see [How Is Obesity Diagnosed? BMI, Waist and Metabolic Health](/health-library/how-is-obesity-diagnosed-bmi-waist/) and [How Much Weight Loss Improves Diabetes and BP?](/health-library/weight-loss-improve-diabetes-blood-pressure/).
+
+### How do they work?
 
 #### Semaglutide
 
@@ -43,7 +45,7 @@ Mimics GLP-1, a gut hormone that increases fullness, slows digestion and helps t
 
 Acts on both GLP-1 and GIP receptors. This dual action may produce stronger effects on appetite and sugar control in many people.
 
-### How Do They Compare?
+### How do they compare?
 
 #### Weight loss
 
@@ -61,7 +63,7 @@ Semaglutide has shown cardiovascular benefits in people with established heart d
 
 Both are commonly given as weekly injections. An oral form of semaglutide is also available for diabetes.
 
-### Common Side Effects
+### Common side effects
 
 - Nausea and vomiting
 - Diarrhoea or constipation
@@ -71,28 +73,28 @@ Both are commonly given as weekly injections. An oral form of semaglutide is als
 
 Side effects are often worse when starting or increasing the dose and usually settle over time.
 
-### Less Common but Important Risks
+### Less common but important risks
 
 - Gallbladder problems
 - Pancreatitis, with severe abdominal pain
 - Dehydration from vomiting or diarrhoea
 - Low blood sugar when combined with insulin or sulfonylureas
 
-### Who Should Avoid Them?
+### Who should avoid them?
 
 - People with a personal or family history of medullary thyroid cancer or MEN2
 - Pregnant or breastfeeding women
 - Those with a history of severe pancreatitis
 - People with certain severe digestive conditions
 
-### Important Points
+### Important points
 
 - Use only with a doctor's prescription and follow-up
 - Avoid unregulated or compounded products sold online
 - Combine with diet, activity and behaviour changes
 - Weight may return if the medicine is stopped without lifestyle support
 
-### Key Takeaways
+### Key takeaways
 
 - Both act on gut hormone pathways.
 - Tirzepatide acts on GLP-1 and GIP.
@@ -100,11 +102,10 @@ Side effects are often worse when starting or increasing the dose and usually se
 - Digestive side effects are common at first.
 - Medical supervision is essential.
 
-### Final Thoughts
+### Final thoughts
 
-These medicines have changed how obesity and diabetes are treated, but they work best as part of a complete care plan. A doctor can help you choose safely. For medical weight management, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+These medicines have changed how obesity and diabetes are treated, but they work best as part of a complete care plan. A doctor can help you choose safely.
 
-This article is part of our guide to [obesity treatment](/health-library/obesity-weight-management/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

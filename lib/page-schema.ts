@@ -12,10 +12,11 @@ const ids = {
   physician: `${SITE_BASE}/#dr-tamoghna-das`,
 };
 
-function breadcrumbNode(crumbs: { name: string; href: string }[]) {
+function breadcrumbNode(url: string, crumbs: { name: string; href: string }[]) {
   const all = [{ name: "Home", href: "/" }, ...crumbs];
   return {
     "@type": "BreadcrumbList",
+    "@id": `${url}#breadcrumb`,
     itemListElement: all.map((c, i) => ({
       "@type": "ListItem",
       position: i + 1,
@@ -31,6 +32,7 @@ function aboutNode(about: NonNullable<ParsedPage["frontmatter"]["about"]>) {
   )
     ? about.type
     : "MedicalCondition";
+  const extra = about as Record<string, unknown>;
   return {
     "@type": type,
     name: about.name,
@@ -39,6 +41,20 @@ function aboutNode(about: NonNullable<ParsedPage["frontmatter"]["about"]>) {
           alternateName: Array.isArray(about.alternateName)
             ? about.alternateName
             : [about.alternateName],
+        }
+      : {}),
+    // Optional entity links to Wikipedia/Wikidata/MeSH from frontmatter.
+    ...(Array.isArray(extra.sameAs) && extra.sameAs.length
+      ? { sameAs: extra.sameAs.filter((s): s is string => typeof s === "string") }
+      : {}),
+    ...(typeof extra.codeValue === "string" && extra.codeValue
+      ? {
+          code: {
+            "@type": "MedicalCode",
+            codeValue: extra.codeValue,
+            codingSystem:
+              typeof extra.codingSystem === "string" ? extra.codingSystem : "ICD-10",
+          },
         }
       : {}),
   };
@@ -77,7 +93,7 @@ export function pageGraph({
 }) {
   const { frontmatter: fm } = page;
   const url = `${SITE_BASE}${fm.url}`;
-  const graph: Record<string, unknown>[] = [breadcrumbNode(crumbs)];
+  const graph: Record<string, unknown>[] = [breadcrumbNode(url, crumbs)];
 
   if (pageType === "BlogPosting") {
     const extra = fm as Record<string, unknown>;
@@ -151,6 +167,18 @@ export function pageGraph({
         node.lastReviewed = fm.lastReviewed;
       }
       node.medicalAudience = { "@type": "MedicalAudience", audienceType: "Patient" };
+      // Service/condition pages: the care provided at the clinic as a Service node.
+      if (fm.about) {
+        const about = aboutNode(fm.about);
+        graph.push({
+          "@type": "Service",
+          "@id": `${url}#service`,
+          name: (fm.h1 || fm.title).replace(/\*/g, ""),
+          serviceType: about.name,
+          provider: { "@id": ids.clinic },
+          areaServed: { "@type": "City", name: "Bongaigaon" },
+        });
+      }
     }
     graph.push(node);
   }

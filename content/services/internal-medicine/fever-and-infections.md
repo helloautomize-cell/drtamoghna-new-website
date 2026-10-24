@@ -9,6 +9,7 @@ h1: "Fever and *infections*"
 badge: fever
 about: { type: MedicalCondition, name: "Fever", alternateName: ["Jor", "Dengue", "Malaria", "Typhoid", "Scrub typhus"] }
 related: [/internal-medicine/, /asthma-copd/, /diabetes-care/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

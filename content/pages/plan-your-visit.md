@@ -6,6 +6,7 @@ description: "Timings, address, what to bring, fasting tests, payment and access
 url: /plan-your-visit/
 lastReviewed: "2026-10-03"
 schema: [WebPage]
+dateModified: "2026-10-03"
 ```
 
 H1: Plan your *visit*

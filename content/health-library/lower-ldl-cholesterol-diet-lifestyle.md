@@ -31,7 +31,9 @@ You can lower LDL cholesterol by reducing saturated and trans fats, eating more 
 - To lower LDL: cut down on ghee, butter, full-fat dairy, red meat, fried foods and bakery items; avoid vanaspati and trans fats; eat more oats, pulses, vegetables, fruits, nuts and seeds; use healthy oils in small amounts; exercise regularly; and maintain a healthy weight.
 - Check your lipid profile after a few months to track progress.
 
-### Foods to Limit
+This article sits inside our guide to [High Cholesterol and Triglycerides: Lipid Profile Explained](/health-library/high-cholesterol-triglycerides/). For the neighbouring questions, see [Can Diabetes Cause High Cholesterol?](/health-library/can-diabetes-cause-high-cholesterol/) and [What Is a Good LDL Cholesterol Level?](/health-library/good-ldl-cholesterol-level/).
+
+### Foods to limit
 
 #### Saturated fats
 
@@ -50,7 +52,7 @@ You can lower LDL cholesterol by reducing saturated and trans fats, eating more 
 
 - Maida, white bread and sweets, which raise triglycerides and affect overall lipid health
 
-### Foods to Add
+### Foods to add
 
 #### Soluble fibre
 
@@ -74,7 +76,7 @@ You can lower LDL cholesterol by reducing saturated and trans fats, eating more 
 
 Found in small amounts in nuts, seeds and whole grains.
 
-### Lifestyle Changes
+### Lifestyle changes
 
 #### Exercise regularly
 
@@ -96,15 +98,15 @@ Alcohol raises triglycerides and adds calories.
 
 Good sleep and stress management support heart health.
 
-### How Much Can Diet Lower LDL?
+### How much can diet lower LDL?
 
 Diet and lifestyle changes can lower LDL by a meaningful amount, though results vary from person to person. Genetics also play a role, so some people still need medicines.
 
-### When Are Medicines Needed?
+### When are medicines needed?
 
 If LDL remains above your target despite lifestyle changes, or you have high heart risk, your doctor may prescribe statins or other medicines.
 
-### Key Takeaways
+### Key takeaways
 
 - Limit saturated and trans fats.
 - Add soluble fibre and healthy fats.
@@ -112,11 +114,10 @@ If LDL remains above your target despite lifestyle changes, or you have high hea
 - Lose excess weight and stop smoking.
 - Medicines may still be needed for high-risk people.
 
-### Final Thoughts
+### Final thoughts
 
-Small, consistent changes to your plate and routine can make a real difference to cholesterol. Your heart benefits every time you choose a healthier option. For personalised lipid and lifestyle advice, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Small, consistent changes to your plate and routine can make a real difference to cholesterol. Your heart benefits every time you choose a healthier option.
 
-This article is part of our guide to [high cholesterol](/health-library/high-cholesterol-triglycerides/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

@@ -31,7 +31,9 @@ A diabetic foot ulcer is an open sore or wound, usually on the sole, toes or hee
 - Early warning signs include a blister or cut that is not healing, redness, swelling or warmth, thickened skin or callus with dark spots underneath, drainage on socks, a bad smell, or new pain or numbness.
 - Anyone with diabetes who notices these should see a doctor promptly, even if the wound looks small.
 
-### Why Do Diabetic Foot Ulcers Happen?
+This article sits inside our guide to [Diabetic Foot Problems: Numbness, Ulcers and Prevention](/health-library/diabetic-neuropathy-foot-problems/). For the neighbouring questions, see [Can Diabetic Neuropathy Be Reversed or Controlled?](/health-library/can-diabetic-neuropathy-be-reversed/) and [Diabetic Foot Wound: What Never to Do at Home](/health-library/diabetic-foot-wound-what-not-to-do/).
+
+### Why do diabetic foot ulcers happen?
 
 - **Neuropathy:** reduced feeling means injuries go unnoticed
 - **Poor circulation:** slows healing
@@ -39,7 +41,7 @@ A diabetic foot ulcer is an open sore or wound, usually on the sole, toes or hee
 - **High blood sugar:** weakens healing and infection defences
 - **Dry, cracked skin:** allows germs to enter
 
-### Early Warning Signs
+### Early warning signs
 
 - A blister, cut or crack that is not healing within a few days
 - Redness or a change in skin colour
@@ -51,7 +53,7 @@ A diabetic foot ulcer is an open sore or wound, usually on the sole, toes or hee
 - Ingrown toenails or fungal infections
 - New or worsening pain, or sudden loss of feeling
 
-### Signs of Infection That Need Urgent Care
+### Signs of infection that need urgent care
 
 - Spreading redness
 - Pus or foul-smelling discharge
@@ -61,7 +63,7 @@ A diabetic foot ulcer is an open sore or wound, usually on the sole, toes or hee
 
 Seek medical care the same day if you notice these signs.
 
-### Who Is at Higher Risk?
+### Who is at higher risk?
 
 - People with diabetic neuropathy
 - Those with poor circulation or peripheral artery disease
@@ -71,7 +73,7 @@ Seek medical care the same day if you notice these signs.
 - People with poor sugar control
 - Those with kidney disease
 
-### How to Prevent Foot Ulcers
+### How to prevent foot ulcers
 
 - Check both feet every day, including soles and between toes
 - Wash feet daily with lukewarm water and dry well
@@ -84,7 +86,7 @@ Seek medical care the same day if you notice these signs.
 - Keep sugar, BP and cholesterol under control
 - Have a yearly foot examination, or more often if high risk
 
-### Key Takeaways
+### Key takeaways
 
 - Foot ulcers often start as small, unnoticed injuries.
 - Non-healing cuts, redness and swelling are warning signs.
@@ -92,11 +94,10 @@ Seek medical care the same day if you notice these signs.
 - Daily foot checks prevent problems.
 - Never walk barefoot with diabetes.
 
-### Final Thoughts
+### Final thoughts
 
-Your feet carry you through life, and with diabetes they need daily attention. Small habits and early action can prevent serious complications. For diabetic foot assessment and care, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Your feet carry you through life, and with diabetes they need daily attention. Small habits and early action can prevent serious complications.
 
-This article is part of our guide to [diabetic foot problems](/health-library/diabetic-neuropathy-foot-problems/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

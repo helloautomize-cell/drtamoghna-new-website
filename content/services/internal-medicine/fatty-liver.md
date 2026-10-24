@@ -9,6 +9,7 @@ h1: "Fatty liver and liver *disorders*"
 badge: liver
 about: { type: MedicalCondition, name: "Metabolic dysfunction-associated steatotic liver disease", alternateName: ["Fatty liver", "NAFLD", "MASLD"] }
 related: [/weight-management/, /diabetes-care/, /internal-medicine/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

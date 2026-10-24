@@ -6,6 +6,7 @@ description: "Answers on booking, timings, tests, fasting, payment, reports, fol
 url: /faqs/
 lastReviewed: "2026-10-03"
 schema: [FAQPage]
+dateModified: "2026-10-03"
 ```
 
 H1: Questions patients *often* ask

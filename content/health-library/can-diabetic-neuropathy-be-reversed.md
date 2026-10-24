@@ -32,20 +32,22 @@ Diabetic neuropathy usually cannot be fully reversed once nerve damage is establ
 - Long-standing nerve damage is usually permanent.
 - Treatment focuses on preventing progression, relieving pain, protecting the feet and avoiding complications like ulcers and infections.
 
-### What Can Improve?
+This article sits inside our guide to [Diabetic Foot Problems: Numbness, Ulcers and Prevention](/health-library/diabetic-neuropathy-foot-problems/). For the neighbouring questions, see [Why Do My Feet Burn or Tingle With Diabetes?](/health-library/diabetes-feet-burning-tingling/) and [Diabetic Foot Wound: What Never to Do at Home](/health-library/diabetic-foot-wound-what-not-to-do/).
+
+### What can improve?
 
 - Mild, early symptoms may lessen with better sugar control
 - Pain may reduce with treatment
 - Neuropathy from B12 deficiency may improve when corrected
 - Balance can improve with exercise and physiotherapy
 
-### What Usually Cannot Be Reversed?
+### What usually cannot be reversed?
 
 - Long-standing numbness
 - Significant loss of sensation
 - Muscle weakness or foot deformities from severe nerve damage
 
-### How to Slow or Stop Progression
+### How to slow or stop progression
 
 #### Control blood sugar
 
@@ -71,11 +73,11 @@ Especially if you take metformin long-term.
 
 Regular walking and balance exercises improve circulation and stability. Choose safe footwear.
 
-### Treating Nerve Pain
+### Treating nerve pain
 
 Several prescription medicines can ease painful neuropathy. Your doctor will choose based on your other conditions, kidney function and side effects. Topical treatments may help some people. Over-the-counter painkillers often do not work well for nerve pain.
 
-### Protecting Your Feet
+### Protecting your feet
 
 - Check feet daily
 - Never walk barefoot
@@ -83,11 +85,11 @@ Several prescription medicines can ease painful neuropathy. Your doctor will cho
 - Test water temperature with your hand or elbow, not your feet
 - See a doctor promptly for any cut or blister
 
-### Are There Unproven Treatments?
+### Are there unproven treatments?
 
 Many supplements and devices claim to reverse neuropathy. Most lack strong evidence. Discuss any treatment with your doctor before spending money on it.
 
-### Key Takeaways
+### Key takeaways
 
 - Established neuropathy is usually not fully reversible.
 - Early symptoms may improve with good sugar control.
@@ -95,11 +97,10 @@ Many supplements and devices claim to reverse neuropathy. Most lack strong evide
 - Nerve pain can be eased with medicines.
 - Foot protection prevents serious complications.
 
-### Final Thoughts
+### Final thoughts
 
-Even if nerve damage cannot be undone, much can be done to slow it, ease discomfort and keep your feet safe. Starting early gives the best results. For neuropathy and diabetes care, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Even if nerve damage cannot be undone, much can be done to slow it, ease discomfort and keep your feet safe. Starting early gives the best results.
 
-This article is part of our guide to [diabetic foot problems](/health-library/diabetic-neuropathy-foot-problems/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

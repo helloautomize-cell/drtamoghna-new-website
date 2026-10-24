@@ -31,7 +31,9 @@ A prediabetes diagnosis can be worrying, but it is also a window of opportunity.
 - Yes, in many people prediabetes can return to normal blood sugar levels with weight loss, a healthier diet and regular physical activity.
 - It is not guaranteed, and sugar can rise again if old habits return, so ongoing monitoring is important.
 
-### What Helps Most
+This article sits inside our guide to [Prediabetes: Blood Sugar Range, Risk & Prevention](/health-library/prediabetes-blood-sugar/). For the neighbouring questions, see [How Often Should Prediabetes Be Tested?](/health-library/how-often-prediabetes-testing/) and [Prediabetes Diet: What to Eat and What to Limit](/health-library/prediabetes-diet-what-to-eat-and-what-to-limit/).
+
+### What helps most
 
 #### Lose excess weight
 
@@ -56,15 +58,15 @@ Poor sleep and chronic stress can raise blood sugar. Regular sleep and relaxatio
 
 Both worsen metabolic health.
 
-### When Are Medicines Considered?
+### When are medicines considered?
 
 Some people, especially those at high risk, may be advised medicines such as metformin along with lifestyle changes. This is a decision for your doctor.
 
-### How Long Does It Take?
+### How long does it take?
 
 Changes in blood sugar can appear within weeks to months. Retest as your doctor advises to see your progress.
 
-### Key Takeaways
+### Key takeaways
 
 - Prediabetes can often be reversed.
 - Weight loss and activity matter most.
@@ -72,11 +74,10 @@ Changes in blood sugar can appear within weeks to months. Retest as your doctor 
 - Retesting tracks progress.
 - Healthy habits must continue long term.
 
-### Final Thoughts
+### Final thoughts
 
-Prediabetes is a reversible stage for many people. Small, steady steps add up. For a tailored plan, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Prediabetes is a reversible stage for many people. Small, steady steps add up.
 
-This article is part of our guide to [prediabetes](/health-library/prediabetes-blood-sugar/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

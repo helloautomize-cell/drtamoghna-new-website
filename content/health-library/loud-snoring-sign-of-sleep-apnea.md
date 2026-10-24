@@ -32,7 +32,9 @@ Loud snoring can be a sign of obstructive sleep apnea (OSA), but not everyone wh
 - Snoring is more likely to mean sleep apnea when it is loud and regular, comes with pauses in breathing or choking sounds, and is linked to daytime sleepiness, morning headaches, high BP, obesity or diabetes.
 - A sleep study confirms the diagnosis.
 
-### Simple Snoring vs Sleep Apnea
+This article sits inside our guide to [Sleep Apnea and Metabolic Health: Diabetes, BP and Weight](/health-library/sleep-apnea-metabolic-health/). For the neighbouring questions, see [Can Sleep Apnea Cause High Blood Pressure?](/health-library/can-sleep-apnea-cause-high-blood-pressure/) and [Sleep Apnea Symptoms: Sleepiness, Headaches and Gasping](/health-library/sleep-apnea-symptoms/).
+
+### Simple snoring vs sleep apnea
 
 #### Simple snoring
 
@@ -50,7 +52,7 @@ Loud snoring can be a sign of obstructive sleep apnea (OSA), but not everyone wh
 - Daytime sleepiness and tiredness
 - Morning headaches or dry mouth
 
-### Who Is More at Risk?
+### Who is more at risk?
 
 - People with obesity or a large neck size
 - Men, and women after menopause
@@ -60,7 +62,7 @@ Loud snoring can be a sign of obstructive sleep apnea (OSA), but not everyone wh
 - Smokers and those who drink alcohol
 - Family history of sleep apnea
 
-### Why Does It Matter?
+### Why does it matter?
 
 Untreated sleep apnea is linked with:
 
@@ -71,7 +73,7 @@ Untreated sleep apnea is linked with:
 - Daytime accidents due to sleepiness
 - Mood changes and memory problems
 
-### Simple Screening Questions
+### Simple screening questions
 
 Doctors often use simple questionnaires such as STOP-BANG, which asks about:
 
@@ -86,7 +88,7 @@ Doctors often use simple questionnaires such as STOP-BANG, which asks about:
 
 A high score suggests further testing.
 
-### What Should You Do?
+### What should you do?
 
 - Ask your partner if they notice breathing pauses
 - Note daytime sleepiness or headaches
@@ -94,7 +96,7 @@ A high score suggests further testing.
 - Sleep on your side
 - See a doctor for evaluation and a sleep study if symptoms suggest apnea
 
-### Key Takeaways
+### Key takeaways
 
 - Not all snoring is sleep apnea.
 - Breathing pauses and gasping are warning signs.
@@ -102,11 +104,10 @@ A high score suggests further testing.
 - Obesity, high BP and diabetes increase risk.
 - A sleep study confirms the diagnosis.
 
-### Final Thoughts
+### Final thoughts
 
-Loud snoring is often brushed off as a nuisance, but it can signal a condition that affects heart and metabolic health. Getting checked can transform sleep and energy. For sleep apnea assessment, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Loud snoring is often brushed off as a nuisance, but it can signal a condition that affects heart and metabolic health. Getting checked can transform sleep and energy.
 
-This article is part of our guide to [sleep apnea and metabolic health](/health-library/sleep-apnea-metabolic-health/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

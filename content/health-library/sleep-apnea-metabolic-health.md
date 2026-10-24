@@ -244,15 +244,15 @@ The following steps may reduce snoring and support medical treatment. They are n
 
 ### Common myths about sleep apnea
 
-#### Myth 1. Loud snoring is a sign of deep sleep
+#### Myth 1. loud snoring is a sign of deep sleep
 
 Loud snoring is a sign of a narrowed airway. When it occurs with pauses and gasping, sleep is being interrupted repeatedly.
 
-#### Myth 2. Only overweight people get sleep apnea
+#### Myth 2. only overweight people get sleep apnea
 
 Excess weight increases the risk, but people of normal weight can also have sleep apnea because of jaw shape, enlarged tonsils or a narrow airway.
 
-#### Myth 3. Sleeping pills will treat the tiredness
+#### Myth 3. sleeping pills will treat the tiredness
 
 Sleeping pills relax the throat muscles and may lengthen breathing pauses. The tiredness is caused by the airway problem, and treatment needs to address that.
 
@@ -260,7 +260,7 @@ Sleeping pills relax the throat muscles and may lengthen breathing pauses. The t
 
 CPAP controls sleep apnea while it is being used. If the underlying cause improves, for example after considerable weight loss, a repeat sleep study can show whether CPAP is still required.
 
-#### Myth 5. Sleep apnea is only a snoring problem
+#### Myth 5. sleep apnea is only a snoring problem
 
 Untreated sleep apnea is associated with high BP, poor sugar control, heart rhythm problems and road accidents due to drowsiness.
 
@@ -304,6 +304,14 @@ Dr. Das assesses sleep apnea as part of the overall care of diabetes, BP, weight
 - The diagnosis is confirmed with a sleep study, which most adults can do at home.
 - Treatment commonly includes CPAP, weight management and avoiding alcohol and sedatives at night, along with control of sugar and BP.
 - To find out whether you need a sleep study,[book an appointment](/contact/#book) with Dr. Das.
+
+### More in this guide
+
+- [Can Sleep Apnea Cause High Blood Pressure?](/health-library/can-sleep-apnea-cause-high-blood-pressure/)
+- [Is Loud Snoring a Sign of Sleep Apnea?](/health-library/loud-snoring-sign-of-sleep-apnea/)
+- [Sleep Apnea and Diabetes: What Is the Connection?](/health-library/sleep-apnea-and-diabetes-connection/)
+- [Sleep Apnea Symptoms: Sleepiness, Headaches and Gasping](/health-library/sleep-apnea-symptoms/)
+- [What Happens During a Sleep Study? A Patient Guide](/health-library/what-happens-during-sleep-study/)
 
 ### FAQs
 

@@ -31,7 +31,9 @@ Obstructive sleep apnea causes symptoms both at night and during the day. At nig
 - Common sleep apnea symptoms include loud snoring, breathing pauses, gasping or choking at night, frequent night urination, morning headaches, dry mouth, excessive daytime sleepiness, poor concentration, irritability and high blood pressure that is hard to control.
 - If you have several of these, ask your doctor about a sleep study.
 
-### Night-Time Symptoms
+This article sits inside our guide to [Sleep Apnea and Metabolic Health: Diabetes, BP and Weight](/health-library/sleep-apnea-metabolic-health/). For the neighbouring questions, see [Can Sleep Apnea Cause High Blood Pressure?](/health-library/can-sleep-apnea-cause-high-blood-pressure/) and [Sleep Apnea and Diabetes: What Is the Connection?](/health-library/sleep-apnea-and-diabetes-connection/).
+
+### Night-Time symptoms
 
 - Loud, regular snoring
 - Pauses in breathing noticed by a partner
@@ -41,7 +43,7 @@ Obstructive sleep apnea causes symptoms both at night and during the day. At nig
 - Waking often to urinate
 - Dry mouth or sore throat on waking
 
-### Daytime Symptoms
+### Daytime symptoms
 
 - Excessive sleepiness during the day
 - Falling asleep while reading, watching TV or driving
@@ -51,11 +53,11 @@ Obstructive sleep apnea causes symptoms both at night and during the day. At nig
 - Low energy and motivation
 - Reduced sex drive
 
-### Symptoms in Women
+### Symptoms in women
 
 Women may have less obvious snoring and more symptoms like insomnia, fatigue, headaches and mood changes. Sleep apnea in women is often missed.
 
-### Linked Health Problems
+### Linked health problems
 
 - High blood pressure, especially if hard to control
 - Type 2 diabetes or poor sugar control
@@ -64,15 +66,15 @@ Women may have less obvious snoring and more symptoms like insomnia, fatigue, he
 - Obesity
 - Fatty liver
 
-### Why Do These Symptoms Happen?
+### Why do these symptoms happen?
 
 When the airway closes during sleep, oxygen levels drop and the brain briefly wakes you to restart breathing. This can happen many times an hour, preventing deep, restful sleep. The repeated drops in oxygen and stress responses also strain the heart and blood vessels.
 
-### When Is It Urgent?
+### When is it urgent?
 
 Falling asleep while driving or during important tasks is dangerous. If this happens, avoid driving and seek medical advice promptly.
 
-### What Should You Do?
+### What should you do?
 
 - Note your symptoms and ask your partner about night-time observations
 - See a doctor for screening
@@ -80,7 +82,7 @@ Falling asleep while driving or during important tasks is dangerous. If this hap
 - Avoid alcohol and sedatives before bed
 - Work on weight management if needed
 
-### Key Takeaways
+### Key takeaways
 
 - Sleep apnea has night and daytime symptoms.
 - Gasping and breathing pauses are key night signs.
@@ -88,11 +90,10 @@ Falling asleep while driving or during important tasks is dangerous. If this hap
 - Women may have less typical symptoms.
 - A sleep study confirms the diagnosis.
 
-### Final Thoughts
+### Final thoughts
 
-Feeling tired all the time is not something you have to accept. Recognising sleep apnea symptoms can lead to treatment that restores energy and protects your heart. For sleep apnea evaluation, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Feeling tired all the time is not something you have to accept. Recognising sleep apnea symptoms can lead to treatment that restores energy and protects your heart.
 
-This article is part of our guide to [sleep apnea and metabolic health](/health-library/sleep-apnea-metabolic-health/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

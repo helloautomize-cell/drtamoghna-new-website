@@ -9,6 +9,7 @@ h1: "Diabetic foot *care*"
 badge: diabetic-foot
 about: { type: MedicalCondition, name: "Diabetic foot" }
 related: [/diabetes-care/, /diabetes-care/continuous-glucose-monitoring/, /heart-health/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro
@@ -44,7 +45,7 @@ Diabetes can slowly damage the nerves and blood vessels of the feet, so a small 
 
 1. **Foot history.** Past wounds, pain, numbness, footwear and daily habits.
 2. **Examination.** Skin, nails, pressure areas, pulses and foot shape.
-3. **Nerve check.** Simple painless tests of feeling and vibration.
+3. **Nerve check.** Simple tests of feeling and vibration that do not hurt.
 4. **Blood-flow check.** Pulses and a handheld Doppler test of the foot arteries.
 5. **Risk grade.** You are told whether your feet are low, moderate or high risk, and how often they need checking.
 6. **Plan.** Daily foot care, footwear advice, sugar and BP control, and treatment for burning pain. For wounds, Dr. Das advises on dressing and infection, and explains if you need a surgeon or a hospital.

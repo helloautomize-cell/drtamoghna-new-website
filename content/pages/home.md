@@ -7,6 +7,7 @@ url: /
 reviewer: dr-tamoghna-das
 lastReviewed: "2026-10-03"
 schema: [MedicalWebPage, FAQPage]
+dateModified: "2026-10-03"
 ```
 
 ### Hero
@@ -42,7 +43,7 @@ Pills (each links to a page):
 - Fever → /internal-medicine/fever-and-infections/
 - A yearly check-up → /health-check-ups/
 
-### 01 / Why Medcare
+### 01 / why Medcare
 
 H2: Care that looks at the *whole* picture
 
@@ -56,7 +57,7 @@ Cards (6):
 5. **Open seven days.** Monday to Saturday 9 am to 8:30 pm, Sunday 9 am to 3:30 pm. Ground floor, with a wheelchair available.
 6. **Clear words, in your language.** Dr. Das speaks English, Assamese, Bengali, Bodo and Hindi, and explains every report before you leave.
 
-### 02 / About Medcare
+### 02 / about Medcare
 
 H2: A physician-led clinic in *North Bongaigaon*
 
@@ -70,7 +71,7 @@ Rows:
 
 Link: Read about Medcare →
 
-### 03 / How we can help
+### 03 / how we can help
 
 H2: Conditions and tests, *explained*
 
@@ -112,7 +113,7 @@ Intro: Care for adults with everyday and long-standing medical problems.
 
 Link: View all services →
 
-### 04 / Your first visit, step by step
+### 04 / your first visit, step by step
 
 H2: Your first visit, step by *step*
 
@@ -130,7 +131,7 @@ Address: Chapaguri Road, opposite Domino's, North Bongaigaon, Gurunanak Nagar, B
 Chips: Ground floor · Wheelchair available
 Buttons: [Get directions] [Plan your visit]
 
-### 05 / Meet your doctor
+### 05 / meet your doctor
 
 H2: Meet *Dr. Tamoghna Das*
 
@@ -145,11 +146,11 @@ Card:
 - Short bio: Former Divisional Medical Officer (Medicine Specialist) with Indian Railways. Secretary of IMA Bongaigaon and API Bongaigaon. Co-author of a 2025 Indian Heart Journal study on early heart failure.
 - Buttons: [Book with Dr. Das] [View profile]
 
-### 06 / Watch Dr. Das
+### 06 / watch dr. das
 
 Hidden at launch (no talk videos yet).
 
-### 07 / Conditions we look after
+### 07 / conditions we look after
 
 H2: Conditions we look *after*
 
@@ -158,13 +159,13 @@ Row 2: Sleep apnea · Asthma · COPD · Fatty liver · Gout and uric acid · Art
 
 Each pill links to the most relevant page. "High cholesterol" → /heart-health/. "PCOS-related weight gain" → /weight-management/. "Urinary infections" → /internal-medicine/fever-and-infections/. "Breathlessness" → /heart-health/heart-failure/. "Palpitations" → /heart-health/holter-monitoring/.
 
-### 08 / From our Health Library
+### 08 / from our health library
 
 H2: From our Health *Library*
 Cards: the 3 launch posts. Meta line: "Written by Dr. Tamoghna Das · [date] · [n] min read"
 Link: Visit the Health Library →
 
-### 09 / Quick answers
+### 09 / quick answers
 
 H2: Quick *answers*
 

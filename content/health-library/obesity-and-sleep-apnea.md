@@ -32,14 +32,16 @@ Obesity is one of the strongest risk factors for obstructive sleep apnea (OSA), 
 - Sleep apnea causes poor sleep, daytime tiredness and hormonal changes that increase appetite and cravings.
 - Weight loss can reduce apnea severity, and treating apnea, often with CPAP, can improve energy and support weight management.
 
-### How Does Obesity Cause Sleep Apnea?
+This article sits inside our guide to [Obesity Treatment: Medical Weight Loss & Heart Risk](/health-library/obesity-weight-management/). For the neighbouring questions, see [How Is Obesity Diagnosed? BMI, Waist and Metabolic Health](/health-library/how-is-obesity-diagnosed-bmi-waist/) and [How Much Weight Loss Improves Diabetes and BP?](/health-library/weight-loss-improve-diabetes-blood-pressure/).
+
+### How does obesity cause sleep apnea?
 
 - **Neck fat:** presses on the airway when lying down
 - **Tongue and throat fat:** makes the airway narrower
 - **Abdominal fat:** reduces lung volume and stability of the airway
 - **Lower muscle tone during sleep:** allows the airway to collapse
 
-### How Does Sleep Apnea Affect Weight?
+### How does sleep apnea affect weight?
 
 - **Hunger hormones:** poor sleep increases ghrelin (hunger) and lowers leptin (fullness)
 - **Cravings:** more desire for sugary and fatty foods
@@ -47,7 +49,7 @@ Obesity is one of the strongest risk factors for obstructive sleep apnea (OSA), 
 - **Insulin resistance:** worsens sugar control
 - **Stress hormones:** may promote fat storage
 
-### Warning Signs of Sleep Apnea
+### Warning signs of sleep apnea
 
 - Loud, regular snoring
 - Pauses in breathing noticed by a partner
@@ -58,7 +60,7 @@ Obesity is one of the strongest risk factors for obstructive sleep apnea (OSA), 
 - Waking often to urinate at night
 - High BP that is hard to control
 
-### Health Risks of Both Together
+### Health risks of both together
 
 - High blood pressure
 - Type 2 diabetes
@@ -67,7 +69,7 @@ Obesity is one of the strongest risk factors for obstructive sleep apnea (OSA), 
 - Fatty liver
 - Road accidents due to sleepiness
 
-### How Are They Treated?
+### How are they treated?
 
 #### Weight loss
 
@@ -89,11 +91,11 @@ Some weight-loss medicines may improve sleep apnea in suitable people, under med
 
 Oral appliances or surgery may be considered in selected cases.
 
-### When to Get Tested
+### When to get tested
 
 If you snore loudly and feel sleepy during the day, or your partner notices breathing pauses, ask your doctor about a sleep study.
 
-### Key Takeaways
+### Key takeaways
 
 - Obesity is a major risk factor for sleep apnea.
 - Sleep apnea can make weight loss harder.
@@ -101,11 +103,10 @@ If you snore loudly and feel sleepy during the day, or your partner notices brea
 - Weight loss and CPAP both help.
 - Treating both protects heart and metabolic health.
 
-### Final Thoughts
+### Final thoughts
 
-Obesity and sleep apnea create a cycle, but it can be broken. Treating sleep and weight together often brings better energy, health and quality of life. For integrated care, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Obesity and sleep apnea create a cycle, but it can be broken. Treating sleep and weight together often brings better energy, health and quality of life.
 
-This article is part of our guide to [obesity treatment](/health-library/obesity-weight-management/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

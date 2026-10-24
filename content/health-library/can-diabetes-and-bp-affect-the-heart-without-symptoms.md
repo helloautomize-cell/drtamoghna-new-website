@@ -31,14 +31,16 @@ wordCount: 397
 - You can feel completely well while arteries narrow, the heart muscle thickens or stiffens, or rhythm problems develop.
 - That is why regular check-ups and heart screening are important.
 
-### How They Harm the Heart
+This article sits inside our guide to [ECG vs 2D Echo vs Stress Echo vs Holter: Which Heart Test?](/health-library/ecg-echo-stress-echo-holter/). For the neighbouring questions, see [2D Echo vs ECG: What Is the Difference?](/health-library/2d-echo-vs-ecg-difference/) and [Stress Echocardiogram: What It Is and When It's Needed](/health-library/stress-echocardiogram-when-recommended/).
+
+### How they harm the heart
 
 - **High sugar** damages the lining of blood vessels and speeds up cholesterol build-up (atherosclerosis).
 - **High blood pressure** makes the heart pump against greater resistance, which can thicken the heart muscle and weaken it over time.
 - **Together,** they multiply the risk of heart attack, heart failure, stroke and kidney damage.
 - **Nerve damage** from diabetes can reduce pain signals, so problems may stay hidden.
 
-### Possible Silent Problems
+### Possible silent problems
 
 - Narrowed coronary arteries.
 - Thickened heart muscle (left ventricular hypertrophy).
@@ -46,7 +48,7 @@ wordCount: 397
 - Silent heart attacks.
 - Irregular heart rhythms.
 
-### Subtle Symptoms Not to Ignore
+### Subtle symptoms not to ignore
 
 - Getting breathless on activity that used to be easy.
 - Unusual tiredness.
@@ -54,7 +56,7 @@ wordCount: 397
 - Palpitations.
 - Dizziness.
 
-### Tests That Can Detect Problems Early
+### Tests that can detect problems early
 
 - Blood pressure checks at every visit, and home monitoring.
 - ECG for rhythm and signs of strain or past damage.
@@ -62,7 +64,7 @@ wordCount: 397
 - Blood tests: lipid profile, kidney function, HbA1c.
 - Stress testing or other heart imaging where indicated.
 
-### How to Protect Your Heart
+### How to protect your heart
 
 - Keep sugar, blood pressure and cholesterol in the target range.
 - Take medicines regularly.
@@ -71,18 +73,17 @@ wordCount: 397
 - Manage weight and sleep well.
 - Attend regular follow-up even when you feel well.
 
-### Key Takeaways
+### Key takeaways
 
 - Heart damage from diabetes and high BP can be silent.
 - Regular screening finds problems early.
 - Controlling sugar and pressure protects the heart.
 - Do not wait for symptoms to check your heart.
 
-### Final Thoughts
+### Final thoughts
 
-Feeling well does not always mean the heart is safe. Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic, specialises in looking after the heart and diabetes together to prevent complications.
+Feeling well does not always mean the heart is safe. Dr. Tamoghna Das, an internal medicine and cardio-diabetic consultant at Medcare Diabetes, Obesity and Echocardiography Clinic, specialises in looking after the heart and diabetes together to prevent complications.
 
-This article is part of our guide to [ECG vs 2D echo](/health-library/ecg-echo-stress-echo-holter/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

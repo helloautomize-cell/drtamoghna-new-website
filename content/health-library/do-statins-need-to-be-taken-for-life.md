@@ -32,7 +32,9 @@ For many people, statins are a long-term treatment because the risk they protect
 - Stopping them can cause LDL to rise back within weeks and may increase heart risk, especially in people with diabetes or existing heart disease.
 - Some people with lower risk who make major lifestyle changes may be able to adjust treatment, but this should be decided with a doctor.
 
-### Why Are Statins Often Long-Term?
+This article sits inside our guide to [High Cholesterol and Triglycerides: Lipid Profile Explained](/health-library/high-cholesterol-triglycerides/). For the neighbouring questions, see [Can Diabetes Cause High Cholesterol?](/health-library/can-diabetes-cause-high-cholesterol/) and [High Triglycerides: Causes, Symptoms and What to Do](/health-library/high-triglycerides-causes-symptoms-treatment/).
+
+### Why are statins often long-Term?
 
 #### Ongoing risk
 
@@ -46,14 +48,14 @@ Statins reduce the liver's cholesterol production. When stopped, LDL usually ris
 
 Statins help stabilise plaques in arteries, making them less likely to rupture. Stopping may remove this benefit.
 
-### Who Usually Needs Them Long-Term?
+### Who usually needs them long-Term?
 
 - People who have had a heart attack, stroke, stent or bypass
 - Many people with diabetes, especially over 40 or with other risks
 - People with very high LDL from genetic causes
 - Those with high overall cardiovascular risk
 
-### Can Statins Ever Be Reduced or Stopped?
+### Can statins ever be reduced or stopped?
 
 In some situations, doctors may consider adjusting treatment:
 
@@ -63,7 +65,7 @@ In some situations, doctors may consider adjusting treatment:
 
 This decision should always be made with your doctor.
 
-### Common Concerns About Statins
+### Common concerns about statins
 
 #### Muscle aches
 
@@ -81,7 +83,7 @@ Statins may slightly raise blood sugar in some people. For most, heart protectio
 
 Statins have been studied for decades in large numbers of people. For those at risk, the benefits usually outweigh the risks.
 
-### Tips for Taking Statins
+### Tips for taking statins
 
 - Take them at the same time each day
 - Do not stop suddenly without advice
@@ -89,7 +91,7 @@ Statins have been studied for decades in large numbers of people. For those at r
 - Continue healthy diet and exercise, which add benefit
 - Check lipid levels as advised
 
-### Key Takeaways
+### Key takeaways
 
 - Statins usually work only while taken.
 - Many people need them long-term.
@@ -97,11 +99,10 @@ Statins have been studied for decades in large numbers of people. For those at r
 - Side effects are usually mild and manageable.
 - Never stop statins without medical advice.
 
-### Final Thoughts
+### Final thoughts
 
-Statins are one of the most well-studied ways to protect the heart. Understanding why they are prescribed helps you stay on track with confidence. For lipid and heart risk management, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Statins are one of the most well-studied ways to protect the heart. Understanding why they are prescribed helps you stay on track with confidence.
 
-This article is part of our guide to [high cholesterol](/health-library/high-cholesterol-triglycerides/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

@@ -4,6 +4,7 @@
 title: "Medical Disclaimer | Medcare Bongaigaon"
 description: "The medical information on the Medcare website is for general education and does not replace a consultation with a doctor."
 url: /medical-disclaimer/
+dateModified: "2026-10-03"
 ```
 
 H1: Medical *disclaimer*

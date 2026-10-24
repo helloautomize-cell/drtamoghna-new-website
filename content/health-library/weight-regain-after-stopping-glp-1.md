@@ -33,7 +33,9 @@ Many people regain some or much of the weight they lost after stopping GLP-1 med
 - Continuing healthy habits, building muscle, regular monitoring and a planned approach with your doctor can reduce regain.
 - Some people may need long-term or maintenance treatment.
 
-### Why Does Weight Come Back?
+This article sits inside our guide to [Obesity Treatment: Medical Weight Loss & Heart Risk](/health-library/obesity-weight-management/). For the neighbouring questions, see [How Is Obesity Diagnosed? BMI, Waist and Metabolic Health](/health-library/how-is-obesity-diagnosed-bmi-waist/) and [Semaglutide vs Tirzepatide: What Patients Should Know](/health-library/semaglutide-vs-tirzepatide-weight-loss/).
+
+### Why does weight come back?
 
 #### Appetite returns
 
@@ -51,11 +53,11 @@ If eating patterns and activity did not change during treatment, old habits may 
 
 Like high BP or diabetes, obesity often needs ongoing management.
 
-### What Do Studies Show?
+### What do studies show?
 
 Trials have found that many people regain a significant portion of lost weight within a year of stopping. Sugar, BP and cholesterol improvements may also reverse. Results vary by person.
 
-### How Can You Reduce Weight Regain?
+### How can you reduce weight regain?
 
 #### Build habits while on treatment
 
@@ -81,18 +83,18 @@ Poor sleep and high stress increase hunger.
 
 Discuss gradual dose reduction, maintenance options or alternative medicines rather than stopping suddenly.
 
-### Should You Stay on GLP-1 Medicines Long-Term?
+### Should you stay on GLP-1 medicines long-Term?
 
 Some people may benefit from continuing treatment long-term, especially if they have diabetes or high cardiovascular risk. This decision depends on benefits, side effects, cost and personal goals, and should be made with your doctor.
 
-### When Should You Talk to Your Doctor?
+### When should you talk to your doctor?
 
 - Before stopping the medicine
 - If side effects are difficult to manage
 - If cost or access is a concern
 - If weight starts returning after stopping
 
-### Key Takeaways
+### Key takeaways
 
 - Weight regain is common after stopping GLP-1 medicines.
 - Appetite and cravings often return.
@@ -100,11 +102,10 @@ Some people may benefit from continuing treatment long-term, especially if they 
 - Obesity usually needs long-term care.
 - Plan any change with your doctor.
 
-### Final Thoughts
+### Final thoughts
 
-GLP-1 medicines can be powerful tools, but lasting results come from combining them with sustainable habits and long-term planning. For medically supervised weight care, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+GLP-1 medicines can be powerful tools, but lasting results come from combining them with sustainable habits and long-term planning.
 
-This article is part of our guide to [obesity treatment](/health-library/obesity-weight-management/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

@@ -32,24 +32,26 @@ GLP-1 receptor agonists are a class of medicines used for type 2 diabetes and, i
 - This can improve blood sugar and help with weight loss.
 - They are prescription medicines with side effects, so they need medical supervision.
 
-### How They Work
+This article sits inside our guide to [Diabetes Medicines: Insulin, GLP-1 & SGLT2 Explained](/health-library/diabetes-medicines-treatment-options/). For the neighbouring questions, see [Does Starting Insulin Mean Diabetes Has Become Severe?](/health-library/does-starting-insulin-mean-diabetes-is-severe/) and [SGLT2 Inhibitors: Diabetes, Heart and Kidney Benefits](/health-library/sglt2-inhibitors-diabetes-heart-kidney/).
+
+### How they work
 
 - Stimulate insulin only when blood sugar is raised
 - Reduce glucagon, which raises sugar
 - Slow digestion so you feel full longer
 - Act on appetite centres in the brain
 
-### Who May Benefit
+### Who May benefit
 
 - People with type 2 diabetes who need better control
 - Those with diabetes and overweight or obesity
 - Some people with heart disease risk, as chosen by their doctor
 
-### How They Are Given
+### How they are given
 
 Most are injections, given once weekly or once daily, and one form is taken as a tablet. Your doctor will explain the technique and dose.
 
-### Common Side Effects
+### Common side effects
 
 - Nausea, vomiting or diarrhoea, often early on
 - Constipation
@@ -58,15 +60,15 @@ Most are injections, given once weekly or once daily, and one form is taken as a
 
 Eating smaller meals and increasing the dose slowly can help.
 
-### Who Should Be Careful
+### Who should be careful
 
 People with a history of pancreatitis, certain thyroid tumours or severe stomach problems may not be suitable. Tell your doctor your full history.
 
-### Not a Shortcut
+### Not a shortcut
 
 These medicines work best with healthy eating and activity. Weight may return if treatment is stopped without lifestyle change.
 
-### Key Takeaways
+### Key takeaways
 
 - GLP-1 medicines lower sugar and appetite.
 - They can help weight loss in many users.
@@ -74,11 +76,10 @@ These medicines work best with healthy eating and activity. Weight may return if
 - They are not suitable for everyone.
 - They need medical guidance.
 
-### Final Thoughts
+### Final thoughts
 
-GLP-1 medicines are a useful option for some people, but the right choice depends on your health. For an individual assessment, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+GLP-1 medicines are a useful option for some people, but the right choice depends on your health.
 
-This article is part of our guide to [diabetes medicine treatment options](/health-library/diabetes-medicines-treatment-options/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

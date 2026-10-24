@@ -85,7 +85,7 @@ The good news is that insulin resistance can improve with appropriate weight los
 
 If you have already been diagnosed with diabetes, weight management can become an important part of your overall diabetes treatment. You can read more about [diabetes care at Medcare](/diabetes-care/).
 
-#### Can losing weight improve Type 2 diabetes?
+#### Can losing weight improve type 2 diabetes?
 
 Yes. Weight loss can improve blood glucose control in many people with Type 2 diabetes.
 
@@ -425,7 +425,7 @@ If you think you may be having a heart attack, stroke or another medical emergen
 
 ### At Medcare
 
-At Medcare Diabetes & Obesity Clinic in North Bongaigaon, Dr. Tamoghna Das considers weight alongside conditions that commonly occur with it, including diabetes, BP, heart health, thyroid disorders and sleep apnea. The clinic's stated approach is to look at these connected problems together and follow patients over time.
+At Medcare Diabetes, Obesity and Echocardiography Clinic in North Bongaigaon, Dr. Tamoghna Das considers weight alongside conditions that commonly occur with it, including diabetes, BP, heart health, thyroid disorders and sleep apnea. The clinic's stated approach is to look at these connected problems together and follow patients over time.
 
 Medcare lists obesity and weight management among its areas of care. The clinic also lists body composition analysis and HbA1c among its in-house services, while GLP-1 weight-loss medicines are included within its weight-management services.
 
@@ -440,6 +440,14 @@ For a patient, the practical aim is straightforward: understand what is contribu
 - GLP-1 and dual GIP/GLP-1 medicines may help selected patients but require medical supervision.
 - Weight regain can happen, so maintenance needs to be part of the treatment plan.
 - Diabetes, hypertension, cholesterol problems and sleep apnea should be addressed when they occur alongside obesity.
+
+### More in this guide
+
+- [How Is Obesity Diagnosed? BMI, Waist and Metabolic Health](/health-library/how-is-obesity-diagnosed-bmi-waist/)
+- [Obesity and Sleep Apnea: Why They Often Go Together](/health-library/obesity-and-sleep-apnea/)
+- [Semaglutide vs Tirzepatide: What Patients Should Know](/health-library/semaglutide-vs-tirzepatide-weight-loss/)
+- [How Much Weight Loss Improves Diabetes and BP?](/health-library/weight-loss-improve-diabetes-blood-pressure/)
+- [Do You Regain Weight After Stopping GLP-1 Medicines?](/health-library/weight-regain-after-stopping-glp-1/)
 
 ### FAQs
 

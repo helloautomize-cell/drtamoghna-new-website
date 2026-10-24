@@ -348,6 +348,14 @@ Dr. Das reviews your lipid profile alongside your sugar, BP, weight, thyroid and
 - Statins prevent heart attacks and strokes, are safe for most people and work only while you take them.
 - Start, change or stop cholesterol medicine only on your doctor's advice.
 
+### More in this guide
+
+- [Can Diabetes Cause High Cholesterol?](/health-library/can-diabetes-cause-high-cholesterol/)
+- [Do Statins Need to Be Taken for Life?](/health-library/do-statins-need-to-be-taken-for-life/)
+- [What Is a Good LDL Cholesterol Level?](/health-library/good-ldl-cholesterol-level/)
+- [High Triglycerides: Causes, Symptoms and What to Do](/health-library/high-triglycerides-causes-symptoms-treatment/)
+- [How to Lower LDL Cholesterol With Diet and Lifestyle](/health-library/lower-ldl-cholesterol-diet-lifestyle/)
+
 ### FAQs
 
 1. **Can I eat eggs if I have high cholesterol?**

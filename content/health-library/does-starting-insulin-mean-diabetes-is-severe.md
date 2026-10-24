@@ -31,7 +31,9 @@ wordCount: 406
 - Type 2 diabetes usually progresses over time as the pancreas makes less insulin, so many people eventually need it.
 - Insulin is an effective treatment that protects your organs when tablets alone are not enough.
 
-### Why Insulin May Be Needed
+This article sits inside our guide to [Diabetes Medicines: Insulin, GLP-1 & SGLT2 Explained](/health-library/diabetes-medicines-treatment-options/). For the neighbouring questions, see [GLP-1 Medicines for Diabetes and Weight Loss](/health-library/glp-1-medicines-diabetes-weight-loss/) and [SGLT2 Inhibitors: Diabetes, Heart and Kidney Benefits](/health-library/sglt2-inhibitors-diabetes-heart-kidney/).
+
+### Why insulin May be needed
 
 - The pancreas gradually produces less insulin.
 - Blood sugar remains high despite tablets and lifestyle changes.
@@ -41,35 +43,34 @@ wordCount: 406
 - Kidney or liver problems that limit the use of some tablets.
 - Steroid medicines that raise blood sugar.
 
-### Common Myths
+### Common myths
 
 - **"Insulin means I am at the last stage."** Insulin is a treatment option, not an end stage.
 - **"Once I start, I cannot stop."** Some people can reduce or stop insulin if sugar improves, for example after weight loss or recovery from an illness. This depends on the person.
 - **"Insulin causes complications."** Complications come from long-term high sugar, which insulin helps control.
 - **"Injections are very painful."** Modern pens use very fine needles, and most people find them easy to use.
 
-### Benefits of Starting On Time
+### Benefits of starting on time
 
 Controlled sugar lowers the risk of damage to the eyes, kidneys, nerves and heart. Delaying insulin when it is needed allows high sugar to keep causing harm.
 
-### Things to Know
+### Things to know
 
 - Insulin can cause low blood sugar, so you need to know the symptoms and how to treat them.
 - Weight gain can occur, and diet and activity help to manage it.
 - Your doctor will guide the type, dose and timing.
 
-### Key Takeaways
+### Key takeaways
 
 - Insulin is a treatment, not a punishment.
 - Type 2 diabetes often needs insulin as it progresses.
 - Starting on time protects organs.
 - Learn to recognise and treat low sugar.
 
-### Final Thoughts
+### Final thoughts
 
-Many people feel anxious about insulin, and that is understandable. Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic, can explain why and when insulin is helpful and teach you how to use it with confidence.
+Many people feel anxious about insulin, and that is understandable. Dr. Tamoghna Das, an internal medicine and cardio-diabetic consultant at Medcare Diabetes, Obesity and Echocardiography Clinic, can explain why and when insulin is helpful and teach you how to use it with confidence.
 
-This article is part of our guide to [diabetes medicine treatment options](/health-library/diabetes-medicines-treatment-options/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

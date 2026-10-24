@@ -32,18 +32,20 @@ Many people ask whether diabetes can be cured. Type 2 diabetes is a long-term co
 - It is more likely when diabetes is recent and significant weight is lost.
 - It is not a permanent cure, because sugar can rise again, so regular follow-up is still needed.
 
-### What Does Remission Mean?
+This article sits inside our guide to [Type 2 Diabetes: Symptoms, Diagnosis & Treatment](/health-library/type-2-diabetes/). For the neighbouring questions, see [What Are the Early Symptoms of Type 2 Diabetes?](/health-library/early-symptoms-type-2-diabetes/) and [How Often Should You Check Blood Sugar and HbA1c?](/health-library/how-often-should-you-check-blood-sugar-and-hba1c/).
+
+### What does remission mean?
 
 Remission is commonly described as an HbA1c below the diabetes range, maintained for at least three months after stopping glucose-lowering medicines. The underlying tendency toward diabetes remains.
 
-### Who Is More Likely to Achieve It?
+### Who is more likely to achieve it?
 
 - People diagnosed recently
 - Those who can lose a meaningful amount of weight
 - People with good remaining insulin production
 - Those who can sustain lifestyle changes
 
-### What Helps
+### What helps
 
 - Gradual, sustained weight loss under medical guidance
 - A balanced diet with controlled portions and fewer refined carbohydrates
@@ -51,7 +53,7 @@ Remission is commonly described as an HbA1c below the diabetes range, maintained
 - Good sleep and stress management
 - In selected cases, medicines or other medical weight loss options chosen by your doctor
 
-### What Remission Does Not Mean
+### What remission does not mean
 
 - You can return to old habits
 - You no longer need check-ups
@@ -59,11 +61,11 @@ Remission is commonly described as an HbA1c below the diabetes range, maintained
 
 Eye, kidney and foot checks should continue.
 
-### Safety First
+### Safety first
 
 Never stop diabetes medicines on your own. Doses must be reduced step by step under medical supervision to avoid dangerous swings in sugar.
 
-### Key Takeaways
+### Key takeaways
 
 - Remission is possible for some, especially early in the disease.
 - Weight loss is the strongest factor.
@@ -71,11 +73,10 @@ Never stop diabetes medicines on your own. Doses must be reduced step by step un
 - Do not stop medicines without medical advice.
 - Regular monitoring continues even after remission.
 
-### Final Thoughts
+### Final thoughts
 
-Remission is a realistic goal for some people, and even if it is not reached, better control still lowers risks. For a personalised plan, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Remission is a realistic goal for some people, and even if it is not reached, better control still lowers risks.
 
-This article is part of our guide to [type 2 diabetes symptoms and treatment](/health-library/type-2-diabetes/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

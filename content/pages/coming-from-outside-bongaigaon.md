@@ -6,6 +6,7 @@ description: "Coming from Kokrajhar, Chirang, Dhubri, Goalpara, Barpeta or elsew
 url: /coming-from-outside-bongaigaon/
 lastReviewed: "2026-10-03"
 schema: [WebPage]
+dateModified: "2026-10-03"
 ```
 
 H1: Coming to Medcare from outside *Bongaigaon*
@@ -42,4 +43,7 @@ Note: Medcare does not offer video consultations at present. [CONFIRM]
 2. **Do I need to stay overnight?**
    Most patients do not. A sleep study is done overnight, and some monitors are worn for one to several days. If you need one of these, we will plan the timing with you.
 3. **Can I consult without coming to Bongaigaon?**
-   For a first visit, Dr. Das needs to see and examine you. Afterwards, reports can be shared on WhatsApp so the clinic can tell you whether a visit is needed.
+   Note: Medcare does not offer video consultations at present. [CONFIRM]
+   A phone or WhatsApp conversation can answer simple questions, but Dr. Das needs to examine you in person for most medical decisions. For a first visit or a new problem, please come to the clinic; follow-ups can often be handled on WhatsApp with your reports.
+4. **Which reports should I bring or send ahead?**
+   Bring or WhatsApp your recent prescriptions, medicine strips, discharge summaries and test reports from the last year, plus home sugar or BP readings if you keep them. Sending them before you travel lets Dr. Das review your history and plan which tests to run on the day.

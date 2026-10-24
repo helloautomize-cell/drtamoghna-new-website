@@ -33,7 +33,9 @@ If your blood pressure is high at the clinic but normal at home, you may have wh
 - Doctors confirm it with home readings or ABPM.
 - The opposite, masked hypertension, is when clinic BP looks normal but home BP is high, which can be more concerning because it is easy to miss.
 
-### Why Does BP Rise at the Clinic?
+This article sits inside our guide to [High Blood Pressure: Diagnosis, Home Checks and Treatment](/health-library/high-blood-pressure-guide/). For the neighbouring questions, see [How Much Salt Is Safe With High Blood Pressure?](/health-library/how-much-salt-high-blood-pressure/) and [What Is a Normal Blood Pressure Reading by Age?](/health-library/normal-blood-pressure-reading-by-age/).
+
+### Why does BP rise at the clinic?
 
 - Anxiety about the visit or test results
 - Rushing to the appointment or climbing stairs
@@ -42,15 +44,15 @@ If your blood pressure is high at the clinic but normal at home, you may have wh
 - Wrong cuff size or poor arm position
 - Caffeine or smoking before the visit
 
-### What Is White-Coat Hypertension?
+### What is white-Coat hypertension?
 
 It is diagnosed when clinic BP is repeatedly high, but home or ambulatory readings are in the normal range. It affects many people and is more common in older adults and women.
 
-### What Is Masked Hypertension?
+### What is masked hypertension?
 
 This is the reverse situation. BP looks normal at the clinic but is high at home, at work or at night. It is more common in people with diabetes, kidney disease, smokers and those with stressful jobs. Because it is hidden, it can lead to untreated high BP and organ damage.
 
-### How Do Doctors Confirm It?
+### How do doctors confirm it?
 
 #### Home BP monitoring
 
@@ -60,11 +62,11 @@ Taking readings twice daily for about a week using correct technique.
 
 A small device measures BP automatically every 15 to 30 minutes over a full day and night. It also shows night-time BP, which is an important risk marker.
 
-### Is White-Coat Hypertension Harmless?
+### Is white-Coat hypertension harmless?
 
 It is not always harmless. Some studies suggest people with white-coat hypertension may have a slightly higher long-term risk and may develop sustained high BP later. Doctors usually recommend lifestyle changes and regular monitoring rather than immediate medicines, unless other risk factors are present.
 
-### What Can You Do?
+### What can you do?
 
 - Arrive early and rest before the reading
 - Avoid caffeine and smoking before the visit
@@ -73,7 +75,7 @@ It is not always harmless. Some studies suggest people with white-coat hypertens
 - Keep a home BP log to share
 - Follow healthy habits: less salt, regular activity, healthy weight
 
-### Key Takeaways
+### Key takeaways
 
 - White-coat hypertension is high BP only at the clinic.
 - Home monitoring or ABPM confirms it.
@@ -81,11 +83,10 @@ It is not always harmless. Some studies suggest people with white-coat hypertens
 - White-coat hypertension still needs follow-up.
 - Correct technique avoids false high readings.
 
-### Final Thoughts
+### Final thoughts
 
-Your BP reading at one visit does not tell the whole story. Home and ambulatory readings give a clearer picture and help avoid both over- and under-treatment. For a full BP assessment, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Your BP reading at one visit does not tell the whole story. Home and ambulatory readings give a clearer picture and help avoid both over- and under-treatment.
 
-This article is part of our guide to [high blood pressure](/health-library/high-blood-pressure-guide/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

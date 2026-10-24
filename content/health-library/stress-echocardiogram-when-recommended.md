@@ -33,11 +33,13 @@ A stress echocardiogram (stress echo) is a test that uses ultrasound to see how 
 - It is recommended for chest discomfort, breathlessness on exertion, abnormal ECG findings, assessing known heart disease and, in some cases, before major surgery.
 - It is non-invasive and uses no radiation.
 
-### How Does It Work?
+This article sits inside our guide to [ECG vs 2D Echo vs Stress Echo vs Holter: Which Heart Test?](/health-library/ecg-echo-stress-echo-holter/). For the neighbouring questions, see [2D Echo vs ECG: What Is the Difference?](/health-library/2d-echo-vs-ecg-difference/) and [Holter Monitor: What It Detects](/health-library/holter-monitor-what-it-detects/).
+
+### How does it work?
 
 At rest, the heart may receive enough blood even with partly blocked arteries. During stress, the heart needs more oxygen. If an artery is narrowed, the area it supplies may not pump normally. The echo detects these changes.
 
-### Types of Stress Echo
+### Types of stress echo
 
 #### Exercise stress echo
 
@@ -47,7 +49,7 @@ You walk on a treadmill or ride a bicycle while the heart rate increases. Images
 
 For people who cannot exercise, a medicine called dobutamine is given through a vein to make the heart beat faster and harder.
 
-### When Is It Recommended?
+### When is it recommended?
 
 - Chest pain or discomfort, especially with exertion
 - Breathlessness on exertion
@@ -57,7 +59,7 @@ For people who cannot exercise, a medicine called dobutamine is given through a 
 - Evaluating some valve problems
 - People with diabetes and symptoms suggesting heart disease
 
-### How to Prepare
+### How to prepare
 
 - Avoid heavy meals for a few hours before the test
 - Avoid caffeine on the day if advised
@@ -66,7 +68,7 @@ For people who cannot exercise, a medicine called dobutamine is given through a 
 - Bring a list of current medicines
 - Plan for the test to take about an hour
 
-### What Happens During the Test?
+### What happens during the test?
 
 1. ECG electrodes are placed on your chest
 
@@ -80,17 +82,17 @@ For people who cannot exercise, a medicine called dobutamine is given through a 
 
 6. You rest while heart rate returns to normal
 
-### Is It Safe?
+### Is it safe?
 
 Stress echo is generally safe when performed under medical supervision. Some people feel tired, breathless or have palpitations during the test. Serious complications are rare. The team will stop the test if needed.
 
-### What Do Results Mean?
+### What do results mean?
 
 - **Normal result:** heart muscle moves well at rest and under stress
 - **Abnormal result:** some areas do not move well under stress, suggesting reduced blood supply
 - Further tests, such as coronary angiography, may be advised based on results
 
-### Key Takeaways
+### Key takeaways
 
 - Stress echo shows how the heart works under stress.
 - It helps detect reduced blood flow.
@@ -98,11 +100,10 @@ Stress echo is generally safe when performed under medical supervision. Some peo
 - It is non-invasive and radiation-free.
 - Results guide further tests or treatment.
 
-### Final Thoughts
+### Final thoughts
 
-A stress echo provides valuable insight into heart health, especially when symptoms appear with activity. It helps your doctor plan the right next step. For stress echo and cardiac evaluation, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+A stress echo provides valuable insight into heart health, especially when symptoms appear with activity. It helps your doctor plan the right next step.
 
-This article is part of our guide to [ECG vs 2D echo](/health-library/ecg-echo-stress-echo-holter/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

@@ -32,7 +32,9 @@ Type 2 diabetes can develop slowly over years. Many people feel fine at first, a
 - Some people notice tingling in the feet or darkened skin folds on the neck.
 - Many have no symptoms at all, so testing is the only reliable way to know.
 
-### Common Early Symptoms
+This article sits inside our guide to [Type 2 Diabetes: Symptoms, Diagnosis & Treatment](/health-library/type-2-diabetes/). For the neighbouring questions, see [HbA1c vs Fasting Blood Sugar: Which Test Is Better?](/health-library/hba1c-vs-fasting-blood-sugar/) and [Can Type 2 Diabetes Be Reversed or Put Into Remission?](/health-library/type-2-diabetes-reversal-remission/).
+
+### Common early symptoms
 
 - Feeling thirsty more often than usual
 - Passing urine frequently, including at night
@@ -44,11 +46,11 @@ Type 2 diabetes can develop slowly over years. Many people feel fine at first, a
 - Dark, velvety patches of skin on the neck or underarms
 - Weight loss without trying, in some people
 
-### Why Symptoms Are Often Missed
+### Why symptoms are often missed
 
 Blood sugar can rise gradually, and the body adapts. Symptoms may be mild for a long time. This is why people with risk factors should be tested even when they feel well.
 
-### Who Should Get Tested
+### Who should get tested
 
 - Adults with a family history of diabetes
 - People who are overweight, especially with a larger waistline
@@ -56,15 +58,15 @@ Blood sugar can rise gradually, and the body adapts. Symptoms may be mild for a 
 - Women who had gestational diabetes
 - Anyone with the symptoms listed above
 
-### How Is Diabetes Confirmed?
+### How is diabetes confirmed?
 
 Your doctor may use a fasting blood sugar, an HbA1c test or a post-meal sugar test. A repeat test is often needed to confirm the result.
 
-### What to Do If You Notice Symptoms
+### What to do if you notice symptoms
 
 Do not wait for symptoms to get worse. See a doctor, get tested and start lifestyle changes early. Early control protects the eyes, kidneys, nerves and heart.
 
-### Key Takeaways
+### Key takeaways
 
 - Early type 2 diabetes may cause no symptoms.
 - Thirst, frequent urination and tiredness are common signs.
@@ -72,11 +74,10 @@ Do not wait for symptoms to get worse. See a doctor, get tested and start lifest
 - Risk factors justify regular testing.
 - Early treatment prevents complications.
 
-### Final Thoughts
+### Final thoughts
 
-Early symptoms are easy to ignore, but a simple blood test gives clear answers. For diabetes testing and a personalised plan, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Early symptoms are easy to ignore, but a simple blood test gives clear answers.
 
-This article is part of our guide to [type 2 diabetes symptoms and treatment](/health-library/type-2-diabetes/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

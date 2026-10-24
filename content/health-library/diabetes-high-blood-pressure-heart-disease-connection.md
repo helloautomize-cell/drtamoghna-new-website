@@ -33,7 +33,9 @@ Diabetes and high blood pressure often occur together and share common causes, s
 - Many people with type 2 diabetes also have hypertension.
 - Regular BP checks, healthy lifestyle habits and medicines when needed help reduce combined risk.
 
-### Why Do Diabetes and High BP Often Occur Together?
+This article sits inside our guide to [Diabetes and Heart Disease: Risk, Symptoms & Prevention](/health-library/diabetes-heart-disease-risk/). For the neighbouring questions, see [Cholesterol and Diabetes: Understanding LDL, HDL and TG](/health-library/cholesterol-diabetes-ldl-hdl-triglycerides/) and [Heart Tests for People With Diabetes: What Is Needed?](/health-library/heart-tests-for-people-with-diabetes/).
+
+### Why do diabetes and high BP often occur together?
 
 - **Insulin resistance:** affects blood vessel function and salt balance
 - **Excess weight:** especially belly fat raises both sugar and BP
@@ -41,7 +43,7 @@ Diabetes and high blood pressure often occur together and share common causes, s
 - **Lifestyle:** inactivity, high salt and processed foods affect both
 - **Genetics and age:** family history and ageing increase risk of both
 
-### How Do They Harm the Heart Together?
+### How do they harm the heart together?
 
 #### Artery damage
 
@@ -59,11 +61,11 @@ Both conditions harm the kidneys, and kidney disease further raises heart risk.
 
 Damaged, narrowed vessels in the brain increase the risk of stroke.
 
-### What Are the BP Targets?
+### What are the BP targets?
 
 Many guidelines suggest a lower BP target for people with diabetes than for the general population, often below 130/80 mmHg when safe. Your doctor will set your individual target based on age, kidney function and other conditions.
 
-### How Can You Protect Your Heart?
+### How can you protect your heart?
 
 #### Check BP regularly
 
@@ -93,11 +95,11 @@ Both raise BP and heart risk.
 
 Some BP medicines also protect the kidneys in diabetes.
 
-### Symptoms That Need Urgent Care
+### Symptoms that need urgent care
 
 Seek emergency care for chest pain, severe headache, weakness on one side, slurred speech, sudden vision loss or severe breathlessness.
 
-### Key Takeaways
+### Key takeaways
 
 - Diabetes and high BP often occur together.
 - Together they multiply heart and kidney risk.
@@ -105,11 +107,10 @@ Seek emergency care for chest pain, severe headache, weakness on one side, slurr
 - Salt reduction and activity help both.
 - Some BP medicines also protect the kidneys.
 
-### Final Thoughts
+### Final thoughts
 
-Managing diabetes and high blood pressure together gives your heart the best protection. Regular checks and small daily habits make a real difference over time. For combined diabetes and BP care, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Managing diabetes and high blood pressure together gives your heart the best protection. Regular checks and small daily habits make a real difference over time.
 
-This article is part of our guide to [diabetes and heart disease risk](/health-library/diabetes-heart-disease-risk/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

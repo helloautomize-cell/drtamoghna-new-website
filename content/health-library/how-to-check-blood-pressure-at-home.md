@@ -30,45 +30,47 @@ Checking blood pressure at home gives a more accurate picture of your usual BP t
 **Quick answer**
 - For accurate home BP: avoid caffeine, smoking and exercise for 30 minutes before, empty your bladder, sit with back supported and feet flat, place the cuff on bare upper arm at heart level, stay silent, take two readings one minute apart, and repeat morning and evening for about a week before your doctor visit.
 
-### Choose the Right Monitor
+This article sits inside our guide to [High Blood Pressure: Diagnosis, Home Checks and Treatment](/health-library/high-blood-pressure-guide/). For the neighbouring questions, see [How Much Salt Is Safe With High Blood Pressure?](/health-library/how-much-salt-high-blood-pressure/) and [Resistant Hypertension: Why BP Stays High on Medicines](/health-library/resistant-hypertension-bp-high-despite-medicines/).
+
+### Choose the right monitor
 
 - Use an automatic upper-arm digital monitor
 - Choose a clinically validated device
 - Avoid wrist and finger monitors unless advised
 - Get the right cuff size for your arm; a cuff that is too small gives falsely high readings
 
-### Step-by-Step Guide
+### Step-by-Step guide
 
-#### Step 1: Prepare
+#### Step 1: prepare
 
 - Avoid tea, coffee, smoking and exercise for 30 minutes before
 - Empty your bladder
 - Sit quietly for five minutes before measuring
 
-#### Step 2: Position yourself
+#### Step 2: position yourself
 
 - Sit on a chair with your back supported
 - Keep feet flat on the floor, legs uncrossed
 - Rest your arm on a table so the cuff is at heart level
 
-#### Step 3: Place the cuff
+#### Step 3: place the cuff
 
 - Wrap the cuff on bare skin, not over clothing
 - Place the lower edge about two finger-widths above the elbow crease
 - It should be snug but not tight
 
-#### Step 4: Measure
+#### Step 4: measure
 
 - Stay still and do not talk
 - Press start and wait for the reading
 - Wait one minute and take a second reading
 
-#### Step 5: Record
+#### Step 5: record
 
 - Note date, time and both readings
 - Many monitors store readings, but a written log is helpful
 
-### When to Measure
+### When to measure
 
 For a typical home monitoring week:
 
@@ -79,7 +81,7 @@ For a typical home monitoring week:
 
 Your doctor may give a different schedule.
 
-### Common Mistakes
+### Common mistakes
 
 - Measuring right after walking, eating or bathing
 - Talking during the reading
@@ -88,13 +90,13 @@ Your doctor may give a different schedule.
 - Measuring over clothing
 - Taking only one reading
 
-### When to Call a Doctor
+### When to call a doctor
 
 - Readings consistently above your target
 - Very high readings, especially with headache, chest pain, breathlessness, confusion or weakness, which need urgent care
 - Very low readings with dizziness or fainting
 
-### Key Takeaways
+### Key takeaways
 
 - Use a validated upper-arm monitor.
 - Rest for five minutes before measuring.
@@ -102,11 +104,10 @@ Your doctor may give a different schedule.
 - Take two readings each time.
 - Record and share readings with your doctor.
 
-### Final Thoughts
+### Final thoughts
 
-Good technique turns home BP checks into a powerful tool for managing your health. Accurate readings help your doctor make better treatment decisions. For hypertension care, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Good technique turns home BP checks into a powerful tool for managing your health. Accurate readings help your doctor make better treatment decisions.
 
-This article is part of our guide to [high blood pressure](/health-library/high-blood-pressure-guide/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

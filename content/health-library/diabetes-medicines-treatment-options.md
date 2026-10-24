@@ -39,7 +39,7 @@ Your HbA1c and blood glucose matter, but so do your weight, blood pressure, kidn
 
 For someone living in Bongaigaon or elsewhere in Lower Assam, treatment also has to fit ordinary life. Rice, roti, dal, fish, eggs, tea, family meals, work schedules and physical activity are all part of the picture.
 
-### What are the main diabetes medicines used for Type 2 diabetes?
+### What are the main diabetes medicines used for type 2 diabetes?
 
 There are several groups of medicines used to treat Type 2 diabetes. They do not all work in the same way.
 
@@ -148,7 +148,7 @@ Kidney function is important when deciding whether metformin is appropriate. You
 
 If digestive symptoms are persistent or troublesome, tell your doctor rather than stopping the medicine yourself.
 
-### Does everyone with Type 2 diabetes need metformin?
+### Does everyone with type 2 diabetes need metformin?
 
 No.
 
@@ -255,7 +255,7 @@ This is one reason a doctor may consider an SGLT2 inhibitor even when the patien
 
 Kidney function and the rest of the person's medical history still have to be considered.
 
-### When is insulin needed for Type 2 diabetes?
+### When is insulin needed for type 2 diabetes?
 
 Insulin is the hormone that allows glucose to move from the bloodstream into cells where it can be used for energy.
 
@@ -333,7 +333,7 @@ Stopping it suddenly can cause glucose levels to rise again. With some medicines
 
 If your glucose has improved significantly, tell your doctor. The treatment can then be reviewed properly.
 
-### Can diabetes medicines cure Type 2 diabetes?
+### Can diabetes medicines cure type 2 diabetes?
 
 Most diabetes medicines do not cure Type 2 diabetes.
 
@@ -479,7 +479,7 @@ If you think you are having a medical emergency, **call 108 or 112**.
 
 ### At Medcare
 
-At Medcare Diabetes & Obesity Clinic, Dr. Das looks at diabetes together with the other factors that commonly affect long-term health, including weight, blood pressure, heart health, thyroid problems and sleep.
+At Medcare Diabetes, Obesity and Echocardiography Clinic, Dr. Das looks at diabetes together with the other factors that commonly affect long-term health, including weight, blood pressure, heart health, thyroid problems and sleep.
 
 The assessment may include HbA1c, ECG, body composition analysis, diabetic foot checks or continuous glucose monitoring when clinically appropriate. HbA1c results are usually available before the patient leaves. Other blood tests can be done at a laboratory of the patient's choice.
 
@@ -495,6 +495,14 @@ For people who need ongoing treatment and follow-up, [diabetes care at Medcare](
 - SGLT2 inhibitors can have benefits beyond glucose lowering, particularly for selected people with kidney disease or heart failure.
 - Insulin may be temporary or long term. Starting it does not automatically mean that diabetes has become permanently severe.
 - Do not stop or change prescription diabetes medicines without speaking to your doctor.
+
+### More in this guide
+
+- [Does Starting Insulin Mean Diabetes Has Become Severe?](/health-library/does-starting-insulin-mean-diabetes-is-severe/)
+- [GLP-1 Medicines for Diabetes and Weight Loss](/health-library/glp-1-medicines-diabetes-weight-loss/)
+- [Metformin Side Effects: Common and When to Call a Doctor](/health-library/metformin-side-effects/)
+- [SGLT2 Inhibitors: Diabetes, Heart and Kidney Benefits](/health-library/sglt2-inhibitors-diabetes-heart-kidney/)
+- [When Does a Person With Type 2 Diabetes Need Insulin?](/health-library/when-type-2-diabetes-needs-insulin/)
 
 ### FAQs
 

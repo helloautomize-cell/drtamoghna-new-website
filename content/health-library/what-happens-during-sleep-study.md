@@ -25,14 +25,16 @@ kind: "support"
 wordCount: 649
 ```
 
-A sleep study is a painless test that records what happens to your body while you sleep. It measures breathing, oxygen levels, heart rate and sometimes brain activity and leg movements. It is the main test used to diagnose sleep apnea. Some studies are done overnight in a sleep lab, while others are done at home with a portable device.
+A sleep study is a test that does not hurt that records what happens to your body while you sleep. It measures breathing, oxygen levels, heart rate and sometimes brain activity and leg movements. It is the main test used to diagnose sleep apnea. Some studies are done overnight in a sleep lab, while others are done at home with a portable device.
 
 **Quick answer**
 - During a sleep study, small sensors are placed on your body to record breathing, oxygen, heart rate and, in a lab study, brain waves and muscle activity.
 - You sleep as normally as possible.
 - Results show how many times breathing stops or reduces per hour, called the apnea-hypopnea index (AHI), which helps diagnose and grade sleep apnea.
 
-### Types of Sleep Studies
+This article sits inside our guide to [Sleep Apnea and Metabolic Health: Diabetes, BP and Weight](/health-library/sleep-apnea-metabolic-health/). For the neighbouring questions, see [Can Sleep Apnea Cause High Blood Pressure?](/health-library/can-sleep-apnea-cause-high-blood-pressure/) and [Sleep Apnea and Diabetes: What Is the Connection?](/health-library/sleep-apnea-and-diabetes-connection/).
+
+### Types of sleep studies
 
 #### Home sleep apnea test
 
@@ -47,7 +49,7 @@ A sleep study is a painless test that records what happens to your body while yo
 - Records brain activity, eye movements, muscle activity, breathing, oxygen, heart rhythm and leg movements
 - Used when other sleep disorders are suspected or home tests are unclear
 
-### What Happens on the Night?
+### What happens on the night?
 
 #### Arrival or setup
 
@@ -55,7 +57,7 @@ You arrive in the evening or receive the device at home with instructions.
 
 #### Sensors
 
-Small sensors are attached to your scalp, face, chest, legs and finger. They may feel unusual but are painless.
+Small sensors are attached to your scalp, face, chest, legs and finger. They may feel unusual but do not hurt.
 
 #### Sleep
 
@@ -65,7 +67,7 @@ You sleep in a comfortable room. A technician monitors you from another room in 
 
 Sensors are removed, and you can go home and resume normal activities.
 
-### How to Prepare
+### How to prepare
 
 - Follow your usual routine as much as possible
 - Avoid caffeine in the afternoon and evening
@@ -74,7 +76,7 @@ Sensors are removed, and you can go home and resume normal activities.
 - Bring comfortable night clothes and your regular medicines
 - Tell the team about medicines that affect sleep
 
-### What Do the Results Mean?
+### What do the results mean?
 
 The AHI shows how many breathing pauses or reductions happen per hour:
 
@@ -85,23 +87,22 @@ The AHI shows how many breathing pauses or reductions happen per hour:
 
 The report also shows oxygen levels, sleep stages and heart rhythm.
 
-### What Happens After?
+### What happens after?
 
 Your doctor will explain the results and discuss treatment, which may include CPAP, weight loss, positional therapy, oral appliances or other options. Sometimes a second night is used to adjust CPAP settings.
 
-### Key Takeaways
+### Key takeaways
 
 - A sleep study diagnoses sleep apnea.
 - Home tests and lab studies are both used.
-- Sensors are painless and non-invasive.
+- Sensors do not hurt and non-invasive.
 - AHI grades severity.
 - Results guide treatment choices.
 
-### Final Thoughts
+### Final thoughts
 
-A sleep study may sound strange, but it is simple, painless and gives clear answers. It can be the first step to better sleep and better health. For sleep apnea testing and care, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+A sleep study may sound strange, but it is simple, does not hurt and gives clear answers. It can be the first step to better sleep and better health.
 
-This article is part of our guide to [sleep apnea and metabolic health](/health-library/sleep-apnea-metabolic-health/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

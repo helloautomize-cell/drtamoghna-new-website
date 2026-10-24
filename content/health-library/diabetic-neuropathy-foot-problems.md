@@ -113,7 +113,7 @@ The typical complaint is calf pain or tightness while walking that eases after a
 
 When the leg arteries are narrowed, the arteries of the heart and brain often are too. A finding of PAD therefore prompts a wider look at[heart health](/heart-health/).
 
-#### What is Charcot foot?
+#### What is charcot foot?
 
 Charcot foot is an uncommon complication in which the bones and joints of a numb foot weaken, fracture and gradually collapse. It typically presents as a hot, red, swollen foot with much less pain than the swelling would suggest.
 
@@ -258,6 +258,14 @@ Dr. Das examines the feet of people with diabetes as a routine part of their vis
 - A foot examination at least once a year is recommended for everyone with diabetes, more often once sensation or blood flow is reduced.
 - Established nerve damage rarely reverses, but good control of sugar, BP and cholesterol, and stopping tobacco, slow its progress.
 - A daily foot check and protective footwear, worn indoors and out, prevent most serious problems.
+
+### More in this guide
+
+- [Can Diabetic Neuropathy Be Reversed or Controlled?](/health-library/can-diabetic-neuropathy-be-reversed/)
+- [Why Do My Feet Burn or Tingle With Diabetes?](/health-library/diabetes-feet-burning-tingling/)
+- [Diabetic Foot Ulcer: Early Warning Signs](/health-library/diabetic-foot-ulcer-warning-signs/)
+- [Diabetic Foot Wound: What Never to Do at Home](/health-library/diabetic-foot-wound-what-not-to-do/)
+- [How Often Should You Have a Diabetic Foot Examination?](/health-library/how-often-diabetes-foot-examination/)
 
 ### FAQs
 

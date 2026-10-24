@@ -10,6 +10,7 @@ badge: gdm
 about: { type: MedicalCondition, name: "Gestational diabetes", alternateName: ["GDM", "Diabetes in pregnancy"] }
 related: [/diabetes-care/, /diabetes-care/continuous-glucose-monitoring/, /thyroid-disorders/]
 posts: [/health-library/hba1c-explained/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

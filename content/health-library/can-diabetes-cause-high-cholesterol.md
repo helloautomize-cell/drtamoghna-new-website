@@ -33,7 +33,9 @@ Yes. Diabetes, especially type 2 diabetes with insulin resistance, changes how t
 - Poor sugar control worsens these changes.
 - Lifestyle changes, better glucose control and often statins help manage cholesterol in diabetes.
 
-### How Does Diabetes Affect Cholesterol?
+This article sits inside our guide to [High Cholesterol and Triglycerides: Lipid Profile Explained](/health-library/high-cholesterol-triglycerides/). For the neighbouring questions, see [Do Statins Need to Be Taken for Life?](/health-library/do-statins-need-to-be-taken-for-life/) and [High Triglycerides: Causes, Symptoms and What to Do](/health-library/high-triglycerides-causes-symptoms-treatment/).
+
+### How does diabetes affect cholesterol?
 
 #### More fat released by the liver
 
@@ -51,18 +53,18 @@ Even if LDL numbers look normal, the particles may be more harmful.
 
 High blood sugar further raises triglycerides and affects lipid balance.
 
-### Which Pattern Is Common in Diabetes?
+### Which pattern is common in diabetes?
 
 - High triglycerides
 - Low HDL cholesterol
 - Normal or mildly high LDL, but more harmful particles
 - High non-HDL cholesterol
 
-### Does Type 1 Diabetes Also Affect Cholesterol?
+### Does type 1 diabetes also affect cholesterol?
 
 Well-controlled type 1 diabetes may have near-normal lipid levels. Poor control, kidney disease or weight gain can lead to abnormal lipids.
 
-### Other Factors That Worsen Cholesterol
+### Other factors that worsen cholesterol
 
 - Excess belly fat
 - Inactivity
@@ -73,7 +75,7 @@ Well-controlled type 1 diabetes may have near-normal lipid levels. Poor control,
 - Kidney disease
 - Some medicines
 
-### How Can You Improve Cholesterol With Diabetes?
+### How can you improve cholesterol with diabetes?
 
 #### Control blood sugar
 
@@ -99,11 +101,11 @@ Smoking lowers HDL and damages blood vessels.
 
 Statins are commonly prescribed for people with diabetes to lower LDL and heart risk. Other medicines may be added if needed.
 
-### How Often Should Lipids Be Checked?
+### How often should lipids be checked?
 
 Most people with diabetes should have a lipid profile at least once a year, or more often when treatment is being adjusted.
 
-### Key Takeaways
+### Key takeaways
 
 - Diabetes changes how the body handles fats.
 - High TG and low HDL are common.
@@ -111,11 +113,10 @@ Most people with diabetes should have a lipid profile at least once a year, or m
 - Sugar control improves lipid levels.
 - Statins are often advised for heart protection.
 
-### Final Thoughts
+### Final thoughts
 
-Managing cholesterol is as important as managing sugar when you have diabetes. Treating both together gives the best protection for your heart. For integrated diabetes and lipid care, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Managing cholesterol is as important as managing sugar when you have diabetes. Treating both together gives the best protection for your heart.
 
-This article is part of our guide to [high cholesterol](/health-library/high-cholesterol-triglycerides/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

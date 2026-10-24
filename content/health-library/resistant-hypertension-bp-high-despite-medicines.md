@@ -31,7 +31,9 @@ Resistant hypertension is when blood pressure stays above target despite taking 
 - BP may stay high because of missed medicines, white-coat effect, high salt intake, excess weight, alcohol, certain medicines such as painkillers, or hidden causes like sleep apnea, kidney disease or hormone problems.
 - Doctors confirm true resistant hypertension with home or ambulatory BP monitoring, review medicines and lifestyle, and test for secondary causes.
 
-### Pseudo-Resistant Hypertension
+This article sits inside our guide to [High Blood Pressure: Diagnosis, Home Checks and Treatment](/health-library/high-blood-pressure-guide/). For the neighbouring questions, see [How Much Salt Is Safe With High Blood Pressure?](/health-library/how-much-salt-high-blood-pressure/) and [What Is a Normal Blood Pressure Reading by Age?](/health-library/normal-blood-pressure-reading-by-age/).
+
+### Pseudo-Resistant hypertension
 
 Sometimes BP seems resistant but is not:
 
@@ -42,7 +44,7 @@ Sometimes BP seems resistant but is not:
 
 Checking these first avoids unnecessary tests.
 
-### Lifestyle Factors
+### Lifestyle factors
 
 - High salt intake from pickles, papad, namkeen and packaged foods
 - Excess weight, especially belly fat
@@ -50,7 +52,7 @@ Checking these first avoids unnecessary tests.
 - Physical inactivity
 - Poor sleep
 
-### Medicines That Can Raise BP
+### Medicines that can raise BP
 
 - Painkillers like NSAIDs
 - Decongestant cold medicines
@@ -60,7 +62,7 @@ Checking these first avoids unnecessary tests.
 
 Tell your doctor about all medicines and supplements you take.
 
-### Hidden (Secondary) Causes
+### Hidden (Secondary) causes
 
 #### Obstructive sleep apnea
 
@@ -82,7 +84,7 @@ Reduced blood flow to the kidneys.
 
 Less common but important to consider.
 
-### How Is It Investigated?
+### How is it investigated?
 
 - Home BP or 24-hour ambulatory monitoring
 - Review of medicine adherence and doses
@@ -92,7 +94,7 @@ Less common but important to consider.
 - Sleep study if sleep apnea is suspected
 - Kidney imaging in selected cases
 
-### How Is It Treated?
+### How is it treated?
 
 - Treating any secondary cause
 - Reducing salt and losing weight
@@ -101,7 +103,7 @@ Less common but important to consider.
 - Treating sleep apnea with CPAP if present
 - Regular follow-up
 
-### Key Takeaways
+### Key takeaways
 
 - Resistant hypertension is BP above target on three medicines.
 - Missed doses and wrong measurement are common reasons.
@@ -109,11 +111,10 @@ Less common but important to consider.
 - Sleep apnea and hormone problems can be hidden causes.
 - Proper investigation guides effective treatment.
 
-### Final Thoughts
+### Final thoughts
 
-Hard-to-control BP is frustrating, but it often has a cause that can be found and treated. A careful, step-by-step review can bring BP back on track. For specialised hypertension care, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Hard-to-control BP is frustrating, but it often has a cause that can be found and treated. A careful, step-by-step review can bring BP back on track.
 
-This article is part of our guide to [high blood pressure](/health-library/high-blood-pressure-guide/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

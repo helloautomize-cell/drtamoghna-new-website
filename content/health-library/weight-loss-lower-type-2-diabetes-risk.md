@@ -31,18 +31,20 @@ Excess weight, especially around the waist, makes the body less responsive to in
 - Large studies in people with prediabetes found that losing around 5 to 7 percent of body weight, along with regular physical activity, substantially lowered the chance of developing type 2 diabetes.
 - More weight loss often brings more benefit, but even modest loss helps.
 
-### Why Weight Loss Helps
+This article sits inside our guide to [Prediabetes: Blood Sugar Range, Risk & Prevention](/health-library/prediabetes-blood-sugar/). For the neighbouring questions, see [Can Prediabetes Go Back to Normal?](/health-library/can-prediabetes-go-back-to-normal/) and [Normal, Prediabetes and Diabetes HbA1c Levels Explained](/health-library/normal-prediabetes-diabetes-hba1c-levels/).
+
+### Why weight loss helps
 
 - Reduces fat around the liver and abdomen
 - Improves insulin sensitivity
 - Lowers blood pressure and cholesterol
 - Eases strain on the heart and joints
 
-### What 5 to 7 Percent Looks Like
+### What 5 to 7 percent looks like
 
 For a person weighing 80 kg, this is roughly 4 to 5.5 kg. This is a realistic first goal and easier to maintain than an extreme target.
 
-### Safe Ways to Lose Weight
+### Safe ways to lose weight
 
 - Small calorie reduction through portion control
 - More vegetables, pulses and lean protein
@@ -51,19 +53,19 @@ For a person weighing 80 kg, this is roughly 4 to 5.5 kg. This is a realistic fi
 - Strength exercise twice a week
 - Good sleep
 
-### Pace Matters
+### Pace matters
 
 Slow and steady loss is easier to keep off. Crash diets can cause muscle loss and rebound weight gain.
 
-### Waistline Counts Too
+### Waistline counts too
 
 People of South Asian origin may develop metabolic problems at lower weights, so waist size is worth tracking along with the scale.
 
-### When Medical Help Is Useful
+### When medical help is useful
 
 If weight loss is difficult, your doctor can look for contributing factors and discuss medical options.
 
-### Key Takeaways
+### Key takeaways
 
 - Modest weight loss lowers diabetes risk.
 - A 5 to 7 percent loss is a practical first target.
@@ -71,11 +73,10 @@ If weight loss is difficult, your doctor can look for contributing factors and d
 - Slow and steady is safer.
 - Medical support is available if needed.
 
-### Final Thoughts
+### Final thoughts
 
-You do not have to be perfect to benefit. A realistic goal and steady habits can change your risk. For guidance on weight and diabetes prevention, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+You do not have to be perfect to benefit. A realistic goal and steady habits can change your risk.
 
-This article is part of our guide to [prediabetes](/health-library/prediabetes-blood-sugar/), written for patients and families in Bongaigaon.
 
 ### FAQs
 
