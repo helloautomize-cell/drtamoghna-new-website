@@ -31,7 +31,9 @@ If you have diabetes, a small cut or blister on the foot can quickly become a se
 - Never cut corns or calluses yourself, use blades or harsh chemicals, apply turmeric pastes or other home remedies directly to open wounds, soak feet in hot water, walk on the wound, ignore a wound that is not healing, or use tight bandages.
 - Clean gently with saline or clean water, cover with a sterile dressing and see a doctor within a day or two, or the same day if there are signs of infection.
 
-### Things You Should Never Do
+This article sits inside our guide to [Diabetic Foot Problems: Numbness, Ulcers and Prevention](/health-library/diabetic-neuropathy-foot-problems/). For the neighbouring questions, see [Can Diabetic Neuropathy Be Reversed or Controlled?](/health-library/can-diabetic-neuropathy-be-reversed/) and [Diabetic Foot Ulcer: Early Warning Signs](/health-library/diabetic-foot-ulcer-warning-signs/).
+
+### Things you should never do
 
 #### Do not cut corns or calluses
 
@@ -69,7 +71,7 @@ Even small wounds can worsen quickly in diabetes.
 
 Good sugar control helps healing. Continue your medicines and monitor sugar closely.
 
-### Safe First Steps
+### Safe first steps
 
 - Wash your hands
 - Gently clean the wound with saline or clean, lukewarm water
@@ -79,7 +81,7 @@ Good sugar control helps healing. Continue your medicines and monitor sugar clos
 - Check the wound daily
 - See a doctor within one to two days
 
-### When to Seek Same-Day Care
+### When to seek same-Day care
 
 - Redness spreading around the wound
 - Swelling or warmth
@@ -89,11 +91,11 @@ Good sugar control helps healing. Continue your medicines and monitor sugar clos
 - Pain in a foot that is usually numb
 - Rising blood sugar levels
 
-### What Will the Doctor Do?
+### What will the doctor do?
 
 The doctor will examine the wound, check circulation and sensation, clean the area, remove dead tissue if needed and may prescribe antibiotics. X-rays or other tests may be done to check for deeper infection. Off-loading footwear may be advised.
 
-### Key Takeaways
+### Key takeaways
 
 - Never cut corns or calluses yourself.
 - Avoid harsh chemicals and home pastes on wounds.
@@ -101,11 +103,10 @@ The doctor will examine the wound, check circulation and sensation, clean the ar
 - Clean gently, cover and rest the foot.
 - See a doctor quickly, especially with infection signs.
 
-### Final Thoughts
+### Final thoughts
 
-In diabetes, the right action in the first few days can prevent a small wound from becoming a serious infection. When in doubt, get it checked. For diabetic foot care, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+In diabetes, the right action in the first few days can prevent a small wound from becoming a serious infection. When in doubt, get it checked.
 
-This article is part of our guide to [diabetic foot problems](/health-library/diabetic-neuropathy-foot-problems/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

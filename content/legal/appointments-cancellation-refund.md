@@ -4,6 +4,7 @@
 title: "Appointments, Cancellation and Refund | Medcare"
 description: "How booking works at Medcare, how to change or cancel, and how refunds work for payments made in error."
 url: /appointments-cancellation-refund/
+dateModified: "2026-10-03"
 ```
 
 H1: Appointments, cancellation and *refund*

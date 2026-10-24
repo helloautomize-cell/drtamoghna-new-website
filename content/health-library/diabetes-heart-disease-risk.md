@@ -142,7 +142,7 @@ That is why new or unexplained symptoms deserve medical assessment.
 
 Yes. Some people with diabetes may develop less typical symptoms during a cardiac problem.
 
-This is sometimes discussed in relation to altered pain perception in long-standing diabetes, particularly when nerve damage is present. But it would be misleading to assume that every heart problem in a person with diabetes will be painless.
+This is sometimes discussed in relation to altered pain perception in long-standing diabetes, particularly when nerve damage is present. But it would be misleading to assume that every heart problem in a person with diabetes will not hurt.
 
 There is also no reason to perform repeated heart scans on every person with diabetes simply because they have the condition. Testing is usually guided by symptoms, examination findings, medical history and cardiovascular risk.
 
@@ -176,7 +176,7 @@ The useful test depends on the question your doctor is trying to answer.
 
 An **electrocardiogram, or ECG**, records the electrical activity of the heart.
 
-It can show the heart rhythm and certain electrical abnormalities. It is quick, painless and does not involve radiation.
+It can show the heart rhythm and certain electrical abnormalities. It is quick, does not hurt and does not involve radiation.
 
 An ECG may be useful when you have chest symptoms, palpitations, dizziness, fainting or other findings that make a cardiac assessment appropriate.
 
@@ -190,7 +190,7 @@ Some echocardiograms include **strain imaging**, which gives additional informat
 
 An echo may be considered when there is concern about heart failure, structural heart disease, an abnormal examination or particular symptoms.
 
-#### What is a Holter monitor used for?
+#### What is a holter monitor used for?
 
 A **Holter monitor** records the heart rhythm for a longer period while you continue normal daily activities.
 
@@ -413,7 +413,7 @@ Do not wait for a routine appointment in an emergency.
 
 ### At Medcare
 
-At Medcare Diabetes & Obesity Clinic in North Bongaigaon, Dr. Das looks at diabetes in the context of the person's wider health. Blood sugar is considered alongside blood pressure, weight, cholesterol, heart symptoms and other factors that may affect long-term cardiovascular health.
+At Medcare Diabetes, Obesity and Echocardiography Clinic in North Bongaigaon, Dr. Das looks at diabetes in the context of the person's wider health. Blood sugar is considered alongside blood pressure, weight, cholesterol, heart symptoms and other factors that may affect long-term cardiovascular health.
 
 Depending on the clinical situation, Medcare has ECG, echocardiography with strain imaging, Holter monitoring, 24-hour ambulatory BP monitoring, HbA1c testing, body composition analysis and other listed diagnostic services available in-house.
 
@@ -429,6 +429,14 @@ For patients who need diabetes follow-up, [diabetes care](/diabetes-care/) and [
 - ECG, echo, Holter monitoring and stress testing answer different clinical questions. None is automatically required for every person with diabetes.
 - Good cardiovascular care includes glucose, BP, cholesterol, weight, activity and tobacco management.
 - New chest symptoms, severe breathlessness, fainting or other serious symptoms need urgent medical attention.
+
+### More in this guide
+
+- [Cholesterol and Diabetes: Understanding LDL, HDL and TG](/health-library/cholesterol-diabetes-ldl-hdl-triglycerides/)
+- [Heart Attack Without Chest Pain in People With Diabetes](/health-library/diabetes-heart-attack-without-chest-pain/)
+- [Diabetes, High BP and Heart Disease: The Connection](/health-library/diabetes-high-blood-pressure-heart-disease-connection/)
+- [Heart Tests for People With Diabetes: What Is Needed?](/health-library/heart-tests-for-people-with-diabetes/)
+- [Why Diabetes Increases the Risk of Heart Attack](/health-library/why-diabetes-increases-heart-attack-risk/)
 
 ### FAQs
 

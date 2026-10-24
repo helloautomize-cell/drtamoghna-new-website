@@ -94,7 +94,7 @@ People sometimes ask how this differs from the TMT (treadmill test) they had yea
 
 It is not a test for an unstable moment. Chest pain at rest, a heart attack in the last few days, very high uncontrolled BP or a dangerous rhythm all need treatment first.
 
-### What does a Holter monitor catch?
+### What does a holter monitor catch?
 
 A Holter monitor is a small recorder, about the size of a phone or smaller, wired to a few pads on your chest. You wear it home and go about your usual routine while it stores every single beat. Most recordings run for 24 to 48 hours, and longer monitoring is sometimes needed.
 
@@ -161,7 +161,7 @@ It is good news, but it is a few seconds of recording taken at rest. Narrowed ar
 
 A routine echo does not show the coronary arteries at all. It can reveal muscle damaged by an old heart attack, but a blockage that causes trouble only on effort needs a stress test or a different investigation.
 
-#### The Holter sends current into the heart
+#### The holter sends current into the heart
 
 It does not. The recorder simply listens to the heart's own signals.
 
@@ -202,6 +202,14 @@ Before suggesting any heart test, Dr. Das looks at your symptoms alongside your 
 - Emergency symptoms need 108 or 112, not an appointment.
 
 To go over your symptoms or reports,[book an appointment](/contact/#book) with Dr. Das.
+
+### More in this guide
+
+- [2D Echo vs ECG: What Is the Difference?](/health-library/2d-echo-vs-ecg-difference/)
+- [Can Diabetes and High BP Affect the Heart Without Symptoms?](/health-library/can-diabetes-and-bp-affect-the-heart-without-symptoms/)
+- [Holter Monitor: What It Detects](/health-library/holter-monitor-what-it-detects/)
+- [Stress Echocardiogram: What It Is and When It's Needed](/health-library/stress-echocardiogram-when-recommended/)
+- [What to Do Before an ECG or Echo](/health-library/what-to-do-before-an-ecg-or-echo/)
 
 ### FAQs
 

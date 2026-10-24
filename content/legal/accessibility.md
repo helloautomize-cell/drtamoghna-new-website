@@ -4,6 +4,7 @@
 title: "Accessibility Statement | Medcare"
 description: "Medcare's commitment to an accessible website and clinic, what we have done, and how to ask for help."
 url: /accessibility/
+dateModified: "2026-10-03"
 ```
 
 H1: Accessibility *statement*

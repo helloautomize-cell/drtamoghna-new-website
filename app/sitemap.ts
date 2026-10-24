@@ -18,13 +18,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly" as const,
       };
     });
-  // llms.txt files are crawlable and listed here for AI/LLM discovery.
-  for (const extra of ["/llms.txt", "/llms-full.txt"]) {
-    entries.push({
-      url: `${SITE_BASE}${extra}`,
-      lastModified: new Date(),
-      changeFrequency: "monthly" as const,
-    });
-  }
   return entries;
 }

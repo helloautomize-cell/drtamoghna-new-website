@@ -420,7 +420,7 @@ For severe or rapidly worsening symptoms, **call 108 or 112**.
 
 ### At Medcare
 
-At Medcare Diabetes & Obesity Clinic in North Bongaigaon, Dr. Tamoghna Das approaches diabetes as part of a person's wider health rather than looking at blood sugar alone. Blood pressure, weight, heart health, thyroid problems, sleep and diabetes complications may all be considered together.
+At Medcare Diabetes, Obesity and Echocardiography Clinic in North Bongaigaon, Dr. Tamoghna Das approaches diabetes as part of a person's wider health rather than looking at blood sugar alone. Blood pressure, weight, heart health, thyroid problems, sleep and diabetes complications may all be considered together.
 
 Medcare has in-house HbA1c testing, ECG, echocardiography with strain imaging, Holter monitoring, 24-hour ambulatory BP, body composition analysis and diabetic foot checks.
 
@@ -433,6 +433,14 @@ Medcare has in-house HbA1c testing, ECG, echocardiography with strain imaging, H
 - Treatment may include food changes, physical activity, weight management, tablets, injectable medicines or insulin.
 - Diabetes management should also address blood pressure, cholesterol, heart health, kidney function, eyes, nerves and feet.
 - Regular follow-up helps identify complications early and allows treatment to change as your needs change.
+
+### More in this guide
+
+- [What Are the Early Symptoms of Type 2 Diabetes?](/health-library/early-symptoms-type-2-diabetes/)
+- [HbA1c vs Fasting Blood Sugar: Which Test Is Better?](/health-library/hba1c-vs-fasting-blood-sugar/)
+- [How Often Should You Check Blood Sugar and HbA1c?](/health-library/how-often-should-you-check-blood-sugar-and-hba1c/)
+- [Can Type 2 Diabetes Be Reversed or Put Into Remission?](/health-library/type-2-diabetes-reversal-remission/)
+- [What Tests Should Be Done Every Year If You Have Diabetes?](/health-library/yearly-tests-for-diabetes/)
 
 ### FAQs
 

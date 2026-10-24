@@ -193,7 +193,7 @@ The aim should not be to achieve one normal blood test and then return to old ha
 
 If your HbA1c falls below 5.7%, that is a positive sign. You may still need periodic testing if you have other risk factors.
 
-### How can you prevent prediabetes from becoming Type 2 diabetes?
+### How can you prevent prediabetes from becoming type 2 diabetes?
 
 There is no single food, exercise or medicine that works for everyone. Prevention usually comes from several manageable changes made consistently.
 
@@ -349,7 +349,7 @@ In an emergency, call **108 or 112**.
 
 ### At Medcare
 
-At Medcare Diabetes & Obesity Clinic in North Bongaigaon, Dr. Das looks at blood sugar alongside weight, blood pressure and cardiovascular risk. HbA1c testing is available in-house, and the result is usually ready before the patient leaves.
+At Medcare Diabetes, Obesity and Echocardiography Clinic in North Bongaigaon, Dr. Das looks at blood sugar alongside weight, blood pressure and cardiovascular risk. HbA1c testing is available in-house, and the result is usually ready before the patient leaves.
 
 Where appropriate, diabetes care, weight management and preventive health assessment can be considered together. The aim is to understand what your reports mean and what needs attention now.
 
@@ -362,6 +362,14 @@ Where appropriate, diabetes care, weight management and preventive health assess
 - A weight loss of around 5% to 7% can be a useful prevention target for appropriate high-risk adults with excess weight.
 - Regular activity, sensible portions and a practical Indian eating pattern can help reduce diabetes risk.
 - Prediabetes is a warning sign, not a guarantee that diabetes will develop.
+
+### More in this guide
+
+- [Can Prediabetes Go Back to Normal?](/health-library/can-prediabetes-go-back-to-normal/)
+- [How Often Should Prediabetes Be Tested?](/health-library/how-often-prediabetes-testing/)
+- [Normal, Prediabetes and Diabetes HbA1c Levels Explained](/health-library/normal-prediabetes-diabetes-hba1c-levels/)
+- [Prediabetes Diet: What to Eat and What to Limit](/health-library/prediabetes-diet-what-to-eat-and-what-to-limit/)
+- [How Much Weight Loss Lowers Type 2 Diabetes Risk?](/health-library/weight-loss-lower-type-2-diabetes-risk/)
 
 ### FAQs
 

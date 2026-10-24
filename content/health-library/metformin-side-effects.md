@@ -32,7 +32,9 @@ Metformin is often the first medicine prescribed for type 2 diabetes. Most peopl
 - These often settle with time and can be reduced by taking metformin with food or using an extended-release form.
 - Rare but serious problems, such as lactic acidosis, need urgent care.
 
-### Common Side Effects
+This article sits inside our guide to [Diabetes Medicines: Insulin, GLP-1 & SGLT2 Explained](/health-library/diabetes-medicines-treatment-options/). For the neighbouring questions, see [Does Starting Insulin Mean Diabetes Has Become Severe?](/health-library/does-starting-insulin-mean-diabetes-is-severe/) and [SGLT2 Inhibitors: Diabetes, Heart and Kidney Benefits](/health-library/sglt2-inhibitors-diabetes-heart-kidney/).
+
+### Common side effects
 
 - Nausea or reduced appetite
 - Loose stools or diarrhoea
@@ -40,7 +42,7 @@ Metformin is often the first medicine prescribed for type 2 diabetes. Most peopl
 - Stomach discomfort
 - A metallic taste
 
-### How to Reduce Them
+### How to reduce them
 
 - Take with or right after meals
 - Start at a low dose and increase slowly, as your doctor advises
@@ -51,22 +53,22 @@ Metformin is often the first medicine prescribed for type 2 diabetes. Most peopl
 
 Long-term use can lower vitamin B12 in some people, which may cause tingling or numbness in the feet. Your doctor may check B12 periodically.
 
-### When to Call a Doctor
+### When to call a doctor
 
 - Severe or persistent vomiting or diarrhoea
 - Marked weakness, fast breathing or severe muscle pain
 - Unusual drowsiness or stomach pain
 - Signs of dehydration
 
-### Situations Needing Caution
+### Situations needing caution
 
 Kidney problems, severe infection, dehydration, heavy alcohol use and contrast dye scans may need metformin to be paused. Tell your doctor before such procedures.
 
-### Does Metformin Harm the Kidneys?
+### Does metformin harm the kidneys?
 
 Metformin does not damage kidneys in itself, but dose adjustment or stopping may be needed if kidney function is reduced.
 
-### Key Takeaways
+### Key takeaways
 
 - Stomach upset is the most common issue.
 - Taking it with food helps.
@@ -74,11 +76,10 @@ Metformin does not damage kidneys in itself, but dose adjustment or stopping may
 - Serious reactions are rare but need urgent care.
 - Do not stop it without medical advice.
 
-### Final Thoughts
+### Final thoughts
 
-For most people the benefits of metformin outweigh the side effects. If you struggle with it, there are options. For medicine review, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+For most people the benefits of metformin outweigh the side effects. If you struggle with it, there are options.
 
-This article is part of our guide to [diabetes medicine treatment options](/health-library/diabetes-medicines-treatment-options/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

@@ -15,6 +15,9 @@ readingTime: 6
 image: "hba1c-vs-fasting-blood-sugar"
 imageAlt: "A lab technician holding two blood sample tubes in a clean modern diagnostic lab in India"
 related: [/diabetes-care/, /diabetes-care/continuous-glucose-monitoring/, /health-check-ups/]
+cluster: "Type 2 Diabetes"
+kind: "support"
+clusterOrder: 6
 posts: ["/health-library/hba1c-vs-fasting-blood-sugar/", "/health-library/normal-prediabetes-diabetes-hba1c-levels/", "/health-library/type-2-diabetes/"]
 ```
 

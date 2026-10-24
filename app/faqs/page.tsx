@@ -3,5 +3,5 @@ import ContentPage, { contentMetadata } from "@/components/templates/ContentPage
 export const metadata = contentMetadata("/faqs/");
 
 export default function Page() {
-  return <ContentPage url="/faqs/" opts={{ pageType: "FAQPage" }} />;
+  return <ContentPage url="/faqs/" opts={{ pageType: "CollectionPage" }} />;
 }

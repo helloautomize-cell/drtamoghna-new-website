@@ -9,6 +9,7 @@ h1: "Obesity and weight *management*"
 badge: weight
 about: { type: MedicalCondition, name: "Obesity" }
 related: [/weight-management/glp-1-medicines/, /diabetes-care/, /internal-medicine/fatty-liver/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

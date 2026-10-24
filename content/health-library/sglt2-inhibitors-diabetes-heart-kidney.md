@@ -33,11 +33,13 @@ SGLT2 inhibitors are a group of diabetes medicines that lower blood sugar by hel
 - Common side effects include genital infections and increased urination.
 - They are not suitable for everyone, so your doctor decides based on your kidney function, heart health and other medicines.
 
-### How Do SGLT2 Inhibitors Work?
+This article sits inside our guide to [Diabetes Medicines: Insulin, GLP-1 & SGLT2 Explained](/health-library/diabetes-medicines-treatment-options/). For the neighbouring questions, see [Does Starting Insulin Mean Diabetes Has Become Severe?](/health-library/does-starting-insulin-mean-diabetes-is-severe/) and [Metformin Side Effects: Common and When to Call a Doctor](/health-library/metformin-side-effects/).
+
+### How do SGLT2 inhibitors work?
 
 Normally, the kidneys filter glucose from the blood and reabsorb most of it. SGLT2 is a protein that helps with this reabsorption. Blocking it lets more glucose leave the body in urine, which lowers blood sugar.
 
-### What Are the Possible Benefits?
+### What are the possible benefits?
 
 - Lower blood sugar and HbA1c
 - Modest weight loss in many people
@@ -46,7 +48,7 @@ Normally, the kidneys filter glucose from the blood and reabsorb most of it. SGL
 - Slower progression of chronic kidney disease in suitable patients
 - Low risk of hypoglycaemia when used without insulin or sulfonylureas
 
-### Who May Be Considered for Them?
+### Who May be considered for them?
 
 - People with type 2 diabetes and heart failure
 - Those with chronic kidney disease
@@ -55,14 +57,14 @@ Normally, the kidneys filter glucose from the blood and reabsorb most of it. SGL
 
 Some are also used in heart failure or kidney disease without diabetes, under specialist guidance.
 
-### What Are the Common Side Effects?
+### What are the common side effects?
 
 - Genital fungal infections, especially in women
 - Increased urination and thirst
 - Urinary tract infections
 - Dehydration or dizziness, especially in older adults or with diuretics
 
-### What Rare but Serious Risks Should You Know?
+### What rare but serious risks should you know?
 
 #### Diabetic ketoacidosis (DKA)
 
@@ -72,14 +74,14 @@ A rare condition that can occur even with near-normal sugar levels. Symptoms inc
 
 Rarely, serious genital infections can occur. Report pain, redness or swelling promptly.
 
-### Practical Safety Tips
+### Practical safety tips
 
 - Drink adequate water unless told otherwise
 - Maintain genital hygiene
 - Ask your doctor about pausing the medicine during acute illness, fasting, vomiting or before surgery
 - Do not stop or change the medicine without medical advice
 
-### Key Takeaways
+### Key takeaways
 
 - SGLT2 inhibitors lower sugar through the kidneys.
 - Some offer heart and kidney protection.
@@ -87,11 +89,10 @@ Rarely, serious genital infections can occur. Report pain, redness or swelling p
 - DKA is rare but important to recognise.
 - Your doctor decides if they suit you.
 
-### Final Thoughts
+### Final thoughts
 
-SGLT2 inhibitors show how modern diabetes care looks beyond sugar numbers to protect the heart and kidneys. The right choice depends on your full health picture. For personalised diabetes treatment, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+SGLT2 inhibitors show how modern diabetes care looks beyond sugar numbers to protect the heart and kidneys. The right choice depends on your full health picture.
 
-This article is part of our guide to [diabetes medicine treatment options](/health-library/diabetes-medicines-treatment-options/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

@@ -9,6 +9,7 @@ h1: "Joint pain and *arthritis*"
 badge: joints
 about: { type: MedicalCondition, name: "Arthritis", alternateName: ["Joint pain", "Gout", "Osteoarthritis", "Rheumatoid arthritis", "Baat"] }
 related: [/internal-medicine/, /weight-management/, /diabetes-care/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

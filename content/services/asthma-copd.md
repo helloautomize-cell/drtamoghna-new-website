@@ -9,6 +9,7 @@ h1: "Asthma and *COPD*"
 badge: lungs
 about: { type: MedicalCondition, name: "Asthma; Chronic obstructive pulmonary disease", alternateName: ["COPD", "Hapani"] }
 related: [/sleep-apnea/, /heart-health/heart-failure/, /internal-medicine/fever-and-infections/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

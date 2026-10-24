@@ -33,7 +33,9 @@ People with diabetes often have a typical cholesterol pattern: high triglyceride
 - Triglycerides are blood fats that rise with high sugar, refined carbs, alcohol and excess weight.
 - In diabetes, LDL targets are usually lower than in the general population, and many people benefit from statins along with lifestyle changes.
 
-### What Does Each Value Mean?
+This article sits inside our guide to [Diabetes and Heart Disease: Risk, Symptoms & Prevention](/health-library/diabetes-heart-disease-risk/). For the neighbouring questions, see [Heart Attack Without Chest Pain in People With Diabetes](/health-library/diabetes-heart-attack-without-chest-pain/) and [Heart Tests for People With Diabetes: What Is Needed?](/health-library/heart-tests-for-people-with-diabetes/).
+
+### What does each value mean?
 
 #### LDL cholesterol
 
@@ -51,15 +53,15 @@ A type of fat in the blood. High levels are linked with poor sugar control, bell
 
 Total cholesterol minus HDL. It reflects all harmful cholesterol particles and is useful when triglycerides are high.
 
-### Why Is the Pattern Different in Diabetes?
+### Why is the pattern different in diabetes?
 
 Insulin resistance changes how the liver handles fats. It produces more triglyceride-rich particles, lowers HDL and creates smaller, denser LDL particles that enter artery walls more easily.
 
-### What Are the Targets?
+### What are the targets?
 
 Targets depend on your overall heart risk. People with diabetes are usually given lower LDL goals than the general population, and even lower targets if they already have heart disease or several risk factors. Your doctor will set targets based on your age, kidney health, BP and other factors.
 
-### How Can You Improve Your Lipid Profile?
+### How can you improve your lipid profile?
 
 #### Lifestyle
 
@@ -78,11 +80,11 @@ Targets depend on your overall heart risk. People with diabetes are usually give
 - **Other options:** such as ezetimibe or other medicines when needed
 - **For high triglycerides:** better sugar control first, then specific medicines if levels stay high
 
-### How Often Should You Check?
+### How often should you check?
 
 Usually at least once a year, and more often when starting or changing treatment.
 
-### Key Takeaways
+### Key takeaways
 
 - Diabetes often causes high TG, low HDL and harmful LDL.
 - LDL is the main treatment target.
@@ -90,11 +92,10 @@ Usually at least once a year, and more often when starting or changing treatment
 - Lifestyle changes improve all lipid values.
 - Statins are commonly advised for heart protection.
 
-### Final Thoughts
+### Final thoughts
 
-A lipid report is more than numbers. It is a guide to protecting your heart. Understanding your values helps you take the right steps with confidence. For lipid and diabetes care, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+A lipid report is more than numbers. It is a guide to protecting your heart. Understanding your values helps you take the right steps with confidence.
 
-This article is part of our guide to [diabetes and heart disease risk](/health-library/diabetes-heart-disease-risk/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

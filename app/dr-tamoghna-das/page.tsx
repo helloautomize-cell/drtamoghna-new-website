@@ -11,12 +11,15 @@ import RichHtml from "@/components/content/RichHtml";
 import { CtaBand, ReviewerBox } from "@/components/content/PageParts";
 import {
   accent,
+  allContentUrls,
   extractConfirms,
   resolveTokens,
   getPage,
   mdToHtml,
+  pageH1,
   type RenderToken,
 } from "@/lib/content";
+import RouteLink from "@/components/RouteLink";
 import { images } from "@/lib/images";
 import { siteConfig } from "@/lib/site-config";
 import { pageGraph } from "@/lib/page-schema";
@@ -345,6 +348,31 @@ export default function Page() {
           <section className="psec" aria-labelledby="faqs">
             <h2 id="faqs">FAQs</h2>
             <Faqs faqs={faqs} />
+          </section>
+
+          <section className="psec" aria-labelledby="articles">
+            <h2 id="articles">Articles by Dr. Das</h2>
+            <p>
+              Every article in the Health Library is written and medically
+              reviewed by Dr. Das.
+            </p>
+            <div className="post-links">
+              {allContentUrls()
+                .filter(
+                  (u) =>
+                    u.startsWith("/health-library/") && u !== "/health-library/",
+                )
+                .map((u) => (
+                  <RouteLink className="post-link" key={u} href={u}>
+                    <span>{pageH1(getPage(u)).replace(/\*/g, "")}</span>
+                  </RouteLink>
+                ))}
+            </div>
+            <p>
+              <RouteLink href="/health-library/">
+                Browse the full Health Library
+              </RouteLink>
+            </p>
           </section>
 
           <ReviewerBox lastReviewed={page.frontmatter.lastReviewed} />

@@ -32,7 +32,9 @@ Obesity is diagnosed using body mass index (BMI) as a starting point, along with
 - For Indian adults, overweight and obesity are often defined at lower BMI levels than in Western countries.
 - Some newer approaches focus on whether excess fat is already affecting health.
 
-### What Is BMI?
+This article sits inside our guide to [Obesity Treatment: Medical Weight Loss & Heart Risk](/health-library/obesity-weight-management/). For the neighbouring questions, see [Obesity and Sleep Apnea: Why They Often Go Together](/health-library/obesity-and-sleep-apnea/) and [How Much Weight Loss Improves Diabetes and BP?](/health-library/weight-loss-improve-diabetes-blood-pressure/).
+
+### What is BMI?
 
 BMI = weight (kg) divided by height (m) squared.
 
@@ -44,11 +46,11 @@ Commonly used Asian Indian cut-offs:
 
 WHO global cut-offs are higher, with obesity at 30 and above. Your doctor will explain which ranges they use.
 
-### Why Is BMI Not Enough?
+### Why is BMI not enough?
 
 BMI does not show where fat is stored or how much is muscle. A muscular person may have a high BMI with little fat, while a person with normal BMI may carry harmful belly fat.
 
-### Waist Circumference
+### Waist circumference
 
 Waist size reflects abdominal fat, which is closely linked to diabetes and heart disease. Commonly used Indian cut-offs for increased risk are:
 
@@ -57,7 +59,7 @@ Waist size reflects abdominal fat, which is closely linked to diabetes and heart
 
 Measure at the level of the navel, standing relaxed, after breathing out.
 
-### Metabolic Health Checks
+### Metabolic health checks
 
 - Fasting blood sugar and HbA1c
 - Blood pressure
@@ -67,18 +69,18 @@ Measure at the level of the navel, standing relaxed, after breathing out.
 - Thyroid tests if needed
 - Sleep apnea screening if snoring or daytime sleepiness are present
 
-### Other Assessments
+### Other assessments
 
 - Body composition analysis
 - Waist-to-height ratio (aiming for less than half)
 - Joint problems, mobility and breathlessness
 - Emotional health and eating patterns
 
-### Why Does Diagnosis Matter?
+### Why does diagnosis matter?
 
 Obesity is a chronic medical condition, not a lack of willpower. Proper diagnosis helps guide treatment, which may include lifestyle changes, structured programmes, medicines or, for some people, surgery.
 
-### Key Takeaways
+### Key takeaways
 
 - BMI is a starting point, not the full picture.
 - Indian adults often use lower BMI cut-offs.
@@ -86,11 +88,10 @@ Obesity is a chronic medical condition, not a lack of willpower. Proper diagnosi
 - Metabolic tests show the health impact.
 - Obesity is a chronic medical condition.
 
-### Final Thoughts
+### Final thoughts
 
-Understanding your weight in terms of health, not just numbers, makes it easier to choose the right treatment. A complete assessment is the first step toward lasting change. For a medical weight assessment, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Understanding your weight in terms of health, not just numbers, makes it easier to choose the right treatment. A complete assessment is the first step toward lasting change.
 
-This article is part of our guide to [obesity treatment](/health-library/obesity-weight-management/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

@@ -33,15 +33,17 @@ Both tests help detect and monitor diabetes, but they measure different things. 
 - Neither is simply better.
 - Doctors often use both, along with symptoms and other tests.
 
-### What Is Fasting Blood Sugar?
+This article sits inside our guide to [Type 2 Diabetes: Symptoms, Diagnosis & Treatment](/health-library/type-2-diabetes/). For the neighbouring questions, see [What Are the Early Symptoms of Type 2 Diabetes?](/health-library/early-symptoms-type-2-diabetes/) and [Can Type 2 Diabetes Be Reversed or Put Into Remission?](/health-library/type-2-diabetes-reversal-remission/).
+
+### What is fasting blood sugar?
 
 You do not eat or drink anything except water for at least eight hours, then a blood sample is taken. It shows how well your body manages sugar overnight.
 
-### What Is HbA1c?
+### What is HbA1c?
 
 HbA1c measures the share of haemoglobin in red blood cells that has sugar attached. Because red blood cells live for around three months, the result reflects your average control over that period.
 
-### Key Differences
+### Key differences
 
 - Fasting sugar is a snapshot, HbA1c is an average
 - Fasting sugar needs preparation, HbA1c does not
@@ -49,7 +51,7 @@ HbA1c measures the share of haemoglobin in red blood cells that has sugar attach
 - HbA1c can be affected by anaemia and some blood conditions
 - Fasting sugar is useful for adjusting daily treatment
 
-### Commonly Used Cut-offs
+### Commonly used cut-offs
 
 - Normal fasting sugar is below 100 mg/dL
 - Prediabetes range is 100 to 125 mg/dL
@@ -58,15 +60,15 @@ HbA1c measures the share of haemoglobin in red blood cells that has sugar attach
 
 Your doctor will interpret results in your own context.
 
-### When Might One Test Mislead?
+### When might one test mislead?
 
 Anaemia, recent blood loss or certain haemoglobin variants can make HbA1c less reliable. A single fasting reading can be affected by a poor night, illness or stress.
 
-### So Which Should You Choose?
+### So which should you choose?
 
 Use both as your doctor advises. HbA1c is convenient for long-term tracking. Fasting and post-meal sugars help fine-tune food and medicines.
 
-### Key Takeaways
+### Key takeaways
 
 - Fasting sugar is a snapshot, HbA1c is a three-month average.
 - Both are used to diagnose and monitor diabetes.
@@ -74,11 +76,10 @@ Use both as your doctor advises. HbA1c is convenient for long-term tracking. Fas
 - Home glucose readings and lab tests work together.
 - Your doctor decides which tests you need and how often.
 
-### Final Thoughts
+### Final thoughts
 
-A single number rarely tells the whole story. Looking at both tests together gives a clearer picture. For diabetes testing and follow-up, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+A single number rarely tells the whole story. Looking at both tests together gives a clearer picture.
 
-This article is part of our guide to [type 2 diabetes symptoms and treatment](/health-library/type-2-diabetes/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

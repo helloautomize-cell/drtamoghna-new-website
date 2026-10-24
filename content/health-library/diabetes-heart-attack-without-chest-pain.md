@@ -31,11 +31,13 @@ wordCount: 412
 - High sugar over time can damage the nerves that carry pain signals, so the usual warning may be dull, mild or absent.
 - Unusual breathlessness, sweating, fatigue or discomfort in the jaw, arm or upper abdomen can be the only signs.
 
-### Why Pain May Be Missing
+This article sits inside our guide to [Diabetes and Heart Disease: Risk, Symptoms & Prevention](/health-library/diabetes-heart-disease-risk/). For the neighbouring questions, see [Cholesterol and Diabetes: Understanding LDL, HDL and TG](/health-library/cholesterol-diabetes-ldl-hdl-triglycerides/) and [Heart Tests for People With Diabetes: What Is Needed?](/health-library/heart-tests-for-people-with-diabetes/).
+
+### Why pain May be missing
 
 Long-standing diabetes can cause autonomic and sensory neuropathy, which dulls the feeling of pain from the heart. The heart is still in trouble, but the body does not signal it clearly.
 
-### Warning Signs to Watch For
+### Warning signs to watch for
 
 - Sudden shortness of breath, with or without exertion.
 - Unusual tiredness or weakness.
@@ -47,7 +49,7 @@ Long-standing diabetes can cause autonomic and sensory neuropathy, which dulls t
 
 Women and older adults are more likely to have such atypical symptoms.
 
-### Who Is at Higher Risk
+### Who is at higher risk
 
 - Diabetes for many years or poor sugar control.
 - High blood pressure or high cholesterol.
@@ -56,11 +58,11 @@ Women and older adults are more likely to have such atypical symptoms.
 - Family history of heart disease.
 - Kidney disease.
 
-### What to Do
+### What to do
 
 If you suspect a heart attack, call emergency services and go to the nearest hospital without delay. Do not wait for chest pain, and do not drive yourself. Time matters.
 
-### How to Lower Your Risk
+### How to lower your risk
 
 - Keep sugar, blood pressure and cholesterol within targets.
 - Stop smoking.
@@ -68,18 +70,17 @@ If you suspect a heart attack, call emergency services and go to the nearest hos
 - Take medicines regularly.
 - Have regular heart checks such as ECG, and further tests as your doctor advises, even without symptoms.
 
-### Key Takeaways
+### Key takeaways
 
 - Silent heart attacks are more common in diabetes.
 - Breathlessness, sweating or fatigue may be the only signs.
 - Seek emergency help early, even without chest pain.
 - Regular heart screening and risk control are essential.
 
-### Final Thoughts
+### Final thoughts
 
-Because diabetes can hide heart symptoms, prevention and screening matter even more. Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic, looks after the heart and sugar together to reduce risk.
+Because diabetes can hide heart symptoms, prevention and screening matter even more. Dr. Tamoghna Das, an internal medicine and cardio-diabetic consultant at Medcare Diabetes, Obesity and Echocardiography Clinic, looks after the heart and sugar together to reduce risk.
 
-This article is part of our guide to [diabetes and heart disease risk](/health-library/diabetes-heart-disease-risk/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

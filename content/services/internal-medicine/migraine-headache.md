@@ -9,6 +9,7 @@ h1: "Migraine and *headache*"
 badge: headache
 about: { type: MedicalCondition, name: "Migraine", alternateName: ["Headache", "Tension-type headache"] }
 related: [/internal-medicine/, /sleep-apnea/, /heart-health/high-blood-pressure/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

@@ -216,6 +216,22 @@ export default function ServiceTabs() {
         ))}
       </div>
       <p style={{ margin: 0, color: "var(--ink-2)" }}>{current.intro}</p>
+      {/* Every group's links stay in the DOM (not only the active tab's) so the
+          full service list is present in the server HTML and works without JS. */}
+      {serviceTabs.map((t, i) =>
+        i === tab ? null : (
+          <div key={t.label} role="tabpanel" hidden aria-hidden="true">
+            <b>{t.label}</b>
+            <ul>
+              {t.cards.map((c) => (
+                <li key={c.href}>
+                  <a href={c.href}>{c.title}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ),
+      )}
       <div className="washsvc">
         <div className="sg-mob">
           <div

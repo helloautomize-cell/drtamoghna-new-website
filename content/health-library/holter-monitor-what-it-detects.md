@@ -29,11 +29,13 @@ wordCount: 456
 - A Holter monitor is a small portable device that records your heart's electrical activity continuously, usually for 24 to 48 hours, while you go about your daily routine.
 - It can detect irregular heartbeats (arrhythmias), episodes that a short ECG misses, and heart rhythm changes linked to symptoms such as palpitations, dizziness or fainting.
 
-### Why a Holter Instead of a Regular ECG?
+This article sits inside our guide to [ECG vs 2D Echo vs Stress Echo vs Holter: Which Heart Test?](/health-library/ecg-echo-stress-echo-holter/). For the neighbouring questions, see [2D Echo vs ECG: What Is the Difference?](/health-library/2d-echo-vs-ecg-difference/) and [Stress Echocardiogram: What It Is and When It's Needed](/health-library/stress-echocardiogram-when-recommended/).
+
+### Why a holter instead of a regular ECG?
 
 A standard ECG records only a few seconds. If your rhythm problem comes and goes, it can be missed. A Holter captures the heart through a full day, including activity, rest and sleep.
 
-### What It Can Detect
+### What it can detect
 
 - Atrial fibrillation and other irregular rhythms.
 - Extra beats (ectopic beats) and their frequency.
@@ -43,7 +45,7 @@ A standard ECG records only a few seconds. If your rhythm problem comes and goes
 - Changes in the ECG pattern that may point to reduced blood supply to the heart in some situations.
 - The link between symptoms and rhythm, if you note symptoms in a diary.
 
-### Who May Need One
+### Who May need one
 
 - Palpitations or a racing heart.
 - Unexplained dizziness, blackouts or near-fainting.
@@ -52,7 +54,7 @@ A standard ECG records only a few seconds. If your rhythm problem comes and goes
 - To check the effect of heart medicines.
 - People with diabetes and heart risk factors, where the doctor suspects a rhythm problem.
 
-### What to Expect
+### What to expect
 
 Small sticky electrodes are placed on your chest and connected to the recorder, which you wear on a belt or strap. You continue normal activities. Keep a diary of symptoms and activities with times. Keep the device dry, so avoid bathing or swimming while wearing it. After the recording, the data is analysed by a doctor.
 
@@ -63,18 +65,17 @@ Small sticky electrodes are placed on your chest and connected to the recorder, 
 - Avoid magnets and electric blankets near the device.
 - Press the event button if your device has one, when you feel symptoms.
 
-### Key Takeaways
+### Key takeaways
 
 - A Holter monitor records the heart rhythm for 24 hours or more.
 - It detects rhythm problems that a short ECG may miss.
 - A symptom diary improves the value of the test.
-- It is painless and safe.
+- It does not hurt and safe.
 
-### Final Thoughts
+### Final thoughts
 
-When symptoms come and go, longer monitoring can find the answer. Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic, can advise whether a Holter test is suitable and explain the results clearly.
+When symptoms come and go, longer monitoring can find the answer. Dr. Tamoghna Das, an internal medicine and cardio-diabetic consultant at Medcare Diabetes, Obesity and Echocardiography Clinic, can advise whether a Holter test is suitable and explain the results clearly.
 
-This article is part of our guide to [ECG vs 2D echo](/health-library/ecg-echo-stress-echo-holter/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

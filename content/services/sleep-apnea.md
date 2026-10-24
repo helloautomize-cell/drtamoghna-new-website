@@ -10,6 +10,7 @@ badge: sleep
 about: { type: MedicalCondition, name: "Obstructive sleep apnea", alternateName: ["OSA", "Snoring"] }
 related: [/heart-health/high-blood-pressure/, /weight-management/, /asthma-copd/]
 posts: [/health-library/snoring-and-sleep-apnea/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

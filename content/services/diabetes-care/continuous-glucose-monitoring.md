@@ -10,6 +10,7 @@ badge: cgm
 about: { type: MedicalTest, name: "Continuous glucose monitoring" }
 related: [/diabetes-care/, /diabetes-care/diabetes-in-pregnancy/, /weight-management/]
 posts: [/health-library/hba1c-explained/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

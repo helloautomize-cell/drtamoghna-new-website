@@ -13,15 +13,18 @@ dateModified: "2026-10-03"
 badge: echo
 readingTime: 6
 image: "2d-echo-vs-ecg-difference"
-imageAlt: "A cardiologist performing a 2D echocardiogram on a middle-aged Indian woman lying on her side"
+imageAlt: "A doctor performing a 2D echocardiogram on a middle-aged Indian woman lying on her side"
 related: [/heart-health/echocardiography/, /heart-health/heart-failure/, /diabetes-care/]
+cluster: "ECG, 2D Echo, Stress Echo & Holter"
+kind: "support"
+clusterOrder: 6
 posts: ["/health-library/heart-tests-for-people-with-diabetes/", "/health-library/2d-echo-vs-ecg-difference/", "/health-library/ecg-echo-stress-echo-holter/"]
 ```
 
 
 **In brief**
 - Diabetes and high blood pressure can change the heart muscle years before any symptoms.
-- An echo is a painless ultrasound that shows how the heart pumps and relaxes.
+- An echo is an ultrasound that does not hurt that shows how the heart pumps and relaxes.
 - Strain imaging can pick up early heart muscle changes even when the standard echo looks normal.
 - Finding changes early allows firmer control of BP, sugar and cholesterol to protect the heart.
 - Not everyone needs an echo; your doctor decides based on your history and examination.

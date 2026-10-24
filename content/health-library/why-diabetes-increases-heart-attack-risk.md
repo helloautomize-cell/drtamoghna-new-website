@@ -31,7 +31,9 @@ Diabetes increases the risk of heart attack because high blood sugar damages the
 - People with diabetes have a higher risk of heart disease because of blood vessel damage from high sugar, faster plaque buildup, a tendency for blood to clot more easily and frequent coexisting risk factors like hypertension and high cholesterol.
 - Controlling sugar, BP and cholesterol, stopping smoking and staying active can significantly lower this risk.
 
-### How Does High Sugar Affect Blood Vessels?
+This article sits inside our guide to [Diabetes and Heart Disease: Risk, Symptoms & Prevention](/health-library/diabetes-heart-disease-risk/). For the neighbouring questions, see [Cholesterol and Diabetes: Understanding LDL, HDL and TG](/health-library/cholesterol-diabetes-ldl-hdl-triglycerides/) and [Diabetes, High BP and Heart Disease: The Connection](/health-library/diabetes-high-blood-pressure-heart-disease-connection/).
+
+### How does high sugar affect blood vessels?
 
 #### Damage to the vessel lining
 
@@ -49,7 +51,7 @@ Diabetes can make blood more likely to clot. If a plaque cracks, a clot can bloc
 
 Ongoing low-grade inflammation in diabetes speeds up artery damage.
 
-### Other Risk Factors That Add Up
+### Other risk factors that add up
 
 - High blood pressure
 - High LDL cholesterol and triglycerides
@@ -62,11 +64,11 @@ Ongoing low-grade inflammation in diabetes speeds up artery damage.
 
 Many people with type 2 diabetes have several of these at once.
 
-### Why Can Symptoms Be Different?
+### Why can symptoms be different?
 
 Diabetes can affect nerves, so some people have less typical heart attack symptoms. Instead of classic chest pain, they may feel breathlessness, tiredness, sweating, nausea or discomfort in the jaw, arm or upper abdomen.
 
-### How Can You Lower Your Risk?
+### How can you lower your risk?
 
 - Keep blood sugar and HbA1c within your target
 - Control blood pressure
@@ -78,11 +80,11 @@ Diabetes can affect nerves, so some people have less typical heart attack sympto
 - Take medicines regularly, including those with heart benefits when prescribed
 - Get regular check-ups
 
-### When to Seek Emergency Care
+### When to seek emergency care
 
 Call emergency services if you have chest pain or pressure, breathlessness, sweating, nausea, fainting or pain spreading to the arm, jaw or back, especially if it lasts more than a few minutes.
 
-### Key Takeaways
+### Key takeaways
 
 - High sugar damages blood vessels over time.
 - Plaque buildup and clotting raise heart attack risk.
@@ -90,11 +92,10 @@ Call emergency services if you have chest pain or pressure, breathlessness, swea
 - Symptoms may be atypical in diabetes.
 - Controlling all risk factors protects the heart.
 
-### Final Thoughts
+### Final thoughts
 
-Diabetes and heart health are closely linked, but much of the extra risk can be reduced with good control and regular care. Small, steady steps add up to real protection. For a cardio-metabolic check-up, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Diabetes and heart health are closely linked, but much of the extra risk can be reduced with good control and regular care. Small, steady steps add up to real protection.
 
-This article is part of our guide to [diabetes and heart disease risk](/health-library/diabetes-heart-disease-risk/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

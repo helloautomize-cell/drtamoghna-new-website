@@ -4,6 +4,7 @@
 title: "Editorial and Medical Review Policy | Medcare"
 description: "How Medcare writes, reviews and updates health information, our sources, use of AI tools and images, and how to report an error."
 url: /editorial-policy/
+dateModified: "2026-10-03"
 ```
 
 H1: Editorial and medical review *policy*

@@ -30,12 +30,14 @@ wordCount: 472
 - Readings from 130/80 mmHg and above are usually considered high.
 - Targets can differ with age and conditions such as diabetes or kidney disease, so your doctor will set the target that suits you.
 
-### Understanding the Two Numbers
+This article sits inside our guide to [High Blood Pressure: Diagnosis, Home Checks and Treatment](/health-library/high-blood-pressure-guide/). For the neighbouring questions, see [How Much Salt Is Safe With High Blood Pressure?](/health-library/how-much-salt-high-blood-pressure/) and [Resistant Hypertension: Why BP Stays High on Medicines](/health-library/resistant-hypertension-bp-high-despite-medicines/).
+
+### Understanding the two numbers
 
 - **Systolic (top number):** pressure when the heart pumps.
 - **Diastolic (bottom number):** pressure when the heart rests between beats.
 
-### General Blood Pressure Categories for Adults
+### General blood pressure categories for adults
 
 - **Normal:** below 120/80 mmHg.
 - **Elevated:** systolic 120 to 129 with diastolic below 80.
@@ -45,37 +47,36 @@ wordCount: 472
 
 Different guidelines use slightly different cut-offs, so your doctor's advice is the final guide.
 
-### Does Normal Blood Pressure Change With Age?
+### Does normal blood pressure change with age?
 
 Blood pressure tends to rise with age as arteries stiffen, but a higher reading with age does not make it healthy. Many guidelines still aim for readings near the normal range in adults, adjusted for health and tolerance. In very elderly or frail people, targets may be individualised. Children and teenagers have separate charts based on age, sex and height.
 
-### Blood Pressure Targets With Diabetes
+### Blood pressure targets with diabetes
 
 People with diabetes are often advised a target of below 130/80 mmHg, if it can be reached safely, because high pressure adds to the risk of heart, kidney and eye problems.
 
-### How to Measure Properly
+### How to measure properly
 
 - Rest for five minutes, seated with back supported and feet flat.
 - Keep the arm at heart level, with the correct cuff size.
 - Avoid caffeine, smoking and exercise for 30 minutes before.
 - Take two readings, one minute apart, and record them.
 
-### When to See a Doctor
+### When to see a doctor
 
 See a doctor if readings are repeatedly high, or if you have symptoms such as headache, chest pain, vision changes or breathlessness. Even without symptoms, high blood pressure can silently damage the heart and kidneys.
 
-### Key Takeaways
+### Key takeaways
 
 - Normal blood pressure is generally below 120/80 mmHg.
 - Readings of 130/80 and above are considered high.
 - Targets are individualised, especially with diabetes.
 - Measure correctly and record readings.
 
-### Final Thoughts
+### Final thoughts
 
-Knowing your numbers is the first step to protecting your heart. Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic, can set the right blood pressure target for you and help you reach it.
+Knowing your numbers is the first step to protecting your heart. Dr. Tamoghna Das, an internal medicine and cardio-diabetic consultant at Medcare Diabetes, Obesity and Echocardiography Clinic, can set the right blood pressure target for you and help you reach it.
 
-This article is part of our guide to [high blood pressure](/health-library/high-blood-pressure-guide/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

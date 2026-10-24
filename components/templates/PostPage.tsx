@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import ConfirmChip from "@/components/ConfirmChip";
@@ -160,6 +161,16 @@ export default function PostPage({
             Written by{" "}
             <RouteLink href="/dr-tamoghna-das/">{siteConfig.doctor.name}</RouteLink>,{" "}
             {siteConfig.doctor.shortTitle}, Bongaigaon
+            {" "}· Medically reviewed by{" "}
+            <RouteLink href="/dr-tamoghna-das/">
+              {siteConfig.doctor.name}, {siteConfig.doctor.qualifications}
+            </RouteLink>
+            {fm.lastReviewed && !/CONFIRM|\[date\]/.test(fm.lastReviewed) ? (
+              <span className="nbw">
+                {" "}(last reviewed{" "}
+                <time dateTime={fm.lastReviewed}>{formatDate(fm.lastReviewed)}</time>)
+              </span>
+            ) : null}
             {dateOk ? (
               <>
                 {" "}· Published <time dateTime={fm.datePublished!}>{formatDate(fm.datePublished!)}</time>
@@ -181,13 +192,12 @@ export default function PostPage({
 
         {hero ? (
           <figure className="post-hero-img">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src={hero.src}
               alt={heroAlt}
               width={hero.width}
               height={hero.height}
-              fetchPriority="high"
+              priority
             />
           </figure>
         ) : null}

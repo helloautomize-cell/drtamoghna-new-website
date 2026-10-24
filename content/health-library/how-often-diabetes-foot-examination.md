@@ -30,25 +30,27 @@ wordCount: 437
 - If you have nerve damage, poor circulation, foot deformity or a past ulcer, you need checks more often, as advised by your doctor, sometimes every one to six months.
 - You should also look at your own feet every day.
 
-### Why Feet Need Special Attention
+This article sits inside our guide to [Diabetic Foot Problems: Numbness, Ulcers and Prevention](/health-library/diabetic-neuropathy-foot-problems/). For the neighbouring questions, see [Can Diabetic Neuropathy Be Reversed or Controlled?](/health-library/can-diabetic-neuropathy-be-reversed/) and [Diabetic Foot Ulcer: Early Warning Signs](/health-library/diabetic-foot-ulcer-warning-signs/).
+
+### Why feet need special attention
 
 High sugar over time can damage nerves, so you may not feel a cut or blister, and can narrow blood vessels, which slows healing. A small wound can become an ulcer or infection if it goes unnoticed.
 
-### What Happens in a Foot Examination
+### What happens in a foot examination
 
 - **Inspection:** skin, nails, calluses, deformities and any wounds.
 - **Sensation tests:** with a monofilament, tuning fork or other tools to check for nerve damage.
 - **Circulation check:** feeling the pulses in the feet, and further tests if needed.
 - **Footwear review:** checking that shoes fit well and do not cause pressure.
 
-### How Often?
+### How often?
 
 - **Low risk (normal sensation and circulation):** at least once a year.
 - **Some loss of sensation or poor circulation:** more often, as your doctor decides.
 - **Foot deformity, previous ulcer or amputation:** frequent specialist review.
 - Any new wound, colour change, swelling or pain needs prompt attention.
 
-### Daily Foot Care
+### Daily foot care
 
 - Look at both feet every day, including between the toes. Use a mirror if needed.
 - Wash and dry them well, especially between the toes.
@@ -59,22 +61,21 @@ High sugar over time can damage nerves, so you may not feel a cut or blister, an
 - Trim nails straight across.
 - Check bath water temperature with your elbow.
 
-### When to See a Doctor Urgently
+### When to see a doctor urgently
 
 Seek help for a wound that is not healing, redness, swelling, warmth, pus, a black area, fever, or a sudden change in the colour or temperature of the foot.
 
-### Key Takeaways
+### Key takeaways
 
 - Get a foot examination at least once a year.
 - Higher risk feet need more frequent checks.
 - Daily self-inspection catches problems early.
 - Treat any wound promptly.
 
-### Final Thoughts
+### Final thoughts
 
-Good foot care prevents serious complications. Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic, can examine your feet, assess your risk and teach you how to look after them.
+Good foot care prevents serious complications. Dr. Tamoghna Das, an internal medicine and cardio-diabetic consultant at Medcare Diabetes, Obesity and Echocardiography Clinic, can examine your feet, assess your risk and teach you how to look after them.
 
-This article is part of our guide to [diabetic foot problems](/health-library/diabetic-neuropathy-foot-problems/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

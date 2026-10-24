@@ -76,6 +76,8 @@ export const physicianNode = {
   "@id": `${base}/#dr-tamoghna-das`,
   name: siteConfig.doctor.name,
   honorificSuffix: "MBBS, MD",
+  url: `${base}/dr-tamoghna-das/`,
+  image: `${base}/images/doctors/dr-das-portrait.jpg`,
   medicalSpecialty: ["Internal medicine", "Endocrine", "Cardiovascular"],
   alumniOf: [
     "Gauhati Medical College and Hospital",

@@ -33,14 +33,16 @@ Burning, tingling, pins and needles or numbness in the feet are common signs of 
 - Other causes such as vitamin B12 deficiency, thyroid problems, alcohol and kidney disease should also be checked.
 - Good sugar control, foot care and medicines for nerve pain can help.
 
-### How Does Diabetes Damage Nerves?
+This article sits inside our guide to [Diabetic Foot Problems: Numbness, Ulcers and Prevention](/health-library/diabetic-neuropathy-foot-problems/). For the neighbouring questions, see [Can Diabetic Neuropathy Be Reversed or Controlled?](/health-library/can-diabetic-neuropathy-be-reversed/) and [Diabetic Foot Wound: What Never to Do at Home](/health-library/diabetic-foot-wound-what-not-to-do/).
+
+### How does diabetes damage nerves?
 
 - High glucose directly harms nerve fibres
 - Damaged small blood vessels reduce nerve blood supply
 - Inflammation and oxidative stress worsen damage
 - Longer nerves, like those to the feet, are affected first
 
-### Common Symptoms
+### Common symptoms
 
 - Burning or hot feeling in the feet
 - Tingling or pins and needles
@@ -51,7 +53,7 @@ Burning, tingling, pins and needles or numbness in the feet are common signs of 
 - Feeling like walking on cotton or sand
 - Loss of balance
 
-### Other Causes to Rule Out
+### Other causes to rule out
 
 - Vitamin B12 deficiency, especially in long-term metformin users
 - Thyroid problems
@@ -62,7 +64,7 @@ Burning, tingling, pins and needles or numbness in the feet are common signs of 
 
 Your doctor may order blood tests to check these.
 
-### How Is It Diagnosed?
+### How is it diagnosed?
 
 - Detailed symptom history
 - Foot examination
@@ -71,7 +73,7 @@ Your doctor may order blood tests to check these.
 - Reflex checks
 - Nerve conduction studies in selected cases
 
-### How Is It Managed?
+### How is it managed?
 
 #### Control blood sugar
 
@@ -93,14 +95,14 @@ Several prescription medicines can ease burning or painful neuropathy. Your doct
 
 Inspect feet daily, keep them clean and dry, moisturise but not between toes, and wear well-fitting footwear.
 
-### When to See a Doctor Urgently
+### When to see a doctor urgently
 
 - A cut, blister or sore that does not heal
 - Redness, swelling or warmth in the foot
 - Discharge or a bad smell from a wound
 - Sudden change in foot shape
 
-### Key Takeaways
+### Key takeaways
 
 - Burning and tingling feet are common in diabetes.
 - They are signs of nerve damage from high sugar.
@@ -108,11 +110,10 @@ Inspect feet daily, keep them clean and dry, moisturise but not between toes, an
 - Good sugar control slows progression.
 - Daily foot care prevents ulcers.
 
-### Final Thoughts
+### Final thoughts
 
-Burning or tingling feet are your body's warning signal. Acting early with good control and foot care can protect your feet for years. For neuropathy assessment and foot care, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Burning or tingling feet are your body's warning signal. Acting early with good control and foot care can protect your feet for years.
 
-This article is part of our guide to [diabetic foot problems](/health-library/diabetic-neuropathy-foot-problems/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

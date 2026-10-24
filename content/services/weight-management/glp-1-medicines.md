@@ -10,6 +10,7 @@ badge: glp1
 about: { type: MedicalTherapy, name: "GLP-1 receptor agonist therapy (assessment and monitoring)" }
 related: [/weight-management/, /diabetes-care/, /internal-medicine/fatty-liver/]
 compliance: "No brand or drug names, no weight-loss amounts, no prices, no sales. See client-answers.md 29b."
+dateModified: "2026-10-03"
 ```
 
 ### Intro

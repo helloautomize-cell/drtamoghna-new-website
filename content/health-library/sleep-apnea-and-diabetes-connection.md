@@ -32,7 +32,9 @@ Sleep apnea and type 2 diabetes are closely linked. Many people with type 2 diab
 - Obesity, which is common in type 2 diabetes, increases apnea risk.
 - Screening for sleep apnea and treating it, along with weight management, may improve energy, BP and overall metabolic health.
 
-### How Does Sleep Apnea Affect Blood Sugar?
+This article sits inside our guide to [Sleep Apnea and Metabolic Health: Diabetes, BP and Weight](/health-library/sleep-apnea-metabolic-health/). For the neighbouring questions, see [Can Sleep Apnea Cause High Blood Pressure?](/health-library/can-sleep-apnea-cause-high-blood-pressure/) and [Sleep Apnea Symptoms: Sleepiness, Headaches and Gasping](/health-library/sleep-apnea-symptoms/).
+
+### How does sleep apnea affect blood sugar?
 
 #### Insulin resistance
 
@@ -50,13 +52,13 @@ Short, broken sleep disrupts hormones that regulate appetite and glucose.
 
 Repeated low oxygen increases inflammation, which worsens metabolic health.
 
-### How Does Diabetes Increase Apnea Risk?
+### How does diabetes increase apnea risk?
 
 - Obesity and neck fat narrow the airway
 - Diabetes-related nerve changes may affect breathing control
 - Fatty tissue around the abdomen reduces lung volume
 
-### Who Should Be Screened?
+### Who should be screened?
 
 People with diabetes who have:
 
@@ -68,15 +70,15 @@ People with diabetes who have:
 - Hard-to-control BP
 - Poor sugar control despite treatment
 
-### How Is It Diagnosed?
+### How is it diagnosed?
 
 Through screening questionnaires and a home sleep test or overnight sleep study.
 
-### Does Treating Sleep Apnea Help Diabetes?
+### Does treating sleep apnea help diabetes?
 
 Treating sleep apnea with CPAP improves sleep, energy and BP in many people. Its effect on blood sugar varies, with some studies showing modest improvements, especially with regular use. Weight loss helps both conditions and may reduce apnea severity.
 
-### Practical Steps
+### Practical steps
 
 - Ask your doctor about sleep apnea screening if you have symptoms
 - Use CPAP regularly if prescribed
@@ -85,7 +87,7 @@ Treating sleep apnea with CPAP improves sleep, energy and BP in many people. Its
 - Keep a regular sleep schedule
 - Monitor sugar levels and follow your diabetes plan
 
-### Key Takeaways
+### Key takeaways
 
 - Sleep apnea is common in type 2 diabetes.
 - It can worsen insulin resistance and sugar control.
@@ -93,11 +95,10 @@ Treating sleep apnea with CPAP improves sleep, energy and BP in many people. Its
 - Screening is advised when symptoms are present.
 - CPAP and weight loss support overall health.
 
-### Final Thoughts
+### Final thoughts
 
-Good diabetes control is not only about food and medicines. Sleep quality matters too. Recognising and treating sleep apnea can be an important part of your care. For integrated diabetes and sleep care, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Good diabetes control is not only about food and medicines. Sleep quality matters too. Recognising and treating sleep apnea can be an important part of your care.
 
-This article is part of our guide to [sleep apnea and metabolic health](/health-library/sleep-apnea-metabolic-health/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

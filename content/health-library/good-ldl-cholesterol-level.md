@@ -33,11 +33,13 @@ A good LDL cholesterol level depends on your overall risk of heart disease. For 
 - People at higher risk need lower LDL targets.
 - The lab's reference range is a general guide, not your personal goal.
 
-### What Is LDL?
+This article sits inside our guide to [High Cholesterol and Triglycerides: Lipid Profile Explained](/health-library/high-cholesterol-triglycerides/). For the neighbouring questions, see [Can Diabetes Cause High Cholesterol?](/health-library/can-diabetes-cause-high-cholesterol/) and [High Triglycerides: Causes, Symptoms and What to Do](/health-library/high-triglycerides-causes-symptoms-treatment/).
+
+### What is LDL?
 
 LDL (low-density lipoprotein) carries cholesterol through the blood. When levels are high, LDL can build up in artery walls, forming plaques that narrow arteries and raise the risk of heart attack and stroke. This is why it is called "bad" cholesterol.
 
-### How Are LDL Targets Decided?
+### How are LDL targets decided?
 
 Doctors look at your overall cardiovascular risk:
 
@@ -55,11 +57,11 @@ People who have had a heart attack, stroke, stent or bypass, or those with diabe
 
 Indian and international guidelines provide specific numbers for each group. Your doctor will explain your personal target.
 
-### Why Are Indians at Higher Risk?
+### Why are Indians at higher risk?
 
 South Asians tend to develop heart disease at younger ages and often have a pattern of high triglycerides, low HDL and abdominal fat. This makes early LDL control especially important.
 
-### How Can You Lower LDL?
+### How can you lower LDL?
 
 #### Lifestyle
 
@@ -75,11 +77,11 @@ South Asians tend to develop heart disease at younger ages and often have a patt
 
 Statins are the main medicines for lowering LDL and reducing heart risk. Other medicines may be added if targets are not reached.
 
-### How Often Should LDL Be Checked?
+### How often should LDL be checked?
 
 Usually once a year for most adults with risk factors, and 6 to 12 weeks after starting or changing medicines.
 
-### Key Takeaways
+### Key takeaways
 
 - A good LDL depends on your heart risk.
 - Higher risk means a lower LDL target.
@@ -87,11 +89,10 @@ Usually once a year for most adults with risk factors, and 6 to 12 weeks after s
 - Diet, exercise and statins all help.
 - Ask your doctor for your personal target.
 
-### Final Thoughts
+### Final thoughts
 
-Your LDL number is one of the most powerful tools for preventing heart disease. Knowing your target helps you and your doctor make the right choices. For lipid and heart risk assessment, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Your LDL number is one of the most powerful tools for preventing heart disease. Knowing your target helps you and your doctor make the right choices.
 
-This article is part of our guide to [high cholesterol](/health-library/high-cholesterol-triglycerides/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

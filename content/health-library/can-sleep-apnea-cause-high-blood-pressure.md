@@ -32,7 +32,9 @@ Yes. Obstructive sleep apnea is a well-recognised cause of high blood pressure a
 - Over time, this leads to sustained high BP.
 - People with resistant hypertension, high night-time BP, obesity or diabetes should be screened for sleep apnea.
 
-### How Does Sleep Apnea Raise BP?
+This article sits inside our guide to [Sleep Apnea and Metabolic Health: Diabetes, BP and Weight](/health-library/sleep-apnea-metabolic-health/). For the neighbouring questions, see [Is Loud Snoring a Sign of Sleep Apnea?](/health-library/loud-snoring-sign-of-sleep-apnea/) and [Sleep Apnea Symptoms: Sleepiness, Headaches and Gasping](/health-library/sleep-apnea-symptoms/).
+
+### How does sleep apnea raise BP?
 
 #### Oxygen drops
 
@@ -54,7 +56,7 @@ Normally BP falls during sleep. In sleep apnea, it often stays high or rises, wh
 
 Sleep apnea may affect hormones that control salt and fluid balance, further raising BP.
 
-### Who Should Be Screened?
+### Who should be screened?
 
 - People with resistant hypertension
 - Those whose BP is high in the morning or at night
@@ -63,17 +65,17 @@ Sleep apnea may affect hormones that control salt and fluid balance, further rai
 - People who snore loudly or feel sleepy during the day
 - Those with atrial fibrillation or heart failure
 
-### How Is It Diagnosed?
+### How is it diagnosed?
 
 - Detailed history and screening questionnaires
 - Home sleep test or overnight sleep study (polysomnography)
 - 24-hour ambulatory BP monitoring to check night-time BP patterns
 
-### Can Treating Sleep Apnea Lower BP?
+### Can treating sleep apnea lower BP?
 
 CPAP therapy can lower BP in many people, particularly those with resistant hypertension and those who use CPAP regularly. The effect varies, and most people still need BP medicines. Weight loss also helps both conditions.
 
-### Other Helpful Steps
+### Other helpful steps
 
 - Lose excess weight
 - Avoid alcohol and sedatives at night
@@ -82,7 +84,7 @@ CPAP therapy can lower BP in many people, particularly those with resistant hype
 - Take BP medicines as prescribed
 - Attend regular follow-up
 
-### Key Takeaways
+### Key takeaways
 
 - Sleep apnea is a common cause of high BP.
 - Breathing pauses trigger stress hormone surges.
@@ -90,11 +92,10 @@ CPAP therapy can lower BP in many people, particularly those with resistant hype
 - Screen for apnea in resistant hypertension.
 - CPAP and weight loss can help lower BP.
 
-### Final Thoughts
+### Final thoughts
 
-If your blood pressure is hard to control, your sleep may hold part of the answer. Diagnosing and treating sleep apnea can improve both rest and heart health. For BP and sleep apnea care, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+If your blood pressure is hard to control, your sleep may hold part of the answer. Diagnosing and treating sleep apnea can improve both rest and heart health.
 
-This article is part of our guide to [sleep apnea and metabolic health](/health-library/sleep-apnea-metabolic-health/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

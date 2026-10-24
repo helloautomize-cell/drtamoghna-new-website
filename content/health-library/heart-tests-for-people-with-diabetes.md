@@ -31,7 +31,9 @@ People with diabetes should have regular checks of heart risk factors, including
 - Routine heart-related checks for people with diabetes include BP at every visit, a lipid profile, kidney tests (creatinine and urine albumin), HbA1c and often a baseline ECG.
 - Additional tests like 2D echo, stress echo, treadmill test or Holter monitoring may be advised if you have symptoms, an abnormal ECG or high cardiovascular risk.
 
-### Routine Checks
+This article sits inside our guide to [Diabetes and Heart Disease: Risk, Symptoms & Prevention](/health-library/diabetes-heart-disease-risk/). For the neighbouring questions, see [Cholesterol and Diabetes: Understanding LDL, HDL and TG](/health-library/cholesterol-diabetes-ldl-hdl-triglycerides/) and [Diabetes, High BP and Heart Disease: The Connection](/health-library/diabetes-high-blood-pressure-heart-disease-connection/).
+
+### Routine checks
 
 #### Blood pressure
 
@@ -51,9 +53,9 @@ Shows average sugar control over two to three months.
 
 #### Baseline ECG
 
-A quick, painless test that records heart rhythm and can show signs of previous damage or strain.
+A quick test that does not hurt; it records heart rhythm and can show signs of previous damage or strain.
 
-### Tests Based on Symptoms or Risk
+### Tests based on symptoms or risk
 
 #### 2D echocardiogram
 
@@ -71,11 +73,11 @@ A portable ECG worn for 24 hours or longer to detect rhythm problems if you have
 
 Used in selected people to assess plaque in heart arteries.
 
-### Why Not Test Everyone With Every Test?
+### Why not test everyone with every test?
 
 Testing everyone without symptoms does not always improve outcomes and may lead to unnecessary procedures. Doctors use symptoms, risk scores and examination findings to choose the right tests for each person.
 
-### Symptoms That Need Prompt Evaluation
+### Symptoms that need prompt evaluation
 
 - Chest discomfort or pressure
 - Breathlessness on exertion
@@ -84,11 +86,11 @@ Testing everyone without symptoms does not always improve outcomes and may lead 
 - Swelling in the legs
 - Dizziness or fainting
 
-### When to Seek Emergency Care
+### When to seek emergency care
 
 Call emergency services for chest pain lasting more than a few minutes, severe breathlessness, sweating, fainting or pain spreading to the arm, jaw or back.
 
-### Key Takeaways
+### Key takeaways
 
 - Regular risk factor checks are essential.
 - A baseline ECG is commonly done.
@@ -96,16 +98,15 @@ Call emergency services for chest pain lasting more than a few minutes, severe b
 - Kidney tests are part of heart risk assessment.
 - Report new symptoms promptly.
 
-### Final Thoughts
+### Final thoughts
 
-The right heart tests at the right time help catch problems early without unnecessary procedures. Regular review with your doctor keeps your plan up to date. For diabetes and heart risk assessment, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+The right heart tests at the right time help catch problems early without unnecessary procedures. Regular review with your doctor keeps your plan up to date.
 
-This article is part of our guide to [diabetes and heart disease risk](/health-library/diabetes-heart-disease-risk/), written for patients and families in Bongaigaon.
 
 ### FAQs
 
 1. **Should every person with diabetes get an ECG?**
-   A baseline ECG is commonly done and is quick and painless. Repeat ECGs depend on symptoms, age and risk. Your doctor will advise how often you need one.
+   A baseline ECG is commonly done and is quick and does not hurt. Repeat ECGs depend on symptoms, age and risk. Your doctor will advise how often you need one.
 2. **When is a 2D echo needed in diabetes?**
    A 2D echo may be advised if you have breathlessness, leg swelling, a heart murmur, long-standing high BP or an abnormal ECG. It shows how well the heart pumps and how the valves work.
 3. **Do I need a stress test if I have no symptoms?**

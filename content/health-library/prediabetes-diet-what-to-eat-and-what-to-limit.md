@@ -29,7 +29,9 @@ wordCount: 400
 - A prediabetes diet focuses on vegetables, protein, high-fibre foods and whole grains, with controlled portions of rice, wheat and sweets, and fewer sugary drinks and refined snacks.
 - Along with exercise and gentle weight loss, these changes can help bring blood sugar back toward normal.
 
-### What to Eat More Of
+This article sits inside our guide to [Prediabetes: Blood Sugar Range, Risk & Prevention](/health-library/prediabetes-blood-sugar/). For the neighbouring questions, see [Can Prediabetes Go Back to Normal?](/health-library/can-prediabetes-go-back-to-normal/) and [Normal, Prediabetes and Diabetes HbA1c Levels Explained](/health-library/normal-prediabetes-diabetes-hba1c-levels/).
+
+### What to eat more of
 
 - **Vegetables:** fill half your plate with non-starchy vegetables such as leafy greens, beans, gourd and cabbage.
 - **Protein:** dal, legumes, eggs, fish, chicken, paneer and curd in sensible portions.
@@ -37,7 +39,7 @@ wordCount: 400
 - **Healthy fats:** nuts, seeds and cooking oils used in small amounts.
 - **Fruit:** whole fruits in moderation rather than juices.
 
-### What to Limit
+### What to limit
 
 - Sugary drinks, sweets and desserts.
 - White rice, white bread, maida products and bakery items in large portions.
@@ -45,14 +47,14 @@ wordCount: 400
 - Fruit juices and sweetened tea or coffee.
 - Late-night heavy meals.
 
-### Building a Balanced Plate
+### Building a balanced plate
 
 - Half the plate: vegetables.
 - A quarter: protein.
 - A quarter: carbohydrate, preferably whole grain.
 - Eat slowly and stop when comfortably full.
 
-### Helpful Habits
+### Helpful habits
 
 - Do not skip meals, especially breakfast.
 - Eat vegetables or protein first, then carbohydrates.
@@ -61,22 +63,21 @@ wordCount: 400
 - Read labels for added sugar.
 - Sleep well, as poor sleep affects blood sugar.
 
-### Weight and Activity
+### Weight and activity
 
 Losing a modest amount of weight and getting regular physical activity help the body use insulin better. A common goal is at least 150 minutes of moderate activity a week, as advised by your doctor.
 
-### Key Takeaways
+### Key takeaways
 
 - Fill half the plate with vegetables and choose whole grains.
 - Limit sugary drinks, sweets and refined foods.
 - Walk after meals and stay active.
 - Regular follow-up tests track your progress.
 
-### Final Thoughts
+### Final thoughts
 
-Prediabetes is a chance to turn things around. Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic, can build a food and lifestyle plan that suits your routine and cuisine.
+Prediabetes is a chance to turn things around. Dr. Tamoghna Das, an internal medicine and cardio-diabetic consultant at Medcare Diabetes, Obesity and Echocardiography Clinic, can build a food and lifestyle plan that suits your routine and cuisine.
 
-This article is part of our guide to [prediabetes](/health-library/prediabetes-blood-sugar/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

@@ -10,6 +10,7 @@ badge: heart
 about: { type: MedicalCondition, name: "Cardiovascular disease risk" }
 related: [/heart-health/high-blood-pressure/, /heart-health/echocardiography/, /diabetes-care/]
 posts: [/health-library/echo-for-people-with-diabetes/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

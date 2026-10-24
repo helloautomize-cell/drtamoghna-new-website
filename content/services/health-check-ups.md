@@ -10,6 +10,7 @@ badge: checkup
 about: { type: MedicalProcedure, name: "Preventive health examination" }
 related: [/diabetes-care/, /heart-health/, /weight-management/]
 posts: [/health-library/hba1c-explained/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

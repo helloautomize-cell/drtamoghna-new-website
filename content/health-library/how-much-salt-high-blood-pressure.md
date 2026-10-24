@@ -32,11 +32,13 @@ The World Health Organization recommends that adults eat less than 5 grams of sa
 - Most salt comes from hidden sources such as pickles, papad, chutneys, namkeen, bread, instant noodles and restaurant food.
 - Cutting back gradually, cooking with herbs and spices, and reading food labels can help lower BP within weeks.
 
-### Why Does Salt Raise BP?
+This article sits inside our guide to [High Blood Pressure: Diagnosis, Home Checks and Treatment](/health-library/high-blood-pressure-guide/). For the neighbouring questions, see [How to Check Blood Pressure at Home Correctly](/health-library/how-to-check-blood-pressure-at-home/) and [Resistant Hypertension: Why BP Stays High on Medicines](/health-library/resistant-hypertension-bp-high-despite-medicines/).
+
+### Why does salt raise BP?
 
 Salt contains sodium, which makes the body hold more water. This increases the volume of blood and raises pressure on artery walls. Some people, including many with diabetes, kidney disease or older age, are especially sensitive to salt.
 
-### Where Does Hidden Salt Come From?
+### Where does hidden salt come from?
 
 #### At home
 
@@ -58,7 +60,7 @@ Salt contains sodium, which makes the body hold more water. This increases the v
 
 Restaurant and street food often contains high salt.
 
-### How to Cut Back on Salt
+### How to cut back on salt
 
 #### Reduce gradually
 
@@ -88,15 +90,15 @@ Vegetables, fruits and pulses help balance sodium, unless you have kidney diseas
 
 Some contain potassium and are not safe for people with kidney disease or on certain medicines. Ask your doctor first.
 
-### Does Rock Salt or Pink Salt Help?
+### Does rock salt or pink salt help?
 
 No. Rock salt, pink salt and sea salt contain similar sodium to regular salt. The amount matters more than the type.
 
-### How Soon Will BP Improve?
+### How soon will BP improve?
 
 Many people see a drop in BP within a few weeks of reducing salt, especially when combined with other healthy habits.
 
-### Key Takeaways
+### Key takeaways
 
 - Aim for less than 5 g of salt a day.
 - Hidden salt is common in Indian foods.
@@ -104,11 +106,10 @@ Many people see a drop in BP within a few weeks of reducing salt, especially whe
 - Herbs and spices add flavour without salt.
 - Rock or pink salt is not a healthier alternative.
 
-### Final Thoughts
+### Final thoughts
 
-Small changes in salt can lead to meaningful changes in blood pressure. Your taste buds adapt faster than you think. For personalised BP and diet advice, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Small changes in salt can lead to meaningful changes in blood pressure. Your taste buds adapt faster than you think.
 
-This article is part of our guide to [high blood pressure](/health-library/high-blood-pressure-guide/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

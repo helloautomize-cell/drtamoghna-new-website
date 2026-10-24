@@ -9,6 +9,7 @@ h1: "Holter *monitoring*"
 badge: holter
 about: { type: MedicalTest, name: "Ambulatory ECG monitoring", alternateName: ["Holter test", "Patch Holter"] }
 related: [/heart-health/echocardiography/, /heart-health/, /sleep-apnea/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro
@@ -24,7 +25,7 @@ A Holter monitor records your heartbeat continuously while you go about your nor
 - **Who it helps:** palpitations, dizziness, fainting, unexplained stroke, and checking rhythm on certain medicines
 - **At Medcare:** fitting, removal, report reading and explanation by Dr. Das
 
-### Why wear a Holter
+### Why wear a holter
 
 A standard ECG records about 10 seconds of heartbeat. If your symptoms come and go, the ECG is often normal on the day of your visit. A Holter records every beat for days, so it is far more likely to capture what happens when you feel unwell.
 
@@ -42,7 +43,7 @@ It can show:
 4. **Return.** You remove the patch as instructed, or come back to have it removed, and return it to the clinic. [CONFIRM: patient removes and returns, or clinic removes]
 5. **Results.** The recording is analysed, and Dr. Das explains the findings and next steps.
 
-### Patch Holter compared with a standard Holter
+### Patch holter compared with a standard holter
 
 | | Patch Holter at Medcare | Standard 24-hour Holter |
 |---|---|---|

@@ -32,11 +32,13 @@ Triglycerides are a type of fat in the blood that the body uses for energy. High
 - Most people have no symptoms.
 - Treatment starts with lifestyle changes and better sugar control, with medicines added when levels remain high or are very high.
 
-### What Are Normal Triglyceride Levels?
+This article sits inside our guide to [High Cholesterol and Triglycerides: Lipid Profile Explained](/health-library/high-cholesterol-triglycerides/). For the neighbouring questions, see [Can Diabetes Cause High Cholesterol?](/health-library/can-diabetes-cause-high-cholesterol/) and [What Is a Good LDL Cholesterol Level?](/health-library/good-ldl-cholesterol-level/).
+
+### What are normal triglyceride levels?
 
 Labs usually consider under 150 mg/dL normal. Higher values are classed as borderline, high or very high. Very high levels, often above 500 mg/dL, need prompt treatment because of pancreatitis risk.
 
-### What Causes High Triglycerides?
+### What causes high triglycerides?
 
 #### Diet
 
@@ -69,7 +71,7 @@ Some steroids, hormone therapies, certain BP medicines and others can raise trig
 
 Some families have inherited high triglycerides.
 
-### Are There Symptoms?
+### Are there symptoms?
 
 Most people have no symptoms. With very high levels, some may develop:
 
@@ -77,13 +79,13 @@ Most people have no symptoms. With very high levels, some may develop:
 - Fatty skin deposits called xanthomas
 - Milky-looking blood samples
 
-### Why Do High Triglycerides Matter?
+### Why do high triglycerides matter?
 
 - Increased risk of heart disease
 - Linked with fatty liver and insulin resistance
 - Very high levels can cause acute pancreatitis
 
-### What Can You Do?
+### What can you do?
 
 #### Cut sugar and refined carbs
 
@@ -113,11 +115,11 @@ Good diabetes control is one of the most effective steps.
 
 Statins, fibrates or prescription omega-3 medicines may be used depending on levels and overall risk.
 
-### When to Seek Urgent Care
+### When to seek urgent care
 
 Severe upper abdominal pain spreading to the back, with nausea or vomiting, may be pancreatitis and needs emergency care.
 
-### Key Takeaways
+### Key takeaways
 
 - High triglycerides usually have no symptoms.
 - Sugar, refined carbs and alcohol are major causes.
@@ -125,11 +127,10 @@ Severe upper abdominal pain spreading to the back, with nausea or vomiting, may 
 - Very high levels can cause pancreatitis.
 - Lifestyle changes are the first step.
 
-### Final Thoughts
+### Final thoughts
 
-High triglycerides respond well to lifestyle changes, often within weeks. Combining diet, activity and good sugar control protects both heart and pancreas. For lipid management, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+High triglycerides respond well to lifestyle changes, often within weeks. Combining diet, activity and good sugar control protects both heart and pancreas.
 
-This article is part of our guide to [high cholesterol](/health-library/high-cholesterol-triglycerides/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

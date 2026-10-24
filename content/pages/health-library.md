@@ -6,6 +6,7 @@ description: "Plain-language articles on diabetes, weight, heart health, thyroid
 url: /health-library/
 lastReviewed: "2026-10-03"
 schema: [CollectionPage]
+dateModified: "2026-10-03"
 ```
 
 H1: Health *Library*

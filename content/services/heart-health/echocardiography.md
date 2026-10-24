@@ -11,6 +11,7 @@ about: { type: MedicalTest, name: "Echocardiography", alternateName: ["2D Echo",
 related: [/heart-health/heart-failure/, /heart-health/holter-monitoring/, /heart-health/high-blood-pressure/]
 posts: [/health-library/echo-for-people-with-diabetes/]
 media: "Silent loop 'Inside our echo room' (8 to 12 s) from the WhatsApp clips"
+dateModified: "2026-10-03"
 ```
 
 ### Intro
@@ -19,7 +20,7 @@ An echocardiogram, or echo, is an ultrasound scan of the heart. It shows how wel
 
 ### At a glance
 
-- **What it is:** a painless ultrasound of the heart; no radiation, no needles
+- **What it is:** an ultrasound that does not hurt of the heart; no radiation, no needles
 - **Time:** about 20 to 40 minutes
 - **Preparation:** none; you can eat and take your medicines as usual
 - **Who performs it:** Dr. Tamoghna Das, fellowship-trained in echocardiography, member of the Indian Academy of Echocardiography
@@ -79,7 +80,7 @@ Dr. Das explains the findings right after the scan, in plain words, and what the
 2. **Do I need to fast before an echo?**
    No. You can eat normally and take all your usual medicines. Wear clothes that are easy to remove from the waist up. Bring your old echo and ECG reports so changes can be compared.
 3. **Is an echo safe?**
-   Yes. Echo uses sound waves, not X-rays or radiation. It is painless and safe for all ages, including in pregnancy. You may feel slight pressure from the probe.
+   Yes. Echo uses sound waves, not X-rays or radiation. It does not hurt and safe for all ages, including in pregnancy. You may feel slight pressure from the probe.
 4. **What is a normal ejection fraction?**
    Ejection fraction is the share of blood the main pumping chamber pushes out with each beat. A value of about 55% or more is usually normal. A normal value does not always mean a normal heart, which is why relaxation and strain are also checked.
 5. **Why does strain imaging matter if my ejection fraction is normal?**

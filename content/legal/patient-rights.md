@@ -4,6 +4,7 @@
 title: "Patient Rights and Responsibilities | Medcare"
 description: "Your rights as a patient at Medcare, based on the Charter of Patients' Rights, and how you can help us care for you."
 url: /patient-rights/
+dateModified: "2026-10-03"
 ```
 
 H1: Patient rights and *responsibilities*

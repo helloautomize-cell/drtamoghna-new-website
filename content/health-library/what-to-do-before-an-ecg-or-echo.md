@@ -28,17 +28,19 @@ wordCount: 473
 **Quick answer**
 - For an ECG or an echocardiogram (echo), you generally do not need to fast or stop your regular medicines unless your doctor says so.
 - Wear a comfortable two-piece outfit, avoid heavy creams on the chest, carry your previous reports and medicine list, and stay relaxed.
-- Both tests are painless and safe.
+- Both tests do not hurt and safe.
 
-### What Is an ECG?
+This article sits inside our guide to [ECG vs 2D Echo vs Stress Echo vs Holter: Which Heart Test?](/health-library/ecg-echo-stress-echo-holter/). For the neighbouring questions, see [2D Echo vs ECG: What Is the Difference?](/health-library/2d-echo-vs-ecg-difference/) and [Holter Monitor: What It Detects](/health-library/holter-monitor-what-it-detects/).
+
+### What is an ECG?
 
 An electrocardiogram records the heart's electrical activity using small sticky electrodes placed on the chest, arms and legs. It takes only a few minutes and shows heart rhythm, signs of strain and evidence of a past heart attack.
 
-### What Is an Echo?
+### What is an echo?
 
 An echocardiogram uses ultrasound to create moving pictures of the heart. It shows the size of the chambers, how well the heart pumps, and the state of the valves. A gel is applied to the chest and a probe is moved over it. It usually takes 20 to 40 minutes.
 
-### How to Prepare
+### How to prepare
 
 - **Clothing:** wear a loose top or two-piece clothing that is easy to open at the chest.
 - **Skin:** avoid applying oil, lotion or powder on the chest, as electrodes stick better on clean, dry skin.
@@ -48,26 +50,25 @@ An echocardiogram uses ultrasound to create moving pictures of the heart. It sho
 - **Tell the staff:** about symptoms, implants such as a pacemaker, and any allergies to adhesives or gel.
 - **Relax:** rest for a few minutes before the test, since anxiety can raise the heart rate.
 
-### What Happens During the Test
+### What happens during the test
 
 You lie on a couch. Electrodes or gel are applied. You may be asked to breathe slowly or turn to your side for the echo. There is no pain, and no radiation.
 
-### What About Stress Echo or TMT?
+### What about stress echo or TMT?
 
 These tests need special preparation, such as comfortable shoes and sometimes holding certain medicines. Follow the instructions given by your doctor.
 
-### Key Takeaways
+### Key takeaways
 
 - ECG and echo usually need little preparation.
 - Wear easy clothing and keep the chest skin clean and dry.
 - Carry previous reports and your medicine list.
 - Follow special instructions for stress tests.
 
-### Final Thoughts
+### Final thoughts
 
-Heart tests are quick, safe and informative. Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic, can explain which test you need and what the results mean for your health.
+Heart tests are quick, safe and informative. Dr. Tamoghna Das, an internal medicine and cardio-diabetic consultant at Medcare Diabetes, Obesity and Echocardiography Clinic, can explain which test you need and what the results mean for your health.
 
-This article is part of our guide to [ECG vs 2D echo](/health-library/ecg-echo-stress-echo-holter/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

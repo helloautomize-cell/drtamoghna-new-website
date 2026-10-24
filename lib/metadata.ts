@@ -62,7 +62,7 @@ export function pageMeta({
           ]
         : [
             {
-              url: `${SITE_BASE}/og?title=${encodeURIComponent(title)}`,
+              url: `${SITE_BASE}/og/?title=${encodeURIComponent(title)}`,
               width: 1200,
               height: 630,
               alt: `${siteConfig.name}`,

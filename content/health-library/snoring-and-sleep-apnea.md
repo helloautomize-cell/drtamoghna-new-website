@@ -15,6 +15,9 @@ readingTime: 5
 image: "loud-snoring-sign-of-sleep-apnea"
 imageAlt: "An Indian woman awake in bed covering her ears with a pillow while her husband sleeps"
 related: [/sleep-apnea/, /heart-health/high-blood-pressure/, /weight-management/]
+cluster: "Sleep Apnea"
+kind: "support"
+clusterOrder: 6
 posts: ["/health-library/loud-snoring-sign-of-sleep-apnea/", "/health-library/sleep-apnea-metabolic-health/", "/health-library/obesity-and-sleep-apnea/"]
 ```
 

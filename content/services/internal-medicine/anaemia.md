@@ -9,6 +9,7 @@ h1: "*Anaemia* and low haemoglobin"
 badge: anaemia
 about: { type: MedicalCondition, name: "Anaemia", alternateName: ["Low haemoglobin", "Anemia"] }
 related: [/internal-medicine/, /thyroid-disorders/, /heart-health/heart-failure/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

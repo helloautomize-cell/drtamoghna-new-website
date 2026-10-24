@@ -32,39 +32,41 @@ HbA1c is a blood test that shows your average blood sugar over about three month
 - 4 percent indicates prediabetes.
 - 5 percent or higher suggests diabetes, usually confirmed with a repeat test.
 
-### HbA1c Ranges
+This article sits inside our guide to [Prediabetes: Blood Sugar Range, Risk & Prevention](/health-library/prediabetes-blood-sugar/). For the neighbouring questions, see [Can Prediabetes Go Back to Normal?](/health-library/can-prediabetes-go-back-to-normal/) and [Prediabetes Diet: What to Eat and What to Limit](/health-library/prediabetes-diet-what-to-eat-and-what-to-limit/).
+
+### HbA1c ranges
 
 - Normal: below 5.7 percent
 - Prediabetes: 5.7 to 6.4 percent
 - Diabetes: 6.5 percent or higher
 
-### What a Prediabetes Result Means
+### What a prediabetes result means
 
 Your sugar is higher than normal but not yet in the diabetes range. This is a warning stage. Lifestyle changes at this point can lower the risk of progressing to diabetes.
 
-### What a Diabetes Result Means
+### What a diabetes result means
 
 Your doctor will usually confirm with another test and look at symptoms, then discuss food, activity and treatment options.
 
-### What If You Already Have Diabetes?
+### What if you already have diabetes?
 
 Targets are individual. Many adults aim for around 7 percent, but older adults or those with other illnesses may have different goals. Your doctor will set yours.
 
-### Things That Can Affect HbA1c
+### Things that can affect HbA1c
 
 - Anaemia or iron deficiency
 - Recent blood loss or transfusion
 - Some inherited haemoglobin variants
 - Kidney or liver disease
 
-### What To Do Next
+### What to do next
 
 - Repeat the test as your doctor advises
 - Review diet and daily activity
 - Check blood pressure and cholesterol
 - Discuss your family history
 
-### Key Takeaways
+### Key takeaways
 
 - Below 5.7 percent is normal.
 - 5.7 to 6.4 percent is prediabetes.
@@ -72,11 +74,10 @@ Targets are individual. Many adults aim for around 7 percent, but older adults o
 - Some conditions can affect accuracy.
 - Prediabetes is a chance to act early.
 
-### Final Thoughts
+### Final thoughts
 
-An HbA1c result is a starting point for a conversation, not a verdict. For testing and guidance, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+An HbA1c result is a starting point for a conversation, not a verdict.
 
-This article is part of our guide to [prediabetes](/health-library/prediabetes-blood-sugar/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

@@ -9,6 +9,7 @@ h1: "Internal *medicine*"
 badge: internal-medicine
 about: { type: MedicalSpecialty, name: "Internal medicine" }
 related: [/health-check-ups/, /diabetes-care/, /heart-health/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

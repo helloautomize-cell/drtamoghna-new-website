@@ -7,6 +7,7 @@ url: /dr-tamoghna-das/
 reviewer: dr-tamoghna-das
 lastReviewed: "2026-10-03"
 schema: [ProfilePage, Physician]
+dateModified: "2026-10-03"
 ```
 
 ### Hero (split)
@@ -34,7 +35,7 @@ Alongside general medicine, Dr. Das trained in echocardiography, the ultrasound 
 
 He opened Medcare in September 2023 to give people in lower Assam and nearby districts long-term, physician-led care for linked conditions in one place.
 
-### How Dr. Das works
+### How dr. das works
 
 H2: How Dr. Das *works*
 

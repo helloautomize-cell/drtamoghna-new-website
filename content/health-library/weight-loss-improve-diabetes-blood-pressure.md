@@ -32,11 +32,13 @@ Losing about 5 percent of your body weight can already improve blood sugar, bloo
 - A 10 to 15 percent loss gives greater improvements and may reduce the need for some medicines.
 - Larger, sustained weight loss, sometimes with medicines or surgery, can lead to diabetes remission in some people, especially when diabetes is recent.
 
-### What Does 5 Percent Look Like?
+This article sits inside our guide to [Obesity Treatment: Medical Weight Loss & Heart Risk](/health-library/obesity-weight-management/). For the neighbouring questions, see [How Is Obesity Diagnosed? BMI, Waist and Metabolic Health](/health-library/how-is-obesity-diagnosed-bmi-waist/) and [Semaglutide vs Tirzepatide: What Patients Should Know](/health-library/semaglutide-vs-tirzepatide-weight-loss/).
+
+### What does 5 percent look like?
 
 For someone weighing 90 kg, 5 percent is about 4.5 kg. For someone weighing 70 kg, it is about 3.5 kg. These are achievable goals for many people.
 
-### Benefits at Different Levels of Weight Loss
+### Benefits at different levels of weight loss
 
 #### Around 5 percent
 
@@ -60,14 +62,14 @@ For someone weighing 90 kg, 5 percent is about 4.5 kg. For someone weighing 70 k
 - Substantial improvements in BP and fatty liver
 - Better quality of life
 
-### How Does Weight Loss Help?
+### How does weight loss help?
 
 - Reduces fat in the liver and pancreas, improving insulin function
 - Lowers strain on blood vessels and the heart
 - Reduces inflammation
 - Improves breathing during sleep
 
-### How to Lose Weight Safely
+### How to lose weight safely
 
 #### Structured eating
 
@@ -85,15 +87,15 @@ Tracking meals, setting goals and getting family support help.
 
 Weight-loss medicines may be considered for some people. Bariatric surgery may be an option for selected people with severe obesity.
 
-### Keeping Weight Off
+### Keeping weight off
 
 Weight maintenance is often harder than weight loss. Continue healthy habits, monitor weight regularly and stay in touch with your care team.
 
-### A Caution About Medicines
+### A caution about medicines
 
 If you take diabetes or BP medicines, weight loss may lower your sugar or BP. Your doctor may need to adjust doses to avoid low readings. Check with your doctor before major diet changes.
 
-### Key Takeaways
+### Key takeaways
 
 - About 5 percent weight loss already helps.
 - Around 10 percent brings greater benefits.
@@ -101,11 +103,10 @@ If you take diabetes or BP medicines, weight loss may lower your sugar or BP. Yo
 - Medicines may need adjusting as you lose weight.
 - Keeping weight off needs ongoing support.
 
-### Final Thoughts
+### Final thoughts
 
-You do not need dramatic weight loss to protect your health. Steady, realistic progress makes a real difference to sugar and blood pressure. For a medically supervised weight plan, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+You do not need dramatic weight loss to protect your health. Steady, realistic progress makes a real difference to sugar and blood pressure.
 
-This article is part of our guide to [obesity treatment](/health-library/obesity-weight-management/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

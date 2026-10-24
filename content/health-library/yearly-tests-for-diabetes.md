@@ -29,7 +29,9 @@ wordCount: 375
 - If you have diabetes, a yearly review should include HbA1c (more often if needed), a kidney check (urine albumin and serum creatinine), a lipid profile, an eye examination, a foot examination, and blood pressure and weight checks.
 - An ECG or heart assessment is added based on your risk.
 
-### Core Yearly Tests
+This article sits inside our guide to [Type 2 Diabetes: Symptoms, Diagnosis & Treatment](/health-library/type-2-diabetes/). For the neighbouring questions, see [What Are the Early Symptoms of Type 2 Diabetes?](/health-library/early-symptoms-type-2-diabetes/) and [How Often Should You Check Blood Sugar and HbA1c?](/health-library/how-often-should-you-check-blood-sugar-and-hba1c/).
+
+### Core yearly tests
 
 **1. HbA1c**
 
@@ -59,7 +61,7 @@ Measured at every visit.
 
 Helps track metabolic health.
 
-### Other Checks Based on Your Situation
+### Other checks based on your situation
 
 - ECG or echocardiogram if you have heart risk factors.
 - Liver function tests, since fatty liver is common in diabetes.
@@ -68,22 +70,21 @@ Helps track metabolic health.
 - Dental check-up.
 - Vaccinations as advised, such as flu and pneumococcal.
 
-### How to Prepare
+### How to prepare
 
 Carry your previous reports and sugar log. Wear comfortable footwear that is easy to remove. Ask your doctor what each result means and what the target is.
 
-### Key Takeaways
+### Key takeaways
 
 - Yearly checks catch complications early.
 - Kidney, eye, foot and heart checks are essential.
 - Extra tests depend on your health and medicines.
 - Keep a record of all results.
 
-### Final Thoughts
+### Final thoughts
 
-Complications develop silently, and yearly checks are your best protection. Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic, can plan a complete annual review for you.
+Complications develop silently, and yearly checks are your best protection. Dr. Tamoghna Das, an internal medicine and cardio-diabetic consultant at Medcare Diabetes, Obesity and Echocardiography Clinic, can plan a complete annual review for you.
 
-This article is part of our guide to [type 2 diabetes symptoms and treatment](/health-library/type-2-diabetes/), written for patients and families in Bongaigaon.
 
 ### FAQs
 

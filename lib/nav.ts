@@ -292,6 +292,8 @@ export const footerColumns: { heading: string; links: NavLink[] }[] = [
   {
     heading: "Patient information",
     links: [
+      { label: "About Medcare", href: "/about/" },
+      { label: "Dr. Tamoghna Das", href: "/dr-tamoghna-das/" },
       { label: "Plan your visit", href: "/plan-your-visit/" },
       {
         label: "Coming from outside Bongaigaon",

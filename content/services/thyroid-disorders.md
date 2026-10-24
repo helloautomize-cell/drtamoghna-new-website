@@ -9,6 +9,7 @@ h1: "Thyroid *disorders*"
 badge: thyroid
 about: { type: MedicalCondition, name: "Thyroid disease", alternateName: ["Hypothyroidism", "Hyperthyroidism", "Goitre"] }
 related: [/weight-management/, /diabetes-care/diabetes-in-pregnancy/, /internal-medicine/anaemia/]
+dateModified: "2026-10-03"
 ```
 
 ### Intro

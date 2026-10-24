@@ -31,11 +31,13 @@ Many people worry when told they need insulin. In type 2 diabetes, it is a commo
 - Insulin may be needed when blood sugar stays high despite lifestyle changes and other medicines, when HbA1c is very high at diagnosis, during severe illness or surgery, in pregnancy, or when there are signs of significant insulin deficiency.
 - Some people use it for a short time, others long term.
 
-### Why It Happens
+This article sits inside our guide to [Diabetes Medicines: Insulin, GLP-1 & SGLT2 Explained](/health-library/diabetes-medicines-treatment-options/). For the neighbouring questions, see [Does Starting Insulin Mean Diabetes Has Become Severe?](/health-library/does-starting-insulin-mean-diabetes-is-severe/) and [Metformin Side Effects: Common and When to Call a Doctor](/health-library/metformin-side-effects/).
+
+### Why it happens
 
 Over time, the pancreas may make less insulin. Insulin treatment replaces what the body can no longer produce enough of.
 
-### Situations Where Insulin Is Considered
+### Situations where insulin is considered
 
 - Very high blood sugar at diagnosis with symptoms
 - Sugar remaining high on tablets and other injectables
@@ -44,7 +46,7 @@ Over time, the pancreas may make less insulin. Insulin treatment replaces what t
 - Kidney or liver problems limiting other medicines
 - Unexplained weight loss with high sugar
 
-### Types of Insulin
+### Types of insulin
 
 - Long-acting (basal) insulin for background control
 - Rapid-acting insulin for meals
@@ -52,17 +54,17 @@ Over time, the pancreas may make less insulin. Insulin treatment replaces what t
 
 Your doctor chooses the type and dose for you.
 
-### Common Fears
+### Common fears
 
 - Pain: modern pen needles are very fine
 - Weight gain: possible, but can be managed with diet
 - Low sugar: can be prevented with proper dosing and monitoring
 
-### Does Insulin Mean Diabetes Is Severe?
+### Does insulin mean diabetes is severe?
 
 Not necessarily. It means your body needs more help right now. Some people can reduce or stop insulin later.
 
-### Key Takeaways
+### Key takeaways
 
 - Insulin is a normal part of type 2 diabetes care.
 - It is used when other treatments are not enough.
@@ -70,11 +72,10 @@ Not necessarily. It means your body needs more help right now. Some people can r
 - Fears about pain and low sugar can be managed.
 - Dose changes should be guided by your doctor.
 
-### Final Thoughts
+### Final thoughts
 
-Starting insulin is a step toward protecting your organs, not a setback. For guidance on treatment, you can consult Dr. Tamoghna Das, an internal medicine and cardio-diabetology specialist at Medcare Diabetes & Obesity Clinic.
+Starting insulin is a step toward protecting your organs, not a setback.
 
-This article is part of our guide to [diabetes medicine treatment options](/health-library/diabetes-medicines-treatment-options/), written for patients and families in Bongaigaon.
 
 ### FAQs
 
