@@ -3045,6 +3045,10 @@ table.ct {
 .ph-intro p {
   margin: 0;
 }
+.ph-intro a {
+  color: var(--primary-500);
+  font-weight: 600;
+}
 .ph-actions {
   display: flex;
   flex-wrap: wrap;
@@ -3137,7 +3141,9 @@ table.ct {
 .pb-main ul li::marker {
   color: var(--primary);
 }
-.pb-main a {
+/* Prose links get the teal underline; buttons (.btn, .book) keep their own
+   colour or the white button text becomes unreadable. */
+.pb-main a:not(.btn):not(.book) {
   color: var(--primary-500);
   font-weight: 600;
   text-decoration: underline;
@@ -5321,4 +5327,208 @@ button.btn.ghost {
   .slot-grid {
     grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
   }
+}
+
+/* --------------------------- Visiting doctors --------------------------- */
+/* /visiting-doctors/ cards and the homepage visiting-specialists strip. */
+.vd-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 22px;
+}
+@media (min-width: 900px) {
+  .vd-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.vdc {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  box-shadow: var(--shadow-card);
+  padding: 26px;
+  display: grid;
+  gap: 14px;
+  align-content: start;
+  transition:
+    transform 0.25s var(--ease),
+    box-shadow 0.25s var(--ease);
+}
+.vdc:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+.vdc-head {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.vdc-photo {
+  width: 88px;
+  height: 88px;
+  border-radius: 22px;
+  object-fit: cover;
+  flex: none;
+  display: block;
+}
+.vdc h3 {
+  font-size: 23px;
+  color: var(--ink);
+}
+.vdc-role {
+  margin: 2px 0 0;
+  font-weight: 600;
+  font-size: 15.5px;
+  color: var(--primary-500);
+}
+.vdc-hosp {
+  margin: 2px 0 0;
+  font-size: 14.5px;
+  color: var(--ink-2);
+}
+.vdc-date-row {
+  margin: 0;
+}
+.vd-date {
+  gap: 7px;
+  background: var(--primary-50);
+  color: var(--primary-700);
+}
+.vd-date svg {
+  color: var(--primary-500);
+}
+.vdc-treats b {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+.vdc-treats ul {
+  margin: 4px 0 0;
+  padding-left: 20px;
+}
+.vdc-treats li {
+  font-size: 15.5px;
+  margin: 5px 0;
+  color: var(--ink-2);
+}
+.vdc-acts {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 4px;
+}
+.vd-poster {
+  background: none;
+  border: 0;
+  padding: 0 4px;
+  color: var(--primary-500);
+  font: 600 16px/1 var(--sans);
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+  min-height: 48px;
+  cursor: pointer;
+}
+.vd-poster:hover {
+  text-decoration: underline;
+}
+.vd-note {
+  font-size: 14.5px;
+  color: var(--ink-2);
+  max-width: 720px;
+  margin-top: 26px;
+}
+.vd-em {
+  margin-top: 26px;
+}
+
+/* Poster lightbox (Radix Dialog) */
+.plb-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(20, 48, 58, 0.55);
+}
+.plb {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 105;
+  width: min(560px, calc(100vw - 24px));
+  max-height: calc(100dvh - 24px);
+  overflow: auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: var(--shadow-hover);
+  padding: 12px;
+}
+.plb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.plb-close {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 0;
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--ink);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  box-shadow: var(--shadow-card);
+}
+
+/* Homepage visiting-specialists strip (rendered only when a visit is
+   today or upcoming; unnumbered, sits before the doctor section). */
+.vstrip-sec {
+  padding-top: 56px;
+}
+@media (max-width: 767px) {
+  .vstrip-sec {
+    padding-top: 40px;
+  }
+}
+.vstrip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 26px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--primary-50);
+  padding: 16px 22px;
+}
+.vstrip-docs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  min-width: 220px;
+}
+.vstrip-doc {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
+.vstrip-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: none;
+  display: block;
 }

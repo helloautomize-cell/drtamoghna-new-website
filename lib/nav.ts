@@ -213,6 +213,7 @@ export const megaMenus: MegaMenu[] = [
 
 export const headerLinks: NavLink[] = [
   { label: "Dr. Das", href: "/dr-tamoghna-das/" },
+  { label: "Visiting doctors", href: "/visiting-doctors/" },
   { label: "About", href: "/about/" },
 ];
 
@@ -245,6 +246,7 @@ export const mobileNav: MobileNavItem[] = [
   { type: "link", label: "Dr. Tamoghna Das", href: "/dr-tamoghna-das/" },
   { type: "link", label: "About Medcare", href: "/about/" },
   { type: "link", label: "Plan your visit", href: "/plan-your-visit/" },
+  { type: "link", label: "Visiting doctors", href: "/visiting-doctors/" },
   {
     type: "link",
     label: "Coming from outside Bongaigaon",
@@ -294,6 +296,7 @@ export const footerColumns: { heading: string; links: NavLink[] }[] = [
     links: [
       { label: "About Medcare", href: "/about/" },
       { label: "Dr. Tamoghna Das", href: "/dr-tamoghna-das/" },
+      { label: "Visiting doctors", href: "/visiting-doctors/" },
       { label: "Plan your visit", href: "/plan-your-visit/" },
       {
         label: "Coming from outside Bongaigaon",
@@ -340,6 +343,7 @@ export const builtRoutes = new Set([
   "/services/",
   "/plan-your-visit/",
   "/coming-from-outside-bongaigaon/",
+  "/visiting-doctors/",
   "/contact/",
   "/faqs/",
   "/health-library/",

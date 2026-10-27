@@ -5,7 +5,7 @@ import { SITE_BASE } from "@/lib/metadata";
 
 /** Every public page; lastModified from frontmatter dateModified, else file mtime. */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const entries = allContentUrls()
+  const entries: MetadataRoute.Sitemap = allContentUrls()
     .filter((u) => u !== "/thank-you/")
     .map((url) => {
       const file = contentFile(url);
@@ -18,5 +18,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly" as const,
       };
     });
+  // Bespoke page outside the content pipeline (visit dates change weekly).
+  entries.push({
+    url: `${SITE_BASE}/visiting-doctors/`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+  });
   return entries;
 }

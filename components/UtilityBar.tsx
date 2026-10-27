@@ -14,6 +14,7 @@ export default function UtilityBar() {
       <div className="ubar container-mc">
         <span>
           <RouteLink href="/plan-your-visit/">Plan your visit</RouteLink> ·{" "}
+          <RouteLink href="/visiting-doctors/">Visiting doctors</RouteLink> ·{" "}
           <RouteLink href="/health-library/">Health Library</RouteLink>
         </span>
         <span>

@@ -26,9 +26,14 @@ import { pageGraph } from "@/lib/page-schema";
 import { pageMeta } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
 import WhatsAppMenu from "@/components/WhatsAppMenu";
-import { formatDate } from "@/lib/format";
+import { formatDate, formatDayMonth } from "@/lib/format";
+import { doctorsByStatus } from "@/lib/visiting-doctors";
 import type { BadgeSlug } from "@/lib/service-badges";
 import type { Faq } from "@/lib/content-types";
+
+// The visiting-specialists strip depends on the date in India; re-check
+// hourly instead of freezing it at build time.
+export const revalidate = 3600;
 
 const page = getPage("/");
 
@@ -66,6 +71,7 @@ export function generateMetadata(): Metadata {
 }
 
 export default function Home() {
+  const visiting = doctorsByStatus().upcoming;
   const faqs: Faq[] = HOME_FAQS.map((f) => ({
     q: f.q,
     html: mdToHtml(f.a),
@@ -153,6 +159,41 @@ export default function Home() {
       <div data-reveal>
         <VisitBand />
       </div>
+
+      {/* Visiting specialists: only while a visit is today or upcoming.
+          Unnumbered so the section numbering below stays unchanged. */}
+      {visiting.length ? (
+        <section className="vstrip-sec" aria-label="Visiting specialists">
+          <div className="vstrip" data-reveal>
+            <span className="eyebrow">Visiting specialists</span>
+            <ul className="vstrip-docs">
+              {visiting.map(({ doctor, date }) => (
+                <li className="vstrip-doc" key={doctor.slug}>
+                  <picture>
+                    <source srcSet={doctor.photo} type="image/webp" />
+                    <img
+                      className="vstrip-avatar"
+                      src={doctor.photoFallback}
+                      alt=""
+                      width={480}
+                      height={480}
+                      loading="lazy"
+                    />
+                  </picture>
+                  <span>
+                    <b>{doctor.name}</b>, {doctor.specialty}:{" "}
+                    {formatDayMonth(date)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <RouteLink className="link-arrow" href="/visiting-doctors/">
+              See visiting doctors{" "}
+              <ArrowRight size={18} strokeWidth={2} aria-hidden />
+            </RouteLink>
+          </div>
+        </section>
+      ) : null}
 
       {/* 05 / Meet your doctor */}
       <section className="section-mc">

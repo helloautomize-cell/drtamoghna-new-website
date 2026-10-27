@@ -13,9 +13,15 @@ import {
 } from "./content";
 import { IDENTITY, siteConfig } from "./site-config";
 import { SITE_BASE } from "./metadata";
+import { visitingDoctors, visitingPhone } from "./visiting-doctors";
 
 const AGENCY_CREDIT =
   "Website built and marketed by Automize Media Labs (https://www.automizemedialabs.com/)";
+
+/** Visiting specialists note (no visit dates: they go out of date). */
+const VISITING_NOTE = `Visiting specialists from Yashoda Hospitals, Hyderabad hold clinics at Medcare on set dates: ${visitingDoctors
+  .map((d) => `${d.name} (${d.specialty})`)
+  .join("; ")}. Book by phone ${visitingPhone.displayIntl}. See ${SITE_BASE}/visiting-doctors/.`;
 
 /** Clinic and doctor social profiles; same split as schema sameAs. */
 const SOCIAL_PROFILES = [
@@ -114,6 +120,7 @@ export function llmsTxt(): string {
     "One doctor runs every consultation: Dr. Tamoghna Das, MBBS, MD (Medicine), Assam Council of Medical Registration No. 20276. Consultation hours Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm, by prior appointment.",
     "Phone: +91 60031 21297. WhatsApp: +91 60031 21297 or +91 93651 75235. Email: medcarebongaigaon@gmail.com.",
     `Book online: ${SITE_BASE}/book/ (pick a day and hourly slot; the clinic confirms by phone).`,
+    VISITING_NOTE,
     "Address: Chapaguri Road, opposite Domino's, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380.",
     SOCIAL_PROFILES,
     "",
@@ -231,6 +238,7 @@ export function llmsFullTxt(): string {
     "\n\n",
     SOCIAL_PROFILES,
     `\nBook online: ${SITE_BASE}/book/ (pick a day and hourly slot; the clinic confirms by phone).\n`,
+    `${VISITING_NOTE}\n`,
   ];
   const groups = new Map<string, { url: string; title: string }[]>();
   for (const g of GROUP_ORDER) groups.set(g.label, []);

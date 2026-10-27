@@ -72,6 +72,18 @@ Tests done in the clinic:
 - Diabetic foot nerve and circulation check
 - Sleep study
 
+## Visiting specialists
+
+Specialists from Yashoda Hospitals, Hyderabad hold clinics at Medcare on set
+dates. They are independent consultants, not Medcare staff, and they are not
+part of the online booking system. Slots are booked by phone only:
+93651 75235 (`+91 93651 75235`).
+
+- Dr. Naresh Lalam, Orthopedics (Consultant Orthopedics)
+- Dr. Tajuddin Farooqui, Gastroenterology (Consultant Gastroenterologist)
+
+Page: https://drtamoghna-new-website.vercel.app/visiting-doctors/
+
 ## Areas served
 
 Bongaigaon, Chirang, Kokrajhar, Dhubri, Goalpara, Barpeta and other parts of
