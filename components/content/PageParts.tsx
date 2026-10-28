@@ -227,7 +227,7 @@ export function TocAside({
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/(^-|-$)/g, "");
   return (
-    <aside className="toc-aside" aria-label="On this page">
+    <aside className="toc-aside" aria-label="On this page" data-ga-location="sticky">
       <nav>
         <b>On this page</b>
         <ol>

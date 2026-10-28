@@ -40,7 +40,7 @@ export default function MobileMenu({
     <Dialog.Root open={open} onOpenChange={onOpenChange}>
       <Dialog.Portal>
         <Dialog.Overlay className="mmenu-overlay" />
-        <Dialog.Content className="mmenu" aria-label="Menu">
+        <Dialog.Content className="mmenu" aria-label="Menu" data-ga-location="nav">
           <Dialog.Title className="visually-hidden">Menu</Dialog.Title>
           <div className="mmenu-head">
             {/* eslint-disable-next-line @next/next/no-img-element */}

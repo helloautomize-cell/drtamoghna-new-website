@@ -44,8 +44,13 @@ export default function MobileActionBar() {
 
   return (
     <>
-      <nav className="mbar" aria-label="Quick actions" hidden={typing}>
-        <RouteLink href="/book/">
+      <nav
+        className="mbar"
+        aria-label="Quick actions"
+        hidden={typing}
+        data-ga-location="sticky"
+      >
+        <RouteLink href="/book/" data-ga="appointment">
           <CalendarDays size={20} strokeWidth={1.8} aria-hidden />
           Book Now
         </RouteLink>
@@ -53,7 +58,7 @@ export default function MobileActionBar() {
           <Phone size={20} strokeWidth={1.8} aria-hidden />
           Call Now
         </button>
-        <WhatsAppMenu>
+        <WhatsAppMenu gaLocation="sticky">
           <MessageCircle size={20} strokeWidth={1.8} aria-hidden />
           WhatsApp
         </WhatsAppMenu>
@@ -62,7 +67,11 @@ export default function MobileActionBar() {
       <Dialog.Root open={callOpen} onOpenChange={setCallOpen}>
         <Dialog.Portal>
           <Dialog.Overlay className="csheet-overlay" />
-          <Dialog.Content className="csheet" aria-label="Call Medcare">
+          <Dialog.Content
+            className="csheet"
+            aria-label="Call Medcare"
+            data-ga-location="sticky"
+          >
             <Dialog.Title className="csheet-title">Call Medcare</Dialog.Title>
             <a className="csheet-option" href={`tel:${siteConfig.phone.tel}`}>
               <Phone size={20} strokeWidth={1.8} aria-hidden />

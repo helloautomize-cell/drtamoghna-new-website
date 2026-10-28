@@ -175,19 +175,23 @@ test.describe("booking form surfaces", () => {
 
 test.describe("request gating", () => {
   for (const path of ["/", "/contact/", "/plan-your-visit/"]) {
-    test(`no analytics/video requests on load ${path}`, async ({ page }) => {
+    test(`no video requests or GA cookies on load ${path}`, async ({
+      page,
+      context,
+    }) => {
       const hits: string[] = [];
       page.on("request", (r) => {
-        if (
-          /google-analytics|googletagmanager|youtube/.test(
-            r.url(),
-          )
-        )
-          hits.push(r.url());
+        if (/youtube/.test(r.url())) hits.push(r.url());
       });
       await page.goto(path);
       await page.waitForTimeout(1500);
       expect(hits).toEqual([]);
+      // Consent Mode advanced loads gtag.js before consent, but must not
+      // set analytics cookies while analytics_storage is denied.
+      const gaCookies = (await context.cookies()).filter((c) =>
+        c.name.startsWith("_ga"),
+      );
+      expect(gaCookies).toEqual([]);
     });
   }
 

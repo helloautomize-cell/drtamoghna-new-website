@@ -1,12 +1,12 @@
 "use client";
 
 /**
- * analytics.ts · Consent-gated GA4.
+ * analytics.ts · GA4 helpers.
  *
- * gtag.js is injected only after the visitor accepts analytics cookies and
- * only when NEXT_PUBLIC_GA_ID is set. Consent Mode v2 defaults are denied
- * (set inline in the root layout); ad signals always stay denied. Events
- * carry no PII and no health data.
+ * components/Analytics.tsx loads gtag.js on every page under Consent Mode
+ * v2 "advanced": the defaults set inline in the root layout are all denied,
+ * and the saved choice from lib/consent.ts is applied on load. ad signals
+ * always stay denied. Events carry no PII and no health data.
  */
 
 declare global {

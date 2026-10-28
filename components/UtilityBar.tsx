@@ -10,7 +10,7 @@ import TextSizeSwitch from "./TextSizeSwitch";
  */
 export default function UtilityBar() {
   return (
-    <div className="ubar-wrap">
+    <div className="ubar-wrap" data-ga-location="header">
       <div className="ubar container-mc">
         <span>
           <RouteLink href="/plan-your-visit/">Plan your visit</RouteLink> ·{" "}

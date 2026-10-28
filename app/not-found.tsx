@@ -4,13 +4,13 @@ import RouteLink from "@/components/RouteLink";
  * Branded 404 (content file, Page 11). Links to pages not yet built are
  * intentional; they resolve as phases land.
  */
-const suggestions = [
+const suggestions: { label: string; href: string; ga?: string }[] = [
   { label: "Diabetes care", href: "/diabetes-care/" },
   { label: "Heart health", href: "/heart-health/" },
   { label: "Weight management", href: "/weight-management/" },
   { label: "Echocardiography", href: "/heart-health/echocardiography/" },
   { label: "Plan your visit", href: "/plan-your-visit/" },
-  { label: "Book an appointment", href: "/book/" },
+  { label: "Book an appointment", href: "/book/", ga: "appointment" },
 ];
 
 export default function NotFound() {
@@ -23,7 +23,9 @@ export default function NotFound() {
       <ul className="nf-links">
         {suggestions.map((s) => (
           <li key={s.href}>
-            <RouteLink href={s.href}>{s.label}</RouteLink>
+            <RouteLink href={s.href} data-ga={s.ga}>
+              {s.label}
+            </RouteLink>
           </li>
         ))}
       </ul>

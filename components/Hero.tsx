@@ -24,7 +24,7 @@ const chips = [
  */
 export default function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" data-ga-location="hero">
       {/* LCP: preload the correct art-directed crop per breakpoint */}
       <link
         rel="preload"

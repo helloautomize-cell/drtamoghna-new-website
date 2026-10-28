@@ -14,7 +14,12 @@ export default function BookButton({
   ariaLabel?: string;
 }) {
   return (
-    <RouteLink className="book" href={href} aria-label={ariaLabel ?? label}>
+    <RouteLink
+      className="book"
+      href={href}
+      aria-label={ariaLabel ?? label}
+      data-ga="appointment"
+    >
       <span className="ic">
         <CalendarDays size={22} strokeWidth={1.8} aria-hidden />
       </span>

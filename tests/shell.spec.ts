@@ -173,14 +173,18 @@ test.describe("cookie banner", () => {
     await expect(page.getByRole("dialog", { name: "Cookie settings" })).toBeVisible();
   });
 
-  test("zero requests to google-analytics or googletagmanager", async ({ page }) => {
-    const hits: string[] = [];
-    page.on("request", (r) => {
-      const u = r.url();
-      if (u.includes("google-analytics") || u.includes("googletagmanager")) hits.push(u);
-    });
+  test("no GA cookies before consent (Consent Mode advanced)", async ({
+    page,
+    context,
+  }) => {
     await page.goto("/");
     await page.goto("/styleguide/");
-    expect(hits).toEqual([]);
+    await page.waitForTimeout(1500);
+    // gtag.js may load before consent, but analytics_storage stays denied
+    // so no _ga/_gid cookie may be set until the visitor accepts.
+    const gaCookies = (await context.cookies()).filter((c) =>
+      c.name.startsWith("_ga"),
+    );
+    expect(gaCookies).toEqual([]);
   });
 });

@@ -38,7 +38,9 @@ const notoSansDevanagari = Noto_Sans_Devanagari({
 });
 
 const indexable = process.env.SITE_NOINDEX !== "true";
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "";
+// Hardcoded fallback: a Measurement ID is public by design. If
+// NEXT_PUBLIC_GA_ID is set on Vercel it must hold this same ID.
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-PYEV9S240X";
 
 export const metadata: Metadata = {
   metadataBase: siteConfig.siteUrl ? new URL(siteConfig.siteUrl) : undefined,
@@ -46,6 +48,7 @@ export const metadata: Metadata = {
   // 60-character limit in scripts/export-seo-meta.mjs).
   title: `${siteConfig.name}, Bongaigaon`,
   description: siteConfig.tagline,
+  verification: { google: "PGEvia7Lt_sB-hOQ6csXnTdp1WZssBOudn5x0sIEb-s" },
   robots: indexable
     ? { index: true, follow: true }
     : { index: false, follow: false, nocache: true },
@@ -73,11 +76,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
         {GA_ID ? (
-          // Consent Mode v2 defaults: everything denied until the visitor
-          // accepts. Inline data only, no network request.
+          // Consent Mode v2 "advanced" defaults: everything denied until
+          // the visitor accepts. wait_for_update gives a returning
+          // visitor's saved choice time to apply before hits send.
           <script
             dangerouslySetInnerHTML={{
-              __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});`,
+              __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});`,
             }}
           />
         ) : null}

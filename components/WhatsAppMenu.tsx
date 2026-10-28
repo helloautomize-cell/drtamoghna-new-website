@@ -19,10 +19,13 @@ export default function WhatsAppMenu({
   className,
   children,
   ariaLabel,
+  gaLocation,
 }: {
   className?: string;
   children?: ReactNode;
   ariaLabel?: string;
+  /** link_location for the wa.me options when the trigger is sticky/floating. */
+  gaLocation?: string;
 }) {
   const [open, setOpen] = useState(false);
   const [pos, setPos] = useState<CSSProperties | undefined>();
@@ -67,6 +70,7 @@ export default function WhatsAppMenu({
           className="wapop"
           style={pos}
           aria-describedby={undefined}
+          data-ga-location={gaLocation}
         >
           <Dialog.Title className="wapop-title">Chat on WhatsApp</Dialog.Title>
           {siteConfig.whatsapp.numbers.map((n) => (
