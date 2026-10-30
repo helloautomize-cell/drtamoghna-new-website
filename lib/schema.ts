@@ -7,12 +7,35 @@ import { siteConfig } from "./site-config";
  * MedicalWebPage, FAQPage, BlogPosting) are added by each page.
  *
  * Compliance: no AggregateRating, no Review (IMC rules).
- * Geo and GeoCircle omitted until the Maps-pin lat/long is confirmed
- * (TODO_CONFIRM in site-config).
+ * Geo comes from the clinic's own Maps pin (clinicGeoCoordinates); GeoCircle is
+ * still omitted because the service area is already covered by areaServed.
  */
 
 const base =
   siteConfig.siteUrl || "https://drtamoghna-new-website.vercel.app";
+
+/** Shared PostalAddress for the clinic; also where Dr. Das and the visiting
+ *  specialists consult. */
+export const clinicPostalAddress = {
+  "@type": "PostalAddress",
+  streetAddress: siteConfig.address.streetAddress,
+  addressLocality: siteConfig.address.locality,
+  addressRegion: siteConfig.address.region,
+  postalCode: siteConfig.address.postalCode,
+  addressCountry: siteConfig.address.country,
+};
+
+// Q21: lat/long read from the clinic's own Maps pin (GBP CID
+// 18284086181285239697, the same pin used in hasMap / MapCard).
+export const clinicGeoCoordinates = {
+  "@type": "GeoCoordinates",
+  latitude: 26.4940207,
+  longitude: 90.5510108,
+};
+
+// [CONFIRM] Neutral price-level placeholder for JSON-LD priceRange until
+// Dr. Das confirms a real consultation fee range (Q33). Schema-only value.
+export const clinicPriceRange = "₹₹";
 
 export const inHouseTests = [
   "Echocardiography with strain imaging",
@@ -78,6 +101,10 @@ export const physicianNode = {
   honorificSuffix: "MBBS, MD",
   url: `${base}/dr-tamoghna-das/`,
   image: `${base}/images/doctors/dr-das-portrait.jpg`,
+  telephone: siteConfig.phone.schema,
+  address: clinicPostalAddress,
+  geo: clinicGeoCoordinates,
+  priceRange: clinicPriceRange,
   medicalSpecialty: ["Internal medicine", "Endocrine", "Cardiovascular"],
   alumniOf: [
     "Gauhati Medical College and Hospital",
@@ -176,19 +203,14 @@ export const clinicNode = {
   name: siteConfig.name,
   alternateName: ["Medcare", "Medcare Clinic Bongaigaon"],
   url: `${base}/`,
-  image: "https://www.medcare.org.in/images/medcare-storefront.jpg",
+  image: `${base}/images/medcare-storefront.jpg`,
   logo: `${base}/brand/medcare-logo.png`,
   // Maps pin resolved via g.page -> place id 0x3758ffe383475f4b, CID below.
-  // geo + GeoCircle stay omitted: exact lat/long still TODO_CONFIRM.
+  // geo is the same pin's coordinates (clinicGeoCoordinates).
   hasMap: "https://www.google.com/maps?cid=18284086181285239697",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: siteConfig.address.streetAddress,
-    addressLocality: siteConfig.address.locality,
-    addressRegion: siteConfig.address.region,
-    postalCode: siteConfig.address.postalCode,
-    addressCountry: siteConfig.address.country,
-  },
+  address: clinicPostalAddress,
+  geo: clinicGeoCoordinates,
+  priceRange: clinicPriceRange,
   telephone: siteConfig.phone.schema,
   contactPoint: siteConfig.whatsapp.numbers.map((n) => ({
     "@type": "ContactPoint",
