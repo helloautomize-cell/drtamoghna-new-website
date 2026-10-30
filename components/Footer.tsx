@@ -39,7 +39,7 @@ export default function Footer() {
         <div className="foot-top">
           <div className="foot-brand">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/brand/medcare-logo.svg" alt={siteConfig.name} className="foot-logo" />
+            <img src="/brand/medcare-logo.svg" alt={siteConfig.name} className="foot-logo" width="2105" height="581" />
             <p className="foot-tagline">{footerTagline}</p>
           </div>
 

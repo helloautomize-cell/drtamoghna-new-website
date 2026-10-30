@@ -1,4 +1,4 @@
-import { badgeFile, badgePx, type BadgeSize, type BadgeSlug } from "@/lib/service-badges";
+import { badgeFile, badgePx, badgeSrc, type BadgeSize, type BadgeSlug } from "@/lib/service-badges";
 
 /**
  * Illustrated PNG/WebP service badge on a white coin with a CSS ring
@@ -22,6 +22,8 @@ export default function Badge({
     <img
       className={className}
       src={badgeFile(slug, size)}
+      srcSet={`${badgeSrc(slug, 256)} 256w, ${badgeSrc(slug, 512)} 512w`}
+      sizes={`${px}px`}
       alt=""
       width={px}
       height={px}

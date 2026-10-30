@@ -48,23 +48,55 @@ export default function Analytics({ gaId }: { gaId: string }) {
   const loaded = useRef(false);
   const lastPath = useRef<string | null>(null);
 
-  // Always load gtag.js once; config runs on every page so the tag is
-  // detectable and Consent Mode pings flow even while storage is denied.
+  // Load gtag.js once per session, but never during the critical load
+  // window: the first interaction (tap, key, scroll) starts it, or a
+  // timer a few seconds after the load event, whichever comes first.
+  // Consent Mode "advanced" still works because the denied defaults
+  // fired inline long before this; hits just send a little later.
+  // Keeps ~180KB of third party JS off the main thread while the LCP
+  // element paints and out of the TBT window.
   useEffect(() => {
-    if (!gaId || loaded.current) return;
-    loaded.current = true;
+    if (!gaId) return;
 
-    const s = document.createElement("script");
-    s.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(gaId)}`;
-    s.async = true;
-    document.head.appendChild(s);
+    const start = () => {
+      if (loaded.current) return;
+      loaded.current = true;
 
-    window.gtag!("js", new Date());
-    window.gtag!("config", gaId, {
-      send_page_view: true,
-      page_location: cleanLocation(),
-      anonymize_ip: true,
-    });
+      const s = document.createElement("script");
+      s.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(gaId)}`;
+      s.async = true;
+      document.head.appendChild(s);
+
+      window.gtag!("js", new Date());
+      window.gtag!("config", gaId, {
+        send_page_view: true,
+        page_location: cleanLocation(),
+        anonymize_ip: true,
+      });
+    };
+
+    const events = ["pointerdown", "keydown", "touchstart", "scroll"] as const;
+    const onInteract = () => start();
+    events.forEach((e) =>
+      window.addEventListener(e, onInteract, { once: true, passive: true }),
+    );
+
+    // Fallback for visitors who never interact: load a few seconds after
+    // the load event, once the page has settled. The delay keeps gtag.js
+    // out of the critical path (LCP) and usually past TTI, so its ~180KB
+    // download and ~300ms of script work do not count as blocking time.
+    let timerId = 0;
+    const armTimer = () => {
+      timerId = window.setTimeout(start, 4000);
+    };
+    if (document.readyState === "complete") armTimer();
+    else window.addEventListener("load", armTimer, { once: true });
+
+    return () => {
+      events.forEach((e) => window.removeEventListener(e, onInteract));
+      window.removeEventListener("load", armTimer);
+      if (timerId) window.clearTimeout(timerId);
+    };
   }, [gaId]);
 
   // Apply the saved consent choice (returning visitors) and every later

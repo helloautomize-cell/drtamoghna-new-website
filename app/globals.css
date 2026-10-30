@@ -5317,6 +5317,72 @@ button.btn.ghost {
 .book-home {
   max-width: 720px;
 }
+/* DeferredBooking: space held while the form chunk loads near the
+   viewport, plus the inert skeleton that mirrors the form's first paint
+   so the mount swap does not shift the layout. */
+.book-defer {
+  min-height: 560px;
+}
+.book-skeleton {
+  pointer-events: none;
+  user-select: none;
+}
+.book-skeleton .fld-like {
+  display: block;
+  font: 600 14.5px/1.4 var(--sans);
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+.book-skeleton .bks {
+  background: linear-gradient(90deg, #f0f5f6 25%, #e4edef 50%, #f0f5f6 75%);
+  background-size: 200% 100%;
+  animation: bk-shimmer 1.2s ease-in-out infinite;
+  border-color: transparent;
+  color: transparent;
+}
+@media (prefers-reduced-motion: reduce) {
+  .book-skeleton .bks {
+    animation: none;
+  }
+}
+.book-skeleton .bks-input {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  border: 1.5px solid transparent;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font: 500 16px/1.4 var(--sans);
+}
+.book-skeleton .bks-area {
+  display: block;
+  width: 100%;
+  min-height: 96px;
+  border-radius: 12px;
+}
+.book-skeleton .bks-check {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  border-radius: 5px;
+}
+.book-skeleton .fld.check {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.book-skeleton .bks-consent {
+  font: 500 15px/1.5 var(--sans);
+  color: var(--ink-2);
+}
+.book-skeleton .day.bks {
+  cursor: default;
+}
+.book-skeleton .bks-submit {
+  display: grid;
+  place-items: center;
+}
 @media (max-width: 560px) {
   .bform.booking {
     padding: 20px;

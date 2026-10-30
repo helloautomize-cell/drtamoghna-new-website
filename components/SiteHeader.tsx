@@ -57,7 +57,7 @@ export default function SiteHeader() {
     <header className={`sitehdr${scrolled ? " is-scrolled" : ""}`}>
       <div className="sitehdr-in container-mc">
         <RouteLink className="sitehdr-logo" href="/" aria-label={`${siteConfig.name}, home`}>
-          <img src="/brand/medcare-logo.svg" alt={siteConfig.name} />
+          <img src="/brand/medcare-logo.svg" alt={siteConfig.name} width="2105" height="581" />
         </RouteLink>
 
         <NavigationMenu.Root className="sitehdr-nav" delayDuration={120}>

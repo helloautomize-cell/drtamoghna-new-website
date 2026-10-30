@@ -18,7 +18,7 @@ import ConfirmChip from "@/components/ConfirmChip";
 import AutoScrollRow from "@/components/AutoScrollRow";
 import Faqs from "@/components/content/Faqs";
 import { CtaBand } from "@/components/content/PageParts";
-import { BookingFormController } from "@/components/forms/booking-form-controller";
+import { DeferredBooking } from "@/components/forms/deferred-booking";
 import { ObfuscatedEmail } from "@/components/FooterBits";
 import { getPage, mdToHtml, pageH1 } from "@/lib/content";
 import { blogImages } from "@/lib/blog-images";
@@ -234,9 +234,9 @@ export default function Home() {
               <div className="hl-cover" aria-hidden>
                 {p.img ? (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img className="hl-photo" src={p.img} alt="" width={1280} height={720} loading={i < 2 ? "eager" : "lazy"} />
+                  <img className="hl-photo" src={p.img} alt="" width={1280} height={720} loading="lazy" />
                 ) : p.badge ? (
-                  <Badge slug={p.badge} size="md" eager={i < 2} />
+                  <Badge slug={p.badge} size="md" />
                 ) : null}
               </div>
               <div className="hl-meta">
@@ -290,7 +290,7 @@ export default function Home() {
           online.
         </SectionHeading>
         <div className="book-home">
-          <BookingFormController surface="home" layout="compact" />
+          <DeferredBooking surface="home" layout="compact" />
         </div>
       </section>
 

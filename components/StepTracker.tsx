@@ -119,7 +119,7 @@ export default function StepTracker() {
           {visitSteps.map((s, i) => (
             <div className="trk-slide" key={s.name}>
               <div className="step-media">
-                <StepMedia mock={s.mock} img={s.img} eager={i < 2} />
+                <StepMedia mock={s.mock} img={s.img} />
               </div>
               <small>{String(i + 1).padStart(2, "0")}</small>
               <h3>{s.name}</h3>
