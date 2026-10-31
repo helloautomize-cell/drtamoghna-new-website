@@ -3142,8 +3142,9 @@ table.ct {
   color: var(--primary);
 }
 /* Prose links get the teal underline; buttons (.btn, .book) keep their own
-   colour or the white button text becomes unreadable. */
-.pb-main a:not(.btn):not(.book) {
+   colour or the white button text becomes unreadable. Card, chip and arrow
+   link components carry their own styling, so they are excluded too. */
+.pb-main a:not(.btn):not(.book):not(.hl-card):not(.chip):not(.post-link):not(.pcard):not(.sgc):not(.link-arrow) {
   color: var(--primary-500);
   font-weight: 600;
   text-decoration: underline;
@@ -4093,6 +4094,14 @@ button.ccard {
   text-decoration: none;
   color: inherit;
 }
+.hl-chips a.chip:hover,
+.hl-chips a.chip:focus-visible {
+  box-shadow: inset 0 0 0 1px var(--primary);
+}
+.hl-chips a.chip:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .hl-cluster {
   margin: 0 0 38px;
 }
@@ -4120,16 +4129,21 @@ button.ccard {
   border-radius: 20px;
   overflow: hidden;
   background: #fff;
+  color: var(--ink);
   text-decoration: none;
   transition: transform 0.2s, border-color 0.2s;
 }
-.hl-card:hover {
+.hl-card:hover,
+.hl-card:focus-visible {
   transform: translateY(-3px);
   border-color: var(--primary);
 }
 .hl-card:hover .hl-meta h2,
-.hl-card:hover .hl-meta h3 {
+.hl-card:hover .hl-meta h3,
+.hl-card:focus-visible .hl-meta h2,
+.hl-card:focus-visible .hl-meta h3 {
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 .hl-cover {
   aspect-ratio: 16 / 9;
