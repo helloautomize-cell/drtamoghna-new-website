@@ -26,7 +26,6 @@ export const siteConfig = {
     country: "IN",
   },
   mapsUrl: "https://maps.app.goo.gl/pywFP4CULqxi2RBGA", // Q6
-  reviewUrl: "https://g.page/r/CZGbIjaCH779EBM/review", // Q6
 
   // Q22: OPD hours, open 7 days.
   hours: {
@@ -139,13 +138,6 @@ export const siteConfig = {
     instagram: "https://www.instagram.com/medcarebongaigaon/",
   },
 
-  // Q54b: manual mode until go-live, hidden while value is null.
-  googleRating: {
-    value: null as number | null,
-    count: null as number | null,
-    checkedOn: null as string | null,
-    source: "manual" as "manual" | "places-api",
-  },
 
   // Q52: launch date, 3 October 2026.
   legalLastUpdated: "2026-10-03" as string | null,
@@ -178,7 +170,6 @@ export const TODO_CONFIRM = [
   "Bhutan border towns mention OK (Q28)",
   "Sleep study: home kit or overnight at the clinic (Q30)",
   "Refund of mistaken payments within 7 working days (Q35)",
-  "Current Google rating and review count from the GBP (Q54b)",
   "Device maker portals for Holter, CGM or echo data (Q48)",
   "Consent form names the website (Q44)",
   "Assam Clinical Establishments registration number (Q46)",

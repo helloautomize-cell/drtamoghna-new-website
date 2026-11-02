@@ -17,7 +17,7 @@ import RouteLink from "./RouteLink";
  * to the matching service page. Horizontal scroll on mobile, no wrap.
  */
 const PILLS: { label: string; href: string; Icon: LucideIcon }[] = [
-  { label: "Advanced Echocardiography Lab", href: "/heart-health/echocardiography/", Icon: Waves },
+  { label: "Echocardiography Lab with Strain Imaging", href: "/heart-health/echocardiography/", Icon: Waves },
   { label: "High sugar or diabetes", href: "/diabetes-care/", Icon: Droplet },
   { label: "Weight concerns", href: "/weight-management/", Icon: Weight },
   { label: "Blood pressure", href: "/heart-health/high-blood-pressure/", Icon: Gauge },

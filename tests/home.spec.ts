@@ -129,9 +129,13 @@ test.describe("home motion", () => {
 });
 
 test.describe("media request gating", () => {
-  test("homepage map card renders the Google Maps embed", async ({ page }) => {
+  test("homepage map card loads the Google Maps embed on tap", async ({
+    page,
+  }) => {
     await page.goto("/");
     await dismissConsent(page);
+    await expect(page.locator(".mapcard iframe")).toHaveCount(0);
+    await page.locator(".mapcard button", { hasText: "Load map" }).click();
     const iframe = page.locator(".mapcard iframe");
     await expect(iframe).toHaveCount(1);
     await expect(iframe).toHaveAttribute("src", /google\.com\/maps/);

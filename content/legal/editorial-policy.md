@@ -28,7 +28,7 @@ We rely on guidelines and publications from bodies such as the Indian Council of
 - The "Last reviewed" date shows the latest review
 
 ### Use of technology and AI tools
-Some first drafts of text, and some illustrations such as service badges, are prepared with the help of digital and AI tools. Every word is checked, edited and approved by Dr. Das before publication. AI-assisted images are used only for illustrations and design, never to show real patients or results. Any edited or enhanced photo of Dr. Das is used only with his written approval.
+Some first drafts of text, and some illustrations such as service badges, are prepared with the help of digital and AI tools. Every word is checked, edited and approved by Dr. Das before publication. AI-assisted images are used only for illustrations and design, never to show real patients or results. Illustrations across this website may be AI-assisted. Any edited or enhanced photo of Dr. Das is used only with his written approval.
 
 ### Photos of people
 People shown in photos at the clinic have given written consent. Photos never show patient results, and captions never describe anyone's diagnosis.

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
  * launch-check · everything that still needs Dr. Das's sign-off before launch.
- * Lists every [CONFIRM] in content/, every TODO_CONFIRM in site-config, and
- * any googleRating older than 30 days. Exits non-zero while anything remains.
+ * Lists every [CONFIRM] in content/ and every TODO_CONFIRM in site-config.
+ * Exits non-zero while anything remains.
  */
 import { readFileSync, readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
@@ -39,23 +39,6 @@ if (todo) {
     open++;
   });
   if (!items.length) console.log("  (none)");
-}
-
-console.log("\n== googleRating freshness ==");
-const ratingMatch = cfg.match(/googleRating:\s*{[\s\S]*?checkedOn:\s*([^,\n]+)/);
-const checkedOn = ratingMatch ? ratingMatch[1].trim() : null;
-const date = checkedOn ? new Date(checkedOn.replace(/"/g, "")) : null;
-if (!date || Number.isNaN(date.getTime())) {
-  console.log(`  googleRating.checkedOn is not set`);
-  open++;
-} else {
-  const ageDays = Math.floor((Date.now() - date.getTime()) / 86400000);
-  if (ageDays > 30) {
-    console.log(`  googleRating last checked ${checkedOn} (${ageDays} days ago, limit 30)`);
-    open++;
-  } else {
-    console.log(`  OK: checked ${checkedOn} (${ageDays} days ago)`);
-  }
 }
 
 console.log(`\nlaunch-check: ${open} open item${open === 1 ? "" : "s"}`);

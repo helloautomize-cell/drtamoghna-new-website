@@ -4,13 +4,11 @@ import { footerColumns, catchmentLine, footerTagline } from "@/lib/nav";
 import { siteConfig } from "@/lib/site-config";
 import { whatsappUrl } from "@/lib/whatsapp";
 import { CookieSettingsButton, ObfuscatedEmail } from "./FooterBits";
-import GoogleRatingChip from "./GoogleRatingChip";
 import SocialLinks, { clinicSocial } from "./SocialLinks";
 
 /**
  * Footer (site-plan section 3): brand line, address, hours, contact links,
- * Google rating chip (hidden while the value is null), link columns
- * (accordions on mobile), catchment line, social icons and the legal
+ * link columns (accordions on mobile), catchment line, social icons and the legal
  * bottom line. "Cookie settings" re-opens the consent dialog.
  */
 
@@ -92,7 +90,6 @@ export default function Footer() {
             </div>
 
             <div className="foot-block">
-              <GoogleRatingChip />
               <a className="foot-dir" href={siteConfig.mapsUrl} target="_blank" rel="noopener noreferrer">
                 See us on Google Maps
               </a>

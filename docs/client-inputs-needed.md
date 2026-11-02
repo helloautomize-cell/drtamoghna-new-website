@@ -169,17 +169,12 @@ double-checks.
     Does the clinic hold an Assam Clinical Establishments Act
     registration number we should display?
 
-31. **Google rating** · affects footer (rating chip, currently hidden)
-    What are the current star rating and review count on the Google
-    Business Profile? Or share manager access so we connect the live
-    rating automatically.
-
-32. **Content sign-off** · site-wide
+31. **Content sign-off** · site-wide
     The site shows "Last reviewed 3 October 2026" and "Medically
     reviewed by Dr. Tamoghna Das". Please confirm you have read and
     approve all medical content as of that date.
 
-33. **Device data portals** · affects `/privacy-policy/` context
+32. **Device data portals** · affects `/privacy-policy/` context
     Do patients' Holter, CGM or echo results go through any device
     maker's online portal? If yes, we add a line to the privacy policy
     naming the data flow.

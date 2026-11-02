@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { siteConfig } from "./site-config";
 
 export const SITE_BASE =
-  siteConfig.siteUrl || "https://drtamoghna-new-website.vercel.app";
+  siteConfig.siteUrl || "https://www.medcare.org.in";
 
 export function pageMeta({
   title,

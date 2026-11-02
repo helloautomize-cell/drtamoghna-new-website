@@ -16,7 +16,7 @@ Eyebrow: MEDCARE · NORTH BONGAIGAON, ASSAM
 
 H1: Diabetes, heart and weight care in *Bongaigaon*
 
-Sub: One experienced physician, most tests under one roof, and a plan that fits your life.
+Sub: One physician, most tests under one roof, and a plan that fits your life.
 
 Buttons: [Book Appointment] [Call 60031 21297]
 
@@ -33,7 +33,7 @@ Mobile short line (under the portrait): Open every day. Most tests on the same v
 Row label: What brings you in today
 
 Pills (each links to a page):
-- Advanced Echocardiography Lab → /heart-health/echocardiography/
+- Echocardiography Lab with Strain Imaging → /heart-health/echocardiography/
 - High sugar or diabetes → /diabetes-care/
 - Weight concerns → /weight-management/
 - Blood pressure → /heart-health/high-blood-pressure/
@@ -63,7 +63,7 @@ H2: A physician-led clinic in *North Bongaigaon*
 
 Photo labels (placed off faces): "Caring for Bongaigaon since 2023" · "Open 7 days"
 
-Paragraph: Medcare is a physician-led clinic run by Dr. Tamoghna Das, MBBS, MD (Internal Medicine), with a Post Graduate Fellowship in Echocardiography (JROP, Delhi). He is a member of the Indian Academy of Echocardiography (IAE) and the European Society of Cardiology (ESC), and has performed more than 10,000 echocardiography examinations. Medcare brings diabetes, obesity and heart care under one roof, with an advanced echocardiography lab, a weekly Heart Function Clinic recognised by the Heart Failure Association of India (HFAI), and in-house tests, so most patients can be examined, tested and treated in one place.
+Paragraph: Medcare is a physician-led clinic run by Dr. Tamoghna Das, MBBS, MD (Internal Medicine), with a Post Graduate Fellowship in Echocardiography (JROP, Delhi). He is a member of the Indian Academy of Echocardiography (IAE) and the European Society of Cardiology (ESC). He performs and reports every echocardiogram himself. Medcare brings diabetes, obesity and heart care under one roof, with an echocardiography lab with strain imaging, a weekly heart failure clinic run by Dr. Das, and in-house tests, so most patients can be examined, tested and treated in one place.
 
 Rows:
 - (doctor badge) **Consultations** · Diabetes, weight, BP, heart, thyroid, lungs, sleep and general medicine

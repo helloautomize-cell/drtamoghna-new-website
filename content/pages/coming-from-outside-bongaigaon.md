@@ -39,7 +39,7 @@ Note: Medcare does not offer video consultations at present. [CONFIRM]
 ### FAQs
 
 1. **Can I finish everything in one day?**
-   Usually yes. Book ahead, arrive in the morning and bring your old reports. Consultation and most tests are done the same day at Medcare. Blood samples are collected at Medcare through our lab partner Agilus and reports are given at the clinic; some reports may arrive later, in which case you can send them on WhatsApp.
+   Usually yes. Book ahead, arrive in the morning and bring your old reports. Consultation and most tests are done the same day at Medcare. Blood samples are collected at Medcare and tested by an accredited partner laboratory; reports are given at the clinic; some reports may arrive later, in which case you can send them on WhatsApp.
 2. **Do I need to stay overnight?**
    Most patients do not. A sleep study is done overnight, and some monitors are worn for one to several days. If you need one of these, we will plan the timing with you.
 3. **Can I consult without coming to Bongaigaon?**

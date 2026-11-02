@@ -24,5 +24,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
     changeFrequency: "weekly",
   });
+  // Plain-text endpoints; listed so AI crawlers discover them.
+  for (const path of ["/llms.txt", "/llms-full.txt"]) {
+    entries.push({
+      url: `${SITE_BASE}${path}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+    });
+  }
   return entries;
 }

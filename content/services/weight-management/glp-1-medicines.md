@@ -15,7 +15,7 @@ dateModified: "2026-10-03"
 
 ### Intro
 
-GLP-1 medicines are prescription medicines that act like a natural gut hormone to reduce appetite, help you feel full sooner and lower blood sugar. They are used for type 2 diabetes and, for some people, for weight management. At Medcare in Bongaigaon, Dr. Tamoghna Das assesses whether these medicines are suitable for you, checks for safety, and follows you up closely if you start one. Medcare has its own pharmacy that sells genuine medicines.
+GLP-1 medicines are prescription medicines that act like a natural gut hormone to reduce appetite, help you feel full sooner and lower blood sugar. They are used for type 2 diabetes and, for some people, for weight management. At Medcare in Bongaigaon, Dr. Tamoghna Das assesses whether these medicines are suitable for you, checks for safety, and follows you up closely if you start one. A pharmacy counter operates inside the clinic during clinic hours. You are free to buy medicines from any licensed pharmacy.
 
 ### At a glance
 
@@ -77,7 +77,7 @@ Use only a medicine prescribed for you, bought from a licensed pharmacy with a b
 7. **Can I buy it online without seeing a doctor?**
    Please do not. GLP-1 medicines are prescription-only for good reasons: they need safety checks, dose adjustment and follow-up. Products sold without prescription, online or through social media, may be fake, wrongly stored or the wrong strength.
 8. **Does Medcare sell these medicines?**
-   Yes. Medcare has its own pharmacy that sells genuine medicines. If Dr. Das prescribes a medicine, you can buy it at the clinic with a proper bill. Use only a medicine prescribed for you.
+   Yes. A pharmacy counter operates inside the clinic during clinic hours, and prescribed medicines can be dispensed there with a proper bill. You are also free to buy them from any licensed pharmacy. Use only a medicine prescribed for you.
 
 ### Sources
 - RSSDI clinical practice recommendations (current edition)

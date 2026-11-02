@@ -359,17 +359,22 @@ test.describe("booking form", () => {
 
 /* ---------- embedded map ---------- */
 
-test("Google Maps embed loads directly without a click", async ({ page }) => {
+test("Google Maps embed is click-to-load, no request before the tap", async ({
+  page,
+}) => {
   const hits: string[] = [];
   page.on("request", (r) => {
     if (/google\.com\/maps|maps\.google|maps\.app\.goo/.test(r.url()))
       hits.push(r.url());
   });
   await page.goto("/plan-your-visit/");
+  await expect(page.locator(".mapcard iframe")).toHaveCount(0);
+  await page.waitForTimeout(2000);
+  expect(hits.length).toBe(0);
+  await page.locator(".mapcard button", { hasText: "Load map" }).click();
   const iframe = page.locator(".mapcard iframe");
   await expect(iframe).toHaveCount(1);
   await expect(iframe).toHaveAttribute("src", /google\.com\/maps/);
-  await iframe.scrollIntoViewIfNeeded();
   await page.waitForTimeout(4000);
   expect(hits.length).toBeGreaterThan(0);
 });

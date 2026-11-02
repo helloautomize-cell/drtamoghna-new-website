@@ -43,12 +43,11 @@ export default function AboutSection() {
           (Internal Medicine), with a Post Graduate Fellowship in
           Echocardiography (JROP, Delhi). He is a member of the Indian Academy
           of Echocardiography (IAE) and the European Society of Cardiology
-          (ESC), and has performed more than 10,000 echocardiography
-          examinations. Medcare brings diabetes, obesity and heart care under
-          one roof, with an advanced echocardiography lab, a weekly Heart
-          Function Clinic recognised by the Heart Failure Association of India
-          (HFAI), and in-house tests, so most patients can be examined, tested
-          and treated in one place.
+          (ESC). He performs and reports every echocardiogram himself.
+          Medcare brings diabetes, obesity and heart care under one roof,
+          with an echocardiography lab with strain imaging, a weekly heart
+          failure clinic run by Dr. Das, and in-house tests, so most
+          patients can be examined, tested and treated in one place.
         </p>
         <div className="about-rows">
           <div className="about-row">

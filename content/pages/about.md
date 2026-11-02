@@ -12,7 +12,7 @@ dateModified: "2026-10-03"
 
 H1: About *Medcare*
 
-Intro (answer-first): Medcare is a physician-led clinic run by Dr. Tamoghna Das, MBBS, MD (Internal Medicine), with a Post Graduate Fellowship in Echocardiography (JROP, Delhi). He is a member of the Indian Academy of Echocardiography (IAE) and the European Society of Cardiology (ESC), and has performed more than 10,000 echocardiography examinations. Medcare brings diabetes, obesity and heart care under one roof, with an advanced echocardiography lab, a weekly Heart Function Clinic recognised by the Heart Failure Association of India (HFAI), and in-house tests, so most patients can be examined, tested and treated in one place.
+Intro (answer-first): Medcare is a physician-led clinic run by Dr. Tamoghna Das, MBBS, MD (Internal Medicine), with a Post Graduate Fellowship in Echocardiography (JROP, Delhi). He is a member of the Indian Academy of Echocardiography (IAE) and the European Society of Cardiology (ESC). He performs and reports every echocardiogram himself. Medcare brings diabetes, obesity and heart care under one roof, with an echocardiography lab with strain imaging, a weekly heart failure clinic run by Dr. Das, and in-house tests, so most patients can be examined, tested and treated in one place.
 
 ### Why Medcare was started
 
@@ -45,7 +45,7 @@ Tests done in the clinic:
 - Diabetic foot nerve and circulation check
 - Sleep study
 
-Medcare has an in-house pharmacy and a lab tie-up with Agilus. Dr. Das tells you which blood tests you need; samples are collected at the clinic and reports are given there. Prescriptions can be filled at Medcare's in-house pharmacy, which sells genuine medicines.
+A pharmacy counter operates inside the clinic during clinic hours; you are free to buy medicines from any licensed pharmacy. Dr. Das tells you which blood tests you need. Blood samples are collected at Medcare and tested by an accredited partner laboratory; reports are given at the clinic.
 
 ### The clinic
 

@@ -11,8 +11,7 @@ import { siteConfig } from "./site-config";
  * still omitted because the service area is already covered by areaServed.
  */
 
-const base =
-  siteConfig.siteUrl || "https://drtamoghna-new-website.vercel.app";
+const base = siteConfig.siteUrl || "https://www.medcare.org.in";
 
 /** Shared PostalAddress for the clinic; also where Dr. Das and the visiting
  *  specialists consult. */
@@ -32,10 +31,6 @@ export const clinicGeoCoordinates = {
   latitude: 26.4940207,
   longitude: 90.5510108,
 };
-
-// [CONFIRM] Neutral price-level placeholder for JSON-LD priceRange until
-// Dr. Das confirms a real consultation fee range (Q33). Schema-only value.
-export const clinicPriceRange = "₹₹";
 
 export const inHouseTests = [
   "Echocardiography with strain imaging",
@@ -104,8 +99,7 @@ export const physicianNode = {
   telephone: siteConfig.phone.schema,
   address: clinicPostalAddress,
   geo: clinicGeoCoordinates,
-  priceRange: clinicPriceRange,
-  medicalSpecialty: ["Internal medicine", "Endocrine", "Cardiovascular"],
+  medicalSpecialty: ["Internal medicine", "Endocrine"],
   alumniOf: [
     "Gauhati Medical College and Hospital",
     "JROP Institute, Delhi",
@@ -210,7 +204,6 @@ export const clinicNode = {
   hasMap: "https://www.google.com/maps?cid=18284086181285239697",
   address: clinicPostalAddress,
   geo: clinicGeoCoordinates,
-  priceRange: clinicPriceRange,
   telephone: siteConfig.phone.schema,
   contactPoint: siteConfig.whatsapp.numbers.map((n) => ({
     "@type": "ContactPoint",

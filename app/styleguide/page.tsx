@@ -9,7 +9,6 @@ import HeaderSpecimen from "@/components/HeaderSpecimen";
 import Hero from "@/components/Hero";
 import SectionHeading from "@/components/SectionHeading";
 import ContrastTable from "@/components/ContrastTable";
-import GoogleRatingChip from "@/components/GoogleRatingChip";
 import ConfirmChip from "@/components/ConfirmChip";
 import WhyCards from "@/components/WhyCards";
 import ServiceTabs from "@/components/ServiceTabs";
@@ -297,14 +296,6 @@ export default function StyleguidePage() {
           <a className="link-arrow" href="/dr-tamoghna-das/">
             View profile <ArrowRight size={18} strokeWidth={2} aria-hidden />
           </a>
-        </div>
-        <div className="btns">
-          <GoogleRatingChip demo />
-          <span style={{ fontSize: 14, color: "var(--ink-2)", maxWidth: 560 }}>
-            Google rating chip: Visit band, Contact block and footer only. Never in the hero or next
-            to Dr. Das. Manual numbers until launch; hidden while <code>googleRating.value</code> is
-            null.
-          </span>
         </div>
       </section>
 

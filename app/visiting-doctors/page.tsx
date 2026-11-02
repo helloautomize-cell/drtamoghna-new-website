@@ -8,7 +8,7 @@ import { CtaBand } from "@/components/content/PageParts";
 import { accent, type ParsedPage } from "@/lib/content";
 import { pageGraph } from "@/lib/page-schema";
 import { pageMeta, SITE_BASE } from "@/lib/metadata";
-import { clinicGeoCoordinates, clinicPostalAddress, clinicPriceRange } from "@/lib/schema";
+import { clinicGeoCoordinates, clinicPostalAddress } from "@/lib/schema";
 import { siteConfig } from "@/lib/site-config";
 import { visitingDoctors, visitingPhone } from "@/lib/visiting-doctors";
 
@@ -106,7 +106,6 @@ export default function Page() {
         opens: "00:00",
         closes: "23:59",
       },
-      priceRange: "₹₹₹",
     },
     // Visiting specialists hold clinics at Medcare, so their practice
     // address, geo, bookable phone and consultable hours are the clinic's,
@@ -121,7 +120,6 @@ export default function Page() {
       medicalSpecialty: d.medicalSpecialty,
       address: clinicPostalAddress,
       geo: clinicGeoCoordinates,
-      priceRange: clinicPriceRange,
       openingHoursSpecification: d.visits.map(visitHours),
       hospitalAffiliation: { "@id": yashodaId },
     })),

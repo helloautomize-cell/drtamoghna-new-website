@@ -48,7 +48,7 @@ export default function Hero() {
           Diabetes, heart and weight care in <em className="acc">Bongaigaon</em>
         </h1>
         <p className="sub">
-          One experienced physician, most tests under one roof, and a plan that fits your life.
+          One physician, most tests under one roof, and a plan that fits your life.
         </p>
         <div className="btns">
           <BookButton />

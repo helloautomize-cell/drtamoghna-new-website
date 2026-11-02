@@ -46,15 +46,7 @@ step. "Agency" = Automize Media Labs, "Clinic" = Dr. Das's team,
 - [ ] Vercel Speed Insights and Web Analytics are already on; open them
       in the Vercel dashboard.
 
-## 6. Google rating chip (Developer)
-
-- [ ] Create a restricted Places API key (Places API only, HTTP
-      referrer-restricted to the domain) and set a Rs 100 budget alert.
-- [ ] Set `GOOGLE_PLACES_KEY` and `GOOGLE_PLACE_ID` in Vercel and
-      redeploy. The footer chip shows the live rating, refreshed every
-      24 h; it hides itself on any error. Until then it stays hidden.
-
-## 7. Google Business Profile (Agency)
+## 6. Google Business Profile (Agency)
 
 - [ ] Rename the profile to **Medcare Diabetes, Obesity and Echocardiography Clinic**.
 - [ ] Set the website link with UTM:
@@ -63,12 +55,12 @@ step. "Agency" = Automize Media Labs, "Clinic" = Dr. Das's team,
       Sun 9 am-3:30 pm.
 - [ ] Copy the description from `docs/entity-facts.md`.
 
-## 8. Other listings (Agency)
+## 7. Other listings (Agency)
 
 - [ ] Update Justdial and Practo using `docs/entity-facts.md`
       (identical NAP, hours, services and areas served).
 
-## 9. After launch (Agency)
+## 8. After launch (Agency)
 
 - [ ] Ask Dr. Das the questions in `docs/client-inputs-needed.md` and
       update the site where his answers differ.

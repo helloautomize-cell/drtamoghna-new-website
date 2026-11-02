@@ -50,7 +50,7 @@ Intro: Short answers to the questions we hear most. For anything about your own 
 
 ### Care and follow-up
 12. **Do you sell medicines?**
-    Yes. Medcare has its own pharmacy that sells genuine medicines, so you can buy prescribed medicines at the clinic with a proper bill.
+    Yes. A pharmacy counter operates inside the clinic during clinic hours, and prescribed medicines can be dispensed there with a proper bill. You are also free to buy medicines from any licensed pharmacy.
 13. **Can I ask a question on WhatsApp between visits?**
     You can send reports and simple questions on WhatsApp to 60031 21297 or 93651 75235. Treatment changes usually need a visit. WhatsApp is not watched for emergencies, so in an emergency call 108 or 112.
 14. **Do you see children?**
