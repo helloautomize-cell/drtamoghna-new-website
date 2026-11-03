@@ -3,7 +3,7 @@ import { ChevronDown, Clock, MapPin, MessageCircle, Phone } from "lucide-react";
 import { footerColumns, catchmentLine, footerTagline } from "@/lib/nav";
 import { siteConfig } from "@/lib/site-config";
 import { whatsappUrl } from "@/lib/whatsapp";
-import { CookieSettingsButton, ObfuscatedEmail } from "./FooterBits";
+import { ObfuscatedEmail } from "./FooterBits";
 import SocialLinks, { clinicSocial } from "./SocialLinks";
 
 /**
@@ -22,7 +22,6 @@ function ColumnLinks({ heading, links }: { heading: string; links: { label: stri
       ))}
       {heading === "Legal" ? (
         <li>
-          <CookieSettingsButton />
         </li>
       ) : null}
     </ul>

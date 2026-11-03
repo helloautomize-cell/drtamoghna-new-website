@@ -7,7 +7,6 @@ import SiteHeader from "@/components/SiteHeader";
 import Footer from "@/components/Footer";
 import MobileActionBar from "@/components/MobileActionBar";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
-import CookieBanner from "@/components/CookieBanner";
 import Analytics from "@/components/Analytics";
 import RevealObserver from "@/components/RevealObserver";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -75,12 +74,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
         {GA_ID ? (
-          // Consent Mode v2 "advanced" defaults: everything denied until
-          // the visitor accepts. wait_for_update gives a returning
-          // visitor's saved choice time to apply before hits send.
+          // GA4 measures every visit (analytics_storage granted). Ad
+          // signals stay denied. No consent banner on this site.
           <script
             dangerouslySetInnerHTML={{
-              __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});`,
+              __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('consent','default',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});`,
             }}
           />
         ) : null}
@@ -96,7 +94,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <MobileActionBar />
         <RevealObserver />
         <FloatingWhatsApp />
-        <CookieBanner />
         <Analytics gaId={GA_ID} />
         <SpeedInsights />
         <VercelAnalytics />
