@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Phone } from "lucide-react";
 import Breadcrumbs, { type Crumb } from "@/components/Breadcrumbs";
 import BookButton from "@/components/BookButton";
+import CallMenu from "@/components/CallMenu";
 import JsonLd from "@/components/JsonLd";
 import Faqs from "@/components/content/Faqs";
 import RichHtml from "@/components/content/RichHtml";
@@ -88,10 +89,10 @@ export default function ContentPage({
             {intro ? <p className="ph-intro">{intro}</p> : null}
             <div className="ph-actions">
               <BookButton href={bookingHref(url)} label="Book an appointment" />
-              <a className="btn ghost" href={`tel:${siteConfig.phone.tel}`}>
+              <CallMenu className="btn ghost">
                 <Phone size={18} strokeWidth={2} aria-hidden /> Call{" "}
                 {siteConfig.phone.display}
-              </a>
+              </CallMenu>
             </div>
           </div>
           {heroImg ? (

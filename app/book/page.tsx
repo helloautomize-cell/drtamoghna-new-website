@@ -12,6 +12,7 @@ import JsonLd from "@/components/JsonLd";
 import RouteLink from "@/components/RouteLink";
 import SocialLinks, { clinicSocial } from "@/components/SocialLinks";
 import WhatsAppMenu from "@/components/WhatsAppMenu";
+import CallMenu from "@/components/CallMenu";
 import { BookingFormController } from "@/components/forms/booking-form-controller";
 import { REASON_SLUG_MAP } from "@/data/booking-options";
 import { SITE_BASE, pageMeta } from "@/lib/metadata";
@@ -111,12 +112,12 @@ export default async function Page({
 
           <aside className="contact-cards" aria-label="Other ways to book">
             <div className="cc-stack">
-              <a className="ccard" href={`tel:${siteConfig.phone.tel}`}>
+              <CallMenu className="ccard">
                 <Phone size={20} strokeWidth={2} aria-hidden />
                 <span>
                   <b>Call</b> {siteConfig.phone.display}
                 </span>
-              </a>
+              </CallMenu>
               <WhatsAppMenu className="ccard">
                 <MessageCircle size={20} strokeWidth={2} aria-hidden />
                 <span>

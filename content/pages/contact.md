@@ -2,7 +2,7 @@
 
 ```yaml
 title: "Book an Appointment | Medcare Bongaigaon"
-description: "Book with Dr. Tamoghna Das at Medcare, North Bongaigaon. Call 60031 21297 or WhatsApp 60031 21297 or 93651 75235. We confirm within 30 to 60 minutes."
+description: "Book with Dr. Tamoghna Das at Medcare, North Bongaigaon. Call or WhatsApp 60031 21297 or 93651 75235. We confirm within 30 to 60 minutes."
 url: /contact/
 lastReviewed: "2026-10-03"
 schema: [ContactPage]
@@ -11,7 +11,7 @@ dateModified: "2026-10-03"
 
 H1: Book an appointment or *contact* us
 
-Intro: Fill in the form and we will call or WhatsApp you within 30 to 60 minutes during clinic hours to confirm your time. You can also call 60031 21297 or WhatsApp 60031 21297 or 93651 75235.
+Intro: Fill in the form and we will call or WhatsApp you within 30 to 60 minutes during clinic hours to confirm your time. You can also call or WhatsApp us on 60031 21297 or 93651 75235.
 
 Emergency notice above the form: This form is not for emergencies. In a medical emergency, call 108 or 112.
 
@@ -27,7 +27,7 @@ The shared slot booking form (same component as /book/): hourly slots saved to t
 - Under the form: "No advance payment. Pay at the clinic by cash, UPI or card." and the confirmation timing line
 
 ### Contact cards (beside the form, over the clinic image)
-- **Call** 60031 21297
+- **Call** 60031 21297 or 93651 75235
 - **WhatsApp** 60031 21297 or 93651 75235
 - **Email** [obfuscated]
 - **Address** Chapaguri Road, opposite Domino's, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380 · Get directions

@@ -8,6 +8,7 @@ import ConfirmChip from "@/components/ConfirmChip";
 import BookButton from "@/components/BookButton";
 import RouteLink from "@/components/RouteLink";
 import WhatsAppMenu from "@/components/WhatsAppMenu";
+import CallMenu from "@/components/CallMenu";
 import RichHtml from "./RichHtml";
 
 /**
@@ -163,9 +164,9 @@ export function CtaBand({ url }: { url: string }) {
         </p>
         <div className="cta-actions">
           <BookButton href={bookingHref(url)} label="Book an appointment" />
-          <a className="btn ghost" href={`tel:${siteConfig.phone.tel}`}>
+          <CallMenu className="btn ghost">
             <Phone size={18} strokeWidth={2} aria-hidden /> Call {siteConfig.phone.display}
-          </a>
+          </CallMenu>
           <WhatsAppMenu className="btn ghost">
             WhatsApp
           </WhatsAppMenu>
@@ -242,9 +243,9 @@ export function TocAside({
         <b>Book a visit</b>
         <p>We confirm within {siteConfig.bookingConfirmation} in clinic hours.</p>
         <BookButton href={bookingHref(url)} label="Book now" />
-        <a className="toc-call" href={`tel:${siteConfig.phone.tel}`}>
+        <CallMenu className="toc-call">
           <Phone size={15} strokeWidth={2} aria-hidden /> {siteConfig.phone.display}
-        </a>
+        </CallMenu>
       </div>
     </aside>
   );

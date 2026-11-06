@@ -75,13 +75,13 @@ export const visitingDoctors: VisitingDoctor[] = [
 
 /**
  * Visiting specialists book by phone only, on the clinic's second number.
- * Value reused from siteConfig.whatsapp.numbers[1] so it is not hard-coded
- * twice; `wa` holds the digits without the leading "+".
+ * Value reused from siteConfig.phone.numbers[1] so it is not hard-coded
+ * twice.
  */
 export const visitingPhone = {
-  display: siteConfig.whatsapp.numbers[1].display,
-  displayIntl: siteConfig.whatsapp.numbers[1].displayIntl,
-  tel: `+${siteConfig.whatsapp.numbers[1].wa}`,
+  display: siteConfig.phone.numbers[1].display,
+  displayIntl: siteConfig.phone.numbers[1].displayIntl,
+  tel: siteConfig.phone.numbers[1].tel,
 };
 
 export type VisitStatus = "today" | "upcoming" | "past";

@@ -39,7 +39,13 @@ export default async function Page({
           </p>
           <p>
             If you do not hear from us, please call{" "}
-            <a href={`tel:${siteConfig.phone.tel}`}>{siteConfig.phone.display}</a>.
+            {siteConfig.phone.numbers.map((n, i) => (
+              <span key={n.tel}>
+                {i > 0 ? " or " : ""}
+                <a href={`tel:${n.tel}`}>{n.display}</a>
+              </span>
+            ))}
+            .
           </p>
         </>
       )}

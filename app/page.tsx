@@ -316,9 +316,15 @@ export default function Home() {
             </p>
             <p className="hc-row">
               <Phone size={18} strokeWidth={1.9} aria-hidden />
-              <a href={`tel:${siteConfig.phone.tel}`}>
-                Call {siteConfig.phone.display}
-              </a>
+              <span>
+                Call{" "}
+                {siteConfig.phone.numbers.map((n, i) => (
+                  <span key={n.tel}>
+                    {i > 0 ? " or " : ""}
+                    <a href={`tel:${n.tel}`}>{n.display}</a>
+                  </span>
+                ))}
+              </span>
               <WhatsAppMenu>
                 <MessageCircle size={15} strokeWidth={2} aria-hidden /> WhatsApp{" "}
                 {siteConfig.whatsapp.display}

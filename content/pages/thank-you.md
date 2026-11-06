@@ -10,7 +10,7 @@ H1: Thank you, we have your *request*
 
 Text: We will call or WhatsApp you within 30 to 60 minutes during clinic hours to confirm your appointment. If you sent your request after 8:30 pm (or after 3:30 pm on Sunday), we will confirm it the next morning.
 
-If you do not hear from us, please call 60031 21297.
+If you do not hear from us, please call 60031 21297 or 93651 75235.
 
 Emergency: If your symptoms get worse, do not wait for your appointment. Call 108 or 112.
 

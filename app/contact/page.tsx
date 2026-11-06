@@ -13,6 +13,7 @@ import { pageGraph } from "@/lib/page-schema";
 import { pageMeta } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
 import WhatsAppMenu from "@/components/WhatsAppMenu";
+import CallMenu from "@/components/CallMenu";
 import { images, imgSrcSet } from "@/lib/images";
 
 export const dynamic = "force-dynamic";
@@ -20,7 +21,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = pageMeta({
   title: "Book an Appointment | Medcare Bongaigaon",
   description:
-    "Book with Dr. Tamoghna Das at Medcare, North Bongaigaon. Call 60031 21297 or WhatsApp 60031 21297 or 93651 75235. We confirm within 30 to 60 minutes.",
+    "Book with Dr. Tamoghna Das at Medcare, North Bongaigaon. Call or WhatsApp 60031 21297 or 93651 75235. We confirm within 30 to 60 minutes.",
   url: "/contact/",
 });
 
@@ -91,12 +92,12 @@ export default async function Page({
               aria-hidden
             />
             <div className="cc-stack">
-              <a className="ccard" href={`tel:${siteConfig.phone.tel}`}>
+              <CallMenu className="ccard">
                 <Phone size={20} strokeWidth={2} aria-hidden />
                 <span>
                   <b>Call</b> {siteConfig.phone.display}
                 </span>
-              </a>
+              </CallMenu>
               <WhatsAppMenu className="ccard">
                 <MessageCircle size={20} strokeWidth={2} aria-hidden />
                 <span>

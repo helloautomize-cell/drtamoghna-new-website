@@ -187,7 +187,7 @@ export const serviceTabs: ServiceTab[] = [
 export const visitSteps = [
   {
     name: "Book",
-    text: "Use the form, call 60031 21297 or WhatsApp 60031 21297 or 93651 75235. We confirm your time within 30 to 60 minutes during clinic hours.",
+    text: "Use the form, call or WhatsApp 60031 21297 or 93651 75235. We confirm your time within 30 to 60 minutes during clinic hours.",
     mock: "booking" as const,
   },
   {

@@ -118,7 +118,7 @@ export function llmsTxt(): string {
     `> ${ENTITY_STATEMENT}`,
     "",
     "One doctor runs every consultation: Dr. Tamoghna Das, MBBS, MD (Medicine), Assam Council of Medical Registration No. 20276. Consultation hours Monday to Saturday, 10 am to 2 pm and 6 pm to 8 pm, by prior appointment.",
-    "Phone: +91 60031 21297. WhatsApp: +91 60031 21297 or +91 93651 75235. Email: medcarebongaigaon@gmail.com.",
+    "Phone and WhatsApp: +91 60031 21297 or +91 93651 75235. Email: medcarebongaigaon@gmail.com.",
     `Book online: ${SITE_BASE}/book/ (pick a day and hourly slot; the clinic confirms by phone).`,
     VISITING_NOTE,
     "Address: Chapaguri Road, opposite Domino's, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380.",

@@ -28,8 +28,7 @@ Medcare is a physician-led clinic run by Dr. Tamoghna Das, MBBS, MD (Internal Me
 
 - **Name:** Medcare Diabetes, Obesity and Echocardiography Clinic
 - **Address:** Chapaguri Road, opposite Domino's, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380
-- **Phone (calls):** 60031 21297 (`+91 60031 21297`)
-- **WhatsApp:** 60031 21297 (`+91 60031 21297`) or 93651 75235 (`+91 93651 75235`)
+- **Phone (calls and WhatsApp):** 60031 21297 (`+91 60031 21297`) or 93651 75235 (`+91 93651 75235`)
 - **Email:** medcarebongaigaon@gmail.com
 - **Website:** https://drtamoghna-new-website.vercel.app
 - **Google Maps:** https://maps.app.goo.gl/pywFP4CULqxi2RBGA

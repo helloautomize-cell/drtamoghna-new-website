@@ -9,6 +9,7 @@ import {
 } from "@/data/booking-options";
 import { maskMobile } from "@/lib/booking-schema";
 import { siteConfig } from "@/lib/site-config";
+import CallMenu from "@/components/CallMenu";
 
 /**
  * The single source of booking-form markup: visit type cards, reason/test
@@ -476,13 +477,19 @@ export function BookingDuplicateCard({
       <h2>You already have a request for that day</h2>
       <p>
         We will call you soon, or call{" "}
-        <a href={`tel:${siteConfig.phone.tel}`}>{siteConfig.phone.display}</a>.
+        {siteConfig.phone.numbers.map((n, i) => (
+          <span key={n.tel}>
+            {i > 0 ? " or " : ""}
+            <a href={`tel:${n.tel}`}>{n.display}</a>
+          </span>
+        ))}
+        .
       </p>
       <div className="bk-acts">
-        <a className="btn btn-p" href={`tel:${siteConfig.phone.tel}`}>
+        <CallMenu className="btn btn-p">
           <Phone size={17} strokeWidth={2} aria-hidden /> Call{" "}
           {siteConfig.phone.display}
-        </a>
+        </CallMenu>
         <button type="button" className="btn ghost" onClick={onBookAnother}>
           Pick another day
         </button>

@@ -1,6 +1,7 @@
 import { Clock, MessageCircle, Phone } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 import WhatsAppMenu from "@/components/WhatsAppMenu";
+import CallMenu from "@/components/CallMenu";
 
 /**
  * Shown instead of the form when a booking request cannot be sent
@@ -13,10 +14,10 @@ export function ContactFallbackPanel({ message }: { message: string }) {
       <h2>Something went wrong</h2>
       <p>{message}</p>
       <div className="bk-acts">
-        <a className="btn btn-p" href={`tel:${siteConfig.phone.tel}`}>
+        <CallMenu className="btn btn-p">
           <Phone size={17} strokeWidth={2} aria-hidden /> Call{" "}
           {siteConfig.phone.display}
-        </a>
+        </CallMenu>
         <WhatsAppMenu className="btn ghost">
           <MessageCircle size={17} strokeWidth={2} aria-hidden /> WhatsApp{" "}
           {siteConfig.whatsapp.display}

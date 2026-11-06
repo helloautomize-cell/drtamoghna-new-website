@@ -22,7 +22,12 @@ export default function UtilityBar() {
           {siteConfig.hours.display}
         </span>
         <span>
-          <a href={`tel:${siteConfig.phone.tel}`}>{siteConfig.phone.display}</a>
+          {siteConfig.phone.numbers.map((n, i) => (
+            <span key={n.tel}>
+              {i > 0 ? " or " : ""}
+              <a href={`tel:${n.tel}`}>{n.display}</a>
+            </span>
+          ))}
         </span>
         <a className="em" href="tel:112">
           {siteConfig.emergencyLine.replace(".", "")}

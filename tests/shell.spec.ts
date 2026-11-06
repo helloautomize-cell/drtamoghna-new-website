@@ -143,9 +143,15 @@ test.describe("mobile action bar", () => {
       );
     }
     await page.keyboard.press("Escape");
-    // Call Now opens the sheet with the one call number.
+    // Call Now opens a sheet with both call numbers.
     await bar.getByRole("button", { name: "Call Now" }).click();
-    await expect(page.getByRole("dialog").getByRole("link", { name: /60031 21297/ })).toBeVisible();
+    const callSheet = page.getByRole("dialog");
+    await expect(callSheet).toContainText("Call Medcare");
+    const callLinks = callSheet.locator('a[href^="tel:"]');
+    await expect(callLinks).toHaveCount(2);
+    for (const num of ["+916003121297", "+919365175235"]) {
+      await expect(callSheet.locator(`a[href="tel:${num}"]`)).toBeVisible();
+    }
   });
 
   test("hidden at 1440", async ({ page }) => {

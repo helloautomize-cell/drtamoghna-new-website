@@ -4,6 +4,7 @@ import { Phone } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import BookButton from "@/components/BookButton";
+import CallMenu from "@/components/CallMenu";
 import ChipGroup from "@/components/ChipGroup";
 import SocialLinks, { doctorSocial } from "@/components/SocialLinks";
 import Faqs from "@/components/content/Faqs";
@@ -205,9 +206,9 @@ export default function Page() {
             </div>
             <div className="ph-actions">
               <BookButton href={bookingHref("/dr-tamoghna-das/")} label="Book with Dr. Das" />
-              <a className="btn ghost" href={`tel:${siteConfig.phone.tel}`}>
+              <CallMenu className="btn ghost">
                 <Phone size={18} strokeWidth={2} aria-hidden /> Call {siteConfig.phone.display}
-              </a>
+              </CallMenu>
             </div>
           </div>
           <figure className="ph-photo prof">

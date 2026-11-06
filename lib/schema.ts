@@ -204,7 +204,7 @@ export const clinicNode = {
   hasMap: "https://www.google.com/maps?cid=18284086181285239697",
   address: clinicPostalAddress,
   geo: clinicGeoCoordinates,
-  telephone: siteConfig.phone.schema,
+  telephone: siteConfig.phone.numbers.map((n) => n.schema),
   contactPoint: siteConfig.whatsapp.numbers.map((n) => ({
     "@type": "ContactPoint",
     contactType: "customer service",

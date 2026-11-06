@@ -1,5 +1,6 @@
 import { Clock, Phone } from "lucide-react";
 import BookButton from "./BookButton";
+import CallMenu from "./CallMenu";
 import DoctorChip from "./DoctorChip";
 import { siteConfig } from "@/lib/site-config";
 import { images, imgSrcSet } from "@/lib/images";
@@ -52,16 +53,15 @@ export default function Hero() {
         </p>
         <div className="btns">
           <BookButton />
-          <a className="btn btn-s hcall" href={`tel:${siteConfig.phone.tel}`}>
+          <CallMenu className="btn btn-s hcall">
             Call {siteConfig.phone.display}
-          </a>
-          <a
+          </CallMenu>
+          <CallMenu
             className="hcall-ic"
-            href={`tel:${siteConfig.phone.tel}`}
-            aria-label={`Call ${siteConfig.phone.display}`}
+            ariaLabel={`Call ${siteConfig.phone.display}`}
           >
             <Phone size={20} strokeWidth={2} aria-hidden />
-          </a>
+          </CallMenu>
         </div>
         <div className="hchips">
           {chips.map((c) => (

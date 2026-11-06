@@ -5,6 +5,25 @@
  * Anything awaiting Dr. Das's confirmation is listed in TODO_CONFIRM.
  */
 
+// Q24: two clinic numbers; each takes calls and WhatsApp. The personal
+// number is removed. Single array so no number is hard-coded twice.
+const clinicNumbers = [
+  {
+    display: "60031 21297",
+    displayIntl: "+91 60031 21297",
+    tel: "+916003121297",
+    wa: "916003121297",
+    schema: "+91-6003121297",
+  },
+  {
+    display: "93651 75235",
+    displayIntl: "+91 93651 75235",
+    tel: "+919365175235",
+    wa: "919365175235",
+    schema: "+91-9365175235",
+  },
+] as const;
+
 export const siteConfig = {
   name: "Medcare Diabetes, Obesity and Echocardiography Clinic",
   shortName: "Medcare",
@@ -35,29 +54,17 @@ export const siteConfig = {
     openDaysLabel: "Open 7 days",
   },
 
-  // Q24: two different numbers, labelled clearly.
+  // Q24: both numbers take calls and WhatsApp. `tel` and `schema` keep
+  // the primary number for single-number contexts (schema, legal text).
   phone: {
-    display: "60031 21297",
-    displayIntl: "+91 60031 21297",
-    tel: "+916003121297",
-    schema: "+91-6003121297",
+    numbers: clinicNumbers,
+    display: "60031 21297 or 93651 75235",
+    displayIntl: "+91 60031 21297 or +91 93651 75235",
+    tel: clinicNumbers[0].tel,
+    schema: clinicNumbers[0].schema,
   },
-  // Q24: two clinic WhatsApp numbers. The personal number is removed.
   whatsapp: {
-    numbers: [
-      {
-        display: "60031 21297",
-        displayIntl: "+91 60031 21297",
-        wa: "916003121297",
-        schema: "+91-6003121297",
-      },
-      {
-        display: "93651 75235",
-        displayIntl: "+91 93651 75235",
-        wa: "919365175235",
-        schema: "+91-9365175235",
-      },
-    ],
+    numbers: clinicNumbers,
     display: "60031 21297 or 93651 75235",
     // Message pattern lives in lib/whatsapp.ts (single source).
   },

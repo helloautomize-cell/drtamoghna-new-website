@@ -2437,9 +2437,11 @@ table.ct {
   min-height: 48px;
   border: 1.5px solid var(--primary);
   border-radius: 12px;
+  background: transparent;
   color: var(--primary-700);
   font: 700 15px/1 var(--sans);
   text-decoration: none;
+  cursor: pointer;
 }
 .mmenu-hours {
   grid-column: 1 / -1;
@@ -2450,54 +2452,7 @@ table.ct {
   color: var(--ink-2);
 }
 
-/* --------------------------- Call sheet --------------------------- */
-.csheet-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 90;
-  background: rgba(20, 48, 58, 0.32);
-}
-.csheet {
-  position: fixed;
-  left: 12px;
-  right: 12px;
-  bottom: calc(12px + env(safe-area-inset-bottom));
-  z-index: 95;
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: var(--shadow-hover);
-  padding: 18px;
-}
-.csheet-title {
-  margin: 0 0 12px;
-  font: 700 17px/1.2 var(--sans);
-  color: var(--ink);
-}
-.csheet-option {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  min-height: 48px;
-  padding: 10px 14px;
-  border-radius: 12px;
-  background: var(--primary-50);
-  color: var(--primary-700);
-  font: 700 16px/1 var(--sans);
-  text-decoration: none;
-}
-.csheet-cancel {
-  margin-top: 10px;
-  width: 100%;
-  min-height: 44px;
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  background: #fff;
-  color: var(--ink-2);
-  font: 600 15px/1 var(--sans);
-  cursor: pointer;
-}
-
-/* ---------------------- WhatsApp number chooser ---------------------- */
+/* ---------------------- Contact number chooser ---------------------- */
 .wapop-overlay {
   position: fixed;
   inset: 0;
@@ -3445,9 +3400,14 @@ table.ct {
   align-items: center;
   gap: 7px;
   margin-top: 12px;
+  padding: 0;
+  background: none;
+  border: 0;
+  font-family: inherit;
   font-size: 14.5px;
   font-weight: 600;
   color: var(--primary-500);
+  cursor: pointer;
 }
 
 /* CTA band */
@@ -4559,6 +4519,7 @@ button.ccard {
     border: 1.5px solid var(--line);
     background: #fff;
     color: var(--primary-700);
+    cursor: pointer;
   }
   .home .hero .portrait .tag {
     top: 12px;

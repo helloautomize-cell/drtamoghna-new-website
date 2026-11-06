@@ -2,6 +2,7 @@ import { Phone } from "lucide-react";
 import Badge from "@/components/Badge";
 import Breadcrumbs, { type Crumb } from "@/components/Breadcrumbs";
 import BookButton from "@/components/BookButton";
+import CallMenu from "@/components/CallMenu";
 import RouteLink from "@/components/RouteLink";
 import ServiceBadgeCard from "@/components/ServiceBadgeCard";
 import Faqs from "@/components/content/Faqs";
@@ -134,10 +135,10 @@ export default function ServicePage({ url }: { url: string }) {
             ) : null}
             <div className="ph-actions">
               <BookButton href={bookingHref(url)} label="Book an appointment" />
-              <a className="btn ghost" href={`tel:${siteConfig.phone.tel}`}>
+              <CallMenu className="btn ghost">
                 <Phone size={18} strokeWidth={2} aria-hidden /> Call{" "}
                 {siteConfig.phone.display}
-              </a>
+              </CallMenu>
             </div>
           </div>
           {badge ? (

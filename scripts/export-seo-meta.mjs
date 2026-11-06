@@ -23,7 +23,7 @@ const OVERRIDES = {
   "/contact/": {
     title: "Book an Appointment | Medcare Bongaigaon",
     description:
-      "Book with Dr. Tamoghna Das at Medcare, North Bongaigaon. Call 60031 21297 or WhatsApp 60031 21297 or 93651 75235. We confirm within 30 to 60 minutes.",
+      "Book with Dr. Tamoghna Das at Medcare, North Bongaigaon. Call or WhatsApp 60031 21297 or 93651 75235. We confirm within 30 to 60 minutes.",
   },
   "/services/": {
     title: "Services and Tests at Medcare Bongaigaon",

@@ -28,7 +28,7 @@ export default function PhoneFrame() {
           <CalendarDays size={20} strokeWidth={1.8} aria-hidden />
           Book Now
         </button>
-        <button type="button" aria-label={`Call ${siteConfig.phone.display}`}>
+        <button type="button" aria-label={`Call ${siteConfig.phone.numbers[0].display} or ${siteConfig.phone.numbers[1].display}`}>
           <Phone size={20} strokeWidth={1.8} aria-hidden />
           Call Now
         </button>

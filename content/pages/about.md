@@ -51,7 +51,7 @@ A pharmacy counter operates inside the clinic during clinic hours; you are free 
 
 Medcare is on the ground floor, with a wheelchair available. The waiting lounge displays the Charter of Patients' Rights. We accept cash, UPI and cards.
 
-If you need hospital admission, Dr. Das explains your options, and you choose the hospital that suits your needs, location and insurance. Medcare does not favour any particular hospital.
+If you need hospital admission, Dr. Das explains your options, and you choose the hospital that suits your needs, location and insurance.
 
 ### Facts at a glance
 
@@ -62,7 +62,7 @@ If you need hospital admission, Dr. Das explains your options, and you choose th
 | Registration | Assam Council of Medical Registration No. 20276 |
 | Address | Chapaguri Road, opposite Domino's, North Bongaigaon, Gurunanak Nagar, Bongaigaon, Assam 783380 |
 | Hours | Mon to Sat 9 am to 8:30 pm · Sun 9 am to 3:30 pm |
-| Phone | 60031 21297 · WhatsApp 60031 21297 or 93651 75235 |
+| Phone | Call or WhatsApp 60031 21297 or 93651 75235 |
 | Languages | English, Assamese, Bengali, Bodo, Hindi |
 
 Buttons: [Meet Dr. Das] [Plan your visit]

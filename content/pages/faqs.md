@@ -46,7 +46,7 @@ Intro: Short answers to the questions we hear most. For anything about your own 
 10. **Do you accept health insurance or cashless?**
     Not for clinic visits. We give an itemised bill so you can claim from your insurer if your policy covers outpatient care. If you need admission, Dr. Das explains the hospital options and you choose one that suits your needs and insurance.
 11. **Are fees shown on the website?**
-    No. Charges depend on the consultation and tests you need. Please call 60031 21297 for current charges.
+    No. Charges depend on the consultation and tests you need. Please call 60031 21297 or 93651 75235 for current charges.
 
 ### Care and follow-up
 12. **Do you sell medicines?**

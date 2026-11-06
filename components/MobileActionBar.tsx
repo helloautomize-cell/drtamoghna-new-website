@@ -3,22 +3,20 @@
 import { useEffect, useState } from "react";
 import RouteLink from "@/components/RouteLink";
 import { usePathname } from "next/navigation";
-import * as Dialog from "@radix-ui/react-dialog";
 import { CalendarDays, MessageCircle, Phone } from "lucide-react";
-import { siteConfig } from "@/lib/site-config";
 import WhatsAppMenu from "./WhatsAppMenu";
+import CallMenu from "./CallMenu";
 
 /**
  * Mobile action bar (master-rules 3.1): below 1024px on every page, brand
  * gradient at 92% under glass, 16px top corners, safe-area padding.
- * Book Now, Call Now (opens a small sheet with the one call number) and
- * WhatsApp (pre-filled from the page title). Hidden while an input is
- * focused and on /thank-you/.
+ * Book Now, Call Now (opens a sheet with both call numbers) and
+ * WhatsApp (two-number chooser, pre-filled from the page). Hidden while
+ * an input is focused and on /thank-you/.
  */
 export default function MobileActionBar() {
   const pathname = usePathname();
   const [typing, setTyping] = useState(false);
-  const [callOpen, setCallOpen] = useState(false);
 
   useEffect(() => {
     const onFocus = (e: FocusEvent) => {
@@ -43,48 +41,24 @@ export default function MobileActionBar() {
   if (pathname.startsWith("/thank-you")) return null;
 
   return (
-    <>
-      <nav
-        className="mbar"
-        aria-label="Quick actions"
-        hidden={typing}
-        data-ga-location="sticky"
-      >
-        <RouteLink href="/book/" data-ga="appointment">
-          <CalendarDays size={20} strokeWidth={1.8} aria-hidden />
-          Book Now
-        </RouteLink>
-        <button type="button" onClick={() => setCallOpen(true)}>
-          <Phone size={20} strokeWidth={1.8} aria-hidden />
-          Call Now
-        </button>
-        <WhatsAppMenu gaLocation="sticky">
-          <MessageCircle size={20} strokeWidth={1.8} aria-hidden />
-          WhatsApp
-        </WhatsAppMenu>
-      </nav>
-
-      <Dialog.Root open={callOpen} onOpenChange={setCallOpen}>
-        <Dialog.Portal>
-          <Dialog.Overlay className="csheet-overlay" />
-          <Dialog.Content
-            className="csheet"
-            aria-label="Call Medcare"
-            data-ga-location="sticky"
-          >
-            <Dialog.Title className="csheet-title">Call Medcare</Dialog.Title>
-            <a className="csheet-option" href={`tel:${siteConfig.phone.tel}`}>
-              <Phone size={20} strokeWidth={1.8} aria-hidden />
-              Call {siteConfig.phone.display}
-            </a>
-            <Dialog.Close asChild>
-              <button type="button" className="csheet-cancel">
-                Cancel
-              </button>
-            </Dialog.Close>
-          </Dialog.Content>
-        </Dialog.Portal>
-      </Dialog.Root>
-    </>
+    <nav
+      className="mbar"
+      aria-label="Quick actions"
+      hidden={typing}
+      data-ga-location="sticky"
+    >
+      <RouteLink href="/book/" data-ga="appointment">
+        <CalendarDays size={20} strokeWidth={1.8} aria-hidden />
+        Book Now
+      </RouteLink>
+      <CallMenu gaLocation="sticky">
+        <Phone size={20} strokeWidth={1.8} aria-hidden />
+        Call Now
+      </CallMenu>
+      <WhatsAppMenu gaLocation="sticky">
+        <MessageCircle size={20} strokeWidth={1.8} aria-hidden />
+        WhatsApp
+      </WhatsAppMenu>
+    </nav>
   );
 }

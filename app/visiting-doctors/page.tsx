@@ -116,7 +116,7 @@ export default function Page() {
       name: d.name,
       url: `${SITE_BASE}${PAGE_URL}`,
       image: `${SITE_BASE}${d.photo}`,
-      telephone: siteConfig.whatsapp.numbers[1].schema,
+      telephone: siteConfig.phone.numbers[1].schema,
       medicalSpecialty: d.medicalSpecialty,
       address: clinicPostalAddress,
       geo: clinicGeoCoordinates,

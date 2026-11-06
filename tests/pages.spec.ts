@@ -332,7 +332,7 @@ test.describe("booking form", () => {
     await expect(panel).toContainText("Something went wrong", {
       timeout: 15000,
     });
-    await expect(panel.locator('a[href^="tel:"]')).toBeVisible();
+    await expect(panel.getByRole("button", { name: /Call/ })).toBeVisible();
     await expect(
       panel.getByRole("button", { name: /WhatsApp/ }),
     ).toBeVisible();

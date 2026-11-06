@@ -19,6 +19,7 @@ import DoctorCard from "@/components/DoctorCard";
 import { EmergencyCallout, ReviewerCallout, TipCallout } from "@/components/Callouts";
 import PhoneFrame from "@/components/PhoneFrame";
 import WhatsAppMenu from "@/components/WhatsAppMenu";
+import CallMenu from "@/components/CallMenu";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import IconGrid from "@/components/IconGrid";
 
@@ -287,9 +288,9 @@ export default function StyleguidePage() {
           <button className="btn btn-p" type="button">
             Book with Dr. Das
           </button>
-          <a className="btn btn-s" href={`tel:${siteConfig.phone.tel}`}>
+          <CallMenu className="btn btn-s">
             Call {siteConfig.phone.display}
-          </a>
+          </CallMenu>
           <WhatsAppMenu className="btn wa-btn">
             WhatsApp {siteConfig.whatsapp.display}
           </WhatsAppMenu>
@@ -387,7 +388,8 @@ export default function StyleguidePage() {
               <b>Book Now</b> opens the appointment form (<code>/book/</code>).
             </p>
             <p>
-              <b>Call Now</b> opens a sheet with one number: {siteConfig.phone.display}.
+              <b>Call Now</b> opens a sheet with both clinic numbers (
+              {siteConfig.phone.display}).
             </p>
             <p>
               <b>WhatsApp</b> opens a chooser with both clinic numbers (

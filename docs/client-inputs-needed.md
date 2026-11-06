@@ -30,8 +30,8 @@ double-checks.
    Sun 9 am-3:30 pm.
 
 5. ~~**WhatsApp number**~~ Resolved: the personal number is removed. The
-   site uses two clinic WhatsApp numbers, 60031 21297 and 93651 75235,
-   behind one chooser component.
+   site uses two clinic numbers for calls and WhatsApp, 60031 21297 and
+   93651 75235, behind the Call and WhatsApp chooser components.
 
 6. **Entrance and parking** · affects `/plan-your-visit/`
    Is there any step at the clinic entrance, and what parking is

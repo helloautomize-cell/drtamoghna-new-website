@@ -15,7 +15,7 @@ Intro: Patients visit Medcare from across lower Assam and the Bodoland region, i
 
 ### Plan a one-day visit
 
-1. **Book before you travel.** Call 60031 21297 or WhatsApp 60031 21297 or 93651 75235 and tell us you are coming from outside Bongaigaon. We will suggest a time that suits your travel.
+1. **Book before you travel.** Call or WhatsApp 60031 21297 or 93651 75235 and tell us you are coming from outside Bongaigaon. We will suggest a time that suits your travel.
 2. **Send your reports in advance.** WhatsApp old reports and your medicine list so Dr. Das can see your history before you arrive.
 3. **Ask about fasting.** If a fasting blood test may be needed, we will tell you when to stop eating and how to manage diabetes medicines that morning.
 4. **Arrive early in the day.** A morning arrival leaves time for tests such as echo, ECG or HbA1c after the consultation.

@@ -36,8 +36,7 @@ Landmark: directly opposite Domino's on Chapaguri Road.
 ### Booking
 
 - Online: the booking form on the Contact page
-- Phone: 60031 21297
-- WhatsApp: 60031 21297 or 93651 75235
+- Phone or WhatsApp: 60031 21297 or 93651 75235
 - We confirm your time within 30 to 60 minutes during clinic hours. Requests sent after closing are confirmed the next morning.
 
 ### What to bring
@@ -59,7 +58,7 @@ Landmark: directly opposite Domino's on Chapaguri Road.
 
 ### Payment
 
-We accept cash, UPI and debit or credit cards. Consultation and test charges are explained at the clinic or on the phone: call 60031 21297. We do not offer cashless or insurance billing for clinic visits, but we give an itemised bill so you can claim from your insurer if your policy covers outpatient care.
+We accept cash, UPI and debit or credit cards. Consultation and test charges are explained at the clinic or on the phone: call 60031 21297 or 93651 75235. We do not offer cashless or insurance billing for clinic visits, but we give an itemised bill so you can claim from your insurer if your policy covers outpatient care.
 
 ### Access
 

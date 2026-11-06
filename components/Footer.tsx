@@ -65,7 +65,15 @@ export default function Footer() {
               </p>
               <p className="foot-line">
                 <Phone size={16} strokeWidth={1.8} aria-hidden />
-                <a href={`tel:${siteConfig.phone.tel}`}>Call {siteConfig.phone.display}</a>
+                <span>
+                  Call{" "}
+                  {siteConfig.phone.numbers.map((n, i) => (
+                    <span key={n.tel}>
+                      {i > 0 ? " or " : ""}
+                      <a href={`tel:${n.tel}`}>{n.display}</a>
+                    </span>
+                  ))}
+                </span>
               </p>
               <p className="foot-line">
                 <MessageCircle size={16} strokeWidth={1.8} aria-hidden />

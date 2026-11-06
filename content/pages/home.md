@@ -18,7 +18,7 @@ H1: Diabetes, heart and weight care in *Bongaigaon*
 
 Sub: One physician, most tests under one roof, and a plan that fits your life.
 
-Buttons: [Book Appointment] [Call 60031 21297]
+Buttons: [Book Appointment] [Call 60031 21297 or 93651 75235]
 
 Service chips: Diabetes · Weight · Blood pressure · Heart and echo · Thyroid · Sleep apnea · Asthma and COPD · Check-ups
 
@@ -117,7 +117,7 @@ Link: View all services →
 
 H2: Your first visit, step by *step*
 
-1. **Book.** Use the form, call 60031 21297 or WhatsApp 60031 21297 or 93651 75235. We confirm your time within 30 to 60 minutes during clinic hours.
+1. **Book.** Use the form, call or WhatsApp 60031 21297 or 93651 75235. We confirm your time within 30 to 60 minutes during clinic hours.
 2. **Arrive and register.** Bring your old prescriptions, reports and the medicines you take. If you have diabetes, bring your sugar diary or meter.
 3. **Consultation.** Dr. Das listens to your concerns, asks about your history and examines you. There is time for your questions.
 4. **Tests if needed.** We have all the tests available under one roof. Echo and ECG reports are available within minutes to hours. Most blood test reports are available the same day, while some may take a day or two.
@@ -185,7 +185,7 @@ Link: See all FAQs →
 
 H2: Find *us*
 - Address (3 lines) · Get directions
-- Call 60031 21297 · WhatsApp 60031 21297 or 93651 75235 · Email
+- Call or WhatsApp 60031 21297 or 93651 75235 · Email
 - Hours: Mon to Sat 9 am to 8:30 pm · Sun 9 am to 3:30 pm
 - Medical emergency? Call 108 or 112.
 - Map card: Google Maps embed (loads on the page)

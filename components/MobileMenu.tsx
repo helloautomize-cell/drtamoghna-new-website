@@ -8,6 +8,7 @@ import { mobileNav } from "@/lib/nav";
 import { siteConfig } from "@/lib/site-config";
 import { useMounted } from "@/lib/useMounted";
 import BookButton from "./BookButton";
+import CallMenu from "./CallMenu";
 
 /**
  * Mobile menu (master-rules 3.1): full-screen white sheet (Radix Dialog),
@@ -95,10 +96,10 @@ export default function MobileMenu({
 
           <div className="mmenu-foot">
             <BookButton />
-            <a className="mmenu-call" href={`tel:${siteConfig.phone.tel}`}>
+            <CallMenu className="mmenu-call">
               <Phone size={18} strokeWidth={1.8} aria-hidden />
               Call {siteConfig.phone.display}
-            </a>
+            </CallMenu>
             <p className="mmenu-hours">{hours}</p>
           </div>
         </Dialog.Content>

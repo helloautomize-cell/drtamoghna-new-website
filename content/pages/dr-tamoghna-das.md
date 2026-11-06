@@ -23,7 +23,7 @@ Key facts card:
 - **Registration:** Assam Council of Medical Registration No. 20276
 - **Practice:** Medcare Diabetes, Obesity and Echocardiography Clinic, Bongaigaon (founder)
 
-Buttons: [Book with Dr. Das] [Call 60031 21297]
+Buttons: [Book with Dr. Das] [Call 60031 21297 or 93651 75235]
 
 ### About
 
