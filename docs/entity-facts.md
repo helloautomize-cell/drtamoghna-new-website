@@ -73,13 +73,21 @@ Tests done in the clinic:
 
 ## Visiting specialists
 
-Specialists from Yashoda Hospitals, Hyderabad hold clinics at Medcare on set
-dates. They are independent consultants, not Medcare staff, and they are not
-part of the online booking system. Slots are booked by phone only:
+Specialists hold clinics at Medcare on set dates or by appointment. They are
+independent consultants, not Medcare staff, and they are not part of the
+online booking system. Slots are booked by phone only:
 93651 75235 (`+91 93651 75235`).
+
+From Yashoda Hospitals, Hyderabad:
 
 - Dr. Naresh Lalam, Orthopedics (Consultant Orthopedics)
 - Dr. Tajuddin Farooqui, Gastroenterology (Consultant Gastroenterologist)
+
+By appointment:
+
+- Dr. Nyrvan Baishya, Pulmonology (DM Pulmonary, Critical Care & Sleep
+  Medicine, AIIMS Rishikesh)
+- Dr. Abhishek Kayal, Paediatric Orthopaedics (MBBS, MS (Orthopaedics), FIPO)
 
 Page: https://drtamoghna-new-website.vercel.app/visiting-doctors/
 

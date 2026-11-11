@@ -18,10 +18,17 @@ import { visitingDoctors, visitingPhone } from "./visiting-doctors";
 const AGENCY_CREDIT =
   "Website built and marketed by Automize Media Labs (https://www.automizemedialabs.com/)";
 
-/** Visiting specialists note (no visit dates: they go out of date). */
-const VISITING_NOTE = `Visiting specialists from Yashoda Hospitals, Hyderabad hold clinics at Medcare on set dates: ${visitingDoctors
-  .map((d) => `${d.name} (${d.specialty})`)
-  .join("; ")}. Book by phone ${visitingPhone.displayIntl}. See ${SITE_BASE}/visiting-doctors/.`;
+/** Visiting specialists note (no visit dates: they go out of date).
+ *  Yashoda is named only for the doctors who carry a `hospital` value. */
+const named = (d: (typeof visitingDoctors)[number]) =>
+  `${d.name} (${d.specialty}${d.llmsDetail ? `; ${d.llmsDetail}` : ""})`;
+const yashodaDoctors = visitingDoctors.filter((d) => d.hospital);
+const otherDoctors = visitingDoctors.filter((d) => !d.hospital);
+const VISITING_NOTE =
+  `Visiting specialists hold clinics at Medcare on set dates or by appointment: ` +
+  `${yashodaDoctors.map(named).join(" and ")} from Yashoda Hospitals, Hyderabad` +
+  (otherDoctors.length ? `; ${otherDoctors.map(named).join("; ")}` : "") +
+  `. Book by phone ${visitingPhone.displayIntl}. See ${SITE_BASE}/visiting-doctors/.`;
 
 /** Clinic and doctor social profiles; same split as schema sameAs. */
 const SOCIAL_PROFILES = [

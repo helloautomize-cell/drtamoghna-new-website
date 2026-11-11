@@ -10,17 +10,20 @@ import { pageGraph } from "@/lib/page-schema";
 import { pageMeta, SITE_BASE } from "@/lib/metadata";
 import { clinicGeoCoordinates, clinicPostalAddress } from "@/lib/schema";
 import { siteConfig } from "@/lib/site-config";
-import { visitingDoctors, visitingPhone } from "@/lib/visiting-doctors";
+import {
+  doctorsByStatus,
+  visitingDoctors,
+  visitingPhone,
+} from "@/lib/visiting-doctors";
 
 // Visit status depends on the date in India; re-check hourly instead of
 // freezing "today/upcoming/past" at build time.
 export const revalidate = 3600;
 
 const PAGE_URL = "/visiting-doctors/";
-const TITLE =
-  "Visiting specialists from Yashoda Hospitals | Medcare Bongaigaon";
+const TITLE = "Visiting specialists | Medcare Bongaigaon";
 const DESCRIPTION =
-  "Orthopedics and gastroenterology specialists from Yashoda Hospitals, Hyderabad hold clinics at Medcare, Bongaigaon on set dates. Call to book a consultation slot.";
+  "Pulmonology (lung and breathing problems), paediatric orthopaedics (children's bone and joint problems), orthopedics and gastroenterology. Book by phone.";
 const H1 = "Visiting specialists at *Medcare*";
 
 export const metadata: Metadata = pageMeta({
@@ -30,6 +33,7 @@ export const metadata: Metadata = pageMeta({
 });
 
 export default function Page() {
+  const { upcoming, onRequest, past } = doctorsByStatus();
 
   const pageStub: ParsedPage = {
     frontmatter: {
@@ -48,9 +52,10 @@ export default function Page() {
     crumbs: [{ name: "Visiting doctors", href: PAGE_URL }],
     pageType: "CollectionPage",
   });
-  // One Physician per visiting doctor plus a shared Hospital node for their
-  // affiliation. They are independent consultants: hospitalAffiliation, never
-  // worksFor, and no Event or Review nodes.
+  // One Physician per visiting doctor plus a shared Hospital node for the
+  // Yashoda affiliation. They are independent consultants: hospitalAffiliation
+  // only when the doctor's data names a hospital, never worksFor, and no
+  // Event or Review nodes.
   // Hospital facts verified against yashodahospitals.com's own
   // /locations/hitec-city/ JSON-LD (address, geo, phone, map, 24/7 hours).
   const yashodaId = `${SITE_BASE}${PAGE_URL}#yashoda-hitec-city`;
@@ -120,8 +125,11 @@ export default function Page() {
       medicalSpecialty: d.medicalSpecialty,
       address: clinicPostalAddress,
       geo: clinicGeoCoordinates,
-      openingHoursSpecification: d.visits.map(visitHours),
-      hospitalAffiliation: { "@id": yashodaId },
+      ...(d.visits.length
+        ? { openingHoursSpecification: d.visits.map(visitHours) }
+        : {}),
+      ...(d.schemaDescription ? { description: d.schemaDescription } : {}),
+      ...(d.hospital ? { hospitalAffiliation: { "@id": yashodaId } } : {}),
     })),
   );
 
@@ -138,10 +146,10 @@ export default function Page() {
           <div className="ph-text">
             <h1 dangerouslySetInnerHTML={{ __html: accent(H1) }} />
             <p className="ph-intro">
-              Senior specialists from Yashoda Hospitals, Hyderabad hold
-              clinics at Medcare, Bongaigaon on set dates. Call{" "}
-              <a href={`tel:${visitingPhone.tel}`}>{visitingPhone.display}</a>{" "}
-              to book a consultation slot.
+              Senior specialists visit Medcare, Bongaigaon to hold clinics on
+              set dates, including doctors from Yashoda Hospitals, Hyderabad.{" "}
+              <a href={`tel:${visitingPhone.tel}`}>Call us</a> to book a
+              consultation slot.
             </p>
           </div>
         </div>
@@ -149,20 +157,55 @@ export default function Page() {
 
       <div className="page-body">
         <div className="pb-main">
-          <section className="psec" aria-label="Visiting specialists">
-            <div className="vd-grid">
-              {visitingDoctors.map((doctor) => (
-                <VisitingDoctorCard key={doctor.slug} doctor={doctor} />
-              ))}
-            </div>
-          </section>
+          {upcoming.length ? (
+            <section className="psec vd-sec" aria-labelledby="vd-upcoming">
+              <h2 id="vd-upcoming">Upcoming visits</h2>
+              <div className="vd-grid">
+                {upcoming.map(({ doctor }) => (
+                  <VisitingDoctorCard key={doctor.slug} doctor={doctor} />
+                ))}
+              </div>
+            </section>
+          ) : !onRequest.length ? (
+            <section className="psec vd-sec" aria-labelledby="vd-upcoming">
+              <h2 id="vd-upcoming">Upcoming visits</h2>
+              <p className="vd-sub">
+                No visits are scheduled right now. New dates are announced on
+                this page.
+              </p>
+            </section>
+          ) : null}
+
+          {onRequest.length ? (
+            <section className="psec vd-sec" aria-labelledby="vd-appoint">
+              <h2 id="vd-appoint">Consult by appointment</h2>
+              <p className="vd-sub">
+                Call us to ask for the next consultation date and book a slot.
+              </p>
+              <div className="vd-grid">
+                {onRequest.map(({ doctor }) => (
+                  <VisitingDoctorCard key={doctor.slug} doctor={doctor} />
+                ))}
+              </div>
+            </section>
+          ) : null}
+
+          {past.length ? (
+            <section className="psec vd-sec" aria-labelledby="vd-recent">
+              <h2 id="vd-recent">Recent visits</h2>
+              <div className="vd-grid">
+                {past.map(({ doctor }) => (
+                  <VisitingDoctorCard key={doctor.slug} doctor={doctor} />
+                ))}
+              </div>
+            </section>
+          ) : null}
 
           <p className="vd-note">
-            Visiting specialists are independent consultants from Yashoda
-            Hospitals. Fees and timings are confirmed when you call{" "}
-            <a href={`tel:${visitingPhone.tel}`}>{visitingPhone.display}</a>.{" "}
-            <RouteLink href="/plan-your-visit/">Plan your visit</RouteLink> for
-            directions.
+            Visiting specialists are independent consultants. Fees and timings
+            are confirmed when you <a href={`tel:${visitingPhone.tel}`}>call</a>
+            . <RouteLink href="/plan-your-visit/">Plan your visit</RouteLink>{" "}
+            for directions.
           </p>
 
           <p className="callout em vd-em">
