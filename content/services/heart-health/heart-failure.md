@@ -29,7 +29,7 @@ Heart failure means the heart is not pumping or filling as well as the body need
 ### Stages of heart failure, in plain words
 
 - **Stage A, at risk:** high BP, diabetes, obesity or other risk factors, but a normal heart
-- **Stage B, early heart changes:** the echo shows changes, such as a stiff or thickened heart or reduced strain, but no symptoms yet
+- **Stage B, early heart changes:** the echo shows changes, such as a stiff or thickened heart or reduced strain, and/or a raised NT-proBNP level, but no symptoms yet
 - **Stage C, symptoms:** breathlessness, swelling or tiredness due to heart changes
 - **Stage D, advanced:** symptoms at rest despite treatment, needing specialist care
 
