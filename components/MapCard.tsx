@@ -9,9 +9,11 @@ import { trackEvent } from "@/lib/analytics";
  * Click-to-load Google Maps card (NMC-09): the iframe reaches Google only
  * after the visitor taps "Load map". Until then a static address card with
  * a plain Maps link is shown, so no third-party request fires on render.
+ * Pass `eager` to show the map immediately (the iframe still lazy-loads
+ * by scroll position, so it costs nothing above the fold).
  */
-export default function MapCard() {
-  const [loadMap, setLoadMap] = useState(false);
+export default function MapCard({ eager = false }: { eager?: boolean }) {
+  const [loadMap, setLoadMap] = useState(eager);
 
   if (!loadMap) {
     return (

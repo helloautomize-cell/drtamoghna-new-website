@@ -343,7 +343,7 @@ export default function Home() {
               <a href="tel:112">Medical emergency? Call 108 or 112.</a>
             </p>
           </div>
-          <MapCard />
+          <MapCard eager />
         </div>
       </section>
 
